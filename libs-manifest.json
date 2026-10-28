@@ -24,8 +24,21 @@
             "osx-arm64": {
               "archive": "gmb-engine-osx-arm64.zip",
               "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-engine-2026.10.28/gmb-engine-osx-arm64.zip",
-              "sha256": "97f94ba97dd6e5e52e1180d9bd0c185033242c913edea2bbd1523126a1c31aae",
-              "size": 67958489,
+              "sha256": "e3b645daa2717371776d2a538b3aa3d040b4dd8f700057d23f3fce3faa9369d6",
+              "size": 493037,
+              "extractRoot": ""
+            }
+          }
+        },
+        "llmmotor": {
+          "kind": "github-release",
+          "tag": "gmb-llmmotor-2026.10.28",
+          "rids": {
+            "osx-arm64": {
+              "archive": "gmb-llmmotor-osx-arm64.zip",
+              "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-llmmotor-2026.10.28/gmb-llmmotor-osx-arm64.zip",
+              "sha256": "ee8fbcbdb8fd2bf5a29a9ba7c14a2d516bf06166c01f75f903e6cecd3e9db635",
+              "size": 67507485,
               "extractRoot": ""
             }
           }
@@ -363,71 +376,6 @@
           "sha256": "7d4322bd2a7749724879683fc3912cb542f19906c83bcc1a52132556427170b2",
           "size": 4113088
         },
-        "libggml-base.0.20.0.dylib": {
-          "group": "engine",
-          "sha256": "660b7847661845b97ac2cdcf96f56b3f3721b1c33a83fd2ac66c7b506912f18e",
-          "size": 728240
-        },
-        "libggml-base.0.dylib": {
-          "group": "engine",
-          "sha256": "660b7847661845b97ac2cdcf96f56b3f3721b1c33a83fd2ac66c7b506912f18e",
-          "size": 728240
-        },
-        "libggml-blas.0.20.0.dylib": {
-          "group": "engine",
-          "sha256": "0cf8181fee4c2a1d383f15eea1379aca023901eb8bd9b06c978330c1b3e67736",
-          "size": 58528
-        },
-        "libggml-blas.0.dylib": {
-          "group": "engine",
-          "sha256": "0cf8181fee4c2a1d383f15eea1379aca023901eb8bd9b06c978330c1b3e67736",
-          "size": 58528
-        },
-        "libggml-cpu.0.20.0.dylib": {
-          "group": "engine",
-          "sha256": "1aa7b324242c10e76ea31b7e19224518f5352586f28f2a55df437c947da48303",
-          "size": 945920
-        },
-        "libggml-cpu.0.dylib": {
-          "group": "engine",
-          "sha256": "1aa7b324242c10e76ea31b7e19224518f5352586f28f2a55df437c947da48303",
-          "size": 945920
-        },
-        "libggml-metal.0.20.0.dylib": {
-          "group": "engine",
-          "sha256": "7ea3b6dd0564deb423bb717eb71d360df2efe9edd0d26eb0867f1b5c86f8b845",
-          "size": 895520
-        },
-        "libggml-metal.0.dylib": {
-          "group": "engine",
-          "sha256": "7ea3b6dd0564deb423bb717eb71d360df2efe9edd0d26eb0867f1b5c86f8b845",
-          "size": 895520
-        },
-        "libggml.0.20.0.dylib": {
-          "group": "engine",
-          "sha256": "d6fcc807d2e5aaf51ac525ce074343a9d9d23564a5d61203cb8ea35ecf6f4063",
-          "size": 59728
-        },
-        "libggml.0.dylib": {
-          "group": "engine",
-          "sha256": "d6fcc807d2e5aaf51ac525ce074343a9d9d23564a5d61203cb8ea35ecf6f4063",
-          "size": 59728
-        },
-        "libgmb_ai_llamacpp.dylib": {
-          "group": "engine",
-          "sha256": "e26b6a4a2ef83cedc36fc7224935be3b98819ab9aee159c34bf53aa0ccbbbb84",
-          "size": 74432
-        },
-        "libgmb_ai_mlx.dylib": {
-          "group": "engine",
-          "sha256": "cffc67f401958455fbbfe62adbfcaa7a1246acb2d3207c48b566b899c958e36b",
-          "size": 22310752
-        },
-        "libgmb_ai_moestream.dylib": {
-          "group": "engine",
-          "sha256": "f97a897ddadc2c78ff7de6c2f6b2aaec3dd62d8c0324ff6ecf67373e8f6c1594",
-          "size": 209600
-        },
         "libgmb_codec_fp8.dylib": {
           "group": "engine",
           "sha256": "b872b5b0860c9d9de1b0df0db8425ef6fd9e056049437615382c5f1dd040a70f",
@@ -442,31 +390,6 @@
           "group": "engine",
           "sha256": "18ae1821472fe3ccc046ca525966cbaee56c94d4008bc0830cebd9e604f07cdf",
           "size": 36240
-        },
-        "libllama-common.0.1.0.dylib": {
-          "group": "engine",
-          "sha256": "b49d9a0d080ec1a33c0b366e4290019c96ee8cc0dda9840e752214c6e978bba0",
-          "size": 5434272
-        },
-        "libllama-common.0.dylib": {
-          "group": "engine",
-          "sha256": "b49d9a0d080ec1a33c0b366e4290019c96ee8cc0dda9840e752214c6e978bba0",
-          "size": 5434272
-        },
-        "libllama.0.1.0.dylib": {
-          "group": "engine",
-          "sha256": "bc23714af117e92051af0114fef70caccb9d1c9262ca36ceab8b5321d42b5fad",
-          "size": 2970432
-        },
-        "libllama.0.dylib": {
-          "group": "engine",
-          "sha256": "bc23714af117e92051af0114fef70caccb9d1c9262ca36ceab8b5321d42b5fad",
-          "size": 2970432
-        },
-        "libllm_ai_llamacpp.dylib": {
-          "group": "engine",
-          "sha256": "2d348592985b862fb7c8b979d277d9c50c6f6aab1b803612ff2a08116d1ce9a3",
-          "size": 6445520
         },
         "libllm_vision_apple.dylib": {
           "group": "engine",
@@ -568,25 +491,115 @@
           "sha256": "872ea02d6a0b3ec7cb50dd2828d7479b7ef6bc1d1d09810a860954f71908d8f2",
           "size": 807424
         },
-        "libmtmd.0.1.0.dylib": {
-          "group": "engine",
-          "sha256": "bf5097529bee5690d3def292b950ae97c1d21c4411753321fd1e5bb829d425d7",
-          "size": 1319648
+        "libggml-base.0.20.0.dylib": {
+          "group": "llmmotor",
+          "sha256": "660b7847661845b97ac2cdcf96f56b3f3721b1c33a83fd2ac66c7b506912f18e",
+          "size": 728240
         },
-        "libmtmd.0.dylib": {
-          "group": "engine",
-          "sha256": "bf5097529bee5690d3def292b950ae97c1d21c4411753321fd1e5bb829d425d7",
-          "size": 1319648
+        "libggml-base.0.dylib": {
+          "group": "llmmotor",
+          "sha256": "660b7847661845b97ac2cdcf96f56b3f3721b1c33a83fd2ac66c7b506912f18e",
+          "size": 728240
         },
-        "mlx.metallib": {
-          "group": "engine",
-          "sha256": "a1657f753a4abf5ac72086fa671142b545dbc78346de2a1e64099e08ec794c30",
-          "size": 163611848
+        "libggml-blas.0.20.0.dylib": {
+          "group": "llmmotor",
+          "sha256": "0cf8181fee4c2a1d383f15eea1379aca023901eb8bd9b06c978330c1b3e67736",
+          "size": 58528
+        },
+        "libggml-blas.0.dylib": {
+          "group": "llmmotor",
+          "sha256": "0cf8181fee4c2a1d383f15eea1379aca023901eb8bd9b06c978330c1b3e67736",
+          "size": 58528
+        },
+        "libggml-cpu.0.20.0.dylib": {
+          "group": "llmmotor",
+          "sha256": "1aa7b324242c10e76ea31b7e19224518f5352586f28f2a55df437c947da48303",
+          "size": 945920
+        },
+        "libggml-cpu.0.dylib": {
+          "group": "llmmotor",
+          "sha256": "1aa7b324242c10e76ea31b7e19224518f5352586f28f2a55df437c947da48303",
+          "size": 945920
+        },
+        "libggml-metal.0.20.0.dylib": {
+          "group": "llmmotor",
+          "sha256": "7ea3b6dd0564deb423bb717eb71d360df2efe9edd0d26eb0867f1b5c86f8b845",
+          "size": 895520
+        },
+        "libggml-metal.0.dylib": {
+          "group": "llmmotor",
+          "sha256": "7ea3b6dd0564deb423bb717eb71d360df2efe9edd0d26eb0867f1b5c86f8b845",
+          "size": 895520
+        },
+        "libggml.0.20.0.dylib": {
+          "group": "llmmotor",
+          "sha256": "d6fcc807d2e5aaf51ac525ce074343a9d9d23564a5d61203cb8ea35ecf6f4063",
+          "size": 59728
+        },
+        "libggml.0.dylib": {
+          "group": "llmmotor",
+          "sha256": "d6fcc807d2e5aaf51ac525ce074343a9d9d23564a5d61203cb8ea35ecf6f4063",
+          "size": 59728
         },
         "libgmb_ai_finetune.dylib": {
           "group": "core",
           "sha256": "5b4debdb6735ab0dcd500d1d2222b723511bdf3d8e20e0b8932eca216e774cf6",
           "size": 141632
+        },
+        "libgmb_ai_llamacpp.dylib": {
+          "group": "llmmotor",
+          "sha256": "e26b6a4a2ef83cedc36fc7224935be3b98819ab9aee159c34bf53aa0ccbbbb84",
+          "size": 74432
+        },
+        "libgmb_ai_mlx.dylib": {
+          "group": "llmmotor",
+          "sha256": "cffc67f401958455fbbfe62adbfcaa7a1246acb2d3207c48b566b899c958e36b",
+          "size": 22310752
+        },
+        "libgmb_ai_moestream.dylib": {
+          "group": "llmmotor",
+          "sha256": "f97a897ddadc2c78ff7de6c2f6b2aaec3dd62d8c0324ff6ecf67373e8f6c1594",
+          "size": 209600
+        },
+        "libllama-common.0.1.0.dylib": {
+          "group": "llmmotor",
+          "sha256": "b49d9a0d080ec1a33c0b366e4290019c96ee8cc0dda9840e752214c6e978bba0",
+          "size": 5434272
+        },
+        "libllama-common.0.dylib": {
+          "group": "llmmotor",
+          "sha256": "b49d9a0d080ec1a33c0b366e4290019c96ee8cc0dda9840e752214c6e978bba0",
+          "size": 5434272
+        },
+        "libllama.0.1.0.dylib": {
+          "group": "llmmotor",
+          "sha256": "bc23714af117e92051af0114fef70caccb9d1c9262ca36ceab8b5321d42b5fad",
+          "size": 2970432
+        },
+        "libllama.0.dylib": {
+          "group": "llmmotor",
+          "sha256": "bc23714af117e92051af0114fef70caccb9d1c9262ca36ceab8b5321d42b5fad",
+          "size": 2970432
+        },
+        "libllm_ai_llamacpp.dylib": {
+          "group": "llmmotor",
+          "sha256": "2d348592985b862fb7c8b979d277d9c50c6f6aab1b803612ff2a08116d1ce9a3",
+          "size": 6445520
+        },
+        "libmtmd.0.1.0.dylib": {
+          "group": "llmmotor",
+          "sha256": "bf5097529bee5690d3def292b950ae97c1d21c4411753321fd1e5bb829d425d7",
+          "size": 1319648
+        },
+        "libmtmd.0.dylib": {
+          "group": "llmmotor",
+          "sha256": "bf5097529bee5690d3def292b950ae97c1d21c4411753321fd1e5bb829d425d7",
+          "size": 1319648
+        },
+        "mlx.metallib": {
+          "group": "llmmotor",
+          "sha256": "a1657f753a4abf5ac72086fa671142b545dbc78346de2a1e64099e08ec794c30",
+          "size": 163611848
         },
         "libgmb_ai_llm.dylib": {
           "group": "core",
