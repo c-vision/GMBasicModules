@@ -654,6 +654,518 @@
           "size": 16752
         }
       }
+    },
+    "osx-x64": {
+      "groups": {
+        "support": {
+          "kind": "github-release",
+          "tag": "gmb-support-2026.10.28",
+          "rids": {
+            "osx-x64": {
+              "archive": "gmb-support-osx-x64.zip",
+              "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-support-2026.10.28/gmb-support-osx-x64.zip",
+              "sha256": "11abf5e6ae90a42888d358c5d7e4bb7625a755d88399e346b5db1e2133efca38",
+              "size": 23083213,
+              "extractRoot": ""
+            }
+          }
+        }
+      },
+      "files": {
+        "libcrypto.3.dylib": {
+          "group": "support",
+          "sha256": "6e2f72c9f8efd8e2d988bbea941cc4618ee558277d67c02fbfe795ad96ebac66",
+          "size": 4846032
+        },
+        "libhdf5.310.5.1.dylib": {
+          "group": "support",
+          "sha256": "34a701563a222cbb27869b8b2a3be791d147dfc8bbadb19c6197496f34c48aa2",
+          "size": 3968552
+        },
+        "libhdf5.310.dylib": {
+          "group": "support",
+          "sha256": "34a701563a222cbb27869b8b2a3be791d147dfc8bbadb19c6197496f34c48aa2",
+          "size": 3968552
+        },
+        "libhdf5.dylib": {
+          "group": "support",
+          "sha256": "34a701563a222cbb27869b8b2a3be791d147dfc8bbadb19c6197496f34c48aa2",
+          "size": 3968552
+        },
+        "libpdf_oxide.dylib": {
+          "group": "support",
+          "sha256": "f7d621161c49ab094f950974f5790553d319ccd393b127fe79890195145e9e9c",
+          "size": 25446844
+        },
+        "libSDL2_image.dylib": {
+          "group": "support",
+          "sha256": "5f6de8038747d4f124deeeb1e933880920036c87abe218a8f33980a0c0a58f7f",
+          "size": 399552
+        },
+        "libSDL2_mixer.dylib": {
+          "group": "support",
+          "sha256": "de730f6b4eaef413216ea9d2daa72c91406c0df1aaf4b11a24e6bef90d073d39",
+          "size": 613424
+        },
+        "libSDL2_ttf.dylib": {
+          "group": "support",
+          "sha256": "1d06a1a69ff569b1a6a72174fba760e54e7652b7c745f85f7d17473824fcf409",
+          "size": 3594080
+        },
+        "libSDL2.dylib": {
+          "group": "support",
+          "sha256": "9fa35016afe9f7897ce386712cbf55afcfdfe27d88b3232dc6e000b9fb917f54",
+          "size": 3126480
+        },
+        "libSDL3.dylib": {
+          "group": "support",
+          "sha256": "283d7c5026a1dc95bb759f80dfcb53ea75c0e706d42753ec6529da15fcbd12e7",
+          "size": 5230240
+        },
+        "libssl.3.dylib": {
+          "group": "support",
+          "sha256": "e6b4afec7064da5d5e4412c3f0ac1268d133080bd8802329a64d0cf77c19c038",
+          "size": 884992
+        }
+      }
+    },
+    "linux-x64": {
+      "groups": {
+        "support": {
+          "kind": "github-release",
+          "tag": "gmb-support-2026.10.28",
+          "rids": {
+            "linux-x64": {
+              "archive": "gmb-support-linux-x64.zip",
+              "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-support-2026.10.28/gmb-support-linux-x64.zip",
+              "sha256": "5b0019e01cd74757448118c37bdeee8a9153c3ecb726a82a8bf30c4b19883c6c",
+              "size": 23175752,
+              "extractRoot": ""
+            }
+          }
+        },
+        "torch": {
+          "kind": "external",
+          "tag": "pytorch-2.13.0",
+          "rids": {
+            "linux-x64": {
+              "archive": "libtorch-cxx11-abi-shared-with-deps-2.13.0%2Bcpu.zip",
+              "url": "https://download.pytorch.org/libtorch/cpu/libtorch-cxx11-abi-shared-with-deps-2.13.0%2Bcpu.zip",
+              "sha256": "",
+              "size": 0,
+              "extractRoot": "libtorch/lib"
+            }
+          }
+        }
+      },
+      "files": {
+        "libcrypto.so.3": {
+          "group": "support",
+          "sha256": "d8c741abe66a727c2dd1933d97fbbf9b62fa9687bd9b8ce903a0df46f2e48d85",
+          "size": 6386528
+        },
+        "libfreetype.so.6": {
+          "group": "support",
+          "sha256": "69fbccdb063fee5d70d71658f03962a96f05633c3a4da0fedd01aeb618e7ff7f",
+          "size": 874408
+        },
+        "libharfbuzz.so.0": {
+          "group": "support",
+          "sha256": "8296f850cd34db61651e5a84f3a80dc4cc3fd82add499beee14b7ad5ec4aa122",
+          "size": 1425376
+        },
+        "libhdf5_hl.so": {
+          "group": "support",
+          "sha256": "c4114b8f8bc025722db15a1a690192330829bad9ba516eb42e9e837dd586b6a9",
+          "size": 165088
+        },
+        "libhdf5_hl.so.310": {
+          "group": "support",
+          "sha256": "c4114b8f8bc025722db15a1a690192330829bad9ba516eb42e9e837dd586b6a9",
+          "size": 165088
+        },
+        "libhdf5_hl.so.310.0.6": {
+          "group": "support",
+          "sha256": "c4114b8f8bc025722db15a1a690192330829bad9ba516eb42e9e837dd586b6a9",
+          "size": 165088
+        },
+        "libhdf5.so": {
+          "group": "support",
+          "sha256": "5ef4ef173418f82b6bc349df4218f2022da6f2a5c22ad4561c7e6c04893b193e",
+          "size": 4789776
+        },
+        "libhdf5.so.310": {
+          "group": "support",
+          "sha256": "5ef4ef173418f82b6bc349df4218f2022da6f2a5c22ad4561c7e6c04893b193e",
+          "size": 4789776
+        },
+        "libhdf5.so.310.5.1": {
+          "group": "support",
+          "sha256": "5ef4ef173418f82b6bc349df4218f2022da6f2a5c22ad4561c7e6c04893b193e",
+          "size": 4789776
+        },
+        "libjpeg.so.62": {
+          "group": "support",
+          "sha256": "3c515db8e0b80a89a0db28c7d39ebed907bc2fad6c67b741f8dacc3641c7d029",
+          "size": 673856
+        },
+        "libpdf_oxide.so": {
+          "group": "support",
+          "sha256": "acbb96618aecf6bbd51d502ac1946e9e99a2b1277eb68d838ee13ef1c17d609f",
+          "size": 27774376
+        },
+        "libpng16.so.16": {
+          "group": "support",
+          "sha256": "e64ecdfb2dcb00224c04377d639d00518f4758d419c99733264ff634849fe003",
+          "size": 235512
+        },
+        "libSDL2_image-2.0.so.0": {
+          "group": "support",
+          "sha256": "f0df24cf6f8a5f3c4318b860c2c4c99c7e4c43425f120326e4add961df8cf568",
+          "size": 137128
+        },
+        "libSDL2_mixer-2.0.so.0": {
+          "group": "support",
+          "sha256": "a7e81a2d656b9f1d369c1677a6209ac1943a3fb375ad827e475834e5ca0e1203",
+          "size": 180152
+        },
+        "libSDL2_ttf-2.0.so.0": {
+          "group": "support",
+          "sha256": "e455760bf41d8417401d24e478609ed3e52c78043dde377522efe50c79243a47",
+          "size": 79720
+        },
+        "libSDL2-2.0.so.0": {
+          "group": "support",
+          "sha256": "def56368bff43a1a37a59bcf0df02cbe7a165ee31910d85750826f0765e2bd8b",
+          "size": 434672
+        },
+        "libSDL3.so.0": {
+          "group": "support",
+          "sha256": "d0e5ab2264af48feee0a55f2d9d1c31781f6a27595ac21e242c4910b9e16b199",
+          "size": 3582616
+        },
+        "libssl.so.3": {
+          "group": "support",
+          "sha256": "2c13f3e067200753bb67182e71e12747df80fa06e6d98c3e72bcbbf7751846e2",
+          "size": 1106088
+        },
+        "libtiff.so.6": {
+          "group": "support",
+          "sha256": "30cdf6804a42f3288bcba631d20e310614d19431a66edc8ae52f2e2b974022fa",
+          "size": 636936
+        },
+        "libwebp.so.7": {
+          "group": "support",
+          "sha256": "5f547b804f9c8f70aa2d64a70d49eb406ec4e295fa0772ebcadfba719f8c8668",
+          "size": 527000
+        }
+      }
+    },
+    "linux-arm64": {
+      "groups": {
+        "support": {
+          "kind": "github-release",
+          "tag": "gmb-support-2026.10.28",
+          "rids": {
+            "linux-arm64": {
+              "archive": "gmb-support-linux-arm64.zip",
+              "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-support-2026.10.28/gmb-support-linux-arm64.zip",
+              "sha256": "06094acad4a01d6b7e40337c80be14385612970770f4b6da0ef6914dbbc5530f",
+              "size": 30295203,
+              "extractRoot": ""
+            }
+          }
+        }
+      },
+      "files": {
+        "libcrypto.so.3": {
+          "group": "support",
+          "sha256": "21fe1bcdb6f69de2dc4ce51ec537027da1ebc3f2e9ca3afc10356909ac9646fc",
+          "size": 6302840
+        },
+        "libfreetype.so.6": {
+          "group": "support",
+          "sha256": "539d53826b80fe356b016bbf5183ea72484ff9249fa5213787ad34e00b266a85",
+          "size": 854304
+        },
+        "libharfbuzz.so.0": {
+          "group": "support",
+          "sha256": "c7ff26de1155ece38deff1cfee001f1a6e590d0e488c11be34af495ccb2ebe63",
+          "size": 1380416
+        },
+        "libhdf5_cpp.so": {
+          "group": "support",
+          "sha256": "47abc7d47742bbfbcee351cbf7937c72b315080d8a0dc9d22bca0cc26767ca46",
+          "size": 526696
+        },
+        "libhdf5_cpp.so.200": {
+          "group": "support",
+          "sha256": "47abc7d47742bbfbcee351cbf7937c72b315080d8a0dc9d22bca0cc26767ca46",
+          "size": 526696
+        },
+        "libhdf5_cpp.so.200.1.0": {
+          "group": "support",
+          "sha256": "47abc7d47742bbfbcee351cbf7937c72b315080d8a0dc9d22bca0cc26767ca46",
+          "size": 526696
+        },
+        "libhdf5_fortran.so": {
+          "group": "support",
+          "sha256": "cac49cbb910a66baea58a76c4206e3cf677978699155895521c0b0d6c90d4c4e",
+          "size": 396984
+        },
+        "libhdf5_fortran.so.200": {
+          "group": "support",
+          "sha256": "cac49cbb910a66baea58a76c4206e3cf677978699155895521c0b0d6c90d4c4e",
+          "size": 396984
+        },
+        "libhdf5_fortran.so.200.1.0": {
+          "group": "support",
+          "sha256": "cac49cbb910a66baea58a76c4206e3cf677978699155895521c0b0d6c90d4c4e",
+          "size": 396984
+        },
+        "libhdf5_hl_cpp.so": {
+          "group": "support",
+          "sha256": "d0adccae9f7a00137299240c667962f4c2ff4f1c881448636c0ff781fe5d041a",
+          "size": 67920
+        },
+        "libhdf5_hl_cpp.so.200": {
+          "group": "support",
+          "sha256": "d0adccae9f7a00137299240c667962f4c2ff4f1c881448636c0ff781fe5d041a",
+          "size": 67920
+        },
+        "libhdf5_hl_cpp.so.200.0.1": {
+          "group": "support",
+          "sha256": "d0adccae9f7a00137299240c667962f4c2ff4f1c881448636c0ff781fe5d041a",
+          "size": 67920
+        },
+        "libhdf5_hl_fortran.so": {
+          "group": "support",
+          "sha256": "7606c452df7f2e0b9b2c1b9fd16778ff1902ca0c73f13cec84450c59389e681b",
+          "size": 198832
+        },
+        "libhdf5_hl.so": {
+          "group": "support",
+          "sha256": "52dbaa7e317b274c948e2a74ca0dd99732d69d9f852284486b535914394170ba",
+          "size": 220016
+        },
+        "libhdf5_hl.so.200": {
+          "group": "support",
+          "sha256": "2118d83181b6aaa402aba0c5b0ffbdab79fbbfe1aa463545b93a794289a144b9",
+          "size": 133688
+        },
+        "libhdf5_hl.so.200.0.1": {
+          "group": "support",
+          "sha256": "2118d83181b6aaa402aba0c5b0ffbdab79fbbfe1aa463545b93a794289a144b9",
+          "size": 133688
+        },
+        "libhdf5_hl.so.310": {
+          "group": "support",
+          "sha256": "52dbaa7e317b274c948e2a74ca0dd99732d69d9f852284486b535914394170ba",
+          "size": 220016
+        },
+        "libhdf5_hl.so.310.0.6": {
+          "group": "support",
+          "sha256": "52dbaa7e317b274c948e2a74ca0dd99732d69d9f852284486b535914394170ba",
+          "size": 220016
+        },
+        "libhdf5_serial.so": {
+          "group": "support",
+          "sha256": "a347e592f02581a5e523c7bc6d1649a30ff3595f6a24e7ae27d38f94e4efc6f1",
+          "size": 3900896
+        },
+        "libhdf5_serial.so.103": {
+          "group": "support",
+          "sha256": "a347e592f02581a5e523c7bc6d1649a30ff3595f6a24e7ae27d38f94e4efc6f1",
+          "size": 3900896
+        },
+        "libhdf5_serial.so.103.3.0": {
+          "group": "support",
+          "sha256": "a347e592f02581a5e523c7bc6d1649a30ff3595f6a24e7ae27d38f94e4efc6f1",
+          "size": 3900896
+        },
+        "libhdf5.so": {
+          "group": "support",
+          "sha256": "caac40abb3ef79c8eae24115b8358ba25319bfe8a168ecd63343adb99a3c32da",
+          "size": 4988912
+        },
+        "libhdf5.so.200": {
+          "group": "support",
+          "sha256": "0f64afa8f5fe84856f61350c2d5803c6e26a3d703e1181895249f04163e320a6",
+          "size": 4347136
+        },
+        "libhdf5.so.200.1.0": {
+          "group": "support",
+          "sha256": "0f64afa8f5fe84856f61350c2d5803c6e26a3d703e1181895249f04163e320a6",
+          "size": 4347136
+        },
+        "libhdf5.so.310": {
+          "group": "support",
+          "sha256": "caac40abb3ef79c8eae24115b8358ba25319bfe8a168ecd63343adb99a3c32da",
+          "size": 4988912
+        },
+        "libhdf5.so.310.5.1": {
+          "group": "support",
+          "sha256": "caac40abb3ef79c8eae24115b8358ba25319bfe8a168ecd63343adb99a3c32da",
+          "size": 4988912
+        },
+        "libhdf5hl_fortran.so": {
+          "group": "support",
+          "sha256": "7606c452df7f2e0b9b2c1b9fd16778ff1902ca0c73f13cec84450c59389e681b",
+          "size": 198832
+        },
+        "libhdf5hl_fortran.so.200": {
+          "group": "support",
+          "sha256": "7606c452df7f2e0b9b2c1b9fd16778ff1902ca0c73f13cec84450c59389e681b",
+          "size": 198832
+        },
+        "libhdf5hl_fortran.so.200.0.1": {
+          "group": "support",
+          "sha256": "7606c452df7f2e0b9b2c1b9fd16778ff1902ca0c73f13cec84450c59389e681b",
+          "size": 198832
+        },
+        "libjpeg.so.62": {
+          "group": "support",
+          "sha256": "cb5ea34aa44a2451ee7172f904eaa7d5f93dff3a25ff644eadba743e5e23c1ad",
+          "size": 592064
+        },
+        "libpdf_oxide.so": {
+          "group": "support",
+          "sha256": "288221d92ce8327acbf047b759fc173522a2e70becfc1bbfd7c2b33a2c4720d5",
+          "size": 23338208
+        },
+        "libpng16.so.16": {
+          "group": "support",
+          "sha256": "1ab15ef8404400971eb3e016df00633e67b5e1e05b4aa2e55a1b81b02df1d63a",
+          "size": 264320
+        },
+        "libSDL2_image-2.0.so.0": {
+          "group": "support",
+          "sha256": "c64b282e8ee10b2f6547c29ae21a350432231bd45c67524ae1b596ac8e58d2d6",
+          "size": 133168
+        },
+        "libSDL2_mixer-2.0.so.0": {
+          "group": "support",
+          "sha256": "cdb7458efeda1c6f5671f2c125071077381500eb3f29d3304ba74ab2d68b5330",
+          "size": 200776
+        },
+        "libSDL2_ttf-2.0.so.0": {
+          "group": "support",
+          "sha256": "a7483939a196740eb7a2b44138f4ee15dba8d14a950acaab4db247fc9f08dd89",
+          "size": 67560
+        },
+        "libSDL2-2.0.so.0": {
+          "group": "support",
+          "sha256": "e7516fcb8e09491aba7e145c3e285c83224cf8ff76b8135a173e4fb3a2eb69ab",
+          "size": 467560
+        },
+        "libSDL3.so.0": {
+          "group": "support",
+          "sha256": "809a63a5657ae88a93466aa8474b9e8693b48b81e8f00ee60adea9b5d805165c",
+          "size": 3192472
+        },
+        "libssl.so.3": {
+          "group": "support",
+          "sha256": "b37f6340ecc94e5796addd3b10fb3f4ca235508ee3a17b3b524a37cbec54957d",
+          "size": 1196152
+        },
+        "libtiff.so.6": {
+          "group": "support",
+          "sha256": "8c7c6c4d52edcd5c9e65f1a66f335afbfaa8ee401decd41ec2a95f8df135800f",
+          "size": 657552
+        },
+        "libwebp.so.7": {
+          "group": "support",
+          "sha256": "3a95564177925a250005446ab63524462bd347456a757e5d9a41af31dbef28b8",
+          "size": 461600
+        }
+      }
+    },
+    "win-x64": {
+      "groups": {
+        "support": {
+          "kind": "github-release",
+          "tag": "gmb-support-2026.10.28",
+          "rids": {
+            "win-x64": {
+              "archive": "gmb-support-win-x64.zip",
+              "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-support-2026.10.28/gmb-support-win-x64.zip",
+              "sha256": "60df2611fe85a5543a8095c556d555298ed3d56320b90f1ce084ab4ba4448d74",
+              "size": 17983553,
+              "extractRoot": ""
+            }
+          }
+        },
+        "torch": {
+          "kind": "external",
+          "tag": "pytorch-2.13.0",
+          "rids": {
+            "win-x64": {
+              "archive": "libtorch-win-shared-with-deps-2.13.0%2Bcpu.zip",
+              "url": "https://download.pytorch.org/libtorch/cpu/libtorch-win-shared-with-deps-2.13.0%2Bcpu.zip",
+              "sha256": "",
+              "size": 0,
+              "extractRoot": "libtorch/lib"
+            }
+          }
+        }
+      },
+      "files": {
+        "gmb_tray.dll": {
+          "group": "support",
+          "sha256": "3b62ab8d39da46900dc5f945e4c94b63bb0adce0b9c0f4836ec0cdb30af5d17a",
+          "size": 116424
+        },
+        "hdf5_hl.dll": {
+          "group": "support",
+          "sha256": "894a97920b90e2d490f2242aec97030bb58d7c68f8b1a1ef7a38c407bee71349",
+          "size": 165376
+        },
+        "hdf5.dll": {
+          "group": "support",
+          "sha256": "4d215edfa26ee69766075d60ebdb8e09ad6c3e8e082f1bcb5a292df9c989d153",
+          "size": 4320768
+        },
+        "libcrypto-3-x64.dll": {
+          "group": "support",
+          "sha256": "c511a9db1adb7886f77026d8808a2217ac3f7975fca46b8bdb4dcc9072fd9f87",
+          "size": 7308288
+        },
+        "libssl-3-x64.dll": {
+          "group": "support",
+          "sha256": "b94df46997b95262b9013bf9eb8a37fe53ff8cd877a39894ecca5bc74ce34092",
+          "size": 1321984
+        },
+        "pdf_oxide.dll": {
+          "group": "support",
+          "sha256": "3abab7f77d97e4609d8c541b5e9fd33ebb39d75f3eadbebb51dd10c5b6882808",
+          "size": 28574208
+        },
+        "SDL2_image.dll": {
+          "group": "support",
+          "sha256": "79fc19743e5deb003f84635862b63d3c5d799a27eeaa0f40d7afb55c5834524a",
+          "size": 287232
+        },
+        "SDL2_mixer.dll": {
+          "group": "support",
+          "sha256": "79d84ea27b2b0402b5506bc6883e71fbca2874f983c727106fa26abb11b7f5b5",
+          "size": 421376
+        },
+        "SDL2_ttf.dll": {
+          "group": "support",
+          "sha256": "86febaf2ca137e417808a646b5920cdd10d7093b30a2071abde40b012c923c3d",
+          "size": 1751552
+        },
+        "SDL2.dll": {
+          "group": "support",
+          "sha256": "564306d1d75b9c55fb662a09a5c9ec0f38da06b8815fae841858118bdd9cb599",
+          "size": 1576448
+        },
+        "SDL3.dll": {
+          "group": "support",
+          "sha256": "9fa7bcb4c3667bfe4cf5e5b740a1da708151af0d499c2d0afee50c9874ba181c",
+          "size": 2842624
+        }
+      }
     }
   }
 }
