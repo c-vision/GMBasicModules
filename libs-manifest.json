@@ -1,0 +1,659 @@
+{
+  "version": "2026.10.28",
+  "cacheDir": "~/.gmb/libs",
+  "rids": {
+    "osx-arm64": {
+      "groups": {
+        "support": {
+          "kind": "github-release",
+          "tag": "gmb-support-2026.10.28",
+          "rids": {
+            "osx-arm64": {
+              "archive": "gmb-support-osx-arm64.zip",
+              "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-support-2026.10.28/gmb-support-osx-arm64.zip",
+              "sha256": "f4a653a2909d6f277257d32e4020cc85d943d547f1fa8105e770d7f0f22d139c",
+              "size": 31818822,
+              "extractRoot": ""
+            }
+          }
+        },
+        "engine": {
+          "kind": "github-release",
+          "tag": "gmb-engine-2026.10.28",
+          "rids": {
+            "osx-arm64": {
+              "archive": "gmb-engine-osx-arm64.zip",
+              "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-engine-2026.10.28/gmb-engine-osx-arm64.zip",
+              "sha256": "97f94ba97dd6e5e52e1180d9bd0c185033242c913edea2bbd1523126a1c31aae",
+              "size": 67958489,
+              "extractRoot": ""
+            }
+          }
+        },
+        "core": {
+          "kind": "github-release",
+          "tag": "gmb-core-2026.10.28",
+          "rids": {
+            "osx-arm64": {
+              "archive": "gmb-core-osx-arm64.zip",
+              "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-core-2026.10.28/gmb-core-osx-arm64.zip",
+              "sha256": "2bd53f71c880e83563fe791bb7e65f2ec53256a5f69ad278f7830bfac50123ed",
+              "size": 3078323,
+              "extractRoot": ""
+            }
+          }
+        },
+        "torch": {
+          "kind": "external",
+          "tag": "pytorch-2.13.0",
+          "rids": {
+            "osx-arm64": {
+              "archive": "libtorch-macos-arm64-2.13.0.zip",
+              "url": "https://download.pytorch.org/libtorch/cpu/libtorch-macos-arm64-2.13.0.zip",
+              "sha256": "",
+              "size": 0,
+              "extractRoot": "libtorch/lib"
+            }
+          }
+        }
+      },
+      "files": {
+        "gmb_sql_csv_ext.dylib": {
+          "group": "core",
+          "sha256": "049627e711afa34513a7cf7cb60da560d2e33800cb1d97ee7c3201a360fabbc9",
+          "size": 51664
+        },
+        "gmb_sql_parquet_ext.dylib": {
+          "group": "core",
+          "sha256": "132dcec5d3df13ad91023fbc69edc27a29c14dcfdf72a3df9aa1d1a615f572af",
+          "size": 102880
+        },
+        "libaom.3.dylib": {
+          "group": "support",
+          "sha256": "58bb87cf26bc076880f101c2c323c6d91b8bc4c661d1693e991135bb34e75234",
+          "size": 4307008
+        },
+        "libavif.16.dylib": {
+          "group": "support",
+          "sha256": "52baf4db6aedd27c9b8a9c799f7367de8550531ba9eec420c54b8d678e68dcf8",
+          "size": 221648
+        },
+        "libbrotlicommon.1.dylib": {
+          "group": "support",
+          "sha256": "1a6d05ba2650ed42b67246d20d54f66b23a5fb042444962b4ea986b1cb1c5b5d",
+          "size": 149264
+        },
+        "libbrotlidec.1.dylib": {
+          "group": "support",
+          "sha256": "efceb0e4e03f5fb50e32c297d332983f3ca066948465fcdfb6da86272af6d050",
+          "size": 69744
+        },
+        "libbrotlienc.1.dylib": {
+          "group": "support",
+          "sha256": "abeec3ccbe83482362ee2dcea9903fadd25a67e4887f1e6c341a39bb81ff1764",
+          "size": 635344
+        },
+        "libcrypto.3.dylib": {
+          "group": "support",
+          "sha256": "14179949b9db0ee3d57d39c97612544f51ca221922c9fec7ab8e34675ee2d7e2",
+          "size": 4844432
+        },
+        "libdav1d.7.dylib": {
+          "group": "support",
+          "sha256": "a1e2381ff0b0018a86fb8de4d824c1b400a4adce49980b2f7c83e31f3629e1aa",
+          "size": 825360
+        },
+        "libFLAC.14.dylib": {
+          "group": "support",
+          "sha256": "651c823165df831e63239c6123519b8887f7941e1ed48ff6e87263f79004b649",
+          "size": 257840
+        },
+        "libfluidsynth.3.dylib": {
+          "group": "support",
+          "sha256": "aea7e02c0c20e182fce56fbe43c5973bf6bbecfa1e62df4446a2baa84e7d1cb5",
+          "size": 612624
+        },
+        "libfreetype.6.dylib": {
+          "group": "support",
+          "sha256": "344ede59bdf32d87dfc49569f3a4921b3d2040db7c26ea4b353502002929d8ac",
+          "size": 620256
+        },
+        "libglib-2.0.0.dylib": {
+          "group": "support",
+          "sha256": "a800ca957c9ef6fc2ab23b6696802657232a0abeab2b2e06fd63ba12715704f3",
+          "size": 1355072
+        },
+        "libgme.0.dylib": {
+          "group": "support",
+          "sha256": "8024728680f1e2c35e35b325c186baf58530ff3bf134ea4e3b4718f7a491db5e",
+          "size": 282864
+        },
+        "libgraphite2.3.dylib": {
+          "group": "support",
+          "sha256": "d9a35afbc2c8f50353b6800cb8d1e175181e41508de839eada900f5f21306e89",
+          "size": 124560
+        },
+        "libharfbuzz.0.dylib": {
+          "group": "support",
+          "sha256": "d586512dcdea708e4469d0257a26b51b488861489c48dd05974182a9da45d1f3",
+          "size": 1210032
+        },
+        "libhdf5.310.5.1.dylib": {
+          "group": "support",
+          "sha256": "37ecef35ed40d1617d57abcb4bddd08a07472fa0bd00932905e981db5a6e41f6",
+          "size": 3951808
+        },
+        "libhdf5.310.dylib": {
+          "group": "support",
+          "sha256": "37ecef35ed40d1617d57abcb4bddd08a07472fa0bd00932905e981db5a6e41f6",
+          "size": 3951808
+        },
+        "libhdf5.dylib": {
+          "group": "support",
+          "sha256": "37ecef35ed40d1617d57abcb4bddd08a07472fa0bd00932905e981db5a6e41f6",
+          "size": 3951808
+        },
+        "libhwy.1.dylib": {
+          "group": "support",
+          "sha256": "6959cfbef9974c31714e3ee758cd7226d1937c4c8f08ca93eed4c7ef777c0d20",
+          "size": 80624
+        },
+        "libintl.8.dylib": {
+          "group": "support",
+          "sha256": "c6488deb60e2e85966f00485ec2ad7f3e7390eeeff11d8bf22b39e5319a506a4",
+          "size": 210816
+        },
+        "libjpeg.8.dylib": {
+          "group": "support",
+          "sha256": "b96142596f74527a41a6297c357c2a11f6a41c031e4ae6b69109adc67b771c84",
+          "size": 454256
+        },
+        "libjxl.0.12.dylib": {
+          "group": "support",
+          "sha256": "db6fade7da0358cfa9bf88ff63410d08309ff73e5665d24de228ce48eb9837a0",
+          "size": 1915984
+        },
+        "libleptonica.dylib": {
+          "group": "support",
+          "sha256": "7d992d5f3a252a5dd48e1b10bfbc981c978e2594dcf811f34955a24435be6f96",
+          "size": 2718096
+        },
+        "liblz4.1.10.0.dylib": {
+          "group": "support",
+          "sha256": "8dec498f5ded184c097513e96d55c7b4ef422e3632476e40cef5b0ebb0e71d8b",
+          "size": 160064
+        },
+        "liblz4.1.dylib": {
+          "group": "support",
+          "sha256": "8dec498f5ded184c097513e96d55c7b4ef422e3632476e40cef5b0ebb0e71d8b",
+          "size": 160064
+        },
+        "liblz4.dylib": {
+          "group": "support",
+          "sha256": "8dec498f5ded184c097513e96d55c7b4ef422e3632476e40cef5b0ebb0e71d8b",
+          "size": 160064
+        },
+        "liblzma.5.dylib": {
+          "group": "support",
+          "sha256": "f21ca19916a8ddd5eba0c9be681c88744c91fe7e331732149d25436af7dc7fc1",
+          "size": 166576
+        },
+        "liblzma.dylib": {
+          "group": "support",
+          "sha256": "f21ca19916a8ddd5eba0c9be681c88744c91fe7e331732149d25436af7dc7fc1",
+          "size": 166576
+        },
+        "libMoltenVK.dylib": {
+          "group": "support",
+          "sha256": "b3deef7768251c2b0d6f8390b375494b9d172c819b03f5a2ce756171a541afae",
+          "size": 5313808
+        },
+        "libmp3lame.0.dylib": {
+          "group": "support",
+          "sha256": "6074fbd894fd01c3dc3ae3de25314f4accbbaef87915fa9469f7da05c58d6481",
+          "size": 214640
+        },
+        "libmpg123.0.dylib": {
+          "group": "support",
+          "sha256": "721d9591f5955ef172b1605876f434a2d0efa273eac1b03ca6c2c7f4b6be0bd2",
+          "size": 270336
+        },
+        "libogg.0.dylib": {
+          "group": "support",
+          "sha256": "7eb36b9bbc9bb96996784b6af6ee2a76e25083fef5679aadc51f9526f4ea7f01",
+          "size": 53728
+        },
+        "libopus.0.dylib": {
+          "group": "support",
+          "sha256": "deaae25bc5763b7733cdd2deaacf223b573ad90b154cecce339efe0aa7f387ed",
+          "size": 355760
+        },
+        "libopusfile.0.dylib": {
+          "group": "support",
+          "sha256": "73191be50ae94ffd574e8cd7d69eee8e81515cece44780286f255670869a1402",
+          "size": 57408
+        },
+        "libpcre2-8.0.dylib": {
+          "group": "support",
+          "sha256": "24618e33fd24dca6c7c469fe3bf2a8f389c89e1d28bbe911893d18f1df8d5a7f",
+          "size": 570832
+        },
+        "libpdf_oxide.dylib": {
+          "group": "support",
+          "sha256": "8620c32e1b9aa9afaa486ecdf711112c9398ec67089b956b473d2dfc60fbf305",
+          "size": 22278464
+        },
+        "libpng16.16.dylib": {
+          "group": "support",
+          "sha256": "7e3e73c8f27a251ae130fd442f545783c269bcab413fc9b1e763ca6b25dd5a22",
+          "size": 190272
+        },
+        "libportaudio.2.dylib": {
+          "group": "support",
+          "sha256": "03a3c8c28fbf556341570794325e3e8626e29901499dd8ef33d2d3ddd72c4ec6",
+          "size": 120624
+        },
+        "libreadline.8.dylib": {
+          "group": "support",
+          "sha256": "4454eed8355bc3661315c8cc56317b1643b3c711c1beaa2bde135508f6e0de10",
+          "size": 296384
+        },
+        "libSDL2_image.dylib": {
+          "group": "support",
+          "sha256": "68fea8dfbac00eec55b222a98be41d57336674efd88f15936894094f065c4eb8",
+          "size": 131520
+        },
+        "libSDL2_mixer.dylib": {
+          "group": "support",
+          "sha256": "3ea8c63eb6ca96c3336b06a4d635b8bb7613a39ffa055904af019fe349475e28",
+          "size": 161408
+        },
+        "libSDL2_ttf.dylib": {
+          "group": "support",
+          "sha256": "d98d803078eaefe35689367e7cf06d5546eeef0e880946249683a63101ed1e46",
+          "size": 91936
+        },
+        "libSDL2.dylib": {
+          "group": "support",
+          "sha256": "f1da1e68c32e1bf0bc84731e484bb2da87012f7667327029974e248b46a62795",
+          "size": 520688
+        },
+        "libSDL3.dylib": {
+          "group": "support",
+          "sha256": "019152f2c2e05c7c951712643ad72724a4297f8fdbefda17fdeda41828fd722f",
+          "size": 2505120
+        },
+        "libsndfile.1.dylib": {
+          "group": "support",
+          "sha256": "fca7d8675b324353f908dd99d43ffd80e6560d77f790070b3bb260f011f9c073",
+          "size": 460992
+        },
+        "libssl.3.dylib": {
+          "group": "support",
+          "sha256": "d3e5665289ef12ae1bb91520d1ef4cd488cef8ab507a1ee1fc8aeb0024e50422",
+          "size": 883760
+        },
+        "libtesseract.dylib": {
+          "group": "support",
+          "sha256": "39a9862981dd3b5a8f8d5160a671ec30b422ccf866463e9a782d3284e2af08f1",
+          "size": 3153120
+        },
+        "libtiff.6.dylib": {
+          "group": "support",
+          "sha256": "890e2a6013e71afe9d05d81a12146a7fe9f71c2d6183d2b58a7a2bdae40f5db1",
+          "size": 523072
+        },
+        "libvmaf.3.dylib": {
+          "group": "support",
+          "sha256": "5cfc24aba109382a4cb10871fd0d60299b9f5507bcac88b85cf486bc2c2d4b6f",
+          "size": 896624
+        },
+        "libvorbis.0.dylib": {
+          "group": "support",
+          "sha256": "3a972cfb1c753e39056088e5726b5e2425b8832d86ef52ef7a45e044a8b34460",
+          "size": 175072
+        },
+        "libvorbisenc.2.dylib": {
+          "group": "support",
+          "sha256": "8caa3f8eb317517a9cb3f027ecefbb9c7d5d86cfbc04d987ee255f0ca243c362",
+          "size": 705808
+        },
+        "libvorbisfile.3.dylib": {
+          "group": "support",
+          "sha256": "ad92a43d57fd2e8963f82914ce17b5a576568889edf68de96637163193d195d4",
+          "size": 55392
+        },
+        "libwavpack.1.dylib": {
+          "group": "support",
+          "sha256": "471e79cb4f234a3e377af9f1a5974eea075ab7eeae2b76b008e4cf1d547c0a4e",
+          "size": 176704
+        },
+        "libwebp.7.dylib": {
+          "group": "support",
+          "sha256": "dfe0b2aa3393473746cdf435cb9b03ec0e1d9251ede18c9dce2b69ddae6c0a6a",
+          "size": 334272
+        },
+        "libwebpdemux.2.dylib": {
+          "group": "support",
+          "sha256": "21d9dd0c53a7bec0f4ec9a2fb6940f86da0d079f197ec9a4c4cb883e99024be4",
+          "size": 35184
+        },
+        "libxmp.4.dylib": {
+          "group": "support",
+          "sha256": "8e2d16cc2744e655900d5488d370f4d38822e9f66597baa057f5fee97377bf31",
+          "size": 537888
+        },
+        "libzstd.1.5.7.dylib": {
+          "group": "support",
+          "sha256": "a61d9ec25a1109bc5030a99a7fcbd79737868111fb82adb32f7de3e5b7fa7a25",
+          "size": 631664
+        },
+        "libzstd.1.dylib": {
+          "group": "support",
+          "sha256": "a61d9ec25a1109bc5030a99a7fcbd79737868111fb82adb32f7de3e5b7fa7a25",
+          "size": 631664
+        },
+        "libzstd.dylib": {
+          "group": "support",
+          "sha256": "a61d9ec25a1109bc5030a99a7fcbd79737868111fb82adb32f7de3e5b7fa7a25",
+          "size": 631664
+        },
+        "tessdata/eng.traineddata": {
+          "group": "support",
+          "sha256": "7d4322bd2a7749724879683fc3912cb542f19906c83bcc1a52132556427170b2",
+          "size": 4113088
+        },
+        "libggml-base.0.20.0.dylib": {
+          "group": "engine",
+          "sha256": "660b7847661845b97ac2cdcf96f56b3f3721b1c33a83fd2ac66c7b506912f18e",
+          "size": 728240
+        },
+        "libggml-base.0.dylib": {
+          "group": "engine",
+          "sha256": "660b7847661845b97ac2cdcf96f56b3f3721b1c33a83fd2ac66c7b506912f18e",
+          "size": 728240
+        },
+        "libggml-blas.0.20.0.dylib": {
+          "group": "engine",
+          "sha256": "0cf8181fee4c2a1d383f15eea1379aca023901eb8bd9b06c978330c1b3e67736",
+          "size": 58528
+        },
+        "libggml-blas.0.dylib": {
+          "group": "engine",
+          "sha256": "0cf8181fee4c2a1d383f15eea1379aca023901eb8bd9b06c978330c1b3e67736",
+          "size": 58528
+        },
+        "libggml-cpu.0.20.0.dylib": {
+          "group": "engine",
+          "sha256": "1aa7b324242c10e76ea31b7e19224518f5352586f28f2a55df437c947da48303",
+          "size": 945920
+        },
+        "libggml-cpu.0.dylib": {
+          "group": "engine",
+          "sha256": "1aa7b324242c10e76ea31b7e19224518f5352586f28f2a55df437c947da48303",
+          "size": 945920
+        },
+        "libggml-metal.0.20.0.dylib": {
+          "group": "engine",
+          "sha256": "7ea3b6dd0564deb423bb717eb71d360df2efe9edd0d26eb0867f1b5c86f8b845",
+          "size": 895520
+        },
+        "libggml-metal.0.dylib": {
+          "group": "engine",
+          "sha256": "7ea3b6dd0564deb423bb717eb71d360df2efe9edd0d26eb0867f1b5c86f8b845",
+          "size": 895520
+        },
+        "libggml.0.20.0.dylib": {
+          "group": "engine",
+          "sha256": "d6fcc807d2e5aaf51ac525ce074343a9d9d23564a5d61203cb8ea35ecf6f4063",
+          "size": 59728
+        },
+        "libggml.0.dylib": {
+          "group": "engine",
+          "sha256": "d6fcc807d2e5aaf51ac525ce074343a9d9d23564a5d61203cb8ea35ecf6f4063",
+          "size": 59728
+        },
+        "libgmb_ai_llamacpp.dylib": {
+          "group": "engine",
+          "sha256": "e26b6a4a2ef83cedc36fc7224935be3b98819ab9aee159c34bf53aa0ccbbbb84",
+          "size": 74432
+        },
+        "libgmb_ai_mlx.dylib": {
+          "group": "engine",
+          "sha256": "cffc67f401958455fbbfe62adbfcaa7a1246acb2d3207c48b566b899c958e36b",
+          "size": 22310752
+        },
+        "libgmb_ai_moestream.dylib": {
+          "group": "engine",
+          "sha256": "f97a897ddadc2c78ff7de6c2f6b2aaec3dd62d8c0324ff6ecf67373e8f6c1594",
+          "size": 209600
+        },
+        "libgmb_codec_fp8.dylib": {
+          "group": "engine",
+          "sha256": "b872b5b0860c9d9de1b0df0db8425ef6fd9e056049437615382c5f1dd040a70f",
+          "size": 37104
+        },
+        "libgmb_codec_ggml.dylib": {
+          "group": "engine",
+          "sha256": "f196a3581a5cbe2c20b24961245968eb136358d116fb625430efb05a39767bba",
+          "size": 190224
+        },
+        "libgmb_codec_mlx_affine.dylib": {
+          "group": "engine",
+          "sha256": "18ae1821472fe3ccc046ca525966cbaee56c94d4008bc0830cebd9e604f07cdf",
+          "size": 36240
+        },
+        "libllama-common.0.1.0.dylib": {
+          "group": "engine",
+          "sha256": "b49d9a0d080ec1a33c0b366e4290019c96ee8cc0dda9840e752214c6e978bba0",
+          "size": 5434272
+        },
+        "libllama-common.0.dylib": {
+          "group": "engine",
+          "sha256": "b49d9a0d080ec1a33c0b366e4290019c96ee8cc0dda9840e752214c6e978bba0",
+          "size": 5434272
+        },
+        "libllama.0.1.0.dylib": {
+          "group": "engine",
+          "sha256": "bc23714af117e92051af0114fef70caccb9d1c9262ca36ceab8b5321d42b5fad",
+          "size": 2970432
+        },
+        "libllama.0.dylib": {
+          "group": "engine",
+          "sha256": "bc23714af117e92051af0114fef70caccb9d1c9262ca36ceab8b5321d42b5fad",
+          "size": 2970432
+        },
+        "libllm_ai_llamacpp.dylib": {
+          "group": "engine",
+          "sha256": "2d348592985b862fb7c8b979d277d9c50c6f6aab1b803612ff2a08116d1ce9a3",
+          "size": 6445520
+        },
+        "libllm_vision_apple.dylib": {
+          "group": "engine",
+          "sha256": "ef76c589302cc044acfe55fe0c15294a89df8a53010ec1717b459cf7f02363b9",
+          "size": 52448
+        },
+        "libllmcodec_aqlm.dylib": {
+          "group": "engine",
+          "sha256": "ba8cea6adcfa43592494e7a8f639b7192a92ef673f8cf91b7ece243bd2b5f718",
+          "size": 33536
+        },
+        "libllmcodec_awq.dylib": {
+          "group": "engine",
+          "sha256": "a723b8ad811532944bbe1665b0e0f0933918f3e48a74166863fa630c6af87491",
+          "size": 33488
+        },
+        "libllmcodec_bitnet.dylib": {
+          "group": "engine",
+          "sha256": "940e865d490f1c8d8e332d45c23191dd211ae468d99c0f21c060271d6614144e",
+          "size": 33520
+        },
+        "libllmcodec_bnb.dylib": {
+          "group": "engine",
+          "sha256": "4417fefe3d888f4cdd9430a913cdbfc2bb7e04329ef368f03fbf80aeaa4cfa6f",
+          "size": 34544
+        },
+        "libllmcodec_fp4.dylib": {
+          "group": "engine",
+          "sha256": "1e16ad5ac68b6d5369865793cf09afe37d8396d4eb6789745d2f0854fadd8335",
+          "size": 34480
+        },
+        "libllmcodec_fp8.dylib": {
+          "group": "engine",
+          "sha256": "59440aa09ff94dffe7da468d9ff2cfa206e851f1a50085914d5deec03fb161c8",
+          "size": 34480
+        },
+        "libllmcodec_ggml.dylib": {
+          "group": "engine",
+          "sha256": "e95630e2ee7ce3771bad937fb422cce7aa616ff83f235f64e3b0f0f35829987a",
+          "size": 150592
+        },
+        "libllmcodec_gptq.dylib": {
+          "group": "engine",
+          "sha256": "44eb3080652c66034523ffccf01cef74f0a8ae9f41c02f126e35667cef828dce",
+          "size": 33488
+        },
+        "libllmcodec_higgs.dylib": {
+          "group": "engine",
+          "sha256": "d0fbb81ac60505858654164177a076334686495685d115d177a02304b7864867",
+          "size": 33520
+        },
+        "libllmcodec_hqq.dylib": {
+          "group": "engine",
+          "sha256": "6faa230983cdf8b0c813659ef7fc38bea74c4e9d3542b99754b32e04a3611d3e",
+          "size": 33488
+        },
+        "libllmcodec_mlx_affine.dylib": {
+          "group": "engine",
+          "sha256": "82fa6d1efcbb0a762a5f76f71f3a28fb3e0882da4a95597512b9d3dfdd38df5e",
+          "size": 34128
+        },
+        "libllmcodec_mxfp.dylib": {
+          "group": "engine",
+          "sha256": "bd1636745181548b41ee66103e180634836f23500b05f563ce4fcc8e3e8ac50b",
+          "size": 34528
+        },
+        "libllmcodec_nvfp.dylib": {
+          "group": "engine",
+          "sha256": "7552344f8cc99066a79216ab4f0f1ae9d5a6359a0aa6b3623e095f516df0922b",
+          "size": 34480
+        },
+        "libllmcodec_plain.dylib": {
+          "group": "engine",
+          "sha256": "5dbdcc986d03f22557ab49bcd06af0a4e28f628352c64014c77667cf3dfb7072",
+          "size": 33536
+        },
+        "libllmcodec_spqr.dylib": {
+          "group": "engine",
+          "sha256": "967a2f4dd2c0f0e232c60e2868e0b8619145a8565a3bbf18e31363860f5be6ff",
+          "size": 33488
+        },
+        "libllmcodec_turboquant.dylib": {
+          "group": "engine",
+          "sha256": "5ea473d8604a8775a810c8def8112394074b0fec989ebfd4ccd4b2c251caa22a",
+          "size": 33792
+        },
+        "libllmcodec_vptq.dylib": {
+          "group": "engine",
+          "sha256": "b284e112fb5c359cfd202b2ba6c2b075945374ea08614d20b671366605bc189a",
+          "size": 33488
+        },
+        "libllmengine_moe_stream.dylib": {
+          "group": "engine",
+          "sha256": "48b488b9fc3904e8d797d91fb5fb6c282675cbe93ea0be197cb12ad61824fac1",
+          "size": 203056
+        },
+        "libllmtoken.dylib": {
+          "group": "engine",
+          "sha256": "872ea02d6a0b3ec7cb50dd2828d7479b7ef6bc1d1d09810a860954f71908d8f2",
+          "size": 807424
+        },
+        "libmtmd.0.1.0.dylib": {
+          "group": "engine",
+          "sha256": "bf5097529bee5690d3def292b950ae97c1d21c4411753321fd1e5bb829d425d7",
+          "size": 1319648
+        },
+        "libmtmd.0.dylib": {
+          "group": "engine",
+          "sha256": "bf5097529bee5690d3def292b950ae97c1d21c4411753321fd1e5bb829d425d7",
+          "size": 1319648
+        },
+        "mlx.metallib": {
+          "group": "engine",
+          "sha256": "a1657f753a4abf5ac72086fa671142b545dbc78346de2a1e64099e08ec794c30",
+          "size": 163611848
+        },
+        "libgmb_ai_finetune.dylib": {
+          "group": "core",
+          "sha256": "5b4debdb6735ab0dcd500d1d2222b723511bdf3d8e20e0b8932eca216e774cf6",
+          "size": 141632
+        },
+        "libgmb_ai_llm.dylib": {
+          "group": "core",
+          "sha256": "1490953c080dd7d43de6598a696929b9d09a6102a87d25e92da388b3c72c98d6",
+          "size": 846128
+        },
+        "libgmb_ai_modelio.dylib": {
+          "group": "core",
+          "sha256": "a1c736e834fa56225b411a464f6bf7d992f0a2093f0b45475c1c2eb2ce9390ba",
+          "size": 140800
+        },
+        "libgmb_compress.dylib": {
+          "group": "core",
+          "sha256": "dceecb21b371433bc29c14f3775176a8e17e21413c35e30bb1e9df1cc4696b2b",
+          "size": 1081008
+        },
+        "libgmb_gfx.dylib": {
+          "group": "core",
+          "sha256": "0000b1bbf583986996810e7c5928a50177fc8405e762eb1f8c6e54d383693225",
+          "size": 1427312
+        },
+        "libgmb_grep.dylib": {
+          "group": "core",
+          "sha256": "690380128df3cc16c6f904e05abeb53fc662a49ce779268c86a5292db0b0434a",
+          "size": 1239632
+        },
+        "libgmb_pkg.dylib": {
+          "group": "core",
+          "sha256": "fffc5eb1ec4655729220a5999446862296805294aab5c82557ec633af155825b",
+          "size": 1392272
+        },
+        "libgmb_torch_loader.dylib": {
+          "group": "core",
+          "sha256": "7a10d90714cbe9c100698b21bfd1448f42f4fb526acc900f81d718053759898e",
+          "size": 72544
+        },
+        "libgmb_torch.dylib": {
+          "group": "core",
+          "sha256": "dceee2cee0d5d7d044c0b9c03da7a8cf5811c3a88f497a2d5b09a62af12f87c8",
+          "size": 416688
+        },
+        "libgmb_tray.dylib": {
+          "group": "core",
+          "sha256": "ac2483d5799853f44d01aff88320440062ab65f89149fa4832e857ac003780f0",
+          "size": 54816
+        },
+        "libtorch_cpu.dylib": {
+          "group": "torch",
+          "sha256": "f1584a65a2a09b5ddbe90a4e195ba824087b430a9f21cb1df9b8894177b99987",
+          "size": 337911904
+        },
+        "libc10.dylib": {
+          "group": "torch",
+          "sha256": "5db5749503cd842562a666510a72fa127dedd3a0046784760fdaeee9c562f23b",
+          "size": 1102704
+        },
+        "libomp.dylib": {
+          "group": "torch",
+          "sha256": "6256bee09e93c28d71c65711cc69224d69994c6965648b628b70a22772fe98d4",
+          "size": 856096
+        },
+        "libtorch.dylib": {
+          "group": "torch",
+          "sha256": "c9d126afd218772f9cd17387f79eaf117cdf15d89d5a0b6231c03c9a43ace910",
+          "size": 16752
+        }
+      }
+    }
+  }
+}
