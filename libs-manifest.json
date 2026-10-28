@@ -37,8 +37,8 @@
             "osx-arm64": {
               "archive": "gmb-llmmotor-osx-arm64.zip",
               "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-llmmotor-2026.10.28/gmb-llmmotor-osx-arm64.zip",
-              "sha256": "c5ff0967a2f09d5d5703ebc6e4663574039deef4f2052cba9de84f27e1827fc1",
-              "size": 65968176,
+              "sha256": "3b685bcb24bfdbc72c9f240c6306c64e3047b6a8414bdff87ca4a0f25ff96375",
+              "size": 66077559,
               "extractRoot": ""
             }
           }
@@ -513,8 +513,8 @@
         },
         "libllm_ai_mlx.dylib": {
           "group": "llmmotor",
-          "sha256": "04776b83439c825c4b9e0e3764ceb655a10e587c98092da13b4c2740cb30d55b",
-          "size": 22129360
+          "sha256": "6793dc447df80d2c4713727d738af5f72e1eedd120318f6c71573ac456cb8cbd",
+          "size": 22423072
         },
         "mlx.metallib": {
           "group": "llmmotor",
