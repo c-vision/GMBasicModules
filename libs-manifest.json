@@ -50,8 +50,8 @@
             "osx-arm64": {
               "archive": "gmb-core-osx-arm64.zip",
               "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-core-2026.10.28/gmb-core-osx-arm64.zip",
-              "sha256": "2bd53f71c880e83563fe791bb7e65f2ec53256a5f69ad278f7830bfac50123ed",
-              "size": 3078323,
+              "sha256": "3026fcf42b6373b969f0d8e3ed80407007341322127647e9b7e69ec564f2fa1c",
+              "size": 3037738,
               "extractRoot": ""
             }
           }
@@ -542,7 +542,7 @@
           "size": 59728
         },
         "libgmb_ai_finetune.dylib": {
-          "group": "core",
+          "group": "llmmotor",
           "sha256": "5b4debdb6735ab0dcd500d1d2222b723511bdf3d8e20e0b8932eca216e774cf6",
           "size": 141632
         },
