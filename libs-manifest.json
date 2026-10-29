@@ -804,6 +804,19 @@
             }
           }
         },
+        "engine": {
+          "kind": "github-release",
+          "tag": "gmb-engine-2026.10.29",
+          "rids": {
+            "linux-arm64": {
+              "archive": "gmb-engine-linux-arm64.zip",
+              "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-engine-2026.10.29/gmb-engine-linux-arm64.zip",
+              "sha256": "cf152e8940f53f221fd757ccab05bdc2ebc30c9fbb986d74653ace697f54a2bf",
+              "size": 366662,
+              "extractRoot": ""
+            }
+          }
+        },
         "core": {
           "kind": "github-release",
           "tag": "gmb-core-2026.10.29",
@@ -1018,6 +1031,96 @@
           "group": "support",
           "sha256": "3a95564177925a250005446ab63524462bd347456a757e5d9a41af31dbef28b8",
           "size": 461600
+        },
+        "libllmcodec_aqlm.so": {
+          "group": "engine",
+          "sha256": "a0dda1fb1196da1f237edbc4dfebd6224491607e2139a04be9592e780c0f558f",
+          "size": 13056
+        },
+        "libllmcodec_awq.so": {
+          "group": "engine",
+          "sha256": "bb6662d2d7c68053a1af08fe8e45c7a4b5792f0536379381a1361b13c5f33196",
+          "size": 8448
+        },
+        "libllmcodec_bitnet.so": {
+          "group": "engine",
+          "sha256": "0af213487284721ff39f380758fed54bb055039bf5cd9726b6393a8bfd570f13",
+          "size": 8496
+        },
+        "libllmcodec_bnb.so": {
+          "group": "engine",
+          "sha256": "02769276097111ec49673df26468b1463985ae46dadb3de2b63735817aef870a",
+          "size": 18344
+        },
+        "libllmcodec_fp4.so": {
+          "group": "engine",
+          "sha256": "379986f3dbd04831c70dd3c704c24196b42bc49db5469974fc281fad55a90c4a",
+          "size": 18240
+        },
+        "libllmcodec_fp8.so": {
+          "group": "engine",
+          "sha256": "681999cc7212c6d178056180b007752796399434b280d77c7acc617ddd2c484e",
+          "size": 18264
+        },
+        "libllmcodec_ggml.so": {
+          "group": "engine",
+          "sha256": "8b8a99971d18226dd7b0b797f984c7c2a8959ddb707975a97b663985ccf33b0d",
+          "size": 101960
+        },
+        "libllmcodec_gptq.so": {
+          "group": "engine",
+          "sha256": "ce988c72f0be0fdddcdc6a4a13bcd2cd76c4673134d0f591188e36360eeccac7",
+          "size": 8448
+        },
+        "libllmcodec_higgs.so": {
+          "group": "engine",
+          "sha256": "da132030083b336fe0194dc11feb23d01d37f6cd8f2b57a9eeb1dcfe7330b127",
+          "size": 12608
+        },
+        "libllmcodec_hqq.so": {
+          "group": "engine",
+          "sha256": "e297efa2e33a32a2760117cf9b16e44b5863c1287ff125d78cb17659a713c42b",
+          "size": 8496
+        },
+        "libllmcodec_mlx_affine.so": {
+          "group": "engine",
+          "sha256": "9b04758fa33a206d822a90c20a8d3d42fdbb38b102309f607934d7dff5b6872d",
+          "size": 18016
+        },
+        "libllmcodec_mxfp.so": {
+          "group": "engine",
+          "sha256": "8dcb402d4c6d73fbefa4a7acd3992ab897b04a3cff0cf01983ebedbb075f2ecb",
+          "size": 22408
+        },
+        "libllmcodec_nvfp.so": {
+          "group": "engine",
+          "sha256": "e0e1cf35d867b2fd276ddc93d444e80e48092dab79af7df19cea8638d9c14376",
+          "size": 18248
+        },
+        "libllmcodec_plain.so": {
+          "group": "engine",
+          "sha256": "d5135728b74fd4c95024d529b919b5bafb2eced6336f316ae4cbd323eb23ff03",
+          "size": 8712
+        },
+        "libllmcodec_spqr.so": {
+          "group": "engine",
+          "sha256": "31f45a6e6c5398b69972eb9bb02a12ad89d194ce974f58e48bfffab07670af77",
+          "size": 8496
+        },
+        "libllmcodec_turboquant.so": {
+          "group": "engine",
+          "sha256": "bb0bb87208dba3591938c49f7ffbf521d1accf90c03d7ad5e0be61d1bff05864",
+          "size": 13176
+        },
+        "libllmcodec_vptq.so": {
+          "group": "engine",
+          "sha256": "0a85714bb505bdc022a165d037bb84234232a38ab746d09646fa4ad555df2192",
+          "size": 8448
+        },
+        "libllmtoken.so": {
+          "group": "engine",
+          "sha256": "1d88066f43b31531030e35a54a131234290e2ce4ff01a73815fdeb06af90172d",
+          "size": 803760
         },
         "gmb_sql_csv_ext.so": {
           "group": "core",
