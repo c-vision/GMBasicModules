@@ -1,67 +1,193 @@
 # GMBasicModules
 
-Hosting pubblico delle **librerie native** scaricate on-demand da GMBasic (`gmb libs ensure`,
-`gmb setup`). Il contratto è l'indice **`libs-manifest.json`**: descrive, per RID, i gruppi
-disponibili con URL, sha256 e dimensione di ogni file. Non si scarica nulla che l'indice non
-dichiari.
+Prebuilt native libraries for **GMBasic**, published as GitHub releases and downloaded on demand.
 
-## Gruppi
+Nothing here is vendored in the compiler repository: the compiler, the C# app and every compiled
+BASIC program fetch exactly the file they need, verify its SHA-256 and cache it locally.
 
-| gruppo | cosa contiene | quando serve |
+Two machine-readable indexes describe what exists:
+
+| index | shape | where |
 |---|---|---|
-| **support** | terze parti: SDL2/SDL3, freetype/harfbuzz, crypto/ssl, curl, zstd/brotli/lz4/lzma, png/jpeg/tiff/webp, hdf5, pdf_oxide, tesseract+tessdata | sempre (dipendenze esterne) |
-| **core** | nostre librerie C: runtime, gfx, screen, pkg, compress, grep, tray, ai_llm, ai_modelio, sql ext | sempre |
-| **engine** | plumbing AI nostro: `libllmcodec_*` (17 codec), `libllmtoken`, `libllmengine_moe_stream` | sempre (`core` la linka) |
-| **llmmotor** | motori di inferenza: MLX (+ metallib) e llama.cpp | solo per l'inferenza locale |
-| **torch** (external) | `libtorch` da pytorch.org | solo per TORCH/TRAIN |
+| `libs-manifest.json` | structured: per RID → per file (`group`, `sha256`, `size`, `url`) | repo root (published on `main`) and in the consumer checkout under `shared/settings/` |
+| `index-<rid>.txt` | flat TSV, one line per file: `name⇥sha256⇥size⇥url[⇥scope]` | rolling release **`libs-index`** |
 
-## Stato per sistema operativo
+The flat index starts with a header line stating the required versions, e.g.
 
-Una **release per gruppo** (`gmb-<gruppo>-<data>`), con **un asset per file e per RID** dentro:
-l'asset si chiama `<libreria>-<rid>.<ext>` (es. `libgmb_gfx-linux-arm64.so`), quindi si scarica
-**solo** la libreria che serve e se ne aggiorna una alla volta (`gh release upload --clobber`).
+```
+# requires runtime-v1 llmmotor-v1 dev-v1
+```
 
-| OS (RID) | support | core | engine | llmmotor | torch |
+---
+
+## Model at a glance
+
+* **One release per group and per version** — `runtime-v1`, `dev-v1`, `llmmotor-v1`, `support-v1`.
+* **One asset per library and per RID** inside that release: `<stem>-<rid><ext>`.
+  A download is therefore a single HTTP request, and a single library can be updated alone.
+* **Version tags are immutable.** An asset is never overwritten with different bytes; a change
+  ships as `-v2` and the old tag stays available forever.
+* **The cache is the only install location**: `~/.gmbasic/libs/<rid>/`.
+
+## Groups
+
+| Group | Contents | Needed for |
+|---|---|---|
+| **`runtime`** | boot loader (`libgmb_boot`), our C libraries (`libgmb_gfx`, `libgmb_screen`, `libgmb_pkg`, …), AI plumbing (`libllmcodec_*`, `libllmtoken`), SQL extensions, **and all third-party runtime dependencies** (SDL2, OpenSSL, curl, zstd/brotli/lz4/lzma, png/jpeg/tiff/webp, hdf5, tesseract, MoltenVK, …) | running any program that touches graphics, network, compression, AI or SQL |
+| **`dev`** | third-party **headers** (`include/`) and our **static libraries** (`lib/*.a`) | compiling/linking without Homebrew or system dev packages |
+| **`llmmotor`** | inference engines: MLX (+ `mlx.metallib`) and llama.cpp / ggml | local LLM inference only |
+| **`support`** | third-party libraries alone | RIDs where `runtime` is not published yet |
+| **`torch`** | `libtorch` — **external**, hosted by pytorch.org | `TORCH` / `TRAIN` |
+
+`runtime` is deliberately a *single* closed group: `core` needs `engine`, and our runtimes link
+third-party libraries, so splitting them produced installs that were complete on paper but did not
+run. `dev` and `llmmotor` stay separate because they are large and optional.
+
+## Asset naming
+
+**Flat files** — the RID sits immediately before the extension:
+
+```
+libgmb_gfx-osx-arm64.dylib         libgmb_gfx-linux-arm64.so
+libzstd.1.5.7-osx-arm64.dylib      libllama-linux-x64.so.0
+mlx-osx-arm64.metallib             SDL2-win-x64.dll
+```
+
+**Tree files (`dev`)** — the relative path is encoded in the asset name with `__`, and the RID
+still comes before the extension:
+
+```
+include__SDL2__SDL-osx-arm64.h      → include/SDL2/SDL.h
+include__openssl__ssl-osx-arm64.h   → include/openssl/ssl.h
+lib__libgmb_runtime-osx-arm64.a     → lib/libgmb_runtime.a
+```
+
+The manifest reverses the rule, so consumers always see real paths.
+
+## Platform status
+
+| RID | `runtime` | `dev` | `llmmotor` | `support` | `torch` |
 |---|---|---|---|---|---|
-| macOS Apple Silicon (`osx-arm64`) | ✅ | ✅ | ✅ | ✅ (MLX + llama.cpp) | ✅ |
-| Linux arm64 (`linux-arm64`) | ✅ | ✅ | ✅ | ✅ (llama.cpp) | — |
-| Linux x86-64 (`linux-x64`) | ✅ | ✅ | ✅ | ✅ (llama.cpp) | ✅ |
-| macOS Intel (`osx-x64`) | ⚠️ incompleto | ❌ | ❌ | ❌ | — |
-| Windows x64 (`win-x64`) | ✅ (bundle storico) | ❌ | ❌ | ❌ | ✅ |
+| `osx-arm64` (macOS Apple Silicon) | ✅ 94 files | ✅ 382 files | ✅ 5 files | ✅ (inside `runtime`) | ✅ external |
+| `linux-arm64` | — | — | — | ✅ 40 files | — |
+| `linux-x64` | — | — | — | ✅ 20 files | ✅ external |
+| `osx-x64` (macOS Intel) | — | — | — | ⚠️ 11 files, `libcrypto`/`libssl` are **arm64** | — |
+| `win-x64` | — | — | — | ⚠️ historical bundle only | ✅ external |
 
-- ⚠️ **`osx-x64`**: il bundle `support` contiene solo 11 file e `libcrypto`/`libssl` in versione
-  **arm64** → non è linkabile per Intel. Va ricostruito (OpenSSL/zstd/brotli/… per x86_64) prima
-  di poter produrre `core`/`engine`/`llmmotor` per quel RID.
-- ❌ **`win-x64`**: il runtime C usa API POSIX (`dlopen`, `fork/exec`, `pthread`, `m`); il port
-  Win32 è un lavoro a sé. Oggi su Windows c'è solo il bundle storico di supporto.
+* **`osx-x64`**: the `support` set is incomplete and not linkable for Intel; it must be rebuilt
+  (OpenSSL/zstd/brotli/… for x86_64) before `runtime` can be produced for that RID.
+* **`win-x64`**: the C runtime uses POSIX APIs (`dlopen`, `fork/exec`, `pthread`, `libm`); the
+  Win32 port is separate work.
 
-## Requisiti Linux
+## System requirements
 
-- **glibc ≥ 2.38** → **Ubuntu 24.04+** (i bundle `support` Linux sono compilati lì).
-- pacchetti: `libsdl2-2.0-0 libsdl2-ttf-2.0-0 libssl3 zlib1g libzstd1 libbz2-1.0 liblzma5
-  liblz4-1 libbrotli1 libcurl4 libgomp1 libglib2.0-0 libgraphite2-3`
-- il `support` Linux **non è autocontenuto** (a differenza del macOS): dipende da quei pacchetti.
+**macOS** — nothing beyond the OS. Every dylib is linked with `@rpath` and resolved from the cache.
 
-## Requisiti macOS
+**Linux** — `glibc ≥ 2.38`, i.e. **Ubuntu 24.04 or newer** (the Linux bundles are built there).
+The `support` set is *not* self-contained: it relies on the distribution packages
 
-Nessuno oltre al sistema: le dylib del bundle `support` sono linkate con `@rpath` e risolte dalla
-cache (`~/.gmb/libs/<rid>/`).
+```
+libsdl2-2.0-0 libsdl2-ttf-2.0-0 libssl3 zlib1g libzstd1 libbz2-1.0 liblzma5
+liblz4-1 libbrotli1 libcurl4 libgomp1 libglib2.0-0 libgraphite2-3
+```
 
-## Regole di pubblicazione
+---
 
-1. **Un tag per gruppo e per versione** (`gmb-<gruppo>-<YYYY.MM.DD>`) con **un asset per RID**.
-2. Un RID nuovo o ricostruito si carica nello **stesso** tag (`gh release upload --clobber`):
-   mai un tag nuovo per lo stesso gruppo (spezzerebbe i RID su due tag).
-3. Indice rigenerato **dalle release reali** con `GMBasic/tools/libs_manifest_gh.sh build` e
-   pubblicato con `push` (mai a mano).
-4. I file vanno prodotti con `GMBasic/tools/libs_build_release.sh <gruppo>` (nativo) o
-   `libs_build_container.sh <gruppo> --rid linux-*` (container), che verificano la copertura
-   rispetto all'indice e passano il gate `dlopen` (`libs_verify_load.sh`).
+## Consuming the libraries
 
-## Come si consumano
+### From the compiler / app
 
 ```bash
-gmb libs status          # cosa c'è in cache per il RID corrente
-gmb libs ensure          # scarica i gruppi mancanti (indice: libs-manifest.json)
-gmb libs check           # verifica sha256 di ogni file
+gmb install --runtime-only     # what a program needs to RUN
+gmb install --dev              # headers + static libs, to BUILD without Homebrew
+gmb install --components       # torch / chromium / obscura / ocr (external downloads)
+gmb install --all --verify     # everything, with SHA-256 verification
 ```
+
+```bash
+gmb libs status                # what is in the cache for the current RID
+gmb libs check                 # verify every cached file against the manifest
+```
+
+Cache layout (a single root, no alternatives):
+
+```
+~/.gmbasic/libs/<rid>/                    flat library files (runtime, dev, support)
+~/.gmbasic/libs/<component>/<rid>/        torch (ml/), chromium, obscura, ocr
+~/.gmbasic/libs/.manifest.json            cached copy of libs-manifest.json
+```
+
+In a source checkout, our own build artifacts live in `build/libs/<rid>/` — never in the repo.
+
+### From a compiled BASIC program
+
+A compiled program is distributed **without a compiler**, so the build copies next to the
+executable everything it needs:
+
+```
+<exe dir>/app.settings.json     runtime sections only (paths, consoleConfiguration, engine),
+                                merged from the shared settings with the program's own overrides
+<exe dir>/Resources/            fonts and sprites
+<exe dir>/<exe>.libs.txt        the exact libraries it depends on: name⇥sha256⇥size⇥url
+```
+
+`<exe>.libs.txt` pins the version: the URLs point at an immutable tag, so the program keeps
+resolving the same bytes even after a newer version is published.
+
+Load-time dependencies cannot be downloaded by the program itself (`dyld`/`ld.so` fails before
+`main()`), so a small launcher does it first:
+
+```bash
+gmb_libs_fetch --exec ./myprogram     # fetches missing libraries next to the exe, then execs it
+```
+
+The binaries keep only `@loader_path` (`$ORIGIN` on Linux) as an rpath, so the libraries placed
+next to the executable are found on any machine, with or without a cache.
+
+---
+
+## Publishing (maintainers)
+
+Bundles are produced and published by the scripts in the GMBasic monorepo
+(`tools/sh/`, from `GMBasicMonoRepo`):
+
+| script | purpose |
+|---|---|
+| `libs_build_release.sh <group>` | build + stage + coverage check + `dlopen` gate + publish |
+| `libs_build_container.sh <group> --rid linux-*` | same pipeline inside Ubuntu (Linux bundles) |
+| `libs_bundle_selfcheck.sh <dir> <rid>` | fails if any dependency is missing from the bundle |
+| `libs_publish_files_gh.sh <group> <rid> --source DIR --tag <group>-vN` | uploads the files as per-file assets |
+| `libs_manifest_gh.sh build --rid <rid> --groups …` / `push` | regenerates `libs-manifest.json` from the **real** releases |
+| `libs_index_publish.sh --publish` | regenerates and publishes the flat `index-<rid>.txt` files |
+
+Rules:
+
+1. **Version tags are immutable.** The publisher compares SHA-256 against what is already
+   published: identical → skip, different → **refuse** and tell you to publish `-vN+1`.
+   `--clobber` is used only on the rolling `libs-index` release.
+2. The manifest is regenerated **from the releases** (asset names + digests) and never edited by
+   hand. A group that cannot be indexed is a **hard error**: the manifest is left untouched rather
+   than written incomplete.
+3. Each bundle must pass `libs_bundle_selfcheck.sh`: no dependency may point outside the bundle.
+
+### A new version, step by step
+
+```bash
+# 1. build and publish the group for one RID
+tools/sh/libs_build_release.sh runtime --rid osx-arm64
+
+# 2. refresh the structured index (all files of the group for that RID)
+tools/sh/libs_manifest_gh.sh build --rid osx-arm64 --groups runtime,llmmotor,dev
+tools/sh/libs_manifest_gh.sh push
+
+# 3. refresh the flat index used by the C loader and by compiled programs
+tools/sh/libs_index_publish.sh --publish
+```
+
+## Licensing
+
+The third-party libraries bundled here keep their own licenses (OpenSSL, SDL, zlib, brotli, lzma,
+zstd, lz4, curl, libpng, libjpeg-turbo, libtiff, libwebp, harfbuzz, freetype, hdf5, tesseract,
+MoltenVK, …). `libtorch` is downloaded from pytorch.org and is not redistributed here.
+Our own libraries (`libgmb_*`, `libllm*`) are distributed under the licenses of the GMBasic
+project; see the `LICENSE` / `NOTICE` files in the compiler repository.
