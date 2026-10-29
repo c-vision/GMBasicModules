@@ -50,8 +50,8 @@
             "osx-arm64": {
               "archive": "gmb-core-osx-arm64.zip",
               "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-core-2026.10.28/gmb-core-osx-arm64.zip",
-              "sha256": "0c23745d4ed59eca904487f9f5670dc37dc25a44a8a20e28a2adc1d267810303",
-              "size": 2984460,
+              "sha256": "e1b83f99413f24b54b48b3a6a660dbd89f5776b71ec82e00c9becb83984b7c3a",
+              "size": 2987318,
               "extractRoot": ""
             }
           }
@@ -533,18 +533,18 @@
         },
         "libgmb_compress.dylib": {
           "group": "core",
-          "sha256": "3c79842297edd5c0e07f2ba78cdc230387e5226c65475e0a6297555ff3419dc2",
-          "size": 1191848
+          "sha256": "e9bf9eb4d18921cd55365022fa05b733ef9e3f7ef732c1ba8a9cfb59715f1e71",
+          "size": 1190504
         },
         "libgmb_gfx.dylib": {
           "group": "core",
-          "sha256": "d05d54166c18c24f166e3cabe8e02fdb0cb1b486bf3b0dfa68ac30cd30932b75",
-          "size": 1435616
+          "sha256": "de2d2cbff85b766c5c90381757aa4ffc9c42bf8dfd8130528b0462692c77bc55",
+          "size": 1434272
         },
         "libgmb_grep.dylib": {
           "group": "core",
-          "sha256": "b98268a7f542f22ffb5760dc021fab5cabc37761800d966f94591d1147863d68",
-          "size": 1246944
+          "sha256": "28d7dba4351bcd964b3d4a6141c204023659daba1941e9b52a8c3e9d0b85f42d",
+          "size": 1245504
         },
         "libgmb_pkg.dylib": {
           "group": "core",
