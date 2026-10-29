@@ -1,5 +1,5 @@
 {
-  "version": "2026.10.28",
+  "version": "2026.10.29",
   "cacheDir": "~/.gmb/libs",
   "rids": {
     "osx-arm64": {
@@ -672,6 +672,19 @@
             }
           }
         },
+        "core": {
+          "kind": "github-release",
+          "tag": "gmb-core-2026.10.29",
+          "rids": {
+            "linux-x64": {
+              "archive": "gmb-core-linux-x64.zip",
+              "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-core-2026.10.29/gmb-core-linux-x64.zip",
+              "sha256": "6712a14255566137dafe61e93dc63aa140c602a0bcc1a4b526b6fd4320c45c03",
+              "size": 3519003,
+              "extractRoot": ""
+            }
+          }
+        },
         "torch": {
           "kind": "external",
           "tag": "pytorch-2.13.0",
@@ -786,6 +799,56 @@
           "group": "support",
           "sha256": "5f547b804f9c8f70aa2d64a70d49eb406ec4e295fa0772ebcadfba719f8c8668",
           "size": 527000
+        },
+        "gmb_sql_csv_ext.so": {
+          "group": "core",
+          "sha256": "9572de122766462a321e4e67d6e3e1ba80025ce225b574f2350e486a2835ed59",
+          "size": 21696
+        },
+        "gmb_sql_parquet_ext.so": {
+          "group": "core",
+          "sha256": "539ff8ec7c075818f29baa1270897efe1ef5c1b711716a3bdd936bcc47eee8e1",
+          "size": 100880
+        },
+        "libgmb_ai_llm.so": {
+          "group": "core",
+          "sha256": "96abe3bc5f8614013305cc49f32304eec606a96790c1245d3fb52980056147f6",
+          "size": 794984
+        },
+        "libgmb_ai_modelio.so": {
+          "group": "core",
+          "sha256": "78160f2f10b0c8c999ec1c51a0b921cbb936cf351b37b43572f737233c4deeab",
+          "size": 127512
+        },
+        "libgmb_compress.so": {
+          "group": "core",
+          "sha256": "086f3f2f6496ed4a08dd1513a799d3fa8bd3de78b14a8ebb00e3d8a091313fe4",
+          "size": 1547304
+        },
+        "libgmb_gfx.so": {
+          "group": "core",
+          "sha256": "7f6e94f72c678730ea580ab5535807129cb2f253119b0851198b97bf68df04fa",
+          "size": 1851992
+        },
+        "libgmb_grep.so": {
+          "group": "core",
+          "sha256": "dbdb187833f36bf158d4fd8c86c1583ac13e372d1a27ccb4d6945f4446b6f713",
+          "size": 1600472
+        },
+        "libgmb_pkg.so": {
+          "group": "core",
+          "sha256": "b1f261394891ab28d6001b7817773fdb632ffbe0f2948975d9d46a9c15d1058f",
+          "size": 1810864
+        },
+        "libgmb_screen.so": {
+          "group": "core",
+          "sha256": "c77429a7936214bd481b1f925a9e4f3c4b4382648c9a16cc7e58592092eb7a93",
+          "size": 16896
+        },
+        "libgmb_tray.so": {
+          "group": "core",
+          "sha256": "be878d1058242cf2d89441044f82af29b507d4e292555c770290672c00d4abf1",
+          "size": 16664
         }
       }
     },
