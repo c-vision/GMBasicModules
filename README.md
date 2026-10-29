@@ -17,7 +17,9 @@ dichiari.
 
 ## Stato per sistema operativo
 
-Una **release per gruppo** (`gmb-<gruppo>-<data>`), con **un asset per RID** dentro.
+Una **release per gruppo** (`gmb-<gruppo>-<data>`), con **un asset per file e per RID** dentro:
+l'asset si chiama `<libreria>-<rid>.<ext>` (es. `libgmb_gfx-linux-arm64.so`), quindi si scarica
+**solo** la libreria che serve e se ne aggiorna una alla volta (`gh release upload --clobber`).
 
 | OS (RID) | support | core | engine | llmmotor | torch |
 |---|---|---|---|---|---|
