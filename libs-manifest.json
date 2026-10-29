@@ -887,8 +887,8 @@
             "linux-arm64": {
               "archive": "gmb-llmmotor-linux-arm64.zip",
               "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-llmmotor-2026.10.29/gmb-llmmotor-linux-arm64.zip",
-              "sha256": "c5a4f17bffbf6c4eb88ef57cd52ce520a32a1692073716f38df04364a29d23e9",
-              "size": 22406,
+              "sha256": "1258a2d44d535a37c1e2626629762175afd5d1e8bfe81c0a3732360235b988eb",
+              "size": 4594811,
               "extractRoot": ""
             }
           }
@@ -1198,10 +1198,40 @@
           "sha256": "1d88066f43b31531030e35a54a131234290e2ce4ff01a73815fdeb06af90172d",
           "size": 803760
         },
+        "libggml-base.so.0": {
+          "group": "llmmotor",
+          "sha256": "8db5434e9c18c2ebe19e68b1fbd44b368b8a1713579fe991a15306b4cf75c980",
+          "size": 824688
+        },
+        "libggml-cpu.so.0": {
+          "group": "llmmotor",
+          "sha256": "fe29a2d5c08dc294a3484bcb55a98d1fa6daf7b61946de0fdc0a20fb4c4ac2e9",
+          "size": 918704
+        },
+        "libggml.so.0": {
+          "group": "llmmotor",
+          "sha256": "5b41efa65270ca818c1510349c6ca970cc34904a7dacf080098afe2283d6cee2",
+          "size": 48576
+        },
+        "libllama-common.so.0": {
+          "group": "llmmotor",
+          "sha256": "263245577711f0b2e0b7fff08a59e3fabdefd192aa6b98231b5e9c4c1f30a1cf",
+          "size": 5440256
+        },
+        "libllama.so.0": {
+          "group": "llmmotor",
+          "sha256": "a1eab513a4314077a31bd1ee3ed3a52fef188408b502072a0927cc34e3384e6d",
+          "size": 3932232
+        },
         "libllm_ai_llamacpp.so": {
           "group": "llmmotor",
           "sha256": "5f4a6170a84d1d49638df2622ad7632180f469fc0cdfbec43554975d1163c0d4",
           "size": 54456
+        },
+        "libmtmd.so.0": {
+          "group": "llmmotor",
+          "sha256": "42fc1dcc91140baed0a56d01ee1a039f1554da20cd488da3c67a64c64e47474b",
+          "size": 1664920
         },
         "gmb_sql_csv_ext.so": {
           "group": "core",
