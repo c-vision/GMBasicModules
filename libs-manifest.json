@@ -3822,9 +3822,176 @@
               "extractRoot": "libtorch/lib"
             }
           }
+        },
+        "runtime": {
+          "kind": "files",
+          "tag": "runtime-v1",
+          "rids": {
+            "win-x64": {
+              "kind": "files",
+              "tag": "runtime-v1"
+            }
+          },
+          "version": "v1"
         }
       },
       "files": {
+        "libgmb_ai_llm.dll": {
+          "group": "runtime",
+          "sha256": "f9223fb54f612755982132b0a8f527621e95c07564b342a62472296993a9a44d",
+          "size": 1105408,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v1/libgmb_ai_llm-win-x64.dll"
+        },
+        "libgmb_grep.dll": {
+          "group": "runtime",
+          "sha256": "5cc67de01342b665dd642310913315ac02648137352b13d203eecb98301b4919",
+          "size": 10746880,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v1/libgmb_grep-win-x64.dll"
+        },
+        "libgmb_gfx.dll": {
+          "group": "runtime",
+          "sha256": "be12a91c2cef8e0c43c1c3efd11081f46b9f6fedea81938ea7d9c830725e2300",
+          "size": 7929344,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v1/libgmb_gfx-win-x64.dll"
+        },
+        "libgmb_compress.dll": {
+          "group": "runtime",
+          "sha256": "aeb893102de28d2d819896cf7d6221c07d85fce3894aef9dd7de8b1ac82fccac",
+          "size": 9216512,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v1/libgmb_compress-win-x64.dll"
+        },
+        "libgmb_boot.dll": {
+          "group": "runtime",
+          "sha256": "1654c05f17dedd0c576a067347aecbf176bbd260dfde5c7047bcd3987f37f61f",
+          "size": 242176,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v1/libgmb_boot-win-x64.dll"
+        },
+        "libgmb_pkg.dll": {
+          "group": "runtime",
+          "sha256": "988e90fc3a46cb6ed4c3bd7d4984fd551a4452cae5cd635828f7af42303e397d",
+          "size": 10913280,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v1/libgmb_pkg-win-x64.dll"
+        },
+        "libgmb_screen.dll": {
+          "group": "runtime",
+          "sha256": "bcb18767ea7f14712905ba3fd057de13a4d3cdf0eedfa3cef2137e9ea0e7e827",
+          "size": 223232,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v1/libgmb_screen-win-x64.dll"
+        },
+        "libgmb_tray.dll": {
+          "group": "runtime",
+          "sha256": "9f13db870e35e621b41dbbed3b280da60a9affeba1dc41b0a699543489a13bac",
+          "size": 223744,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v1/libgmb_tray-win-x64.dll"
+        },
+        "libllmcodec_aqlm.so": {
+          "group": "runtime",
+          "sha256": "83a342e8d137eeed94bc24502e1fcff1b834b7fd7c6688b1e4b1ff5a5ea1232e",
+          "size": 222720,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v1/libllmcodec_aqlm-win-x64.so"
+        },
+        "libllmcodec_awq.so": {
+          "group": "runtime",
+          "sha256": "91eb29eff872cdcbd18976773416411480a18cab3b97de91b0da42b0892281c9",
+          "size": 219136,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v1/libllmcodec_awq-win-x64.so"
+        },
+        "libllmcodec_bitnet.so": {
+          "group": "runtime",
+          "sha256": "0fd8c3396e72b570d32186d8c6727adfd99f235c9379cd3cec29ddb5268c87c5",
+          "size": 219648,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v1/libllmcodec_bitnet-win-x64.so"
+        },
+        "libllmcodec_bnb.so": {
+          "group": "runtime",
+          "sha256": "07d61c755f80f1c69064008c27a267ac63d49e8623fee11e122735a5d9ffdfb9",
+          "size": 231936,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v1/libllmcodec_bnb-win-x64.so"
+        },
+        "libllmcodec_fp4.so": {
+          "group": "runtime",
+          "sha256": "f47182c5a992660e2ea805e56fa703bdbd8981e84d6369de28e5bf17e53568ac",
+          "size": 230912,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v1/libllmcodec_fp4-win-x64.so"
+        },
+        "libllmcodec_fp8.so": {
+          "group": "runtime",
+          "sha256": "208a2629a560af47553a8d01834af87119349604bfb978ac184318616b262fee",
+          "size": 232448,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v1/libllmcodec_fp8-win-x64.so"
+        },
+        "libllmcodec_ggml.so": {
+          "group": "runtime",
+          "sha256": "e638ba8e608992ca879ef512de56c71ff4e40933fe15b6d886c4b029db18d934",
+          "size": 346112,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v1/libllmcodec_ggml-win-x64.so"
+        },
+        "libllmcodec_gptq.so": {
+          "group": "runtime",
+          "sha256": "c49b96c0fdba662a38ec09d7451015f7b3badd2de62e94baf99c47126dfb4097",
+          "size": 219136,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v1/libllmcodec_gptq-win-x64.so"
+        },
+        "libllmcodec_higgs.so": {
+          "group": "runtime",
+          "sha256": "ed19a8b462b48ebbe007dde584aa379bb55126944098b04700de4a9044a3520b",
+          "size": 220672,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v1/libllmcodec_higgs-win-x64.so"
+        },
+        "libllmcodec_hqq.so": {
+          "group": "runtime",
+          "sha256": "1ff20a0dfb199813a81159a4b31a2861ae507ebf306de13c50714fa91255af8d",
+          "size": 219136,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v1/libllmcodec_hqq-win-x64.so"
+        },
+        "libllmcodec_mlx_affine.so": {
+          "group": "runtime",
+          "sha256": "6710f381c060dbf3b783dbcf5d978f1bdf67a626464b02d335a2979ed3e48d15",
+          "size": 227840,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v1/libllmcodec_mlx_affine-win-x64.so"
+        },
+        "libllmcodec_mxfp.so": {
+          "group": "runtime",
+          "sha256": "0e875154291de148f9aba39bf254e03e577212648f1c09c02dd34a359c939199",
+          "size": 233472,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v1/libllmcodec_mxfp-win-x64.so"
+        },
+        "libllmcodec_nvfp.so": {
+          "group": "runtime",
+          "sha256": "ebadda06f1fe98630977e2b08cfaa63188b8a4eb50bb375ba03d97072f6a7d1c",
+          "size": 230912,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v1/libllmcodec_nvfp-win-x64.so"
+        },
+        "libllmcodec_plain.so": {
+          "group": "runtime",
+          "sha256": "36ee98ed7ff24cbbee1f8c6dfd554b50f07a5d65c0b73b778114cb2d790753cd",
+          "size": 219648,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v1/libllmcodec_plain-win-x64.so"
+        },
+        "libllmcodec_spqr.so": {
+          "group": "runtime",
+          "sha256": "0acadc4ee38d3da50ed9cea461663b17f3560910bfa3e8cc0a06f58b1521011a",
+          "size": 219648,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v1/libllmcodec_spqr-win-x64.so"
+        },
+        "libllmcodec_turboquant.so": {
+          "group": "runtime",
+          "sha256": "05af60b76e30a9030e7b7c5aa7e2aef336cd17407235bb07d7f1c0767e7102a7",
+          "size": 223744,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v1/libllmcodec_turboquant-win-x64.so"
+        },
+        "libllmcodec_vptq.so": {
+          "group": "runtime",
+          "sha256": "4f2e1897e544974bc2ce5418577aaded9b209f5fa5c4e23a40812380bc8b8c09",
+          "size": 219136,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v1/libllmcodec_vptq-win-x64.so"
+        },
+        "libllmtoken.dll": {
+          "group": "runtime",
+          "sha256": "db8a72ba1136e8d6abe67ee09355af6972106b6bb2aa2c1dd9a84187deb0c416",
+          "size": 999936,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v1/libllmtoken-win-x64.dll"
+        },
         "libssl-3-x64.dll": {
           "group": "support",
           "sha256": "b94df46997b95262b9013bf9eb8a37fe53ff8cd877a39894ecca5bc74ce34092",
@@ -3905,9 +4072,176 @@
             }
           },
           "version": "v2"
+        },
+        "runtime": {
+          "kind": "files",
+          "tag": "runtime-v1",
+          "rids": {
+            "win-arm64": {
+              "kind": "files",
+              "tag": "runtime-v1"
+            }
+          },
+          "version": "v1"
         }
       },
       "files": {
+        "libgmb_ai_llm.dll": {
+          "group": "runtime",
+          "sha256": "2d3354cfb44a107d42b776cb285656974617a81c5ea58ddbf9ad2f2d586b6085",
+          "size": 976896,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v1/libgmb_ai_llm-win-arm64.dll"
+        },
+        "libgmb_gfx.dll": {
+          "group": "runtime",
+          "sha256": "6035b7e25420e56bff42f9da13cd155298c5396c3b03f7c9e35cbee13f3cf0e0",
+          "size": 6929408,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v1/libgmb_gfx-win-arm64.dll"
+        },
+        "libgmb_compress.dll": {
+          "group": "runtime",
+          "sha256": "7fd02030045bc13368bcba7a8a17ea0432c41b26f6a71614a045cf87b4b7fcdc",
+          "size": 7989248,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v1/libgmb_compress-win-arm64.dll"
+        },
+        "libgmb_boot.dll": {
+          "group": "runtime",
+          "sha256": "d8cf4c9656199ac5523a182927a21077989fb8d130c2bb36ece221b02fc84379",
+          "size": 210432,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v1/libgmb_boot-win-arm64.dll"
+        },
+        "libgmb_grep.dll": {
+          "group": "runtime",
+          "sha256": "ad614b3be6ff9525093047cf925488aa7b3376b3104d314ebf7e74060919e489",
+          "size": 9354240,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v1/libgmb_grep-win-arm64.dll"
+        },
+        "libgmb_pkg.dll": {
+          "group": "runtime",
+          "sha256": "21ce4c06d3b159a3a50af432c3856067b0848e45871a66279ec98d1f2eef4e90",
+          "size": 9500672,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v1/libgmb_pkg-win-arm64.dll"
+        },
+        "libgmb_screen.dll": {
+          "group": "runtime",
+          "sha256": "dfff742bba7ab34681b90c74e02709cdd310236e980e93c1a792e46d35f19000",
+          "size": 190464,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v1/libgmb_screen-win-arm64.dll"
+        },
+        "libgmb_tray.dll": {
+          "group": "runtime",
+          "sha256": "5bb418740d347013377cfd0fb26baf72a28c134ac12008f38b9e8266a5a17459",
+          "size": 192000,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v1/libgmb_tray-win-arm64.dll"
+        },
+        "libllmcodec_aqlm.so": {
+          "group": "runtime",
+          "sha256": "63ab5a3f7d003ed2fb59b47c3bc44be7dda97c89045de4060ba3ec9f532c4c1b",
+          "size": 190464,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v1/libllmcodec_aqlm-win-arm64.so"
+        },
+        "libllmcodec_awq.so": {
+          "group": "runtime",
+          "sha256": "9aab99f5f5e6d2e7e3284816fd9afcbdb9ed337f6061b16ea7af5fff3008e9b0",
+          "size": 187392,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v1/libllmcodec_awq-win-arm64.so"
+        },
+        "libllmcodec_bitnet.so": {
+          "group": "runtime",
+          "sha256": "50ef888e00ccadb7b3cc65e6ce8861948bb099c07943e54cd8481ad1d0fe1989",
+          "size": 187904,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v1/libllmcodec_bitnet-win-arm64.so"
+        },
+        "libllmcodec_bnb.so": {
+          "group": "runtime",
+          "sha256": "ac995bf64e3dd8e4b59c0c9347e66c1a3a9a1dc3782dc847de75246eb802dfcd",
+          "size": 195072,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v1/libllmcodec_bnb-win-arm64.so"
+        },
+        "libllmcodec_fp4.so": {
+          "group": "runtime",
+          "sha256": "7275a38ce3c325891336183baab474640c486a88191efe11ddf065ebbe0cba6a",
+          "size": 194560,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v1/libllmcodec_fp4-win-arm64.so"
+        },
+        "libllmcodec_fp8.so": {
+          "group": "runtime",
+          "sha256": "2caa15f9db012120cfe5bd6f3368b500291bd169bc303fd074d27b5f1e998a2e",
+          "size": 195072,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v1/libllmcodec_fp8-win-arm64.so"
+        },
+        "libllmcodec_ggml.so": {
+          "group": "runtime",
+          "sha256": "79d9ad1cd8d08ff74b07a33de74b5039a8cec084d43d174669b3f94fb5226583",
+          "size": 303616,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v1/libllmcodec_ggml-win-arm64.so"
+        },
+        "libllmcodec_gptq.so": {
+          "group": "runtime",
+          "sha256": "26f8c966b16546cacec2190ae2af83c3204a327b8caf1272e93c96fdf24f1dce",
+          "size": 187392,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v1/libllmcodec_gptq-win-arm64.so"
+        },
+        "libllmcodec_higgs.so": {
+          "group": "runtime",
+          "sha256": "c920bd0251b850a3e4fa43943c4941716f88929fd6a8f13e47c75f80fc0614f9",
+          "size": 189440,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v1/libllmcodec_higgs-win-arm64.so"
+        },
+        "libllmcodec_hqq.so": {
+          "group": "runtime",
+          "sha256": "7860ab9531bb8607b12b33a214b3437903903be6109f0f2748163755c71607c4",
+          "size": 187392,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v1/libllmcodec_hqq-win-arm64.so"
+        },
+        "libllmcodec_mlx_affine.so": {
+          "group": "runtime",
+          "sha256": "3ff49c2346b1d24f4c77466d3795da3a6750b5384da4783ec16a6ffe0c0f857a",
+          "size": 195584,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v1/libllmcodec_mlx_affine-win-arm64.so"
+        },
+        "libllmcodec_mxfp.so": {
+          "group": "runtime",
+          "sha256": "07e47c462210a710ebe2bc5a5dcffb5a692edc959c48333c876469fb3109520b",
+          "size": 196096,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v1/libllmcodec_mxfp-win-arm64.so"
+        },
+        "libllmcodec_nvfp.so": {
+          "group": "runtime",
+          "sha256": "2bc74e5802f3fd0613e9b9a4a12d2ffe76b828b0040d7d24edb763a9c8e88b2c",
+          "size": 194560,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v1/libllmcodec_nvfp-win-arm64.so"
+        },
+        "libllmcodec_plain.so": {
+          "group": "runtime",
+          "sha256": "e3053be34d5bbee882c8cbc14a5e4a9d0116c24656cfa4e7d96d198adcd2e83b",
+          "size": 188416,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v1/libllmcodec_plain-win-arm64.so"
+        },
+        "libllmcodec_spqr.so": {
+          "group": "runtime",
+          "sha256": "9bdf92253b0c46be9f5c9a79c100cd6b80b696e2e9119e2dd98d6c623a6cfd02",
+          "size": 187904,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v1/libllmcodec_spqr-win-arm64.so"
+        },
+        "libllmcodec_turboquant.so": {
+          "group": "runtime",
+          "sha256": "3d5c967cc9e2f7dbeee104655dceb5e09d1ad1cf755b79911de861ec1a87ebea",
+          "size": 190976,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v1/libllmcodec_turboquant-win-arm64.so"
+        },
+        "libllmcodec_vptq.so": {
+          "group": "runtime",
+          "sha256": "7a79a0d07fa75d8810543bd08899911f995471aca91f3b815fb2e8831334ed33",
+          "size": 187392,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v1/libllmcodec_vptq-win-arm64.so"
+        },
+        "libllmtoken.dll": {
+          "group": "runtime",
+          "sha256": "149b8179e4edcfd2bc8fe15f28d9254bfa3d8cd37ba9d8f1317af5ef490c63b7",
+          "size": 914944,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v1/libllmtoken-win-arm64.dll"
+        },
         "libgmbamqp.dll": {
           "group": "ffi",
           "sha256": "00f0410ae50dae2c4fa838b476a8649f5087c65e8106486bfa5820eb3affa1ef",

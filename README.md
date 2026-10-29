@@ -75,17 +75,21 @@ source side is ready and can be cross-compiled locally, even if the bundle is no
 | `linux-arm64` | — | — | — | ✅ 40 files | — | — |
 | `linux-x64` | — | — | — | ✅ 20 files | — | ✅ external |
 | `osx-x64` (macOS Intel) | — | — | — | ⚠️ 11 files | — | — |
-| `win-x64` | — | — | — | ⚠️ 11 files | — | ✅ external |
-| `win-arm64` | — | — | — | — | ✅ 6 files | — |
+| `win-x64` | ✅ 26 files | — | — | ✅ 11 files | — | ✅ external |
+| `win-arm64` | ✅ 26 files | — | — | — | ✅ 6 files | — |
 
 Notes:
 
 * **`osx-x64`** — the `support` set is incomplete: `libcrypto`/`libssl` there are **arm64**, so the
   bundle is not linkable for Intel. The third-party set can now be rebuilt for `x86_64` locally
   (see *Cross-compiling* below); the bundle has not been republished yet.
-* **`win-x64`** — historical `support` bundle only.
-* **`win-arm64`** — the FFI libraries (amqp, grpc, kafka, mqtt, nats, protobuf) are published;
-  the rest of the groups is not.
+* **Windows** — the runtime bundle is 26 files: our libraries (`libgmb_ai_llm`, `libgmb_boot`,
+  `libgmb_compress`, `libgmb_gfx`, `libgmb_grep`, `libgmb_pkg`, `libgmb_screen`, `libgmb_tray`),
+  the tokenizer (`libllmtoken`) and the 17 `libllmcodec_*` plugin codecs. Third-party
+  dependencies (SDL2, OpenSSL, curl, zstd/brotli/lz4/lzma, freetype, pcre2) are linked
+  **statically** into those DLLs, so they are not separate assets. `win-arm64` also publishes the
+  six FFI libraries; `win-x64` also carries the older `support` set. Verified with
+  `tools/c/pe_deps.py --check`: no non-system import is missing from the bundle.
 
 ### Cross-compiling (Windows and macOS Intel)
 
@@ -102,10 +106,17 @@ tools/c/build-windows.sh                        # win-arm64
 tools/c/build-windows.sh --rid win-x64 --triple x86_64-windows-gnu
 ```
 
-`build-windows.sh` produces `libgmb_runtime.a` plus `libgmb_gfx`, `gmb_pkg`, `gmb_grep`,
-`gmb_compress`, `gmb_ai_llm`, `gmb_tray`, `gmb_boot`, `gmb_screen` as DLLs, for `PE32+ Aarch64`
-and `x86-64`. These artifacts are **local build outputs**: publishing them as `runtime` assets
-(the step that fills the table above) is a separate operation.
+`build-windows.sh` produces `libgmb_runtime.a` plus the DLLs listed above, for `PE32+ Aarch64`
+and `x86-64`. The bundles published here come from exactly those outputs:
+
+```bash
+tools/sh/libs_publish_files_gh.sh runtime win-arm64 --source <build>/bundle/win-arm64 --tag runtime-v1
+tools/sh/libs_publish_files_gh.sh runtime win-x64   --source <build>/bundle/win-x64   --tag runtime-v1
+python3 tools/c/pe_deps.py --check <build>/bundle/win-arm64    # 0 dipendenze mancanti
+```
+
+The binaries import only Windows API sets (`api-ms-win-crt-*`): on Windows 10/11 no Visual C++
+redistributable is needed.
 
 ## System requirements
 
