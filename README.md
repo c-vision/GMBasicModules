@@ -66,18 +66,46 @@ The manifest reverses the rule, so consumers always see real paths.
 
 ## Platform status
 
-| RID | `runtime` | `dev` | `llmmotor` | `support` | `torch` |
-|---|---|---|---|---|---|
-| `osx-arm64` (macOS Apple Silicon) | ✅ 94 files | ✅ 382 files | ✅ 5 files | ✅ (inside `runtime`) | ✅ external |
-| `linux-arm64` | — | — | — | ✅ 40 files | — |
-| `linux-x64` | — | — | — | ✅ 20 files | ✅ external |
-| `osx-x64` (macOS Intel) | — | — | — | ⚠️ 11 files, `libcrypto`/`libssl` are **arm64** | — |
-| `win-x64` | — | — | — | ⚠️ historical bundle only | ✅ external |
+The table lists what is **published** (assets in the releases above). "Buildable" means the
+source side is ready and can be cross-compiled locally, even if the bundle is not published yet.
 
-* **`osx-x64`**: the `support` set is incomplete and not linkable for Intel; it must be rebuilt
-  (OpenSSL/zstd/brotli/… for x86_64) before `runtime` can be produced for that RID.
-* **`win-x64`**: the C runtime uses POSIX APIs (`dlopen`, `fork/exec`, `pthread`, `libm`); the
-  Win32 port is separate work.
+| RID | `runtime` | `dev` | `llmmotor` | `support` | `ffi` | `torch` |
+|---|---|---|---|---|---|---|
+| `osx-arm64` (macOS Apple Silicon) | ✅ 94 files | ✅ 431 files | ✅ 5 files | ✅ (inside `runtime`) | ✅ 7 files | ✅ external |
+| `linux-arm64` | — | — | — | ✅ 40 files | — | — |
+| `linux-x64` | — | — | — | ✅ 20 files | — | ✅ external |
+| `osx-x64` (macOS Intel) | — | — | — | ⚠️ 11 files | — | — |
+| `win-x64` | — | — | — | ⚠️ 11 files | — | ✅ external |
+| `win-arm64` | — | — | — | — | ✅ 6 files | — |
+
+Notes:
+
+* **`osx-x64`** — the `support` set is incomplete: `libcrypto`/`libssl` there are **arm64**, so the
+  bundle is not linkable for Intel. The third-party set can now be rebuilt for `x86_64` locally
+  (see *Cross-compiling* below); the bundle has not been republished yet.
+* **`win-x64`** — historical `support` bundle only.
+* **`win-arm64`** — the FFI libraries (amqp, grpc, kafka, mqtt, nats, protobuf) are published;
+  the rest of the groups is not.
+
+### Cross-compiling (Windows and macOS Intel)
+
+The Windows port of the C runtime is done and builds from macOS with **Zig** (no MSVC, no admin,
+no VM). Two scripts in the monorepo:
+
+```bash
+# 1. third-party libraries for every target (zlib, sqlite3, zstd, lz4, brotli, lzma, pcre2,
+#    openssl, freetype, SDL2, SDL2_ttf, curl) → ~/gmb-deps/<triple>/{include,lib}
+tools/c/build-deps.sh --all-targets
+
+# 2. the C runtime itself (CMake toolchain generated on the fly)
+tools/c/build-windows.sh                        # win-arm64
+tools/c/build-windows.sh --rid win-x64 --triple x86_64-windows-gnu
+```
+
+`build-windows.sh` produces `libgmb_runtime.a` plus `libgmb_gfx`, `gmb_pkg`, `gmb_grep`,
+`gmb_compress`, `gmb_ai_llm`, `gmb_tray`, `gmb_boot`, `gmb_screen` as DLLs, for `PE32+ Aarch64`
+and `x86-64`. These artifacts are **local build outputs**: publishing them as `runtime` assets
+(the step that fills the table above) is a separate operation.
 
 ## System requirements
 
