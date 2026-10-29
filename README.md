@@ -74,15 +74,17 @@ source side is ready and can be cross-compiled locally, even if the bundle is no
 | `osx-arm64` (macOS Apple Silicon) | ✅ 94 files | ✅ 431 files | ✅ 5 files | ✅ (inside `runtime`) | ✅ 7 files | ✅ external |
 | `linux-arm64` | — | — | — | ✅ 40 files | — | — |
 | `linux-x64` | — | — | — | ✅ 20 files | — | ✅ external |
-| `osx-x64` (macOS Intel) | — | — | — | ⚠️ 11 files | — | — |
+| `osx-x64` (macOS Intel) | ✅ 26 files | — | — | ⚠️ legacy 11 files | — | — |
 | `win-x64` | ✅ 26 files | — | — | ✅ 11 files | — | ✅ external |
 | `win-arm64` | ✅ 26 files | — | — | — | ✅ 6 files | — |
 
 Notes:
 
-* **`osx-x64`** — the `support` set is incomplete: `libcrypto`/`libssl` there are **arm64**, so the
-  bundle is not linkable for Intel. The third-party set can now be rebuilt for `x86_64` locally
-  (see *Cross-compiling* below); the bundle has not been republished yet.
+* **`osx-x64`** — the runtime is published and **self-contained**: third-party libraries
+  (OpenSSL, SDL2, freetype, zstd/brotli/lz4/lzma, pcre2, curl) are linked statically into our
+  dylibs, so no separate assets are needed. The old `support` set for this RID is **legacy** and
+  must not be used: its `libcrypto`/`libssl` are **arm64** and only the runtime bundle is
+  linkable/runnable on Intel. `runtime` supersedes it.
 * **Windows** — the runtime bundle is 26 files: our libraries (`libgmb_ai_llm`, `libgmb_boot`,
   `libgmb_compress`, `libgmb_gfx`, `libgmb_grep`, `libgmb_pkg`, `libgmb_screen`, `libgmb_tray`),
   the tokenizer (`libllmtoken`) and the 17 `libllmcodec_*` plugin codecs. Third-party
