@@ -232,3 +232,10 @@ zstd, lz4, curl, libpng, libjpeg-turbo, libtiff, libwebp, harfbuzz, freetype, hd
 MoltenVK, …). `libtorch` is downloaded from pytorch.org and is not redistributed here.
 Our own libraries (`libgmb_*`, `libllm*`) are distributed under the licenses of the GMBasic
 project; see the `LICENSE` / `NOTICE` files in the compiler repository.
+
+## Note on the Windows codec plugins
+
+The 17 `libllmcodec_*` assets for the Windows RIDs are **PE32+ DLLs** (verified with `file` and
+by parsing their import table), even though their extension is `.so`: the plugin registry in
+LLMEnv loads them through `dlopen`/`LoadLibrary` and historically used the `.so` suffix on every
+platform. The loader now also accepts `.dll`, and publishes both RIDs' plugins either way.

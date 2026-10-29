@@ -6,14 +6,14 @@
       "groups": {
         "runtime": {
           "kind": "files",
-          "tag": "runtime-v1",
+          "tag": "runtime-v2",
           "rids": {
             "osx-arm64": {
               "kind": "files",
-              "tag": "runtime-v1"
+              "tag": "runtime-v2"
             }
           },
-          "version": "v1"
+          "version": "v2"
         },
         "llmmotor": {
           "kind": "files",
@@ -87,565 +87,565 @@
           "group": "runtime",
           "sha256": "52baf4db6aedd27c9b8a9c799f7367de8550531ba9eec420c54b8d678e68dcf8",
           "size": 221648,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v1/libavif.16-osx-arm64.dylib"
-        },
-        "gmb_sql_csv_ext.dylib": {
-          "group": "runtime",
-          "sha256": "049627e711afa34513a7cf7cb60da560d2e33800cb1d97ee7c3201a360fabbc9",
-          "size": 51664,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v1/gmb_sql_csv_ext-osx-arm64.dylib"
-        },
-        "libbrotlicommon.1.dylib": {
-          "group": "runtime",
-          "sha256": "1a6d05ba2650ed42b67246d20d54f66b23a5fb042444962b4ea986b1cb1c5b5d",
-          "size": 149264,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v1/libbrotlicommon.1-osx-arm64.dylib"
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libavif.16-osx-arm64.dylib"
         },
         "gmb_sql_parquet_ext.dylib": {
           "group": "runtime",
           "sha256": "8cd8b15db87e2cd16043a783620d7654fab3c1b71091173f9311570da601e975",
           "size": 102880,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v1/gmb_sql_parquet_ext-osx-arm64.dylib"
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/gmb_sql_parquet_ext-osx-arm64.dylib"
+        },
+        "libbrotlicommon.1.dylib": {
+          "group": "runtime",
+          "sha256": "1a6d05ba2650ed42b67246d20d54f66b23a5fb042444962b4ea986b1cb1c5b5d",
+          "size": 149264,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libbrotlicommon.1-osx-arm64.dylib"
+        },
+        "gmb_sql_csv_ext.dylib": {
+          "group": "runtime",
+          "sha256": "049627e711afa34513a7cf7cb60da560d2e33800cb1d97ee7c3201a360fabbc9",
+          "size": 51664,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/gmb_sql_csv_ext-osx-arm64.dylib"
         },
         "libaom.3.dylib": {
           "group": "runtime",
           "sha256": "58bb87cf26bc076880f101c2c323c6d91b8bc4c661d1693e991135bb34e75234",
           "size": 4307008,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v1/libaom.3-osx-arm64.dylib"
-        },
-        "libcrypto.3.dylib": {
-          "group": "runtime",
-          "sha256": "14179949b9db0ee3d57d39c97612544f51ca221922c9fec7ab8e34675ee2d7e2",
-          "size": 4844432,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v1/libcrypto.3-osx-arm64.dylib"
-        },
-        "libbrotlidec.1.dylib": {
-          "group": "runtime",
-          "sha256": "efceb0e4e03f5fb50e32c297d332983f3ca066948465fcdfb6da86272af6d050",
-          "size": 69744,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v1/libbrotlidec.1-osx-arm64.dylib"
-        },
-        "libdav1d.7.dylib": {
-          "group": "runtime",
-          "sha256": "a1e2381ff0b0018a86fb8de4d824c1b400a4adce49980b2f7c83e31f3629e1aa",
-          "size": 825360,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v1/libdav1d.7-osx-arm64.dylib"
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libaom.3-osx-arm64.dylib"
         },
         "libbrotlienc.1.dylib": {
           "group": "runtime",
           "sha256": "abeec3ccbe83482362ee2dcea9903fadd25a67e4887f1e6c341a39bb81ff1764",
           "size": 635344,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v1/libbrotlienc.1-osx-arm64.dylib"
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libbrotlienc.1-osx-arm64.dylib"
+        },
+        "libbrotlidec.1.dylib": {
+          "group": "runtime",
+          "sha256": "efceb0e4e03f5fb50e32c297d332983f3ca066948465fcdfb6da86272af6d050",
+          "size": 69744,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libbrotlidec.1-osx-arm64.dylib"
+        },
+        "libcrypto.3.dylib": {
+          "group": "runtime",
+          "sha256": "14179949b9db0ee3d57d39c97612544f51ca221922c9fec7ab8e34675ee2d7e2",
+          "size": 4844432,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libcrypto.3-osx-arm64.dylib"
+        },
+        "libdav1d.7.dylib": {
+          "group": "runtime",
+          "sha256": "a1e2381ff0b0018a86fb8de4d824c1b400a4adce49980b2f7c83e31f3629e1aa",
+          "size": 825360,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libdav1d.7-osx-arm64.dylib"
         },
         "libFLAC.14.dylib": {
           "group": "runtime",
           "sha256": "651c823165df831e63239c6123519b8887f7941e1ed48ff6e87263f79004b649",
           "size": 257840,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v1/libFLAC.14-osx-arm64.dylib"
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libFLAC.14-osx-arm64.dylib"
         },
         "libfluidsynth.3.dylib": {
           "group": "runtime",
           "sha256": "aea7e02c0c20e182fce56fbe43c5973bf6bbecfa1e62df4446a2baa84e7d1cb5",
           "size": 612624,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v1/libfluidsynth.3-osx-arm64.dylib"
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libfluidsynth.3-osx-arm64.dylib"
         },
         "libfreetype.6.dylib": {
           "group": "runtime",
           "sha256": "344ede59bdf32d87dfc49569f3a4921b3d2040db7c26ea4b353502002929d8ac",
           "size": 620256,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v1/libfreetype.6-osx-arm64.dylib"
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libfreetype.6-osx-arm64.dylib"
         },
         "libglib-2.0.0.dylib": {
           "group": "runtime",
           "sha256": "a800ca957c9ef6fc2ab23b6696802657232a0abeab2b2e06fd63ba12715704f3",
           "size": 1355072,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v1/libglib-2.0.0-osx-arm64.dylib"
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libglib-2.0.0-osx-arm64.dylib"
         },
         "libgmb_ai_llm.dylib": {
           "group": "runtime",
-          "sha256": "62585711758b1023f246dce21fb9edcee1a93e8724583b754bb0ed39d0ecc086",
-          "size": 832928,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v1/libgmb_ai_llm-osx-arm64.dylib"
+          "sha256": "bf0afbc5c17e05c4a01ad4013db6e0efc4ed565e5d1667f27d51aded83ee6595",
+          "size": 837936,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libgmb_ai_llm-osx-arm64.dylib"
         },
         "libgmb_ai_modelio.dylib": {
           "group": "runtime",
           "sha256": "70d6a34459f982227dd80c3aded8c6b15a94f3eada921a0053e365e7065eabef",
           "size": 158032,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v1/libgmb_ai_modelio-osx-arm64.dylib"
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libgmb_ai_modelio-osx-arm64.dylib"
         },
         "libgmb_boot.dylib": {
           "group": "runtime",
-          "sha256": "07436f7593a088e53599c3894b8e27d423021f71f4e5ceced42d6198c4d9884a",
-          "size": 55104,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v1/libgmb_boot-osx-arm64.dylib"
+          "sha256": "187262039c9fdbc16147fe7a6719b2256553d57901990c2a142af657475017d8",
+          "size": 55424,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libgmb_boot-osx-arm64.dylib"
         },
         "libgmb_codec_fp8.dylib": {
           "group": "runtime",
           "sha256": "b872b5b0860c9d9de1b0df0db8425ef6fd9e056049437615382c5f1dd040a70f",
           "size": 37104,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v1/libgmb_codec_fp8-osx-arm64.dylib"
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libgmb_codec_fp8-osx-arm64.dylib"
         },
         "libgmb_codec_ggml.dylib": {
           "group": "runtime",
           "sha256": "f196a3581a5cbe2c20b24961245968eb136358d116fb625430efb05a39767bba",
           "size": 190224,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v1/libgmb_codec_ggml-osx-arm64.dylib"
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libgmb_codec_ggml-osx-arm64.dylib"
         },
         "libgmb_codec_mlx_affine.dylib": {
           "group": "runtime",
           "sha256": "18ae1821472fe3ccc046ca525966cbaee56c94d4008bc0830cebd9e604f07cdf",
           "size": 36240,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v1/libgmb_codec_mlx_affine-osx-arm64.dylib"
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libgmb_codec_mlx_affine-osx-arm64.dylib"
         },
         "libgmb_compress.dylib": {
           "group": "runtime",
-          "sha256": "d11ed59434988c6e2adaa1c6c4c0e12fe3928dfd5e6e8ac640cac918fc6afc90",
-          "size": 1183944,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v1/libgmb_compress-osx-arm64.dylib"
+          "sha256": "76f493811c2a70e0720682ebd1bf98707e8b103e43a838937b650198ce83f4d0",
+          "size": 1219320,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libgmb_compress-osx-arm64.dylib"
         },
         "libgmb_gfx.dylib": {
           "group": "runtime",
-          "sha256": "d6231ed475d42ccf8ac7a8c7f98f51d35e7cdd9d2a3ef08ba285e698e2d540fc",
-          "size": 1438112,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v1/libgmb_gfx-osx-arm64.dylib"
+          "sha256": "a3ab946daff9fe40335135d8cc5823ffbb26fab4afe014e66968d43c63ad1cde",
+          "size": 1446560,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libgmb_gfx-osx-arm64.dylib"
         },
         "libgmb_grep.dylib": {
           "group": "runtime",
-          "sha256": "555b6c9de51d5a21f234cb8de454d69e53aa304d52489f81e17ac5ee66e4c73c",
-          "size": 1222256,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v1/libgmb_grep-osx-arm64.dylib"
+          "sha256": "72f98a6894fe059c3184cb912b812bed9ea2e0731fb8ae4e3f7c1404889f52b0",
+          "size": 1258464,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libgmb_grep-osx-arm64.dylib"
         },
         "libgmb_pkg.dylib": {
           "group": "runtime",
-          "sha256": "2a74f5e2422fbb538f161e250df78a6e8ceed49d24c6efd26dcb0839cd1dc9c0",
-          "size": 1403168,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v1/libgmb_pkg-osx-arm64.dylib"
+          "sha256": "bc9a2fdaf498b2c8a1128aa30c4fe608c635f6483475827dbcb32ac9d7a121aa",
+          "size": 1403312,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libgmb_pkg-osx-arm64.dylib"
         },
         "libgmb_screen.dylib": {
           "group": "runtime",
-          "sha256": "d9132f3f271b7fc387915aefac4dba8fd8c995f65e67acd9b01ea857e5a486ab",
-          "size": 34816,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v1/libgmb_screen-osx-arm64.dylib"
+          "sha256": "319a02269223a313c4d3a0f2fb20f024a05afce1f5e6b35819145960e557e9c5",
+          "size": 34864,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libgmb_screen-osx-arm64.dylib"
         },
         "libgmb_tray.dylib": {
           "group": "runtime",
           "sha256": "8074a99fc19749bca010548d85e9b00bf8d8bc103c520d8638bd6a246d8d32a4",
           "size": 54816,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v1/libgmb_tray-osx-arm64.dylib"
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libgmb_tray-osx-arm64.dylib"
         },
         "libgme.0.dylib": {
           "group": "runtime",
           "sha256": "8024728680f1e2c35e35b325c186baf58530ff3bf134ea4e3b4718f7a491db5e",
           "size": 282864,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v1/libgme.0-osx-arm64.dylib"
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libgme.0-osx-arm64.dylib"
         },
         "libgraphite2.3.dylib": {
           "group": "runtime",
           "sha256": "d9a35afbc2c8f50353b6800cb8d1e175181e41508de839eada900f5f21306e89",
           "size": 124560,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v1/libgraphite2.3-osx-arm64.dylib"
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libgraphite2.3-osx-arm64.dylib"
         },
         "libharfbuzz.0.dylib": {
           "group": "runtime",
           "sha256": "d586512dcdea708e4469d0257a26b51b488861489c48dd05974182a9da45d1f3",
           "size": 1210032,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v1/libharfbuzz.0-osx-arm64.dylib"
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libharfbuzz.0-osx-arm64.dylib"
         },
         "libhdf5.310.5.1.dylib": {
           "group": "runtime",
           "sha256": "37ecef35ed40d1617d57abcb4bddd08a07472fa0bd00932905e981db5a6e41f6",
           "size": 3951808,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v1/libhdf5.310.5.1-osx-arm64.dylib"
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libhdf5.310.5.1-osx-arm64.dylib"
         },
         "libhdf5.310.dylib": {
           "group": "runtime",
           "sha256": "37ecef35ed40d1617d57abcb4bddd08a07472fa0bd00932905e981db5a6e41f6",
           "size": 3951808,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v1/libhdf5.310-osx-arm64.dylib"
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libhdf5.310-osx-arm64.dylib"
         },
         "libhdf5.dylib": {
           "group": "runtime",
           "sha256": "37ecef35ed40d1617d57abcb4bddd08a07472fa0bd00932905e981db5a6e41f6",
           "size": 3951808,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v1/libhdf5-osx-arm64.dylib"
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libhdf5-osx-arm64.dylib"
         },
         "libhwy.1.dylib": {
           "group": "runtime",
           "sha256": "6959cfbef9974c31714e3ee758cd7226d1937c4c8f08ca93eed4c7ef777c0d20",
           "size": 80624,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v1/libhwy.1-osx-arm64.dylib"
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libhwy.1-osx-arm64.dylib"
         },
         "libintl.8.dylib": {
           "group": "runtime",
           "sha256": "c6488deb60e2e85966f00485ec2ad7f3e7390eeeff11d8bf22b39e5319a506a4",
           "size": 210816,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v1/libintl.8-osx-arm64.dylib"
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libintl.8-osx-arm64.dylib"
         },
         "libjpeg.8.dylib": {
           "group": "runtime",
           "sha256": "b96142596f74527a41a6297c357c2a11f6a41c031e4ae6b69109adc67b771c84",
           "size": 454256,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v1/libjpeg.8-osx-arm64.dylib"
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libjpeg.8-osx-arm64.dylib"
         },
         "libjxl_cms.0.12.dylib": {
           "group": "runtime",
           "sha256": "15ee21b96992300991cac702b140861df4c21a337b4ba171490dd84fe1bc252a",
           "size": 113248,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v1/libjxl_cms.0.12-osx-arm64.dylib"
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libjxl_cms.0.12-osx-arm64.dylib"
         },
         "libjxl.0.12.dylib": {
           "group": "runtime",
           "sha256": "db6fade7da0358cfa9bf88ff63410d08309ff73e5665d24de228ce48eb9837a0",
           "size": 1915984,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v1/libjxl.0.12-osx-arm64.dylib"
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libjxl.0.12-osx-arm64.dylib"
         },
         "liblcms2.2.dylib": {
           "group": "runtime",
           "sha256": "faf9c8f2322a2bb47d04d3077a79cc7103fba68a186697cf91e5f6ef467d1b77",
           "size": 340256,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v1/liblcms2.2-osx-arm64.dylib"
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/liblcms2.2-osx-arm64.dylib"
         },
         "libleptonica.dylib": {
           "group": "runtime",
           "sha256": "7d992d5f3a252a5dd48e1b10bfbc981c978e2594dcf811f34955a24435be6f96",
           "size": 2718096,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v1/libleptonica-osx-arm64.dylib"
-        },
-        "libllmcodec_aqlm.dylib": {
-          "group": "runtime",
-          "sha256": "ba8cea6adcfa43592494e7a8f639b7192a92ef673f8cf91b7ece243bd2b5f718",
-          "size": 33536,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v1/libllmcodec_aqlm-osx-arm64.dylib"
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libleptonica-osx-arm64.dylib"
         },
         "libllmcodec_awq.dylib": {
           "group": "runtime",
-          "sha256": "a723b8ad811532944bbe1665b0e0f0933918f3e48a74166863fa630c6af87491",
-          "size": 33488,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v1/libllmcodec_awq-osx-arm64.dylib"
+          "sha256": "bcf30fa4cfba8ab7e26391782cc5c6a71dd1b5526e2caebca954778696dcf403",
+          "size": 33544,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libllmcodec_awq-osx-arm64.dylib"
+        },
+        "libllmcodec_aqlm.dylib": {
+          "group": "runtime",
+          "sha256": "6dc091cf8827a3152c5f82a690114c870797d2b4cd3b51ef6ffe2ac40ea4f69a",
+          "size": 33736,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libllmcodec_aqlm-osx-arm64.dylib"
         },
         "libllmcodec_bitnet.dylib": {
           "group": "runtime",
-          "sha256": "940e865d490f1c8d8e332d45c23191dd211ae468d99c0f21c060271d6614144e",
-          "size": 33520,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v1/libllmcodec_bitnet-osx-arm64.dylib"
+          "sha256": "2427afb035c5ba6fcd7e473cd14321b5cfb56b242238fd49c87414898e82b21f",
+          "size": 33560,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libllmcodec_bitnet-osx-arm64.dylib"
         },
         "libllmcodec_bnb.dylib": {
           "group": "runtime",
-          "sha256": "4417fefe3d888f4cdd9430a913cdbfc2bb7e04329ef368f03fbf80aeaa4cfa6f",
-          "size": 34544,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v1/libllmcodec_bnb-osx-arm64.dylib"
+          "sha256": "7c35495d693c90fe3a6e2364914f191c64228d884c9f3351e80338a53ae54adb",
+          "size": 34584,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libllmcodec_bnb-osx-arm64.dylib"
         },
         "libllmcodec_fp4.dylib": {
           "group": "runtime",
-          "sha256": "1e16ad5ac68b6d5369865793cf09afe37d8396d4eb6789745d2f0854fadd8335",
-          "size": 34480,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v1/libllmcodec_fp4-osx-arm64.dylib"
+          "sha256": "086d1184a10ca4c7329123501cbd19927fd540da981508b9e5ccfbcb9215f375",
+          "size": 34520,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libllmcodec_fp4-osx-arm64.dylib"
         },
         "libllmcodec_fp8.dylib": {
           "group": "runtime",
-          "sha256": "59440aa09ff94dffe7da468d9ff2cfa206e851f1a50085914d5deec03fb161c8",
-          "size": 34480,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v1/libllmcodec_fp8-osx-arm64.dylib"
+          "sha256": "cd95f772dcb2ecd9f24a613514469b43fedc23dc6e071f59c83b5628bac7fab0",
+          "size": 34520,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libllmcodec_fp8-osx-arm64.dylib"
         },
         "libllmcodec_ggml.dylib": {
           "group": "runtime",
-          "sha256": "e95630e2ee7ce3771bad937fb422cce7aa616ff83f235f64e3b0f0f35829987a",
-          "size": 150592,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v1/libllmcodec_ggml-osx-arm64.dylib"
+          "sha256": "d264f0f3b999af23ee7a312264ec3a8888db1aa36ec2eadece3e3c93b78dfefc",
+          "size": 151304,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libllmcodec_ggml-osx-arm64.dylib"
         },
         "libllmcodec_gptq.dylib": {
           "group": "runtime",
-          "sha256": "44eb3080652c66034523ffccf01cef74f0a8ae9f41c02f126e35667cef828dce",
-          "size": 33488,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v1/libllmcodec_gptq-osx-arm64.dylib"
+          "sha256": "e952dce30e1ebf24069136500618533c7c9344dc03f3ae31c39c0128317e111c",
+          "size": 33528,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libllmcodec_gptq-osx-arm64.dylib"
         },
         "libllmcodec_higgs.dylib": {
           "group": "runtime",
-          "sha256": "d0fbb81ac60505858654164177a076334686495685d115d177a02304b7864867",
-          "size": 33520,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v1/libllmcodec_higgs-osx-arm64.dylib"
+          "sha256": "3ea3c673d798e2262b22b797a846b2265c4f01fb934c132ee27b1fde5989e9c2",
+          "size": 33560,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libllmcodec_higgs-osx-arm64.dylib"
         },
         "libllmcodec_hqq.dylib": {
           "group": "runtime",
-          "sha256": "6faa230983cdf8b0c813659ef7fc38bea74c4e9d3542b99754b32e04a3611d3e",
-          "size": 33488,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v1/libllmcodec_hqq-osx-arm64.dylib"
+          "sha256": "d943259252c6d9fbbdde69c27bb31144b28dbd8753142bc5456786d44ec469a7",
+          "size": 33528,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libllmcodec_hqq-osx-arm64.dylib"
         },
         "libllmcodec_mlx_affine.dylib": {
           "group": "runtime",
-          "sha256": "82fa6d1efcbb0a762a5f76f71f3a28fb3e0882da4a95597512b9d3dfdd38df5e",
-          "size": 34128,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v1/libllmcodec_mlx_affine-osx-arm64.dylib"
-        },
-        "libllmcodec_mxfp.dylib": {
-          "group": "runtime",
-          "sha256": "bd1636745181548b41ee66103e180634836f23500b05f563ce4fcc8e3e8ac50b",
-          "size": 34528,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v1/libllmcodec_mxfp-osx-arm64.dylib"
+          "sha256": "2efc56cf80a67c593ddfbfa5e8132b9127353dfc9a5b65e84d8ee242f9d25a0f",
+          "size": 34176,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libllmcodec_mlx_affine-osx-arm64.dylib"
         },
         "libllmcodec_nvfp.dylib": {
           "group": "runtime",
-          "sha256": "7552344f8cc99066a79216ab4f0f1ae9d5a6359a0aa6b3623e095f516df0922b",
-          "size": 34480,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v1/libllmcodec_nvfp-osx-arm64.dylib"
+          "sha256": "c2d852d5389d97d124054742af5487dcac770797258beab6ecb186b559c9575c",
+          "size": 34520,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libllmcodec_nvfp-osx-arm64.dylib"
+        },
+        "libllmcodec_mxfp.dylib": {
+          "group": "runtime",
+          "sha256": "c85aca3a48dd441015c654f149d5519368fac2b5105d5829fa3d4012180d3cb7",
+          "size": 34568,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libllmcodec_mxfp-osx-arm64.dylib"
         },
         "libllmcodec_plain.dylib": {
           "group": "runtime",
-          "sha256": "5dbdcc986d03f22557ab49bcd06af0a4e28f628352c64014c77667cf3dfb7072",
-          "size": 33536,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v1/libllmcodec_plain-osx-arm64.dylib"
+          "sha256": "6e52c1dc6ddec15ea3005238717197e32712bc607c6360c3e9b1fbd0953d3c59",
+          "size": 33576,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libllmcodec_plain-osx-arm64.dylib"
         },
         "libllmcodec_spqr.dylib": {
           "group": "runtime",
-          "sha256": "967a2f4dd2c0f0e232c60e2868e0b8619145a8565a3bbf18e31363860f5be6ff",
-          "size": 33488,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v1/libllmcodec_spqr-osx-arm64.dylib"
+          "sha256": "4e4c03814174aab6c9f7b28bd9cac768214ec7ddfa18ce545dc93b911e3ace44",
+          "size": 33528,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libllmcodec_spqr-osx-arm64.dylib"
         },
         "libllmcodec_turboquant.dylib": {
           "group": "runtime",
-          "sha256": "5ea473d8604a8775a810c8def8112394074b0fec989ebfd4ccd4b2c251caa22a",
-          "size": 33792,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v1/libllmcodec_turboquant-osx-arm64.dylib"
-        },
-        "libllmcodec_vptq.dylib": {
-          "group": "runtime",
-          "sha256": "b284e112fb5c359cfd202b2ba6c2b075945374ea08614d20b671366605bc189a",
-          "size": 33488,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v1/libllmcodec_vptq-osx-arm64.dylib"
+          "sha256": "5354711d046a2a623517c87e66b621d8850f3c50754ce596e7cfd31c87700098",
+          "size": 33840,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libllmcodec_turboquant-osx-arm64.dylib"
         },
         "libllmengine_moe_stream.dylib": {
           "group": "runtime",
           "sha256": "48b488b9fc3904e8d797d91fb5fb6c282675cbe93ea0be197cb12ad61824fac1",
           "size": 203056,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v1/libllmengine_moe_stream-osx-arm64.dylib"
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libllmengine_moe_stream-osx-arm64.dylib"
+        },
+        "libllmcodec_vptq.dylib": {
+          "group": "runtime",
+          "sha256": "8bd263804399920a7473c1b1990aba2200da7d219bf866526cc2baeb429300ef",
+          "size": 33528,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libllmcodec_vptq-osx-arm64.dylib"
         },
         "libllmtoken.dylib": {
           "group": "runtime",
-          "sha256": "872ea02d6a0b3ec7cb50dd2828d7479b7ef6bc1d1d09810a860954f71908d8f2",
-          "size": 807424,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v1/libllmtoken-osx-arm64.dylib"
+          "sha256": "39686128d063d43cd7e04ecf58e8fe39479a0cd1c2a3e27afca9f950556e1796",
+          "size": 779088,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libllmtoken-osx-arm64.dylib"
         },
         "liblz4.1.10.0.dylib": {
           "group": "runtime",
           "sha256": "8dec498f5ded184c097513e96d55c7b4ef422e3632476e40cef5b0ebb0e71d8b",
           "size": 160064,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v1/liblz4.1.10.0-osx-arm64.dylib"
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/liblz4.1.10.0-osx-arm64.dylib"
         },
         "liblz4.1.dylib": {
           "group": "runtime",
           "sha256": "8dec498f5ded184c097513e96d55c7b4ef422e3632476e40cef5b0ebb0e71d8b",
           "size": 160064,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v1/liblz4.1-osx-arm64.dylib"
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/liblz4.1-osx-arm64.dylib"
         },
         "liblz4.dylib": {
           "group": "runtime",
           "sha256": "8dec498f5ded184c097513e96d55c7b4ef422e3632476e40cef5b0ebb0e71d8b",
           "size": 160064,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v1/liblz4-osx-arm64.dylib"
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/liblz4-osx-arm64.dylib"
         },
         "liblzma.5.dylib": {
           "group": "runtime",
           "sha256": "f21ca19916a8ddd5eba0c9be681c88744c91fe7e331732149d25436af7dc7fc1",
           "size": 166576,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v1/liblzma.5-osx-arm64.dylib"
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/liblzma.5-osx-arm64.dylib"
         },
         "liblzma.dylib": {
           "group": "runtime",
           "sha256": "f21ca19916a8ddd5eba0c9be681c88744c91fe7e331732149d25436af7dc7fc1",
           "size": 166576,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v1/liblzma-osx-arm64.dylib"
-        },
-        "libmp3lame.0.dylib": {
-          "group": "runtime",
-          "sha256": "6074fbd894fd01c3dc3ae3de25314f4accbbaef87915fa9469f7da05c58d6481",
-          "size": 214640,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v1/libmp3lame.0-osx-arm64.dylib"
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/liblzma-osx-arm64.dylib"
         },
         "libMoltenVK.dylib": {
           "group": "runtime",
           "sha256": "b3deef7768251c2b0d6f8390b375494b9d172c819b03f5a2ce756171a541afae",
           "size": 5313808,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v1/libMoltenVK-osx-arm64.dylib"
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libMoltenVK-osx-arm64.dylib"
+        },
+        "libmp3lame.0.dylib": {
+          "group": "runtime",
+          "sha256": "6074fbd894fd01c3dc3ae3de25314f4accbbaef87915fa9469f7da05c58d6481",
+          "size": 214640,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libmp3lame.0-osx-arm64.dylib"
         },
         "libmpg123.0.dylib": {
           "group": "runtime",
           "sha256": "721d9591f5955ef172b1605876f434a2d0efa273eac1b03ca6c2c7f4b6be0bd2",
           "size": 270336,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v1/libmpg123.0-osx-arm64.dylib"
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libmpg123.0-osx-arm64.dylib"
         },
         "libogg.0.dylib": {
           "group": "runtime",
           "sha256": "7eb36b9bbc9bb96996784b6af6ee2a76e25083fef5679aadc51f9526f4ea7f01",
           "size": 53728,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v1/libogg.0-osx-arm64.dylib"
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libogg.0-osx-arm64.dylib"
         },
         "libopus.0.dylib": {
           "group": "runtime",
           "sha256": "deaae25bc5763b7733cdd2deaacf223b573ad90b154cecce339efe0aa7f387ed",
           "size": 355760,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v1/libopus.0-osx-arm64.dylib"
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libopus.0-osx-arm64.dylib"
         },
         "libopusfile.0.dylib": {
           "group": "runtime",
           "sha256": "73191be50ae94ffd574e8cd7d69eee8e81515cece44780286f255670869a1402",
           "size": 57408,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v1/libopusfile.0-osx-arm64.dylib"
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libopusfile.0-osx-arm64.dylib"
         },
         "libpcre2-8.0.dylib": {
           "group": "runtime",
           "sha256": "24618e33fd24dca6c7c469fe3bf2a8f389c89e1d28bbe911893d18f1df8d5a7f",
           "size": 570832,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v1/libpcre2-8.0-osx-arm64.dylib"
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libpcre2-8.0-osx-arm64.dylib"
         },
         "libpdf_oxide.dylib": {
           "group": "runtime",
           "sha256": "8620c32e1b9aa9afaa486ecdf711112c9398ec67089b956b473d2dfc60fbf305",
           "size": 22278464,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v1/libpdf_oxide-osx-arm64.dylib"
-        },
-        "libpng16.16.dylib": {
-          "group": "runtime",
-          "sha256": "7e3e73c8f27a251ae130fd442f545783c269bcab413fc9b1e763ca6b25dd5a22",
-          "size": 190272,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v1/libpng16.16-osx-arm64.dylib"
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libpdf_oxide-osx-arm64.dylib"
         },
         "libportaudio.2.dylib": {
           "group": "runtime",
           "sha256": "03a3c8c28fbf556341570794325e3e8626e29901499dd8ef33d2d3ddd72c4ec6",
           "size": 120624,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v1/libportaudio.2-osx-arm64.dylib"
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libportaudio.2-osx-arm64.dylib"
+        },
+        "libpng16.16.dylib": {
+          "group": "runtime",
+          "sha256": "7e3e73c8f27a251ae130fd442f545783c269bcab413fc9b1e763ca6b25dd5a22",
+          "size": 190272,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libpng16.16-osx-arm64.dylib"
         },
         "libreadline.8.dylib": {
           "group": "runtime",
           "sha256": "4454eed8355bc3661315c8cc56317b1643b3c711c1beaa2bde135508f6e0de10",
           "size": 296384,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v1/libreadline.8-osx-arm64.dylib"
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libreadline.8-osx-arm64.dylib"
         },
         "libSDL2_image.dylib": {
           "group": "runtime",
           "sha256": "68fea8dfbac00eec55b222a98be41d57336674efd88f15936894094f065c4eb8",
           "size": 131520,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v1/libSDL2_image-osx-arm64.dylib"
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libSDL2_image-osx-arm64.dylib"
         },
         "libSDL2_mixer.dylib": {
           "group": "runtime",
           "sha256": "3ea8c63eb6ca96c3336b06a4d635b8bb7613a39ffa055904af019fe349475e28",
           "size": 161408,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v1/libSDL2_mixer-osx-arm64.dylib"
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libSDL2_mixer-osx-arm64.dylib"
         },
         "libSDL2_ttf.dylib": {
           "group": "runtime",
           "sha256": "d98d803078eaefe35689367e7cf06d5546eeef0e880946249683a63101ed1e46",
           "size": 91936,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v1/libSDL2_ttf-osx-arm64.dylib"
-        },
-        "libSDL2.dylib": {
-          "group": "runtime",
-          "sha256": "f1da1e68c32e1bf0bc84731e484bb2da87012f7667327029974e248b46a62795",
-          "size": 520688,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v1/libSDL2-osx-arm64.dylib"
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libSDL2_ttf-osx-arm64.dylib"
         },
         "libSDL3.dylib": {
           "group": "runtime",
           "sha256": "019152f2c2e05c7c951712643ad72724a4297f8fdbefda17fdeda41828fd722f",
           "size": 2505120,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v1/libSDL3-osx-arm64.dylib"
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libSDL3-osx-arm64.dylib"
+        },
+        "libSDL2.dylib": {
+          "group": "runtime",
+          "sha256": "f1da1e68c32e1bf0bc84731e484bb2da87012f7667327029974e248b46a62795",
+          "size": 520688,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libSDL2-osx-arm64.dylib"
         },
         "libsharpyuv.0.dylib": {
           "group": "runtime",
           "sha256": "0de28035c9e770feee00c84fbb023b96c572ef06e86b52aa4a009a9c87462c1f",
           "size": 69568,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v1/libsharpyuv.0-osx-arm64.dylib"
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libsharpyuv.0-osx-arm64.dylib"
         },
         "libsndfile.1.dylib": {
           "group": "runtime",
           "sha256": "fca7d8675b324353f908dd99d43ffd80e6560d77f790070b3bb260f011f9c073",
           "size": 460992,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v1/libsndfile.1-osx-arm64.dylib"
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libsndfile.1-osx-arm64.dylib"
         },
         "libssl.3.dylib": {
           "group": "runtime",
           "sha256": "d3e5665289ef12ae1bb91520d1ef4cd488cef8ab507a1ee1fc8aeb0024e50422",
           "size": 883760,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v1/libssl.3-osx-arm64.dylib"
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libssl.3-osx-arm64.dylib"
         },
         "libtesseract.dylib": {
           "group": "runtime",
           "sha256": "39a9862981dd3b5a8f8d5160a671ec30b422ccf866463e9a782d3284e2af08f1",
           "size": 3153120,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v1/libtesseract-osx-arm64.dylib"
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libtesseract-osx-arm64.dylib"
         },
         "libtiff.6.dylib": {
           "group": "runtime",
           "sha256": "890e2a6013e71afe9d05d81a12146a7fe9f71c2d6183d2b58a7a2bdae40f5db1",
           "size": 523072,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v1/libtiff.6-osx-arm64.dylib"
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libtiff.6-osx-arm64.dylib"
         },
         "libvmaf.3.dylib": {
           "group": "runtime",
           "sha256": "5cfc24aba109382a4cb10871fd0d60299b9f5507bcac88b85cf486bc2c2d4b6f",
           "size": 896624,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v1/libvmaf.3-osx-arm64.dylib"
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libvmaf.3-osx-arm64.dylib"
         },
         "libvorbis.0.dylib": {
           "group": "runtime",
           "sha256": "3a972cfb1c753e39056088e5726b5e2425b8832d86ef52ef7a45e044a8b34460",
           "size": 175072,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v1/libvorbis.0-osx-arm64.dylib"
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libvorbis.0-osx-arm64.dylib"
         },
         "libvorbisenc.2.dylib": {
           "group": "runtime",
           "sha256": "8caa3f8eb317517a9cb3f027ecefbb9c7d5d86cfbc04d987ee255f0ca243c362",
           "size": 705808,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v1/libvorbisenc.2-osx-arm64.dylib"
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libvorbisenc.2-osx-arm64.dylib"
         },
         "libvorbisfile.3.dylib": {
           "group": "runtime",
           "sha256": "ad92a43d57fd2e8963f82914ce17b5a576568889edf68de96637163193d195d4",
           "size": 55392,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v1/libvorbisfile.3-osx-arm64.dylib"
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libvorbisfile.3-osx-arm64.dylib"
         },
         "libwavpack.1.dylib": {
           "group": "runtime",
           "sha256": "471e79cb4f234a3e377af9f1a5974eea075ab7eeae2b76b008e4cf1d547c0a4e",
           "size": 176704,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v1/libwavpack.1-osx-arm64.dylib"
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libwavpack.1-osx-arm64.dylib"
         },
         "libwebp.7.dylib": {
           "group": "runtime",
           "sha256": "dfe0b2aa3393473746cdf435cb9b03ec0e1d9251ede18c9dce2b69ddae6c0a6a",
           "size": 334272,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v1/libwebp.7-osx-arm64.dylib"
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libwebp.7-osx-arm64.dylib"
         },
         "libwebpdemux.2.dylib": {
           "group": "runtime",
           "sha256": "21d9dd0c53a7bec0f4ec9a2fb6940f86da0d079f197ec9a4c4cb883e99024be4",
           "size": 35184,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v1/libwebpdemux.2-osx-arm64.dylib"
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libwebpdemux.2-osx-arm64.dylib"
         },
         "libxmp.4.dylib": {
           "group": "runtime",
           "sha256": "8e2d16cc2744e655900d5488d370f4d38822e9f66597baa057f5fee97377bf31",
           "size": 537888,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v1/libxmp.4-osx-arm64.dylib"
-        },
-        "libzstd.1.dylib": {
-          "group": "runtime",
-          "sha256": "a61d9ec25a1109bc5030a99a7fcbd79737868111fb82adb32f7de3e5b7fa7a25",
-          "size": 631664,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v1/libzstd.1-osx-arm64.dylib"
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libxmp.4-osx-arm64.dylib"
         },
         "libzstd.1.5.7.dylib": {
           "group": "runtime",
           "sha256": "a61d9ec25a1109bc5030a99a7fcbd79737868111fb82adb32f7de3e5b7fa7a25",
           "size": 631664,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v1/libzstd.1.5.7-osx-arm64.dylib"
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libzstd.1.5.7-osx-arm64.dylib"
+        },
+        "libzstd.1.dylib": {
+          "group": "runtime",
+          "sha256": "a61d9ec25a1109bc5030a99a7fcbd79737868111fb82adb32f7de3e5b7fa7a25",
+          "size": 631664,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libzstd.1-osx-arm64.dylib"
         },
         "libzstd.dylib": {
           "group": "runtime",
           "sha256": "a61d9ec25a1109bc5030a99a7fcbd79737868111fb82adb32f7de3e5b7fa7a25",
           "size": 631664,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v1/libzstd-osx-arm64.dylib"
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libzstd-osx-arm64.dylib"
         },
         "libllm_ai_mlx.dylib": {
           "group": "llmmotor",
@@ -3322,172 +3322,172 @@
         },
         "runtime": {
           "kind": "files",
-          "tag": "runtime-v1",
+          "tag": "runtime-v2",
           "rids": {
             "osx-x64": {
               "kind": "files",
-              "tag": "runtime-v1"
+              "tag": "runtime-v2"
             }
           },
-          "version": "v1"
+          "version": "v2"
         }
       },
       "files": {
         "libgmb_grep.dylib": {
           "group": "runtime",
-          "sha256": "f12802282e219896b540ef08f3d53731f520de1d17368c983c967988f9697508",
-          "size": 10948992,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v1/libgmb_grep-osx-x64.dylib"
-        },
-        "libgmb_ai_llm.dylib": {
-          "group": "runtime",
-          "sha256": "2281deca4390954297484dbebaf61ee272c9597845c88e54809c2873509af01c",
-          "size": 880720,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v1/libgmb_ai_llm-osx-x64.dylib"
-        },
-        "libgmb_gfx.dylib": {
-          "group": "runtime",
-          "sha256": "ed46471a8e9daec683d6d0d1e95cfd7769aaf1bd120ced6143395592eb9e4a6c",
-          "size": 4360240,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v1/libgmb_gfx-osx-x64.dylib"
-        },
-        "libgmb_boot.dylib": {
-          "group": "runtime",
-          "sha256": "3312856aac2cb7432f66d68d7b14d0d768bfadb4b1d24c67c508dad9d600ed79",
-          "size": 5641952,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v1/libgmb_boot-osx-x64.dylib"
+          "sha256": "8a98831f9865ab99472e0be9e9e704f7ebc1c34be0e944e17a6c896d7fb9f28a",
+          "size": 10948336,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libgmb_grep-osx-x64.dylib"
         },
         "libgmb_compress.dylib": {
           "group": "runtime",
-          "sha256": "27e0f5313238c491860833797ffd9b10b20b3d8e47f3a81f816bd1c876047b65",
-          "size": 5639304,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v1/libgmb_compress-osx-x64.dylib"
+          "sha256": "ca37a31c67aba60b5f96e9e612463f6b3d149dc8de6f1109dc8a7cc287df4034",
+          "size": 5640376,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libgmb_compress-osx-x64.dylib"
+        },
+        "libgmb_gfx.dylib": {
+          "group": "runtime",
+          "sha256": "79a15ec5e99313e31759cd3a45060434dbf2ceeacd7b563380344033d56394d8",
+          "size": 4360312,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libgmb_gfx-osx-x64.dylib"
+        },
+        "libgmb_boot.dylib": {
+          "group": "runtime",
+          "sha256": "9bebabe4f7f54136fe634e77095e4601619599f93d044067bf532d48ada662a8",
+          "size": 5641984,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libgmb_boot-osx-x64.dylib"
+        },
+        "libgmb_ai_llm.dylib": {
+          "group": "runtime",
+          "sha256": "e1b9fc3343d39cbc7a4fc65e78773a46ef473a09e52689bbdb5910b349e1db0c",
+          "size": 880912,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libgmb_ai_llm-osx-x64.dylib"
         },
         "libgmb_pkg.dylib": {
           "group": "runtime",
-          "sha256": "9b4506731334c7198047084f2f4db03ad9527e128c105632e4dbc7dd8ac0147c",
-          "size": 11085912,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v1/libgmb_pkg-osx-x64.dylib"
+          "sha256": "b087f2d97cbf19a937849de25eb5f7d3ef499931aa620328a63fcf99d02d8f0c",
+          "size": 11085992,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libgmb_pkg-osx-x64.dylib"
         },
         "libgmb_screen.dylib": {
           "group": "runtime",
           "sha256": "053e338a2e56e68d5aa631fdb48a43aecc3389eefd4a0e91e5558abdf72cb521",
           "size": 13960,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v1/libgmb_screen-osx-x64.dylib"
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libgmb_screen-osx-x64.dylib"
         },
         "libgmb_tray.dylib": {
           "group": "runtime",
           "sha256": "b2cad49ba8592e2c085ec0ab0b262b14a5b14e5d50427c700f20664a7c879adb",
           "size": 28592,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v1/libgmb_tray-osx-x64.dylib"
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libgmb_tray-osx-x64.dylib"
         },
         "libllmcodec_aqlm.dylib": {
           "group": "runtime",
           "sha256": "ff5fafc07a1311646e86f9f895dc134488b1e5e837e24941be216c5656cf106e",
           "size": 12840,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v1/libllmcodec_aqlm-osx-x64.dylib"
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libllmcodec_aqlm-osx-x64.dylib"
         },
         "libllmcodec_awq.dylib": {
           "group": "runtime",
           "sha256": "fcbbf2ec0c22b9b463317f2d472e6fb18c35fac67a2a421639b19ca3eb303992",
           "size": 8536,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v1/libllmcodec_awq-osx-x64.dylib"
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libllmcodec_awq-osx-x64.dylib"
         },
         "libllmcodec_bitnet.dylib": {
           "group": "runtime",
           "sha256": "edb1865fcf4bd6ea771a33a4f62e727acd54a07d98875792e65a1d359622b7fb",
           "size": 12648,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v1/libllmcodec_bitnet-osx-x64.dylib"
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libllmcodec_bitnet-osx-x64.dylib"
         },
         "libllmcodec_bnb.dylib": {
           "group": "runtime",
           "sha256": "9e09565a0e3ffcb525b4c0b195d0eb0f36825362f4a91444c03791b46e10533f",
           "size": 17816,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v1/libllmcodec_bnb-osx-x64.dylib"
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libllmcodec_bnb-osx-x64.dylib"
         },
         "libllmcodec_fp4.dylib": {
           "group": "runtime",
           "sha256": "29adfde6c78ae2e5b42b965c474e28c13de0dd2abb74195d624834607913ab4c",
           "size": 17752,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v1/libllmcodec_fp4-osx-x64.dylib"
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libllmcodec_fp4-osx-x64.dylib"
         },
         "libllmcodec_fp8.dylib": {
           "group": "runtime",
           "sha256": "8d98f729e35cccc4887e96e511cb23b21e3994bd8972e6f3d7a06ea3d70ac2d7",
           "size": 17760,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v1/libllmcodec_fp8-osx-x64.dylib"
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libllmcodec_fp8-osx-x64.dylib"
         },
         "libllmcodec_ggml.dylib": {
           "group": "runtime",
           "sha256": "60c8cf669219660ffa182783c74a9660c245f8e97e534a3952dcf6d31a3cd2fd",
           "size": 133616,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v1/libllmcodec_ggml-osx-x64.dylib"
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libllmcodec_ggml-osx-x64.dylib"
         },
         "libllmcodec_gptq.dylib": {
           "group": "runtime",
           "sha256": "bc7501ce802fd565cf61b3b9741959a412aba501512ce2e58aa9942773e095dc",
           "size": 8528,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v1/libllmcodec_gptq-osx-x64.dylib"
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libllmcodec_gptq-osx-x64.dylib"
         },
         "libllmcodec_higgs.dylib": {
           "group": "runtime",
           "sha256": "66e0f59852d0169a88e5bc009f2932a3deb424e0133f4cb864287af93e84609b",
           "size": 12656,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v1/libllmcodec_higgs-osx-x64.dylib"
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libllmcodec_higgs-osx-x64.dylib"
         },
         "libllmcodec_hqq.dylib": {
           "group": "runtime",
           "sha256": "8ec9ae4d3f76a49d89a7c2f75259bc981e13a08d86e873be9bf9d8753b2b5151",
           "size": 12624,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v1/libllmcodec_hqq-osx-x64.dylib"
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libllmcodec_hqq-osx-x64.dylib"
         },
         "libllmcodec_mlx_affine.dylib": {
           "group": "runtime",
           "sha256": "6ee03514a5c4ec6fd93f7fb2cf86f962cf8cac01012a36dcf6d514c645672037",
           "size": 17400,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v1/libllmcodec_mlx_affine-osx-x64.dylib"
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libllmcodec_mlx_affine-osx-x64.dylib"
         },
         "libllmcodec_mxfp.dylib": {
           "group": "runtime",
           "sha256": "45643d62f33063907f5689442bc735c1a42664e96af6bf500a8806c9cb1b90ed",
           "size": 17800,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v1/libllmcodec_mxfp-osx-x64.dylib"
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libllmcodec_mxfp-osx-x64.dylib"
         },
         "libllmcodec_nvfp.dylib": {
           "group": "runtime",
           "sha256": "bf40d4792ebcdf13ed84452e239eecfcec1148b9484aa4ad1dc64c702aa7070b",
           "size": 17752,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v1/libllmcodec_nvfp-osx-x64.dylib"
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libllmcodec_nvfp-osx-x64.dylib"
         },
         "libllmcodec_plain.dylib": {
           "group": "runtime",
           "sha256": "390f701c3e9a24e8b50b49b4de804590370c2a90d06af032713b29907db80f6c",
           "size": 12664,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v1/libllmcodec_plain-osx-x64.dylib"
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libllmcodec_plain-osx-x64.dylib"
         },
         "libllmcodec_spqr.dylib": {
           "group": "runtime",
           "sha256": "f236fe0c73a4665857815d7af46ab938309a436bda8cec5b4423805d61f8592e",
           "size": 12624,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v1/libllmcodec_spqr-osx-x64.dylib"
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libllmcodec_spqr-osx-x64.dylib"
         },
         "libllmcodec_turboquant.dylib": {
           "group": "runtime",
           "sha256": "fc69cf438702654a23eaf84296f02c12f2bc4fdd952955ebda535ce818c5012f",
           "size": 17016,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v1/libllmcodec_turboquant-osx-x64.dylib"
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libllmcodec_turboquant-osx-x64.dylib"
         },
         "libllmcodec_vptq.dylib": {
           "group": "runtime",
           "sha256": "f0fc79ef0f2b15922b41acdbf8132c341a2808187f601abbc44348c83feb424b",
           "size": 8528,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v1/libllmcodec_vptq-osx-x64.dylib"
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libllmcodec_vptq-osx-x64.dylib"
         },
         "libllmtoken.dylib": {
           "group": "runtime",
           "sha256": "d6171ca907a9bbf9398fa038dcea3e2e018eb1aedea8895049cd3a4fbd44aee6",
           "size": 789848,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v1/libllmtoken-osx-x64.dylib"
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libllmtoken-osx-x64.dylib"
         },
         "libpdf_oxide.dylib": {
           "group": "support",
@@ -3992,14 +3992,14 @@
         },
         "runtime": {
           "kind": "files",
-          "tag": "runtime-v1",
+          "tag": "runtime-v2",
           "rids": {
             "win-x64": {
               "kind": "files",
-              "tag": "runtime-v1"
+              "tag": "runtime-v2"
             }
           },
-          "version": "v1"
+          "version": "v2"
         }
       },
       "files": {
@@ -4007,157 +4007,157 @@
           "group": "runtime",
           "sha256": "f9223fb54f612755982132b0a8f527621e95c07564b342a62472296993a9a44d",
           "size": 1105408,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v1/libgmb_ai_llm-win-x64.dll"
-        },
-        "libgmb_grep.dll": {
-          "group": "runtime",
-          "sha256": "5cc67de01342b665dd642310913315ac02648137352b13d203eecb98301b4919",
-          "size": 10746880,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v1/libgmb_grep-win-x64.dll"
-        },
-        "libgmb_gfx.dll": {
-          "group": "runtime",
-          "sha256": "be12a91c2cef8e0c43c1c3efd11081f46b9f6fedea81938ea7d9c830725e2300",
-          "size": 7929344,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v1/libgmb_gfx-win-x64.dll"
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libgmb_ai_llm-win-x64.dll"
         },
         "libgmb_compress.dll": {
           "group": "runtime",
-          "sha256": "aeb893102de28d2d819896cf7d6221c07d85fce3894aef9dd7de8b1ac82fccac",
+          "sha256": "3c8d33f00452587a3fcf4a4034f3844e03ec9d92b6405ad081645ba0b82bd35c",
           "size": 9216512,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v1/libgmb_compress-win-x64.dll"
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libgmb_compress-win-x64.dll"
+        },
+        "libgmb_grep.dll": {
+          "group": "runtime",
+          "sha256": "274c2cbdde46beb68ca637b29c3096983606179c476e919ea07004e62ca0eea2",
+          "size": 10747904,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libgmb_grep-win-x64.dll"
         },
         "libgmb_boot.dll": {
           "group": "runtime",
-          "sha256": "1654c05f17dedd0c576a067347aecbf176bbd260dfde5c7047bcd3987f37f61f",
+          "sha256": "f637047cb6727949fb0e17c40e333cb570e7fb22897a6fa69a08ae7bb975d737",
           "size": 242176,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v1/libgmb_boot-win-x64.dll"
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libgmb_boot-win-x64.dll"
+        },
+        "libgmb_gfx.dll": {
+          "group": "runtime",
+          "sha256": "cfe1bad3413936f4d491c906acf0935273530c81505f656232ebd421f6a9948d",
+          "size": 7929344,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libgmb_gfx-win-x64.dll"
         },
         "libgmb_pkg.dll": {
           "group": "runtime",
-          "sha256": "988e90fc3a46cb6ed4c3bd7d4984fd551a4452cae5cd635828f7af42303e397d",
+          "sha256": "ed0aacd99a4d77b02bc348b7d164349092f71fcbc81c84c22e1263aa0761d13a",
           "size": 10913280,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v1/libgmb_pkg-win-x64.dll"
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libgmb_pkg-win-x64.dll"
         },
         "libgmb_screen.dll": {
           "group": "runtime",
           "sha256": "bcb18767ea7f14712905ba3fd057de13a4d3cdf0eedfa3cef2137e9ea0e7e827",
           "size": 223232,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v1/libgmb_screen-win-x64.dll"
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libgmb_screen-win-x64.dll"
         },
         "libgmb_tray.dll": {
           "group": "runtime",
           "sha256": "9f13db870e35e621b41dbbed3b280da60a9affeba1dc41b0a699543489a13bac",
           "size": 223744,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v1/libgmb_tray-win-x64.dll"
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libgmb_tray-win-x64.dll"
         },
         "libllmcodec_aqlm.so": {
           "group": "runtime",
           "sha256": "83a342e8d137eeed94bc24502e1fcff1b834b7fd7c6688b1e4b1ff5a5ea1232e",
           "size": 222720,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v1/libllmcodec_aqlm-win-x64.so"
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libllmcodec_aqlm-win-x64.so"
         },
         "libllmcodec_awq.so": {
           "group": "runtime",
           "sha256": "91eb29eff872cdcbd18976773416411480a18cab3b97de91b0da42b0892281c9",
           "size": 219136,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v1/libllmcodec_awq-win-x64.so"
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libllmcodec_awq-win-x64.so"
         },
         "libllmcodec_bitnet.so": {
           "group": "runtime",
           "sha256": "0fd8c3396e72b570d32186d8c6727adfd99f235c9379cd3cec29ddb5268c87c5",
           "size": 219648,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v1/libllmcodec_bitnet-win-x64.so"
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libllmcodec_bitnet-win-x64.so"
         },
         "libllmcodec_bnb.so": {
           "group": "runtime",
           "sha256": "07d61c755f80f1c69064008c27a267ac63d49e8623fee11e122735a5d9ffdfb9",
           "size": 231936,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v1/libllmcodec_bnb-win-x64.so"
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libllmcodec_bnb-win-x64.so"
         },
         "libllmcodec_fp4.so": {
           "group": "runtime",
           "sha256": "f47182c5a992660e2ea805e56fa703bdbd8981e84d6369de28e5bf17e53568ac",
           "size": 230912,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v1/libllmcodec_fp4-win-x64.so"
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libllmcodec_fp4-win-x64.so"
         },
         "libllmcodec_fp8.so": {
           "group": "runtime",
           "sha256": "208a2629a560af47553a8d01834af87119349604bfb978ac184318616b262fee",
           "size": 232448,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v1/libllmcodec_fp8-win-x64.so"
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libllmcodec_fp8-win-x64.so"
         },
         "libllmcodec_ggml.so": {
           "group": "runtime",
           "sha256": "e638ba8e608992ca879ef512de56c71ff4e40933fe15b6d886c4b029db18d934",
           "size": 346112,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v1/libllmcodec_ggml-win-x64.so"
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libllmcodec_ggml-win-x64.so"
         },
         "libllmcodec_gptq.so": {
           "group": "runtime",
           "sha256": "c49b96c0fdba662a38ec09d7451015f7b3badd2de62e94baf99c47126dfb4097",
           "size": 219136,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v1/libllmcodec_gptq-win-x64.so"
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libllmcodec_gptq-win-x64.so"
         },
         "libllmcodec_higgs.so": {
           "group": "runtime",
           "sha256": "ed19a8b462b48ebbe007dde584aa379bb55126944098b04700de4a9044a3520b",
           "size": 220672,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v1/libllmcodec_higgs-win-x64.so"
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libllmcodec_higgs-win-x64.so"
         },
         "libllmcodec_hqq.so": {
           "group": "runtime",
           "sha256": "1ff20a0dfb199813a81159a4b31a2861ae507ebf306de13c50714fa91255af8d",
           "size": 219136,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v1/libllmcodec_hqq-win-x64.so"
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libllmcodec_hqq-win-x64.so"
         },
         "libllmcodec_mlx_affine.so": {
           "group": "runtime",
           "sha256": "6710f381c060dbf3b783dbcf5d978f1bdf67a626464b02d335a2979ed3e48d15",
           "size": 227840,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v1/libllmcodec_mlx_affine-win-x64.so"
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libllmcodec_mlx_affine-win-x64.so"
         },
         "libllmcodec_mxfp.so": {
           "group": "runtime",
           "sha256": "0e875154291de148f9aba39bf254e03e577212648f1c09c02dd34a359c939199",
           "size": 233472,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v1/libllmcodec_mxfp-win-x64.so"
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libllmcodec_mxfp-win-x64.so"
         },
         "libllmcodec_nvfp.so": {
           "group": "runtime",
           "sha256": "ebadda06f1fe98630977e2b08cfaa63188b8a4eb50bb375ba03d97072f6a7d1c",
           "size": 230912,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v1/libllmcodec_nvfp-win-x64.so"
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libllmcodec_nvfp-win-x64.so"
         },
         "libllmcodec_plain.so": {
           "group": "runtime",
           "sha256": "36ee98ed7ff24cbbee1f8c6dfd554b50f07a5d65c0b73b778114cb2d790753cd",
           "size": 219648,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v1/libllmcodec_plain-win-x64.so"
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libllmcodec_plain-win-x64.so"
         },
         "libllmcodec_spqr.so": {
           "group": "runtime",
           "sha256": "0acadc4ee38d3da50ed9cea461663b17f3560910bfa3e8cc0a06f58b1521011a",
           "size": 219648,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v1/libllmcodec_spqr-win-x64.so"
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libllmcodec_spqr-win-x64.so"
         },
         "libllmcodec_turboquant.so": {
           "group": "runtime",
           "sha256": "05af60b76e30a9030e7b7c5aa7e2aef336cd17407235bb07d7f1c0767e7102a7",
           "size": 223744,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v1/libllmcodec_turboquant-win-x64.so"
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libllmcodec_turboquant-win-x64.so"
         },
         "libllmcodec_vptq.so": {
           "group": "runtime",
           "sha256": "4f2e1897e544974bc2ce5418577aaded9b209f5fa5c4e23a40812380bc8b8c09",
           "size": 219136,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v1/libllmcodec_vptq-win-x64.so"
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libllmcodec_vptq-win-x64.so"
         },
         "libllmtoken.dll": {
           "group": "runtime",
           "sha256": "db8a72ba1136e8d6abe67ee09355af6972106b6bb2aa2c1dd9a84187deb0c416",
           "size": 999936,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v1/libllmtoken-win-x64.dll"
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libllmtoken-win-x64.dll"
         },
         "libssl-3-x64.dll": {
           "group": "support",
@@ -4242,172 +4242,172 @@
         },
         "runtime": {
           "kind": "files",
-          "tag": "runtime-v1",
+          "tag": "runtime-v2",
           "rids": {
             "win-arm64": {
               "kind": "files",
-              "tag": "runtime-v1"
+              "tag": "runtime-v2"
             }
           },
-          "version": "v1"
+          "version": "v2"
         }
       },
       "files": {
+        "libgmb_compress.dll": {
+          "group": "runtime",
+          "sha256": "984b93dfd8d145ba86ae3278d1aba813834d35d5c64212abf8e36d352840bb22",
+          "size": 7989760,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libgmb_compress-win-arm64.dll"
+        },
+        "libgmb_grep.dll": {
+          "group": "runtime",
+          "sha256": "194352ff8488c6d7b1e2804c78d374e1a1990bca4d67d169c973b927cf61b614",
+          "size": 9354752,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libgmb_grep-win-arm64.dll"
+        },
+        "libgmb_boot.dll": {
+          "group": "runtime",
+          "sha256": "2167a47555995acf9e46f556c360d434e1fe803354f5ecfe91a8083ae6c69727",
+          "size": 210944,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libgmb_boot-win-arm64.dll"
+        },
         "libgmb_ai_llm.dll": {
           "group": "runtime",
           "sha256": "2d3354cfb44a107d42b776cb285656974617a81c5ea58ddbf9ad2f2d586b6085",
           "size": 976896,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v1/libgmb_ai_llm-win-arm64.dll"
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libgmb_ai_llm-win-arm64.dll"
         },
         "libgmb_gfx.dll": {
           "group": "runtime",
-          "sha256": "6035b7e25420e56bff42f9da13cd155298c5396c3b03f7c9e35cbee13f3cf0e0",
-          "size": 6929408,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v1/libgmb_gfx-win-arm64.dll"
-        },
-        "libgmb_compress.dll": {
-          "group": "runtime",
-          "sha256": "7fd02030045bc13368bcba7a8a17ea0432c41b26f6a71614a045cf87b4b7fcdc",
-          "size": 7989248,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v1/libgmb_compress-win-arm64.dll"
-        },
-        "libgmb_boot.dll": {
-          "group": "runtime",
-          "sha256": "d8cf4c9656199ac5523a182927a21077989fb8d130c2bb36ece221b02fc84379",
-          "size": 210432,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v1/libgmb_boot-win-arm64.dll"
-        },
-        "libgmb_grep.dll": {
-          "group": "runtime",
-          "sha256": "ad614b3be6ff9525093047cf925488aa7b3376b3104d314ebf7e74060919e489",
-          "size": 9354240,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v1/libgmb_grep-win-arm64.dll"
+          "sha256": "5ac402afab1e847b6afa7274685f84ff51ec00403c24cc59e48b5f198487f739",
+          "size": 6929920,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libgmb_gfx-win-arm64.dll"
         },
         "libgmb_pkg.dll": {
           "group": "runtime",
-          "sha256": "21ce4c06d3b159a3a50af432c3856067b0848e45871a66279ec98d1f2eef4e90",
-          "size": 9500672,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v1/libgmb_pkg-win-arm64.dll"
+          "sha256": "18fd78352e925a160b3a3bb842b6f08fa1fa324459792af2b6710cfdbe5f3d62",
+          "size": 9501184,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libgmb_pkg-win-arm64.dll"
         },
         "libgmb_screen.dll": {
           "group": "runtime",
           "sha256": "dfff742bba7ab34681b90c74e02709cdd310236e980e93c1a792e46d35f19000",
           "size": 190464,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v1/libgmb_screen-win-arm64.dll"
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libgmb_screen-win-arm64.dll"
         },
         "libgmb_tray.dll": {
           "group": "runtime",
           "sha256": "5bb418740d347013377cfd0fb26baf72a28c134ac12008f38b9e8266a5a17459",
           "size": 192000,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v1/libgmb_tray-win-arm64.dll"
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libgmb_tray-win-arm64.dll"
         },
         "libllmcodec_aqlm.so": {
           "group": "runtime",
           "sha256": "63ab5a3f7d003ed2fb59b47c3bc44be7dda97c89045de4060ba3ec9f532c4c1b",
           "size": 190464,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v1/libllmcodec_aqlm-win-arm64.so"
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libllmcodec_aqlm-win-arm64.so"
         },
         "libllmcodec_awq.so": {
           "group": "runtime",
           "sha256": "9aab99f5f5e6d2e7e3284816fd9afcbdb9ed337f6061b16ea7af5fff3008e9b0",
           "size": 187392,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v1/libllmcodec_awq-win-arm64.so"
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libllmcodec_awq-win-arm64.so"
         },
         "libllmcodec_bitnet.so": {
           "group": "runtime",
           "sha256": "50ef888e00ccadb7b3cc65e6ce8861948bb099c07943e54cd8481ad1d0fe1989",
           "size": 187904,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v1/libllmcodec_bitnet-win-arm64.so"
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libllmcodec_bitnet-win-arm64.so"
         },
         "libllmcodec_bnb.so": {
           "group": "runtime",
           "sha256": "ac995bf64e3dd8e4b59c0c9347e66c1a3a9a1dc3782dc847de75246eb802dfcd",
           "size": 195072,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v1/libllmcodec_bnb-win-arm64.so"
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libllmcodec_bnb-win-arm64.so"
         },
         "libllmcodec_fp4.so": {
           "group": "runtime",
           "sha256": "7275a38ce3c325891336183baab474640c486a88191efe11ddf065ebbe0cba6a",
           "size": 194560,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v1/libllmcodec_fp4-win-arm64.so"
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libllmcodec_fp4-win-arm64.so"
         },
         "libllmcodec_fp8.so": {
           "group": "runtime",
           "sha256": "2caa15f9db012120cfe5bd6f3368b500291bd169bc303fd074d27b5f1e998a2e",
           "size": 195072,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v1/libllmcodec_fp8-win-arm64.so"
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libllmcodec_fp8-win-arm64.so"
         },
         "libllmcodec_ggml.so": {
           "group": "runtime",
           "sha256": "79d9ad1cd8d08ff74b07a33de74b5039a8cec084d43d174669b3f94fb5226583",
           "size": 303616,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v1/libllmcodec_ggml-win-arm64.so"
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libllmcodec_ggml-win-arm64.so"
         },
         "libllmcodec_gptq.so": {
           "group": "runtime",
           "sha256": "26f8c966b16546cacec2190ae2af83c3204a327b8caf1272e93c96fdf24f1dce",
           "size": 187392,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v1/libllmcodec_gptq-win-arm64.so"
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libllmcodec_gptq-win-arm64.so"
         },
         "libllmcodec_higgs.so": {
           "group": "runtime",
           "sha256": "c920bd0251b850a3e4fa43943c4941716f88929fd6a8f13e47c75f80fc0614f9",
           "size": 189440,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v1/libllmcodec_higgs-win-arm64.so"
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libllmcodec_higgs-win-arm64.so"
         },
         "libllmcodec_hqq.so": {
           "group": "runtime",
           "sha256": "7860ab9531bb8607b12b33a214b3437903903be6109f0f2748163755c71607c4",
           "size": 187392,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v1/libllmcodec_hqq-win-arm64.so"
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libllmcodec_hqq-win-arm64.so"
         },
         "libllmcodec_mlx_affine.so": {
           "group": "runtime",
           "sha256": "3ff49c2346b1d24f4c77466d3795da3a6750b5384da4783ec16a6ffe0c0f857a",
           "size": 195584,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v1/libllmcodec_mlx_affine-win-arm64.so"
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libllmcodec_mlx_affine-win-arm64.so"
         },
         "libllmcodec_mxfp.so": {
           "group": "runtime",
           "sha256": "07e47c462210a710ebe2bc5a5dcffb5a692edc959c48333c876469fb3109520b",
           "size": 196096,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v1/libllmcodec_mxfp-win-arm64.so"
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libllmcodec_mxfp-win-arm64.so"
         },
         "libllmcodec_nvfp.so": {
           "group": "runtime",
           "sha256": "2bc74e5802f3fd0613e9b9a4a12d2ffe76b828b0040d7d24edb763a9c8e88b2c",
           "size": 194560,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v1/libllmcodec_nvfp-win-arm64.so"
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libllmcodec_nvfp-win-arm64.so"
         },
         "libllmcodec_plain.so": {
           "group": "runtime",
           "sha256": "e3053be34d5bbee882c8cbc14a5e4a9d0116c24656cfa4e7d96d198adcd2e83b",
           "size": 188416,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v1/libllmcodec_plain-win-arm64.so"
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libllmcodec_plain-win-arm64.so"
         },
         "libllmcodec_spqr.so": {
           "group": "runtime",
           "sha256": "9bdf92253b0c46be9f5c9a79c100cd6b80b696e2e9119e2dd98d6c623a6cfd02",
           "size": 187904,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v1/libllmcodec_spqr-win-arm64.so"
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libllmcodec_spqr-win-arm64.so"
         },
         "libllmcodec_turboquant.so": {
           "group": "runtime",
           "sha256": "3d5c967cc9e2f7dbeee104655dceb5e09d1ad1cf755b79911de861ec1a87ebea",
           "size": 190976,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v1/libllmcodec_turboquant-win-arm64.so"
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libllmcodec_turboquant-win-arm64.so"
         },
         "libllmcodec_vptq.so": {
           "group": "runtime",
           "sha256": "7a79a0d07fa75d8810543bd08899911f995471aca91f3b815fb2e8831334ed33",
           "size": 187392,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v1/libllmcodec_vptq-win-arm64.so"
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libllmcodec_vptq-win-arm64.so"
         },
         "libllmtoken.dll": {
           "group": "runtime",
           "sha256": "149b8179e4edcfd2bc8fe15f28d9254bfa3d8cd37ba9d8f1317af5ef490c63b7",
           "size": 914944,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v1/libllmtoken-win-arm64.dll"
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libllmtoken-win-arm64.dll"
         },
         "libgmbamqp.dll": {
           "group": "ffi",
