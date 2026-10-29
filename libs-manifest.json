@@ -5,54 +5,42 @@
     "osx-arm64": {
       "groups": {
         "support": {
-          "kind": "github-release",
-          "tag": "gmb-support-2026.10.28",
+          "kind": "files",
+          "tag": "gmb-support-2026.10.29",
           "rids": {
             "osx-arm64": {
-              "archive": "gmb-support-osx-arm64.zip",
-              "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-support-2026.10.28/gmb-support-osx-arm64.zip",
-              "sha256": "f4a653a2909d6f277257d32e4020cc85d943d547f1fa8105e770d7f0f22d139c",
-              "size": 31818822,
-              "extractRoot": ""
+              "kind": "files",
+              "tag": "gmb-support-2026.10.29"
             }
           }
         },
         "engine": {
-          "kind": "github-release",
+          "kind": "files",
           "tag": "gmb-engine-2026.10.29",
           "rids": {
             "osx-arm64": {
-              "archive": "gmb-engine-osx-arm64.zip",
-              "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-engine-2026.10.29/gmb-engine-osx-arm64.zip",
-              "sha256": "e3b645daa2717371776d2a538b3aa3d040b4dd8f700057d23f3fce3faa9369d6",
-              "size": 493037,
-              "extractRoot": ""
+              "kind": "files",
+              "tag": "gmb-engine-2026.10.29"
             }
           }
         },
         "llmmotor": {
-          "kind": "github-release",
+          "kind": "files",
           "tag": "gmb-llmmotor-2026.10.29",
           "rids": {
             "osx-arm64": {
-              "archive": "gmb-llmmotor-osx-arm64.zip",
-              "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-llmmotor-2026.10.29/gmb-llmmotor-osx-arm64.zip",
-              "sha256": "3b685bcb24bfdbc72c9f240c6306c64e3047b6a8414bdff87ca4a0f25ff96375",
-              "size": 66077559,
-              "extractRoot": ""
+              "kind": "files",
+              "tag": "gmb-llmmotor-2026.10.29"
             }
           }
         },
         "core": {
-          "kind": "github-release",
+          "kind": "files",
           "tag": "gmb-core-2026.10.29",
           "rids": {
             "osx-arm64": {
-              "archive": "gmb-core-osx-arm64.zip",
-              "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-core-2026.10.29/gmb-core-osx-arm64.zip",
-              "sha256": "3da187f5ac45d48237e2d0f4910058525970e338e81cd500254ad9e36fdc328a",
-              "size": 2956433,
-              "extractRoot": ""
+              "kind": "files",
+              "tag": "gmb-core-2026.10.29"
             }
           }
         },
@@ -71,495 +59,581 @@
         }
       },
       "files": {
-        "gmb_sql_csv_ext.dylib": {
-          "group": "core",
-          "sha256": "049627e711afa34513a7cf7cb60da560d2e33800cb1d97ee7c3201a360fabbc9",
-          "size": 51664
-        },
-        "gmb_sql_parquet_ext.dylib": {
-          "group": "core",
-          "sha256": "132dcec5d3df13ad91023fbc69edc27a29c14dcfdf72a3df9aa1d1a615f572af",
-          "size": 102880
-        },
         "libaom.3.dylib": {
           "group": "support",
           "sha256": "58bb87cf26bc076880f101c2c323c6d91b8bc4c661d1693e991135bb34e75234",
-          "size": 4307008
+          "size": 4307008,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-support-2026.10.29/libaom.3-osx-arm64.dylib"
         },
         "libavif.16.dylib": {
           "group": "support",
           "sha256": "52baf4db6aedd27c9b8a9c799f7367de8550531ba9eec420c54b8d678e68dcf8",
-          "size": 221648
+          "size": 221648,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-support-2026.10.29/libavif.16-osx-arm64.dylib"
         },
         "libbrotlicommon.1.dylib": {
           "group": "support",
           "sha256": "1a6d05ba2650ed42b67246d20d54f66b23a5fb042444962b4ea986b1cb1c5b5d",
-          "size": 149264
+          "size": 149264,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-support-2026.10.29/libbrotlicommon.1-osx-arm64.dylib"
         },
         "libbrotlidec.1.dylib": {
           "group": "support",
           "sha256": "efceb0e4e03f5fb50e32c297d332983f3ca066948465fcdfb6da86272af6d050",
-          "size": 69744
+          "size": 69744,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-support-2026.10.29/libbrotlidec.1-osx-arm64.dylib"
         },
         "libbrotlienc.1.dylib": {
           "group": "support",
           "sha256": "abeec3ccbe83482362ee2dcea9903fadd25a67e4887f1e6c341a39bb81ff1764",
-          "size": 635344
+          "size": 635344,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-support-2026.10.29/libbrotlienc.1-osx-arm64.dylib"
         },
         "libcrypto.3.dylib": {
           "group": "support",
           "sha256": "14179949b9db0ee3d57d39c97612544f51ca221922c9fec7ab8e34675ee2d7e2",
-          "size": 4844432
+          "size": 4844432,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-support-2026.10.29/libcrypto.3-osx-arm64.dylib"
         },
         "libdav1d.7.dylib": {
           "group": "support",
           "sha256": "a1e2381ff0b0018a86fb8de4d824c1b400a4adce49980b2f7c83e31f3629e1aa",
-          "size": 825360
+          "size": 825360,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-support-2026.10.29/libdav1d.7-osx-arm64.dylib"
         },
         "libFLAC.14.dylib": {
           "group": "support",
           "sha256": "651c823165df831e63239c6123519b8887f7941e1ed48ff6e87263f79004b649",
-          "size": 257840
+          "size": 257840,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-support-2026.10.29/libFLAC.14-osx-arm64.dylib"
         },
         "libfluidsynth.3.dylib": {
           "group": "support",
           "sha256": "aea7e02c0c20e182fce56fbe43c5973bf6bbecfa1e62df4446a2baa84e7d1cb5",
-          "size": 612624
+          "size": 612624,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-support-2026.10.29/libfluidsynth.3-osx-arm64.dylib"
         },
         "libfreetype.6.dylib": {
           "group": "support",
           "sha256": "344ede59bdf32d87dfc49569f3a4921b3d2040db7c26ea4b353502002929d8ac",
-          "size": 620256
+          "size": 620256,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-support-2026.10.29/libfreetype.6-osx-arm64.dylib"
         },
         "libglib-2.0.0.dylib": {
           "group": "support",
           "sha256": "a800ca957c9ef6fc2ab23b6696802657232a0abeab2b2e06fd63ba12715704f3",
-          "size": 1355072
+          "size": 1355072,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-support-2026.10.29/libglib-2.0.0-osx-arm64.dylib"
         },
         "libgme.0.dylib": {
           "group": "support",
           "sha256": "8024728680f1e2c35e35b325c186baf58530ff3bf134ea4e3b4718f7a491db5e",
-          "size": 282864
+          "size": 282864,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-support-2026.10.29/libgme.0-osx-arm64.dylib"
         },
         "libgraphite2.3.dylib": {
           "group": "support",
           "sha256": "d9a35afbc2c8f50353b6800cb8d1e175181e41508de839eada900f5f21306e89",
-          "size": 124560
+          "size": 124560,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-support-2026.10.29/libgraphite2.3-osx-arm64.dylib"
         },
         "libharfbuzz.0.dylib": {
           "group": "support",
           "sha256": "d586512dcdea708e4469d0257a26b51b488861489c48dd05974182a9da45d1f3",
-          "size": 1210032
-        },
-        "libhdf5.310.5.1.dylib": {
-          "group": "support",
-          "sha256": "37ecef35ed40d1617d57abcb4bddd08a07472fa0bd00932905e981db5a6e41f6",
-          "size": 3951808
-        },
-        "libhdf5.310.dylib": {
-          "group": "support",
-          "sha256": "37ecef35ed40d1617d57abcb4bddd08a07472fa0bd00932905e981db5a6e41f6",
-          "size": 3951808
+          "size": 1210032,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-support-2026.10.29/libharfbuzz.0-osx-arm64.dylib"
         },
         "libhdf5.dylib": {
           "group": "support",
           "sha256": "37ecef35ed40d1617d57abcb4bddd08a07472fa0bd00932905e981db5a6e41f6",
-          "size": 3951808
+          "size": 3951808,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-support-2026.10.29/libhdf5-osx-arm64.dylib"
+        },
+        "libhdf5.310.dylib": {
+          "group": "support",
+          "sha256": "37ecef35ed40d1617d57abcb4bddd08a07472fa0bd00932905e981db5a6e41f6",
+          "size": 3951808,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-support-2026.10.29/libhdf5.310-osx-arm64.dylib"
+        },
+        "libhdf5.310.5.1.dylib": {
+          "group": "support",
+          "sha256": "37ecef35ed40d1617d57abcb4bddd08a07472fa0bd00932905e981db5a6e41f6",
+          "size": 3951808,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-support-2026.10.29/libhdf5.310.5.1-osx-arm64.dylib"
         },
         "libhwy.1.dylib": {
           "group": "support",
           "sha256": "6959cfbef9974c31714e3ee758cd7226d1937c4c8f08ca93eed4c7ef777c0d20",
-          "size": 80624
+          "size": 80624,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-support-2026.10.29/libhwy.1-osx-arm64.dylib"
         },
         "libintl.8.dylib": {
           "group": "support",
           "sha256": "c6488deb60e2e85966f00485ec2ad7f3e7390eeeff11d8bf22b39e5319a506a4",
-          "size": 210816
+          "size": 210816,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-support-2026.10.29/libintl.8-osx-arm64.dylib"
         },
         "libjpeg.8.dylib": {
           "group": "support",
           "sha256": "b96142596f74527a41a6297c357c2a11f6a41c031e4ae6b69109adc67b771c84",
-          "size": 454256
+          "size": 454256,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-support-2026.10.29/libjpeg.8-osx-arm64.dylib"
         },
         "libjxl.0.12.dylib": {
           "group": "support",
           "sha256": "db6fade7da0358cfa9bf88ff63410d08309ff73e5665d24de228ce48eb9837a0",
-          "size": 1915984
+          "size": 1915984,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-support-2026.10.29/libjxl.0.12-osx-arm64.dylib"
         },
         "libleptonica.dylib": {
           "group": "support",
           "sha256": "7d992d5f3a252a5dd48e1b10bfbc981c978e2594dcf811f34955a24435be6f96",
-          "size": 2718096
-        },
-        "liblz4.1.10.0.dylib": {
-          "group": "support",
-          "sha256": "8dec498f5ded184c097513e96d55c7b4ef422e3632476e40cef5b0ebb0e71d8b",
-          "size": 160064
-        },
-        "liblz4.1.dylib": {
-          "group": "support",
-          "sha256": "8dec498f5ded184c097513e96d55c7b4ef422e3632476e40cef5b0ebb0e71d8b",
-          "size": 160064
+          "size": 2718096,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-support-2026.10.29/libleptonica-osx-arm64.dylib"
         },
         "liblz4.dylib": {
           "group": "support",
           "sha256": "8dec498f5ded184c097513e96d55c7b4ef422e3632476e40cef5b0ebb0e71d8b",
-          "size": 160064
+          "size": 160064,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-support-2026.10.29/liblz4-osx-arm64.dylib"
         },
-        "liblzma.5.dylib": {
+        "liblz4.1.dylib": {
           "group": "support",
-          "sha256": "f21ca19916a8ddd5eba0c9be681c88744c91fe7e331732149d25436af7dc7fc1",
-          "size": 166576
+          "sha256": "8dec498f5ded184c097513e96d55c7b4ef422e3632476e40cef5b0ebb0e71d8b",
+          "size": 160064,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-support-2026.10.29/liblz4.1-osx-arm64.dylib"
+        },
+        "liblz4.1.10.0.dylib": {
+          "group": "support",
+          "sha256": "8dec498f5ded184c097513e96d55c7b4ef422e3632476e40cef5b0ebb0e71d8b",
+          "size": 160064,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-support-2026.10.29/liblz4.1.10.0-osx-arm64.dylib"
         },
         "liblzma.dylib": {
           "group": "support",
           "sha256": "f21ca19916a8ddd5eba0c9be681c88744c91fe7e331732149d25436af7dc7fc1",
-          "size": 166576
+          "size": 166576,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-support-2026.10.29/liblzma-osx-arm64.dylib"
+        },
+        "liblzma.5.dylib": {
+          "group": "support",
+          "sha256": "f21ca19916a8ddd5eba0c9be681c88744c91fe7e331732149d25436af7dc7fc1",
+          "size": 166576,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-support-2026.10.29/liblzma.5-osx-arm64.dylib"
         },
         "libMoltenVK.dylib": {
           "group": "support",
           "sha256": "b3deef7768251c2b0d6f8390b375494b9d172c819b03f5a2ce756171a541afae",
-          "size": 5313808
+          "size": 5313808,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-support-2026.10.29/libMoltenVK-osx-arm64.dylib"
         },
         "libmp3lame.0.dylib": {
           "group": "support",
           "sha256": "6074fbd894fd01c3dc3ae3de25314f4accbbaef87915fa9469f7da05c58d6481",
-          "size": 214640
+          "size": 214640,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-support-2026.10.29/libmp3lame.0-osx-arm64.dylib"
         },
         "libmpg123.0.dylib": {
           "group": "support",
           "sha256": "721d9591f5955ef172b1605876f434a2d0efa273eac1b03ca6c2c7f4b6be0bd2",
-          "size": 270336
+          "size": 270336,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-support-2026.10.29/libmpg123.0-osx-arm64.dylib"
         },
         "libogg.0.dylib": {
           "group": "support",
           "sha256": "7eb36b9bbc9bb96996784b6af6ee2a76e25083fef5679aadc51f9526f4ea7f01",
-          "size": 53728
+          "size": 53728,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-support-2026.10.29/libogg.0-osx-arm64.dylib"
         },
         "libopus.0.dylib": {
           "group": "support",
           "sha256": "deaae25bc5763b7733cdd2deaacf223b573ad90b154cecce339efe0aa7f387ed",
-          "size": 355760
+          "size": 355760,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-support-2026.10.29/libopus.0-osx-arm64.dylib"
         },
         "libopusfile.0.dylib": {
           "group": "support",
           "sha256": "73191be50ae94ffd574e8cd7d69eee8e81515cece44780286f255670869a1402",
-          "size": 57408
+          "size": 57408,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-support-2026.10.29/libopusfile.0-osx-arm64.dylib"
         },
         "libpcre2-8.0.dylib": {
           "group": "support",
           "sha256": "24618e33fd24dca6c7c469fe3bf2a8f389c89e1d28bbe911893d18f1df8d5a7f",
-          "size": 570832
+          "size": 570832,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-support-2026.10.29/libpcre2-8.0-osx-arm64.dylib"
         },
         "libpdf_oxide.dylib": {
           "group": "support",
           "sha256": "8620c32e1b9aa9afaa486ecdf711112c9398ec67089b956b473d2dfc60fbf305",
-          "size": 22278464
+          "size": 22278464,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-support-2026.10.29/libpdf_oxide-osx-arm64.dylib"
         },
         "libpng16.16.dylib": {
           "group": "support",
           "sha256": "7e3e73c8f27a251ae130fd442f545783c269bcab413fc9b1e763ca6b25dd5a22",
-          "size": 190272
+          "size": 190272,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-support-2026.10.29/libpng16.16-osx-arm64.dylib"
         },
         "libportaudio.2.dylib": {
           "group": "support",
           "sha256": "03a3c8c28fbf556341570794325e3e8626e29901499dd8ef33d2d3ddd72c4ec6",
-          "size": 120624
+          "size": 120624,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-support-2026.10.29/libportaudio.2-osx-arm64.dylib"
         },
         "libreadline.8.dylib": {
           "group": "support",
           "sha256": "4454eed8355bc3661315c8cc56317b1643b3c711c1beaa2bde135508f6e0de10",
-          "size": 296384
-        },
-        "libSDL2_image.dylib": {
-          "group": "support",
-          "sha256": "68fea8dfbac00eec55b222a98be41d57336674efd88f15936894094f065c4eb8",
-          "size": 131520
-        },
-        "libSDL2_mixer.dylib": {
-          "group": "support",
-          "sha256": "3ea8c63eb6ca96c3336b06a4d635b8bb7613a39ffa055904af019fe349475e28",
-          "size": 161408
-        },
-        "libSDL2_ttf.dylib": {
-          "group": "support",
-          "sha256": "d98d803078eaefe35689367e7cf06d5546eeef0e880946249683a63101ed1e46",
-          "size": 91936
+          "size": 296384,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-support-2026.10.29/libreadline.8-osx-arm64.dylib"
         },
         "libSDL2.dylib": {
           "group": "support",
           "sha256": "f1da1e68c32e1bf0bc84731e484bb2da87012f7667327029974e248b46a62795",
-          "size": 520688
+          "size": 520688,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-support-2026.10.29/libSDL2-osx-arm64.dylib"
+        },
+        "libSDL2_image.dylib": {
+          "group": "support",
+          "sha256": "68fea8dfbac00eec55b222a98be41d57336674efd88f15936894094f065c4eb8",
+          "size": 131520,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-support-2026.10.29/libSDL2_image-osx-arm64.dylib"
+        },
+        "libSDL2_mixer.dylib": {
+          "group": "support",
+          "sha256": "3ea8c63eb6ca96c3336b06a4d635b8bb7613a39ffa055904af019fe349475e28",
+          "size": 161408,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-support-2026.10.29/libSDL2_mixer-osx-arm64.dylib"
+        },
+        "libSDL2_ttf.dylib": {
+          "group": "support",
+          "sha256": "d98d803078eaefe35689367e7cf06d5546eeef0e880946249683a63101ed1e46",
+          "size": 91936,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-support-2026.10.29/libSDL2_ttf-osx-arm64.dylib"
         },
         "libSDL3.dylib": {
           "group": "support",
           "sha256": "019152f2c2e05c7c951712643ad72724a4297f8fdbefda17fdeda41828fd722f",
-          "size": 2505120
+          "size": 2505120,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-support-2026.10.29/libSDL3-osx-arm64.dylib"
         },
         "libsndfile.1.dylib": {
           "group": "support",
           "sha256": "fca7d8675b324353f908dd99d43ffd80e6560d77f790070b3bb260f011f9c073",
-          "size": 460992
+          "size": 460992,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-support-2026.10.29/libsndfile.1-osx-arm64.dylib"
         },
         "libssl.3.dylib": {
           "group": "support",
           "sha256": "d3e5665289ef12ae1bb91520d1ef4cd488cef8ab507a1ee1fc8aeb0024e50422",
-          "size": 883760
+          "size": 883760,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-support-2026.10.29/libssl.3-osx-arm64.dylib"
         },
         "libtesseract.dylib": {
           "group": "support",
           "sha256": "39a9862981dd3b5a8f8d5160a671ec30b422ccf866463e9a782d3284e2af08f1",
-          "size": 3153120
+          "size": 3153120,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-support-2026.10.29/libtesseract-osx-arm64.dylib"
         },
         "libtiff.6.dylib": {
           "group": "support",
           "sha256": "890e2a6013e71afe9d05d81a12146a7fe9f71c2d6183d2b58a7a2bdae40f5db1",
-          "size": 523072
+          "size": 523072,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-support-2026.10.29/libtiff.6-osx-arm64.dylib"
         },
         "libvmaf.3.dylib": {
           "group": "support",
           "sha256": "5cfc24aba109382a4cb10871fd0d60299b9f5507bcac88b85cf486bc2c2d4b6f",
-          "size": 896624
+          "size": 896624,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-support-2026.10.29/libvmaf.3-osx-arm64.dylib"
         },
         "libvorbis.0.dylib": {
           "group": "support",
           "sha256": "3a972cfb1c753e39056088e5726b5e2425b8832d86ef52ef7a45e044a8b34460",
-          "size": 175072
+          "size": 175072,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-support-2026.10.29/libvorbis.0-osx-arm64.dylib"
         },
         "libvorbisenc.2.dylib": {
           "group": "support",
           "sha256": "8caa3f8eb317517a9cb3f027ecefbb9c7d5d86cfbc04d987ee255f0ca243c362",
-          "size": 705808
+          "size": 705808,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-support-2026.10.29/libvorbisenc.2-osx-arm64.dylib"
         },
         "libvorbisfile.3.dylib": {
           "group": "support",
           "sha256": "ad92a43d57fd2e8963f82914ce17b5a576568889edf68de96637163193d195d4",
-          "size": 55392
+          "size": 55392,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-support-2026.10.29/libvorbisfile.3-osx-arm64.dylib"
         },
         "libwavpack.1.dylib": {
           "group": "support",
           "sha256": "471e79cb4f234a3e377af9f1a5974eea075ab7eeae2b76b008e4cf1d547c0a4e",
-          "size": 176704
+          "size": 176704,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-support-2026.10.29/libwavpack.1-osx-arm64.dylib"
         },
         "libwebp.7.dylib": {
           "group": "support",
           "sha256": "dfe0b2aa3393473746cdf435cb9b03ec0e1d9251ede18c9dce2b69ddae6c0a6a",
-          "size": 334272
+          "size": 334272,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-support-2026.10.29/libwebp.7-osx-arm64.dylib"
         },
         "libwebpdemux.2.dylib": {
           "group": "support",
           "sha256": "21d9dd0c53a7bec0f4ec9a2fb6940f86da0d079f197ec9a4c4cb883e99024be4",
-          "size": 35184
+          "size": 35184,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-support-2026.10.29/libwebpdemux.2-osx-arm64.dylib"
         },
         "libxmp.4.dylib": {
           "group": "support",
           "sha256": "8e2d16cc2744e655900d5488d370f4d38822e9f66597baa057f5fee97377bf31",
-          "size": 537888
-        },
-        "libzstd.1.5.7.dylib": {
-          "group": "support",
-          "sha256": "a61d9ec25a1109bc5030a99a7fcbd79737868111fb82adb32f7de3e5b7fa7a25",
-          "size": 631664
-        },
-        "libzstd.1.dylib": {
-          "group": "support",
-          "sha256": "a61d9ec25a1109bc5030a99a7fcbd79737868111fb82adb32f7de3e5b7fa7a25",
-          "size": 631664
+          "size": 537888,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-support-2026.10.29/libxmp.4-osx-arm64.dylib"
         },
         "libzstd.dylib": {
           "group": "support",
           "sha256": "a61d9ec25a1109bc5030a99a7fcbd79737868111fb82adb32f7de3e5b7fa7a25",
-          "size": 631664
+          "size": 631664,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-support-2026.10.29/libzstd-osx-arm64.dylib"
         },
-        "tessdata/eng.traineddata": {
+        "libzstd.1.dylib": {
           "group": "support",
-          "sha256": "7d4322bd2a7749724879683fc3912cb542f19906c83bcc1a52132556427170b2",
-          "size": 4113088
+          "sha256": "a61d9ec25a1109bc5030a99a7fcbd79737868111fb82adb32f7de3e5b7fa7a25",
+          "size": 631664,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-support-2026.10.29/libzstd.1-osx-arm64.dylib"
+        },
+        "libzstd.1.5.7.dylib": {
+          "group": "support",
+          "sha256": "a61d9ec25a1109bc5030a99a7fcbd79737868111fb82adb32f7de3e5b7fa7a25",
+          "size": 631664,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-support-2026.10.29/libzstd.1.5.7-osx-arm64.dylib"
         },
         "libgmb_codec_fp8.dylib": {
           "group": "engine",
           "sha256": "b872b5b0860c9d9de1b0df0db8425ef6fd9e056049437615382c5f1dd040a70f",
-          "size": 37104
+          "size": 37104,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-engine-2026.10.29/libgmb_codec_fp8-osx-arm64.dylib"
         },
         "libgmb_codec_ggml.dylib": {
           "group": "engine",
           "sha256": "f196a3581a5cbe2c20b24961245968eb136358d116fb625430efb05a39767bba",
-          "size": 190224
+          "size": 190224,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-engine-2026.10.29/libgmb_codec_ggml-osx-arm64.dylib"
         },
         "libgmb_codec_mlx_affine.dylib": {
           "group": "engine",
           "sha256": "18ae1821472fe3ccc046ca525966cbaee56c94d4008bc0830cebd9e604f07cdf",
-          "size": 36240
-        },
-        "libllm_vision_apple.dylib": {
-          "group": "engine",
-          "sha256": "ef76c589302cc044acfe55fe0c15294a89df8a53010ec1717b459cf7f02363b9",
-          "size": 52448
+          "size": 36240,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-engine-2026.10.29/libgmb_codec_mlx_affine-osx-arm64.dylib"
         },
         "libllmcodec_aqlm.dylib": {
           "group": "engine",
           "sha256": "ba8cea6adcfa43592494e7a8f639b7192a92ef673f8cf91b7ece243bd2b5f718",
-          "size": 33536
+          "size": 33536,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-engine-2026.10.29/libllmcodec_aqlm-osx-arm64.dylib"
         },
         "libllmcodec_awq.dylib": {
           "group": "engine",
           "sha256": "a723b8ad811532944bbe1665b0e0f0933918f3e48a74166863fa630c6af87491",
-          "size": 33488
+          "size": 33488,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-engine-2026.10.29/libllmcodec_awq-osx-arm64.dylib"
         },
         "libllmcodec_bitnet.dylib": {
           "group": "engine",
           "sha256": "940e865d490f1c8d8e332d45c23191dd211ae468d99c0f21c060271d6614144e",
-          "size": 33520
+          "size": 33520,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-engine-2026.10.29/libllmcodec_bitnet-osx-arm64.dylib"
         },
         "libllmcodec_bnb.dylib": {
           "group": "engine",
           "sha256": "4417fefe3d888f4cdd9430a913cdbfc2bb7e04329ef368f03fbf80aeaa4cfa6f",
-          "size": 34544
+          "size": 34544,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-engine-2026.10.29/libllmcodec_bnb-osx-arm64.dylib"
         },
         "libllmcodec_fp4.dylib": {
           "group": "engine",
           "sha256": "1e16ad5ac68b6d5369865793cf09afe37d8396d4eb6789745d2f0854fadd8335",
-          "size": 34480
+          "size": 34480,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-engine-2026.10.29/libllmcodec_fp4-osx-arm64.dylib"
         },
         "libllmcodec_fp8.dylib": {
           "group": "engine",
           "sha256": "59440aa09ff94dffe7da468d9ff2cfa206e851f1a50085914d5deec03fb161c8",
-          "size": 34480
+          "size": 34480,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-engine-2026.10.29/libllmcodec_fp8-osx-arm64.dylib"
         },
         "libllmcodec_ggml.dylib": {
           "group": "engine",
           "sha256": "e95630e2ee7ce3771bad937fb422cce7aa616ff83f235f64e3b0f0f35829987a",
-          "size": 150592
+          "size": 150592,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-engine-2026.10.29/libllmcodec_ggml-osx-arm64.dylib"
         },
         "libllmcodec_gptq.dylib": {
           "group": "engine",
           "sha256": "44eb3080652c66034523ffccf01cef74f0a8ae9f41c02f126e35667cef828dce",
-          "size": 33488
+          "size": 33488,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-engine-2026.10.29/libllmcodec_gptq-osx-arm64.dylib"
         },
         "libllmcodec_higgs.dylib": {
           "group": "engine",
           "sha256": "d0fbb81ac60505858654164177a076334686495685d115d177a02304b7864867",
-          "size": 33520
+          "size": 33520,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-engine-2026.10.29/libllmcodec_higgs-osx-arm64.dylib"
         },
         "libllmcodec_hqq.dylib": {
           "group": "engine",
           "sha256": "6faa230983cdf8b0c813659ef7fc38bea74c4e9d3542b99754b32e04a3611d3e",
-          "size": 33488
+          "size": 33488,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-engine-2026.10.29/libllmcodec_hqq-osx-arm64.dylib"
         },
         "libllmcodec_mlx_affine.dylib": {
           "group": "engine",
           "sha256": "82fa6d1efcbb0a762a5f76f71f3a28fb3e0882da4a95597512b9d3dfdd38df5e",
-          "size": 34128
+          "size": 34128,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-engine-2026.10.29/libllmcodec_mlx_affine-osx-arm64.dylib"
         },
         "libllmcodec_mxfp.dylib": {
           "group": "engine",
           "sha256": "bd1636745181548b41ee66103e180634836f23500b05f563ce4fcc8e3e8ac50b",
-          "size": 34528
+          "size": 34528,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-engine-2026.10.29/libllmcodec_mxfp-osx-arm64.dylib"
         },
         "libllmcodec_nvfp.dylib": {
           "group": "engine",
           "sha256": "7552344f8cc99066a79216ab4f0f1ae9d5a6359a0aa6b3623e095f516df0922b",
-          "size": 34480
+          "size": 34480,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-engine-2026.10.29/libllmcodec_nvfp-osx-arm64.dylib"
         },
         "libllmcodec_plain.dylib": {
           "group": "engine",
           "sha256": "5dbdcc986d03f22557ab49bcd06af0a4e28f628352c64014c77667cf3dfb7072",
-          "size": 33536
+          "size": 33536,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-engine-2026.10.29/libllmcodec_plain-osx-arm64.dylib"
         },
         "libllmcodec_spqr.dylib": {
           "group": "engine",
           "sha256": "967a2f4dd2c0f0e232c60e2868e0b8619145a8565a3bbf18e31363860f5be6ff",
-          "size": 33488
+          "size": 33488,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-engine-2026.10.29/libllmcodec_spqr-osx-arm64.dylib"
         },
         "libllmcodec_turboquant.dylib": {
           "group": "engine",
           "sha256": "5ea473d8604a8775a810c8def8112394074b0fec989ebfd4ccd4b2c251caa22a",
-          "size": 33792
+          "size": 33792,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-engine-2026.10.29/libllmcodec_turboquant-osx-arm64.dylib"
         },
         "libllmcodec_vptq.dylib": {
           "group": "engine",
           "sha256": "b284e112fb5c359cfd202b2ba6c2b075945374ea08614d20b671366605bc189a",
-          "size": 33488
+          "size": 33488,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-engine-2026.10.29/libllmcodec_vptq-osx-arm64.dylib"
         },
         "libllmengine_moe_stream.dylib": {
           "group": "engine",
           "sha256": "48b488b9fc3904e8d797d91fb5fb6c282675cbe93ea0be197cb12ad61824fac1",
-          "size": 203056
+          "size": 203056,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-engine-2026.10.29/libllmengine_moe_stream-osx-arm64.dylib"
         },
         "libllmtoken.dylib": {
           "group": "engine",
           "sha256": "872ea02d6a0b3ec7cb50dd2828d7479b7ef6bc1d1d09810a860954f71908d8f2",
-          "size": 807424
+          "size": 807424,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-engine-2026.10.29/libllmtoken-osx-arm64.dylib"
+        },
+        "libllm_vision_apple.dylib": {
+          "group": "engine",
+          "sha256": "ef76c589302cc044acfe55fe0c15294a89df8a53010ec1717b459cf7f02363b9",
+          "size": 52448,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-engine-2026.10.29/libllm_vision_apple-osx-arm64.dylib"
         },
         "libgmb_ai_finetune.dylib": {
           "group": "llmmotor",
           "sha256": "5b4debdb6735ab0dcd500d1d2222b723511bdf3d8e20e0b8932eca216e774cf6",
-          "size": 141632
+          "size": 141632,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-llmmotor-2026.10.29/libgmb_ai_finetune-osx-arm64.dylib"
         },
         "libgmb_ai_mlx.dylib": {
           "group": "llmmotor",
           "sha256": "cffc67f401958455fbbfe62adbfcaa7a1246acb2d3207c48b566b899c958e36b",
-          "size": 22310752
-        },
-        "libgmb_ai_moestream.dylib": {
-          "group": "llmmotor",
-          "sha256": "f97a897ddadc2c78ff7de6c2f6b2aaec3dd62d8c0324ff6ecf67373e8f6c1594",
-          "size": 209600
+          "size": 22310752,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-llmmotor-2026.10.29/libgmb_ai_mlx-osx-arm64.dylib"
         },
         "libllm_ai_llamacpp.dylib": {
           "group": "llmmotor",
           "sha256": "2d348592985b862fb7c8b979d277d9c50c6f6aab1b803612ff2a08116d1ce9a3",
-          "size": 6445520
+          "size": 6445520,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-llmmotor-2026.10.29/libllm_ai_llamacpp-osx-arm64.dylib"
         },
         "libllm_ai_mlx.dylib": {
           "group": "llmmotor",
           "sha256": "6793dc447df80d2c4713727d738af5f72e1eedd120318f6c71573ac456cb8cbd",
-          "size": 22423072
+          "size": 22423072,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-llmmotor-2026.10.29/libllm_ai_mlx-osx-arm64.dylib"
         },
         "mlx.metallib": {
           "group": "llmmotor",
           "sha256": "a1657f753a4abf5ac72086fa671142b545dbc78346de2a1e64099e08ec794c30",
-          "size": 163611848
+          "size": 163611848,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-llmmotor-2026.10.29/mlx-osx-arm64.metallib"
+        },
+        "gmb_sql_csv_ext.dylib": {
+          "group": "core",
+          "sha256": "049627e711afa34513a7cf7cb60da560d2e33800cb1d97ee7c3201a360fabbc9",
+          "size": 51664,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-core-2026.10.29/gmb_sql_csv_ext-osx-arm64.dylib"
+        },
+        "gmb_sql_parquet_ext.dylib": {
+          "group": "core",
+          "sha256": "132dcec5d3df13ad91023fbc69edc27a29c14dcfdf72a3df9aa1d1a615f572af",
+          "size": 102880,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-core-2026.10.29/gmb_sql_parquet_ext-osx-arm64.dylib"
         },
         "libgmb_ai_llm.dylib": {
           "group": "core",
           "sha256": "f96a834c641a78ba5eaec3b30b3fa11c87bde67f8376eb53f37c046ad029bd19",
-          "size": 813360
+          "size": 813360,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-core-2026.10.29/libgmb_ai_llm-osx-arm64.dylib"
         },
         "libgmb_ai_modelio.dylib": {
           "group": "core",
           "sha256": "574e13b5f261611e89cbe07be65aee7db39ef63def30f0fe3b449476e3a2d3b3",
-          "size": 154672
+          "size": 154672,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-core-2026.10.29/libgmb_ai_modelio-osx-arm64.dylib"
         },
         "libgmb_compress.dylib": {
           "group": "core",
           "sha256": "d11ed59434988c6e2adaa1c6c4c0e12fe3928dfd5e6e8ac640cac918fc6afc90",
-          "size": 1183944
+          "size": 1183944,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-core-2026.10.29/libgmb_compress-osx-arm64.dylib"
         },
         "libgmb_gfx.dylib": {
           "group": "core",
           "sha256": "c827192b1096c544b33ba71908f3a29d68f557c8436aeebb52d423a72418c69b",
-          "size": 1411200
+          "size": 1411200,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-core-2026.10.29/libgmb_gfx-osx-arm64.dylib"
         },
         "libgmb_grep.dylib": {
           "group": "core",
           "sha256": "555b6c9de51d5a21f234cb8de454d69e53aa304d52489f81e17ac5ee66e4c73c",
-          "size": 1222256
+          "size": 1222256,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-core-2026.10.29/libgmb_grep-osx-arm64.dylib"
         },
         "libgmb_pkg.dylib": {
           "group": "core",
           "sha256": "42bb346479c438b2cbc27fe6cb7b3ab79e1fed3dac20b26b09e76c106ad24917",
-          "size": 1368208
+          "size": 1368208,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-core-2026.10.29/libgmb_pkg-osx-arm64.dylib"
         },
         "libgmb_screen.dylib": {
           "group": "core",
           "sha256": "32e9ea9feb8d3101b9b10ddcab9e41fbb3afeb4e0cb6f509a07679998d94854c",
-          "size": 34816
+          "size": 34816,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-core-2026.10.29/libgmb_screen-osx-arm64.dylib"
         },
         "libgmb_tray.dylib": {
           "group": "core",
           "sha256": "8da3357fad323f274f5fd50eb21c1c799a909fcd4c790248552b4eaf0530e5a4",
-          "size": 54816
+          "size": 54816,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-core-2026.10.29/libgmb_tray-osx-arm64.dylib"
         },
         "libtorch_cpu.dylib": {
           "group": "torch",
@@ -586,15 +660,12 @@
     "osx-x64": {
       "groups": {
         "support": {
-          "kind": "github-release",
-          "tag": "gmb-support-2026.10.28",
+          "kind": "files",
+          "tag": "gmb-support-2026.10.29",
           "rids": {
             "osx-x64": {
-              "archive": "gmb-support-osx-x64.zip",
-              "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-support-2026.10.28/gmb-support-osx-x64.zip",
-              "sha256": "11abf5e6ae90a42888d358c5d7e4bb7625a755d88399e346b5db1e2133efca38",
-              "size": 23083213,
-              "extractRoot": ""
+              "kind": "files",
+              "tag": "gmb-support-2026.10.29"
             }
           }
         }
@@ -603,85 +674,110 @@
         "libcrypto.3.dylib": {
           "group": "support",
           "sha256": "6e2f72c9f8efd8e2d988bbea941cc4618ee558277d67c02fbfe795ad96ebac66",
-          "size": 4846032
-        },
-        "libhdf5.310.5.1.dylib": {
-          "group": "support",
-          "sha256": "34a701563a222cbb27869b8b2a3be791d147dfc8bbadb19c6197496f34c48aa2",
-          "size": 3968552
-        },
-        "libhdf5.310.dylib": {
-          "group": "support",
-          "sha256": "34a701563a222cbb27869b8b2a3be791d147dfc8bbadb19c6197496f34c48aa2",
-          "size": 3968552
+          "size": 4846032,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-support-2026.10.29/libcrypto.3-osx-x64.dylib"
         },
         "libhdf5.dylib": {
           "group": "support",
           "sha256": "34a701563a222cbb27869b8b2a3be791d147dfc8bbadb19c6197496f34c48aa2",
-          "size": 3968552
+          "size": 3968552,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-support-2026.10.29/libhdf5-osx-x64.dylib"
+        },
+        "libhdf5.310.dylib": {
+          "group": "support",
+          "sha256": "34a701563a222cbb27869b8b2a3be791d147dfc8bbadb19c6197496f34c48aa2",
+          "size": 3968552,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-support-2026.10.29/libhdf5.310-osx-x64.dylib"
+        },
+        "libhdf5.310.5.1.dylib": {
+          "group": "support",
+          "sha256": "34a701563a222cbb27869b8b2a3be791d147dfc8bbadb19c6197496f34c48aa2",
+          "size": 3968552,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-support-2026.10.29/libhdf5.310.5.1-osx-x64.dylib"
         },
         "libpdf_oxide.dylib": {
           "group": "support",
           "sha256": "f7d621161c49ab094f950974f5790553d319ccd393b127fe79890195145e9e9c",
-          "size": 25446844
-        },
-        "libSDL2_image.dylib": {
-          "group": "support",
-          "sha256": "5f6de8038747d4f124deeeb1e933880920036c87abe218a8f33980a0c0a58f7f",
-          "size": 399552
-        },
-        "libSDL2_mixer.dylib": {
-          "group": "support",
-          "sha256": "de730f6b4eaef413216ea9d2daa72c91406c0df1aaf4b11a24e6bef90d073d39",
-          "size": 613424
-        },
-        "libSDL2_ttf.dylib": {
-          "group": "support",
-          "sha256": "1d06a1a69ff569b1a6a72174fba760e54e7652b7c745f85f7d17473824fcf409",
-          "size": 3594080
+          "size": 25446844,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-support-2026.10.29/libpdf_oxide-osx-x64.dylib"
         },
         "libSDL2.dylib": {
           "group": "support",
           "sha256": "9fa35016afe9f7897ce386712cbf55afcfdfe27d88b3232dc6e000b9fb917f54",
-          "size": 3126480
+          "size": 3126480,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-support-2026.10.29/libSDL2-osx-x64.dylib"
+        },
+        "libSDL2_image.dylib": {
+          "group": "support",
+          "sha256": "5f6de8038747d4f124deeeb1e933880920036c87abe218a8f33980a0c0a58f7f",
+          "size": 399552,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-support-2026.10.29/libSDL2_image-osx-x64.dylib"
+        },
+        "libSDL2_mixer.dylib": {
+          "group": "support",
+          "sha256": "de730f6b4eaef413216ea9d2daa72c91406c0df1aaf4b11a24e6bef90d073d39",
+          "size": 613424,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-support-2026.10.29/libSDL2_mixer-osx-x64.dylib"
+        },
+        "libSDL2_ttf.dylib": {
+          "group": "support",
+          "sha256": "1d06a1a69ff569b1a6a72174fba760e54e7652b7c745f85f7d17473824fcf409",
+          "size": 3594080,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-support-2026.10.29/libSDL2_ttf-osx-x64.dylib"
         },
         "libSDL3.dylib": {
           "group": "support",
           "sha256": "283d7c5026a1dc95bb759f80dfcb53ea75c0e706d42753ec6529da15fcbd12e7",
-          "size": 5230240
+          "size": 5230240,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-support-2026.10.29/libSDL3-osx-x64.dylib"
         },
         "libssl.3.dylib": {
           "group": "support",
           "sha256": "e6b4afec7064da5d5e4412c3f0ac1268d133080bd8802329a64d0cf77c19c038",
-          "size": 884992
+          "size": 884992,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-support-2026.10.29/libssl.3-osx-x64.dylib"
         }
       }
     },
     "linux-x64": {
       "groups": {
         "support": {
-          "kind": "github-release",
-          "tag": "gmb-support-2026.10.28",
+          "kind": "files",
+          "tag": "gmb-support-2026.10.29",
           "rids": {
             "linux-x64": {
-              "archive": "gmb-support-linux-x64.zip",
-              "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-support-2026.10.28/gmb-support-linux-x64.zip",
-              "sha256": "5b0019e01cd74757448118c37bdeee8a9153c3ecb726a82a8bf30c4b19883c6c",
-              "size": 23175752,
-              "extractRoot": ""
+              "kind": "files",
+              "tag": "gmb-support-2026.10.29"
+            }
+          }
+        },
+        "engine": {
+          "kind": "files",
+          "tag": "gmb-engine-2026.10.29",
+          "rids": {
+            "linux-x64": {
+              "kind": "files",
+              "tag": "gmb-engine-2026.10.29"
+            }
+          }
+        },
+        "llmmotor": {
+          "kind": "files",
+          "tag": "gmb-llmmotor-2026.10.29",
+          "rids": {
+            "linux-x64": {
+              "kind": "files",
+              "tag": "gmb-llmmotor-2026.10.29"
             }
           }
         },
         "core": {
-          "kind": "github-release",
+          "kind": "files",
           "tag": "gmb-core-2026.10.29",
           "rids": {
             "linux-x64": {
-              "archive": "gmb-core-linux-x64.zip",
-              "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-core-2026.10.29/gmb-core-linux-x64.zip",
-              "sha256": "6712a14255566137dafe61e93dc63aa140c602a0bcc1a4b526b6fd4320c45c03",
-              "size": 3519003,
-              "extractRoot": ""
+              "kind": "files",
+              "tag": "gmb-core-2026.10.29"
             }
           }
         },
@@ -703,206 +799,374 @@
         "libcrypto.so.3": {
           "group": "support",
           "sha256": "d8c741abe66a727c2dd1933d97fbbf9b62fa9687bd9b8ce903a0df46f2e48d85",
-          "size": 6386528
+          "size": 6386528,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-support-2026.10.29/libcrypto-linux-x64.so.3"
         },
         "libfreetype.so.6": {
           "group": "support",
           "sha256": "69fbccdb063fee5d70d71658f03962a96f05633c3a4da0fedd01aeb618e7ff7f",
-          "size": 874408
+          "size": 874408,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-support-2026.10.29/libfreetype-linux-x64.so.6"
         },
         "libharfbuzz.so.0": {
           "group": "support",
           "sha256": "8296f850cd34db61651e5a84f3a80dc4cc3fd82add499beee14b7ad5ec4aa122",
-          "size": 1425376
-        },
-        "libhdf5_hl.so": {
-          "group": "support",
-          "sha256": "c4114b8f8bc025722db15a1a690192330829bad9ba516eb42e9e837dd586b6a9",
-          "size": 165088
-        },
-        "libhdf5_hl.so.310": {
-          "group": "support",
-          "sha256": "c4114b8f8bc025722db15a1a690192330829bad9ba516eb42e9e837dd586b6a9",
-          "size": 165088
-        },
-        "libhdf5_hl.so.310.0.6": {
-          "group": "support",
-          "sha256": "c4114b8f8bc025722db15a1a690192330829bad9ba516eb42e9e837dd586b6a9",
-          "size": 165088
+          "size": 1425376,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-support-2026.10.29/libharfbuzz-linux-x64.so.0"
         },
         "libhdf5.so": {
           "group": "support",
           "sha256": "5ef4ef173418f82b6bc349df4218f2022da6f2a5c22ad4561c7e6c04893b193e",
-          "size": 4789776
+          "size": 4789776,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-support-2026.10.29/libhdf5-linux-x64.so"
         },
         "libhdf5.so.310": {
           "group": "support",
           "sha256": "5ef4ef173418f82b6bc349df4218f2022da6f2a5c22ad4561c7e6c04893b193e",
-          "size": 4789776
+          "size": 4789776,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-support-2026.10.29/libhdf5-linux-x64.so.310"
         },
         "libhdf5.so.310.5.1": {
           "group": "support",
           "sha256": "5ef4ef173418f82b6bc349df4218f2022da6f2a5c22ad4561c7e6c04893b193e",
-          "size": 4789776
+          "size": 4789776,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-support-2026.10.29/libhdf5-linux-x64.so.310.5.1"
+        },
+        "libhdf5_hl.so": {
+          "group": "support",
+          "sha256": "c4114b8f8bc025722db15a1a690192330829bad9ba516eb42e9e837dd586b6a9",
+          "size": 165088,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-support-2026.10.29/libhdf5_hl-linux-x64.so"
+        },
+        "libhdf5_hl.so.310": {
+          "group": "support",
+          "sha256": "c4114b8f8bc025722db15a1a690192330829bad9ba516eb42e9e837dd586b6a9",
+          "size": 165088,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-support-2026.10.29/libhdf5_hl-linux-x64.so.310"
+        },
+        "libhdf5_hl.so.310.0.6": {
+          "group": "support",
+          "sha256": "c4114b8f8bc025722db15a1a690192330829bad9ba516eb42e9e837dd586b6a9",
+          "size": 165088,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-support-2026.10.29/libhdf5_hl-linux-x64.so.310.0.6"
         },
         "libjpeg.so.62": {
           "group": "support",
           "sha256": "3c515db8e0b80a89a0db28c7d39ebed907bc2fad6c67b741f8dacc3641c7d029",
-          "size": 673856
+          "size": 673856,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-support-2026.10.29/libjpeg-linux-x64.so.62"
         },
         "libpdf_oxide.so": {
           "group": "support",
           "sha256": "acbb96618aecf6bbd51d502ac1946e9e99a2b1277eb68d838ee13ef1c17d609f",
-          "size": 27774376
+          "size": 27774376,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-support-2026.10.29/libpdf_oxide-linux-x64.so"
         },
         "libpng16.so.16": {
           "group": "support",
           "sha256": "e64ecdfb2dcb00224c04377d639d00518f4758d419c99733264ff634849fe003",
-          "size": 235512
-        },
-        "libSDL2_image-2.0.so.0": {
-          "group": "support",
-          "sha256": "f0df24cf6f8a5f3c4318b860c2c4c99c7e4c43425f120326e4add961df8cf568",
-          "size": 137128
-        },
-        "libSDL2_mixer-2.0.so.0": {
-          "group": "support",
-          "sha256": "a7e81a2d656b9f1d369c1677a6209ac1943a3fb375ad827e475834e5ca0e1203",
-          "size": 180152
-        },
-        "libSDL2_ttf-2.0.so.0": {
-          "group": "support",
-          "sha256": "e455760bf41d8417401d24e478609ed3e52c78043dde377522efe50c79243a47",
-          "size": 79720
+          "size": 235512,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-support-2026.10.29/libpng16-linux-x64.so.16"
         },
         "libSDL2-2.0.so.0": {
           "group": "support",
           "sha256": "def56368bff43a1a37a59bcf0df02cbe7a165ee31910d85750826f0765e2bd8b",
-          "size": 434672
+          "size": 434672,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-support-2026.10.29/libSDL2-2.0-linux-x64.so.0"
+        },
+        "libSDL2_image-2.0.so.0": {
+          "group": "support",
+          "sha256": "f0df24cf6f8a5f3c4318b860c2c4c99c7e4c43425f120326e4add961df8cf568",
+          "size": 137128,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-support-2026.10.29/libSDL2_image-2.0-linux-x64.so.0"
+        },
+        "libSDL2_mixer-2.0.so.0": {
+          "group": "support",
+          "sha256": "a7e81a2d656b9f1d369c1677a6209ac1943a3fb375ad827e475834e5ca0e1203",
+          "size": 180152,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-support-2026.10.29/libSDL2_mixer-2.0-linux-x64.so.0"
+        },
+        "libSDL2_ttf-2.0.so.0": {
+          "group": "support",
+          "sha256": "e455760bf41d8417401d24e478609ed3e52c78043dde377522efe50c79243a47",
+          "size": 79720,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-support-2026.10.29/libSDL2_ttf-2.0-linux-x64.so.0"
         },
         "libSDL3.so.0": {
           "group": "support",
           "sha256": "d0e5ab2264af48feee0a55f2d9d1c31781f6a27595ac21e242c4910b9e16b199",
-          "size": 3582616
+          "size": 3582616,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-support-2026.10.29/libSDL3-linux-x64.so.0"
         },
         "libssl.so.3": {
           "group": "support",
           "sha256": "2c13f3e067200753bb67182e71e12747df80fa06e6d98c3e72bcbbf7751846e2",
-          "size": 1106088
+          "size": 1106088,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-support-2026.10.29/libssl-linux-x64.so.3"
         },
         "libtiff.so.6": {
           "group": "support",
           "sha256": "30cdf6804a42f3288bcba631d20e310614d19431a66edc8ae52f2e2b974022fa",
-          "size": 636936
+          "size": 636936,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-support-2026.10.29/libtiff-linux-x64.so.6"
         },
         "libwebp.so.7": {
           "group": "support",
           "sha256": "5f547b804f9c8f70aa2d64a70d49eb406ec4e295fa0772ebcadfba719f8c8668",
-          "size": 527000
+          "size": 527000,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-support-2026.10.29/libwebp-linux-x64.so.7"
+        },
+        "libllmcodec_aqlm.so": {
+          "group": "engine",
+          "sha256": "4fe9952ff3ab27bfb7b385c8dd18865fdd8b41da721ca1e2191abc3f9cbda2a1",
+          "size": 16112,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-engine-2026.10.29/libllmcodec_aqlm-linux-x64.so"
+        },
+        "libllmcodec_awq.so": {
+          "group": "engine",
+          "sha256": "afc0ccf4b8659079bdbecca54c99752750a81b7ebce57cc620982c0cf36be8e0",
+          "size": 15520,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-engine-2026.10.29/libllmcodec_awq-linux-x64.so"
+        },
+        "libllmcodec_bitnet.so": {
+          "group": "engine",
+          "sha256": "35931c66e4854618d0e01e45d849fc1219eea44579decc3d3bc468e7c84e4582",
+          "size": 15544,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-engine-2026.10.29/libllmcodec_bitnet-linux-x64.so"
+        },
+        "libllmcodec_bnb.so": {
+          "group": "engine",
+          "sha256": "176cd9d8df3d3170b04d160ed12c8de32f9ff256e6fbb11a3131f81c6c9cd1fe",
+          "size": 20976,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-engine-2026.10.29/libllmcodec_bnb-linux-x64.so"
+        },
+        "libllmcodec_fp4.so": {
+          "group": "engine",
+          "sha256": "82a429957b4608561998942323890aa6ebeb82906db778da0e8ab48af041432a",
+          "size": 20928,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-engine-2026.10.29/libllmcodec_fp4-linux-x64.so"
+        },
+        "libllmcodec_fp8.so": {
+          "group": "engine",
+          "sha256": "79f3eb04ae464dffc02a176316867ee89da41e9c6343edb0db6a05217a51044d",
+          "size": 20944,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-engine-2026.10.29/libllmcodec_fp8-linux-x64.so"
+        },
+        "libllmcodec_ggml.so": {
+          "group": "engine",
+          "sha256": "251f6049df2473f1ee5517df2f6586af17aebdca1736e743fce7f0601302bed5",
+          "size": 108104,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-engine-2026.10.29/libllmcodec_ggml-linux-x64.so"
+        },
+        "libllmcodec_gptq.so": {
+          "group": "engine",
+          "sha256": "9f0fcabed2c7f5aaf44628200ba23b994fdcc982b155e60233639da6a59e8f59",
+          "size": 15512,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-engine-2026.10.29/libllmcodec_gptq-linux-x64.so"
+        },
+        "libllmcodec_higgs.so": {
+          "group": "engine",
+          "sha256": "d9938a6635b01bb79c2c663ca302fba9884ad8d9069ad8258244b1c929302756",
+          "size": 15560,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-engine-2026.10.29/libllmcodec_higgs-linux-x64.so"
+        },
+        "libllmcodec_hqq.so": {
+          "group": "engine",
+          "sha256": "c88b572d0c952502d85df94679e32afc154f573780399f67cf9a9dfd520f99f7",
+          "size": 15544,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-engine-2026.10.29/libllmcodec_hqq-linux-x64.so"
+        },
+        "libllmcodec_mlx_affine.so": {
+          "group": "engine",
+          "sha256": "51e95a180ae39264426c1cada9442c810f1aff52f1edaaf95a5eb3be0ccdcfb6",
+          "size": 20832,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-engine-2026.10.29/libllmcodec_mlx_affine-linux-x64.so"
+        },
+        "libllmcodec_mxfp.so": {
+          "group": "engine",
+          "sha256": "005daf579058435f6c3ed5f5a816e6509c8da74d52a13145b2addbff6489a5b7",
+          "size": 25048,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-engine-2026.10.29/libllmcodec_mxfp-linux-x64.so"
+        },
+        "libllmcodec_nvfp.so": {
+          "group": "engine",
+          "sha256": "a539a328fc47ddfec89df1afbd9e2aa570d3175163326b5b68489371a00d9e5d",
+          "size": 20936,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-engine-2026.10.29/libllmcodec_nvfp-linux-x64.so"
+        },
+        "libllmcodec_plain.so": {
+          "group": "engine",
+          "sha256": "a0b0ada4b364bcc4b2a30f877052d8bc7017f4c038464340705e20f4dee31054",
+          "size": 15880,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-engine-2026.10.29/libllmcodec_plain-linux-x64.so"
+        },
+        "libllmcodec_spqr.so": {
+          "group": "engine",
+          "sha256": "b0211194ab44c3d9080e76faac840e3f606ee8da7ebed1982d1c457375ac6de1",
+          "size": 15544,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-engine-2026.10.29/libllmcodec_spqr-linux-x64.so"
+        },
+        "libllmcodec_turboquant.so": {
+          "group": "engine",
+          "sha256": "3ad69b6b5672109e61afe350b6a6e1d15e80f793ded79419d2f683d677fae276",
+          "size": 20272,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-engine-2026.10.29/libllmcodec_turboquant-linux-x64.so"
+        },
+        "libllmcodec_vptq.so": {
+          "group": "engine",
+          "sha256": "29019553f5d375ecfcdc7ae225cbd0437e45ca676999548ecf68e273acc01616",
+          "size": 15512,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-engine-2026.10.29/libllmcodec_vptq-linux-x64.so"
+        },
+        "libllmtoken.so": {
+          "group": "engine",
+          "sha256": "b059c311cb2a239272f3d22b68e6fbe111019d73c070db9d18583a14fc1011c9",
+          "size": 830816,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-engine-2026.10.29/libllmtoken-linux-x64.so"
+        },
+        "libggml-base.so.0": {
+          "group": "llmmotor",
+          "sha256": "0b5540c1f7f1a2c234e3f21f682b6386761892a84d88125733f3e0f879355420",
+          "size": 910816,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-llmmotor-2026.10.29/libggml-base-linux-x64.so.0"
+        },
+        "libggml-cpu.so.0": {
+          "group": "llmmotor",
+          "sha256": "af6e2955abe6dde0937a55e3158e846b5db273e3b0f3b6d35c5f28cf13cc4ca5",
+          "size": 1144840,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-llmmotor-2026.10.29/libggml-cpu-linux-x64.so.0"
+        },
+        "libggml.so.0": {
+          "group": "llmmotor",
+          "sha256": "50f8eae31b2a7019a717d61df9a3b62990b0b9c837c208167bb5fd8072443098",
+          "size": 55384,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-llmmotor-2026.10.29/libggml-linux-x64.so.0"
+        },
+        "libllama-common.so.0": {
+          "group": "llmmotor",
+          "sha256": "3ff857d9708b17d0e5858fdeabf7ae22626eb6f541c89e491249b6ac40d5bf44",
+          "size": 6142624,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-llmmotor-2026.10.29/libllama-common-linux-x64.so.0"
+        },
+        "libllama.so.0": {
+          "group": "llmmotor",
+          "sha256": "813ca35b51a0b34b281c00c5f866f11a1bfb33d4c436c1913f666d3a969f6ec5",
+          "size": 4265472,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-llmmotor-2026.10.29/libllama-linux-x64.so.0"
+        },
+        "libllm_ai_llamacpp.so": {
+          "group": "llmmotor",
+          "sha256": "be3dd7acc7623848eb33cef1f1acd3fd1e1dbc496a19821442584b7f6459da4c",
+          "size": 61320,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-llmmotor-2026.10.29/libllm_ai_llamacpp-linux-x64.so"
+        },
+        "libmtmd.so.0": {
+          "group": "llmmotor",
+          "sha256": "6ed7fc904f5570046447358f7f9419cf3368a51f349d1cb7a1afd2c81e3ed3b1",
+          "size": 1801680,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-llmmotor-2026.10.29/libmtmd-linux-x64.so.0"
         },
         "gmb_sql_csv_ext.so": {
           "group": "core",
           "sha256": "9572de122766462a321e4e67d6e3e1ba80025ce225b574f2350e486a2835ed59",
-          "size": 21696
+          "size": 21696,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-core-2026.10.29/gmb_sql_csv_ext-linux-x64.so"
         },
         "gmb_sql_parquet_ext.so": {
           "group": "core",
           "sha256": "539ff8ec7c075818f29baa1270897efe1ef5c1b711716a3bdd936bcc47eee8e1",
-          "size": 100880
+          "size": 100880,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-core-2026.10.29/gmb_sql_parquet_ext-linux-x64.so"
         },
         "libgmb_ai_llm.so": {
           "group": "core",
           "sha256": "96abe3bc5f8614013305cc49f32304eec606a96790c1245d3fb52980056147f6",
-          "size": 794984
+          "size": 794984,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-core-2026.10.29/libgmb_ai_llm-linux-x64.so"
         },
         "libgmb_ai_modelio.so": {
           "group": "core",
           "sha256": "78160f2f10b0c8c999ec1c51a0b921cbb936cf351b37b43572f737233c4deeab",
-          "size": 127512
+          "size": 127512,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-core-2026.10.29/libgmb_ai_modelio-linux-x64.so"
         },
         "libgmb_compress.so": {
           "group": "core",
           "sha256": "086f3f2f6496ed4a08dd1513a799d3fa8bd3de78b14a8ebb00e3d8a091313fe4",
-          "size": 1547304
+          "size": 1547304,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-core-2026.10.29/libgmb_compress-linux-x64.so"
         },
         "libgmb_gfx.so": {
           "group": "core",
           "sha256": "7f6e94f72c678730ea580ab5535807129cb2f253119b0851198b97bf68df04fa",
-          "size": 1851992
+          "size": 1851992,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-core-2026.10.29/libgmb_gfx-linux-x64.so"
         },
         "libgmb_grep.so": {
           "group": "core",
           "sha256": "dbdb187833f36bf158d4fd8c86c1583ac13e372d1a27ccb4d6945f4446b6f713",
-          "size": 1600472
+          "size": 1600472,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-core-2026.10.29/libgmb_grep-linux-x64.so"
         },
         "libgmb_pkg.so": {
           "group": "core",
           "sha256": "b1f261394891ab28d6001b7817773fdb632ffbe0f2948975d9d46a9c15d1058f",
-          "size": 1810864
+          "size": 1810864,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-core-2026.10.29/libgmb_pkg-linux-x64.so"
         },
         "libgmb_screen.so": {
           "group": "core",
           "sha256": "c77429a7936214bd481b1f925a9e4f3c4b4382648c9a16cc7e58592092eb7a93",
-          "size": 16896
+          "size": 16896,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-core-2026.10.29/libgmb_screen-linux-x64.so"
         },
         "libgmb_tray.so": {
           "group": "core",
           "sha256": "be878d1058242cf2d89441044f82af29b507d4e292555c770290672c00d4abf1",
-          "size": 16664
+          "size": 16664,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-core-2026.10.29/libgmb_tray-linux-x64.so"
         }
       }
     },
     "linux-arm64": {
       "groups": {
         "support": {
-          "kind": "github-release",
-          "tag": "gmb-support-2026.10.28",
+          "kind": "files",
+          "tag": "gmb-support-2026.10.29",
           "rids": {
             "linux-arm64": {
-              "archive": "gmb-support-linux-arm64.zip",
-              "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-support-2026.10.28/gmb-support-linux-arm64.zip",
-              "sha256": "06094acad4a01d6b7e40337c80be14385612970770f4b6da0ef6914dbbc5530f",
-              "size": 30295203,
-              "extractRoot": ""
+              "kind": "files",
+              "tag": "gmb-support-2026.10.29"
             }
           }
         },
         "engine": {
-          "kind": "github-release",
+          "kind": "files",
           "tag": "gmb-engine-2026.10.29",
           "rids": {
             "linux-arm64": {
-              "archive": "gmb-engine-linux-arm64.zip",
-              "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-engine-2026.10.29/gmb-engine-linux-arm64.zip",
-              "sha256": "cf152e8940f53f221fd757ccab05bdc2ebc30c9fbb986d74653ace697f54a2bf",
-              "size": 366662,
-              "extractRoot": ""
+              "kind": "files",
+              "tag": "gmb-engine-2026.10.29"
             }
           }
         },
         "llmmotor": {
-          "kind": "github-release",
+          "kind": "files",
           "tag": "gmb-llmmotor-2026.10.29",
           "rids": {
             "linux-arm64": {
-              "archive": "gmb-llmmotor-linux-arm64.zip",
-              "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-llmmotor-2026.10.29/gmb-llmmotor-linux-arm64.zip",
-              "sha256": "1258a2d44d535a37c1e2626629762175afd5d1e8bfe81c0a3732360235b988eb",
-              "size": 4594811,
-              "extractRoot": ""
+              "kind": "files",
+              "tag": "gmb-llmmotor-2026.10.29"
             }
           }
         },
         "core": {
-          "kind": "github-release",
+          "kind": "files",
           "tag": "gmb-core-2026.10.29",
           "rids": {
             "linux-arm64": {
-              "archive": "gmb-core-linux-arm64.zip",
-              "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-core-2026.10.29/gmb-core-linux-arm64.zip",
-              "sha256": "1769bf13a83ef8162aeb642567293aadcaa0db6946720903358c1a2eb036351b",
-              "size": 3547162,
-              "extractRoot": ""
+              "kind": "files",
+              "tag": "gmb-core-2026.10.29"
             }
           }
         }
@@ -911,392 +1175,464 @@
         "libcrypto.so.3": {
           "group": "support",
           "sha256": "21fe1bcdb6f69de2dc4ce51ec537027da1ebc3f2e9ca3afc10356909ac9646fc",
-          "size": 6302840
+          "size": 6302840,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-support-2026.10.29/libcrypto-linux-arm64.so.3"
         },
         "libfreetype.so.6": {
           "group": "support",
           "sha256": "539d53826b80fe356b016bbf5183ea72484ff9249fa5213787ad34e00b266a85",
-          "size": 854304
+          "size": 854304,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-support-2026.10.29/libfreetype-linux-arm64.so.6"
         },
         "libharfbuzz.so.0": {
           "group": "support",
           "sha256": "c7ff26de1155ece38deff1cfee001f1a6e590d0e488c11be34af495ccb2ebe63",
-          "size": 1380416
-        },
-        "libhdf5_cpp.so": {
-          "group": "support",
-          "sha256": "47abc7d47742bbfbcee351cbf7937c72b315080d8a0dc9d22bca0cc26767ca46",
-          "size": 526696
-        },
-        "libhdf5_cpp.so.200": {
-          "group": "support",
-          "sha256": "47abc7d47742bbfbcee351cbf7937c72b315080d8a0dc9d22bca0cc26767ca46",
-          "size": 526696
-        },
-        "libhdf5_cpp.so.200.1.0": {
-          "group": "support",
-          "sha256": "47abc7d47742bbfbcee351cbf7937c72b315080d8a0dc9d22bca0cc26767ca46",
-          "size": 526696
-        },
-        "libhdf5_fortran.so": {
-          "group": "support",
-          "sha256": "cac49cbb910a66baea58a76c4206e3cf677978699155895521c0b0d6c90d4c4e",
-          "size": 396984
-        },
-        "libhdf5_fortran.so.200": {
-          "group": "support",
-          "sha256": "cac49cbb910a66baea58a76c4206e3cf677978699155895521c0b0d6c90d4c4e",
-          "size": 396984
-        },
-        "libhdf5_fortran.so.200.1.0": {
-          "group": "support",
-          "sha256": "cac49cbb910a66baea58a76c4206e3cf677978699155895521c0b0d6c90d4c4e",
-          "size": 396984
-        },
-        "libhdf5_hl_cpp.so": {
-          "group": "support",
-          "sha256": "d0adccae9f7a00137299240c667962f4c2ff4f1c881448636c0ff781fe5d041a",
-          "size": 67920
-        },
-        "libhdf5_hl_cpp.so.200": {
-          "group": "support",
-          "sha256": "d0adccae9f7a00137299240c667962f4c2ff4f1c881448636c0ff781fe5d041a",
-          "size": 67920
-        },
-        "libhdf5_hl_cpp.so.200.0.1": {
-          "group": "support",
-          "sha256": "d0adccae9f7a00137299240c667962f4c2ff4f1c881448636c0ff781fe5d041a",
-          "size": 67920
-        },
-        "libhdf5_hl_fortran.so": {
-          "group": "support",
-          "sha256": "7606c452df7f2e0b9b2c1b9fd16778ff1902ca0c73f13cec84450c59389e681b",
-          "size": 198832
-        },
-        "libhdf5_hl.so": {
-          "group": "support",
-          "sha256": "52dbaa7e317b274c948e2a74ca0dd99732d69d9f852284486b535914394170ba",
-          "size": 220016
-        },
-        "libhdf5_hl.so.200": {
-          "group": "support",
-          "sha256": "2118d83181b6aaa402aba0c5b0ffbdab79fbbfe1aa463545b93a794289a144b9",
-          "size": 133688
-        },
-        "libhdf5_hl.so.200.0.1": {
-          "group": "support",
-          "sha256": "2118d83181b6aaa402aba0c5b0ffbdab79fbbfe1aa463545b93a794289a144b9",
-          "size": 133688
-        },
-        "libhdf5_hl.so.310": {
-          "group": "support",
-          "sha256": "52dbaa7e317b274c948e2a74ca0dd99732d69d9f852284486b535914394170ba",
-          "size": 220016
-        },
-        "libhdf5_hl.so.310.0.6": {
-          "group": "support",
-          "sha256": "52dbaa7e317b274c948e2a74ca0dd99732d69d9f852284486b535914394170ba",
-          "size": 220016
-        },
-        "libhdf5_serial.so": {
-          "group": "support",
-          "sha256": "a347e592f02581a5e523c7bc6d1649a30ff3595f6a24e7ae27d38f94e4efc6f1",
-          "size": 3900896
-        },
-        "libhdf5_serial.so.103": {
-          "group": "support",
-          "sha256": "a347e592f02581a5e523c7bc6d1649a30ff3595f6a24e7ae27d38f94e4efc6f1",
-          "size": 3900896
-        },
-        "libhdf5_serial.so.103.3.0": {
-          "group": "support",
-          "sha256": "a347e592f02581a5e523c7bc6d1649a30ff3595f6a24e7ae27d38f94e4efc6f1",
-          "size": 3900896
+          "size": 1380416,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-support-2026.10.29/libharfbuzz-linux-arm64.so.0"
         },
         "libhdf5.so": {
           "group": "support",
           "sha256": "caac40abb3ef79c8eae24115b8358ba25319bfe8a168ecd63343adb99a3c32da",
-          "size": 4988912
+          "size": 4988912,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-support-2026.10.29/libhdf5-linux-arm64.so"
         },
         "libhdf5.so.200": {
           "group": "support",
           "sha256": "0f64afa8f5fe84856f61350c2d5803c6e26a3d703e1181895249f04163e320a6",
-          "size": 4347136
+          "size": 4347136,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-support-2026.10.29/libhdf5-linux-arm64.so.200"
         },
         "libhdf5.so.200.1.0": {
           "group": "support",
           "sha256": "0f64afa8f5fe84856f61350c2d5803c6e26a3d703e1181895249f04163e320a6",
-          "size": 4347136
+          "size": 4347136,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-support-2026.10.29/libhdf5-linux-arm64.so.200.1.0"
         },
         "libhdf5.so.310": {
           "group": "support",
           "sha256": "caac40abb3ef79c8eae24115b8358ba25319bfe8a168ecd63343adb99a3c32da",
-          "size": 4988912
+          "size": 4988912,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-support-2026.10.29/libhdf5-linux-arm64.so.310"
         },
         "libhdf5.so.310.5.1": {
           "group": "support",
           "sha256": "caac40abb3ef79c8eae24115b8358ba25319bfe8a168ecd63343adb99a3c32da",
-          "size": 4988912
+          "size": 4988912,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-support-2026.10.29/libhdf5-linux-arm64.so.310.5.1"
         },
         "libhdf5hl_fortran.so": {
           "group": "support",
           "sha256": "7606c452df7f2e0b9b2c1b9fd16778ff1902ca0c73f13cec84450c59389e681b",
-          "size": 198832
+          "size": 198832,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-support-2026.10.29/libhdf5hl_fortran-linux-arm64.so"
         },
         "libhdf5hl_fortran.so.200": {
           "group": "support",
           "sha256": "7606c452df7f2e0b9b2c1b9fd16778ff1902ca0c73f13cec84450c59389e681b",
-          "size": 198832
+          "size": 198832,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-support-2026.10.29/libhdf5hl_fortran-linux-arm64.so.200"
         },
         "libhdf5hl_fortran.so.200.0.1": {
           "group": "support",
           "sha256": "7606c452df7f2e0b9b2c1b9fd16778ff1902ca0c73f13cec84450c59389e681b",
-          "size": 198832
+          "size": 198832,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-support-2026.10.29/libhdf5hl_fortran-linux-arm64.so.200.0.1"
+        },
+        "libhdf5_cpp.so": {
+          "group": "support",
+          "sha256": "47abc7d47742bbfbcee351cbf7937c72b315080d8a0dc9d22bca0cc26767ca46",
+          "size": 526696,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-support-2026.10.29/libhdf5_cpp-linux-arm64.so"
+        },
+        "libhdf5_cpp.so.200": {
+          "group": "support",
+          "sha256": "47abc7d47742bbfbcee351cbf7937c72b315080d8a0dc9d22bca0cc26767ca46",
+          "size": 526696,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-support-2026.10.29/libhdf5_cpp-linux-arm64.so.200"
+        },
+        "libhdf5_cpp.so.200.1.0": {
+          "group": "support",
+          "sha256": "47abc7d47742bbfbcee351cbf7937c72b315080d8a0dc9d22bca0cc26767ca46",
+          "size": 526696,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-support-2026.10.29/libhdf5_cpp-linux-arm64.so.200.1.0"
+        },
+        "libhdf5_fortran.so": {
+          "group": "support",
+          "sha256": "cac49cbb910a66baea58a76c4206e3cf677978699155895521c0b0d6c90d4c4e",
+          "size": 396984,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-support-2026.10.29/libhdf5_fortran-linux-arm64.so"
+        },
+        "libhdf5_fortran.so.200": {
+          "group": "support",
+          "sha256": "cac49cbb910a66baea58a76c4206e3cf677978699155895521c0b0d6c90d4c4e",
+          "size": 396984,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-support-2026.10.29/libhdf5_fortran-linux-arm64.so.200"
+        },
+        "libhdf5_fortran.so.200.1.0": {
+          "group": "support",
+          "sha256": "cac49cbb910a66baea58a76c4206e3cf677978699155895521c0b0d6c90d4c4e",
+          "size": 396984,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-support-2026.10.29/libhdf5_fortran-linux-arm64.so.200.1.0"
+        },
+        "libhdf5_hl.so": {
+          "group": "support",
+          "sha256": "52dbaa7e317b274c948e2a74ca0dd99732d69d9f852284486b535914394170ba",
+          "size": 220016,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-support-2026.10.29/libhdf5_hl-linux-arm64.so"
+        },
+        "libhdf5_hl.so.200": {
+          "group": "support",
+          "sha256": "2118d83181b6aaa402aba0c5b0ffbdab79fbbfe1aa463545b93a794289a144b9",
+          "size": 133688,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-support-2026.10.29/libhdf5_hl-linux-arm64.so.200"
+        },
+        "libhdf5_hl.so.200.0.1": {
+          "group": "support",
+          "sha256": "2118d83181b6aaa402aba0c5b0ffbdab79fbbfe1aa463545b93a794289a144b9",
+          "size": 133688,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-support-2026.10.29/libhdf5_hl-linux-arm64.so.200.0.1"
+        },
+        "libhdf5_hl.so.310": {
+          "group": "support",
+          "sha256": "52dbaa7e317b274c948e2a74ca0dd99732d69d9f852284486b535914394170ba",
+          "size": 220016,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-support-2026.10.29/libhdf5_hl-linux-arm64.so.310"
+        },
+        "libhdf5_hl.so.310.0.6": {
+          "group": "support",
+          "sha256": "52dbaa7e317b274c948e2a74ca0dd99732d69d9f852284486b535914394170ba",
+          "size": 220016,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-support-2026.10.29/libhdf5_hl-linux-arm64.so.310.0.6"
+        },
+        "libhdf5_hl_cpp.so": {
+          "group": "support",
+          "sha256": "d0adccae9f7a00137299240c667962f4c2ff4f1c881448636c0ff781fe5d041a",
+          "size": 67920,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-support-2026.10.29/libhdf5_hl_cpp-linux-arm64.so"
+        },
+        "libhdf5_hl_cpp.so.200": {
+          "group": "support",
+          "sha256": "d0adccae9f7a00137299240c667962f4c2ff4f1c881448636c0ff781fe5d041a",
+          "size": 67920,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-support-2026.10.29/libhdf5_hl_cpp-linux-arm64.so.200"
+        },
+        "libhdf5_hl_cpp.so.200.0.1": {
+          "group": "support",
+          "sha256": "d0adccae9f7a00137299240c667962f4c2ff4f1c881448636c0ff781fe5d041a",
+          "size": 67920,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-support-2026.10.29/libhdf5_hl_cpp-linux-arm64.so.200.0.1"
+        },
+        "libhdf5_hl_fortran.so": {
+          "group": "support",
+          "sha256": "7606c452df7f2e0b9b2c1b9fd16778ff1902ca0c73f13cec84450c59389e681b",
+          "size": 198832,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-support-2026.10.29/libhdf5_hl_fortran-linux-arm64.so"
+        },
+        "libhdf5_serial.so": {
+          "group": "support",
+          "sha256": "a347e592f02581a5e523c7bc6d1649a30ff3595f6a24e7ae27d38f94e4efc6f1",
+          "size": 3900896,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-support-2026.10.29/libhdf5_serial-linux-arm64.so"
+        },
+        "libhdf5_serial.so.103": {
+          "group": "support",
+          "sha256": "a347e592f02581a5e523c7bc6d1649a30ff3595f6a24e7ae27d38f94e4efc6f1",
+          "size": 3900896,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-support-2026.10.29/libhdf5_serial-linux-arm64.so.103"
+        },
+        "libhdf5_serial.so.103.3.0": {
+          "group": "support",
+          "sha256": "a347e592f02581a5e523c7bc6d1649a30ff3595f6a24e7ae27d38f94e4efc6f1",
+          "size": 3900896,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-support-2026.10.29/libhdf5_serial-linux-arm64.so.103.3.0"
         },
         "libjpeg.so.62": {
           "group": "support",
           "sha256": "cb5ea34aa44a2451ee7172f904eaa7d5f93dff3a25ff644eadba743e5e23c1ad",
-          "size": 592064
+          "size": 592064,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-support-2026.10.29/libjpeg-linux-arm64.so.62"
         },
         "libpdf_oxide.so": {
           "group": "support",
           "sha256": "288221d92ce8327acbf047b759fc173522a2e70becfc1bbfd7c2b33a2c4720d5",
-          "size": 23338208
+          "size": 23338208,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-support-2026.10.29/libpdf_oxide-linux-arm64.so"
         },
         "libpng16.so.16": {
           "group": "support",
           "sha256": "1ab15ef8404400971eb3e016df00633e67b5e1e05b4aa2e55a1b81b02df1d63a",
-          "size": 264320
-        },
-        "libSDL2_image-2.0.so.0": {
-          "group": "support",
-          "sha256": "c64b282e8ee10b2f6547c29ae21a350432231bd45c67524ae1b596ac8e58d2d6",
-          "size": 133168
-        },
-        "libSDL2_mixer-2.0.so.0": {
-          "group": "support",
-          "sha256": "cdb7458efeda1c6f5671f2c125071077381500eb3f29d3304ba74ab2d68b5330",
-          "size": 200776
-        },
-        "libSDL2_ttf-2.0.so.0": {
-          "group": "support",
-          "sha256": "a7483939a196740eb7a2b44138f4ee15dba8d14a950acaab4db247fc9f08dd89",
-          "size": 67560
+          "size": 264320,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-support-2026.10.29/libpng16-linux-arm64.so.16"
         },
         "libSDL2-2.0.so.0": {
           "group": "support",
           "sha256": "e7516fcb8e09491aba7e145c3e285c83224cf8ff76b8135a173e4fb3a2eb69ab",
-          "size": 467560
+          "size": 467560,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-support-2026.10.29/libSDL2-2.0-linux-arm64.so.0"
+        },
+        "libSDL2_image-2.0.so.0": {
+          "group": "support",
+          "sha256": "c64b282e8ee10b2f6547c29ae21a350432231bd45c67524ae1b596ac8e58d2d6",
+          "size": 133168,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-support-2026.10.29/libSDL2_image-2.0-linux-arm64.so.0"
+        },
+        "libSDL2_mixer-2.0.so.0": {
+          "group": "support",
+          "sha256": "cdb7458efeda1c6f5671f2c125071077381500eb3f29d3304ba74ab2d68b5330",
+          "size": 200776,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-support-2026.10.29/libSDL2_mixer-2.0-linux-arm64.so.0"
+        },
+        "libSDL2_ttf-2.0.so.0": {
+          "group": "support",
+          "sha256": "a7483939a196740eb7a2b44138f4ee15dba8d14a950acaab4db247fc9f08dd89",
+          "size": 67560,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-support-2026.10.29/libSDL2_ttf-2.0-linux-arm64.so.0"
         },
         "libSDL3.so.0": {
           "group": "support",
           "sha256": "809a63a5657ae88a93466aa8474b9e8693b48b81e8f00ee60adea9b5d805165c",
-          "size": 3192472
+          "size": 3192472,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-support-2026.10.29/libSDL3-linux-arm64.so.0"
         },
         "libssl.so.3": {
           "group": "support",
           "sha256": "b37f6340ecc94e5796addd3b10fb3f4ca235508ee3a17b3b524a37cbec54957d",
-          "size": 1196152
+          "size": 1196152,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-support-2026.10.29/libssl-linux-arm64.so.3"
         },
         "libtiff.so.6": {
           "group": "support",
           "sha256": "8c7c6c4d52edcd5c9e65f1a66f335afbfaa8ee401decd41ec2a95f8df135800f",
-          "size": 657552
+          "size": 657552,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-support-2026.10.29/libtiff-linux-arm64.so.6"
         },
         "libwebp.so.7": {
           "group": "support",
           "sha256": "3a95564177925a250005446ab63524462bd347456a757e5d9a41af31dbef28b8",
-          "size": 461600
+          "size": 461600,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-support-2026.10.29/libwebp-linux-arm64.so.7"
         },
         "libllmcodec_aqlm.so": {
           "group": "engine",
           "sha256": "a0dda1fb1196da1f237edbc4dfebd6224491607e2139a04be9592e780c0f558f",
-          "size": 13056
+          "size": 13056,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-engine-2026.10.29/libllmcodec_aqlm-linux-arm64.so"
         },
         "libllmcodec_awq.so": {
           "group": "engine",
           "sha256": "bb6662d2d7c68053a1af08fe8e45c7a4b5792f0536379381a1361b13c5f33196",
-          "size": 8448
+          "size": 8448,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-engine-2026.10.29/libllmcodec_awq-linux-arm64.so"
         },
         "libllmcodec_bitnet.so": {
           "group": "engine",
           "sha256": "0af213487284721ff39f380758fed54bb055039bf5cd9726b6393a8bfd570f13",
-          "size": 8496
+          "size": 8496,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-engine-2026.10.29/libllmcodec_bitnet-linux-arm64.so"
         },
         "libllmcodec_bnb.so": {
           "group": "engine",
           "sha256": "02769276097111ec49673df26468b1463985ae46dadb3de2b63735817aef870a",
-          "size": 18344
+          "size": 18344,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-engine-2026.10.29/libllmcodec_bnb-linux-arm64.so"
         },
         "libllmcodec_fp4.so": {
           "group": "engine",
           "sha256": "379986f3dbd04831c70dd3c704c24196b42bc49db5469974fc281fad55a90c4a",
-          "size": 18240
+          "size": 18240,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-engine-2026.10.29/libllmcodec_fp4-linux-arm64.so"
         },
         "libllmcodec_fp8.so": {
           "group": "engine",
           "sha256": "681999cc7212c6d178056180b007752796399434b280d77c7acc617ddd2c484e",
-          "size": 18264
+          "size": 18264,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-engine-2026.10.29/libllmcodec_fp8-linux-arm64.so"
         },
         "libllmcodec_ggml.so": {
           "group": "engine",
           "sha256": "8b8a99971d18226dd7b0b797f984c7c2a8959ddb707975a97b663985ccf33b0d",
-          "size": 101960
+          "size": 101960,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-engine-2026.10.29/libllmcodec_ggml-linux-arm64.so"
         },
         "libllmcodec_gptq.so": {
           "group": "engine",
           "sha256": "ce988c72f0be0fdddcdc6a4a13bcd2cd76c4673134d0f591188e36360eeccac7",
-          "size": 8448
+          "size": 8448,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-engine-2026.10.29/libllmcodec_gptq-linux-arm64.so"
         },
         "libllmcodec_higgs.so": {
           "group": "engine",
           "sha256": "da132030083b336fe0194dc11feb23d01d37f6cd8f2b57a9eeb1dcfe7330b127",
-          "size": 12608
+          "size": 12608,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-engine-2026.10.29/libllmcodec_higgs-linux-arm64.so"
         },
         "libllmcodec_hqq.so": {
           "group": "engine",
           "sha256": "e297efa2e33a32a2760117cf9b16e44b5863c1287ff125d78cb17659a713c42b",
-          "size": 8496
+          "size": 8496,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-engine-2026.10.29/libllmcodec_hqq-linux-arm64.so"
         },
         "libllmcodec_mlx_affine.so": {
           "group": "engine",
           "sha256": "9b04758fa33a206d822a90c20a8d3d42fdbb38b102309f607934d7dff5b6872d",
-          "size": 18016
+          "size": 18016,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-engine-2026.10.29/libllmcodec_mlx_affine-linux-arm64.so"
         },
         "libllmcodec_mxfp.so": {
           "group": "engine",
           "sha256": "8dcb402d4c6d73fbefa4a7acd3992ab897b04a3cff0cf01983ebedbb075f2ecb",
-          "size": 22408
+          "size": 22408,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-engine-2026.10.29/libllmcodec_mxfp-linux-arm64.so"
         },
         "libllmcodec_nvfp.so": {
           "group": "engine",
           "sha256": "e0e1cf35d867b2fd276ddc93d444e80e48092dab79af7df19cea8638d9c14376",
-          "size": 18248
+          "size": 18248,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-engine-2026.10.29/libllmcodec_nvfp-linux-arm64.so"
         },
         "libllmcodec_plain.so": {
           "group": "engine",
           "sha256": "d5135728b74fd4c95024d529b919b5bafb2eced6336f316ae4cbd323eb23ff03",
-          "size": 8712
+          "size": 8712,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-engine-2026.10.29/libllmcodec_plain-linux-arm64.so"
         },
         "libllmcodec_spqr.so": {
           "group": "engine",
           "sha256": "31f45a6e6c5398b69972eb9bb02a12ad89d194ce974f58e48bfffab07670af77",
-          "size": 8496
+          "size": 8496,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-engine-2026.10.29/libllmcodec_spqr-linux-arm64.so"
         },
         "libllmcodec_turboquant.so": {
           "group": "engine",
           "sha256": "bb0bb87208dba3591938c49f7ffbf521d1accf90c03d7ad5e0be61d1bff05864",
-          "size": 13176
+          "size": 13176,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-engine-2026.10.29/libllmcodec_turboquant-linux-arm64.so"
         },
         "libllmcodec_vptq.so": {
           "group": "engine",
           "sha256": "0a85714bb505bdc022a165d037bb84234232a38ab746d09646fa4ad555df2192",
-          "size": 8448
+          "size": 8448,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-engine-2026.10.29/libllmcodec_vptq-linux-arm64.so"
         },
         "libllmtoken.so": {
           "group": "engine",
           "sha256": "1d88066f43b31531030e35a54a131234290e2ce4ff01a73815fdeb06af90172d",
-          "size": 803760
+          "size": 803760,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-engine-2026.10.29/libllmtoken-linux-arm64.so"
         },
         "libggml-base.so.0": {
           "group": "llmmotor",
           "sha256": "8db5434e9c18c2ebe19e68b1fbd44b368b8a1713579fe991a15306b4cf75c980",
-          "size": 824688
+          "size": 824688,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-llmmotor-2026.10.29/libggml-base-linux-arm64.so.0"
         },
         "libggml-cpu.so.0": {
           "group": "llmmotor",
           "sha256": "fe29a2d5c08dc294a3484bcb55a98d1fa6daf7b61946de0fdc0a20fb4c4ac2e9",
-          "size": 918704
+          "size": 918704,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-llmmotor-2026.10.29/libggml-cpu-linux-arm64.so.0"
         },
         "libggml.so.0": {
           "group": "llmmotor",
           "sha256": "5b41efa65270ca818c1510349c6ca970cc34904a7dacf080098afe2283d6cee2",
-          "size": 48576
+          "size": 48576,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-llmmotor-2026.10.29/libggml-linux-arm64.so.0"
         },
         "libllama-common.so.0": {
           "group": "llmmotor",
           "sha256": "263245577711f0b2e0b7fff08a59e3fabdefd192aa6b98231b5e9c4c1f30a1cf",
-          "size": 5440256
+          "size": 5440256,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-llmmotor-2026.10.29/libllama-common-linux-arm64.so.0"
         },
         "libllama.so.0": {
           "group": "llmmotor",
           "sha256": "a1eab513a4314077a31bd1ee3ed3a52fef188408b502072a0927cc34e3384e6d",
-          "size": 3932232
+          "size": 3932232,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-llmmotor-2026.10.29/libllama-linux-arm64.so.0"
         },
         "libllm_ai_llamacpp.so": {
           "group": "llmmotor",
           "sha256": "5f4a6170a84d1d49638df2622ad7632180f469fc0cdfbec43554975d1163c0d4",
-          "size": 54456
+          "size": 54456,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-llmmotor-2026.10.29/libllm_ai_llamacpp-linux-arm64.so"
         },
         "libmtmd.so.0": {
           "group": "llmmotor",
           "sha256": "42fc1dcc91140baed0a56d01ee1a039f1554da20cd488da3c67a64c64e47474b",
-          "size": 1664920
+          "size": 1664920,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-llmmotor-2026.10.29/libmtmd-linux-arm64.so.0"
         },
         "gmb_sql_csv_ext.so": {
           "group": "core",
           "sha256": "752978fec10ee790dd74506bc9262c085c22790d7d24ba80af9444bfcfb8d22e",
-          "size": 18456
+          "size": 18456,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-core-2026.10.29/gmb_sql_csv_ext-linux-arm64.so"
         },
         "gmb_sql_parquet_ext.so": {
           "group": "core",
           "sha256": "247a1beeb70cf71ecd569396eb2e0b98335fbc255b8dae011ce92058ba22cf8a",
-          "size": 89488
+          "size": 89488,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-core-2026.10.29/gmb_sql_parquet_ext-linux-arm64.so"
         },
         "libgmb_ai_llm.so": {
           "group": "core",
           "sha256": "530ac44e8e53489a6fe33ca27339a52d0c7a47e29209b1d9f8c35f2714f6ed55",
-          "size": 789736
+          "size": 789736,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-core-2026.10.29/libgmb_ai_llm-linux-arm64.so"
         },
         "libgmb_ai_modelio.so": {
           "group": "core",
           "sha256": "daeeb2ae0dbcac3a8ccc0dccae2a51423e7c1bf9c82c0b9af2c602656fddd4d6",
-          "size": 120936
+          "size": 120936,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-core-2026.10.29/libgmb_ai_modelio-linux-arm64.so"
         },
         "libgmb_compress.so": {
           "group": "core",
           "sha256": "c801ca84b4e8589df6b9581fe53b703f82861a6b8187fb5e56a8cfa30371ff00",
-          "size": 1577128
+          "size": 1577128,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-core-2026.10.29/libgmb_compress-linux-arm64.so"
         },
         "libgmb_gfx.so": {
           "group": "core",
           "sha256": "32a2a4ac1ccc6a8c67fc2c0e9e75f93fb8bdd0f9d775ed6e25bf8cc34df07eaf",
-          "size": 1897512
+          "size": 1897512,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-core-2026.10.29/libgmb_gfx-linux-arm64.so"
         },
         "libgmb_grep.so": {
           "group": "core",
           "sha256": "4f887cb8a53fc8c478f4228913407ff6886480c3349b569bf4be7e8d600cb77c",
-          "size": 1632808
+          "size": 1632808,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-core-2026.10.29/libgmb_grep-linux-arm64.so"
         },
         "libgmb_pkg.so": {
           "group": "core",
           "sha256": "29a73e9ecd1b3c7f33f89cb68d83f1e2dee2107fe080731eb9318b03aff0236a",
-          "size": 1842656
+          "size": 1842656,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-core-2026.10.29/libgmb_pkg-linux-arm64.so"
         },
         "libgmb_screen.so": {
           "group": "core",
           "sha256": "5f447bdda2ede6c8da1c7625f289cfd4dc2fd986b85b662d067bc7e828df7e08",
-          "size": 18416
+          "size": 18416,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-core-2026.10.29/libgmb_screen-linux-arm64.so"
         },
         "libgmb_tray.so": {
           "group": "core",
           "sha256": "68c4469ffc6a139cb3e05751ea01696f007ac87621ad5a5788dd986901f96619",
-          "size": 13880
+          "size": 13880,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-core-2026.10.29/libgmb_tray-linux-arm64.so"
         }
       }
     },
     "win-x64": {
       "groups": {
         "support": {
-          "kind": "github-release",
-          "tag": "gmb-support-2026.10.28",
+          "kind": "files",
+          "tag": "gmb-support-2026.10.29",
           "rids": {
             "win-x64": {
-              "archive": "gmb-support-win-x64.zip",
-              "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-support-2026.10.28/gmb-support-win-x64.zip",
-              "sha256": "60df2611fe85a5543a8095c556d555298ed3d56320b90f1ce084ab4ba4448d74",
-              "size": 17983553,
-              "extractRoot": ""
+              "kind": "files",
+              "tag": "gmb-support-2026.10.29"
             }
           }
         },
@@ -1318,57 +1654,68 @@
         "gmb_tray.dll": {
           "group": "support",
           "sha256": "3b62ab8d39da46900dc5f945e4c94b63bb0adce0b9c0f4836ec0cdb30af5d17a",
-          "size": 116424
-        },
-        "hdf5_hl.dll": {
-          "group": "support",
-          "sha256": "894a97920b90e2d490f2242aec97030bb58d7c68f8b1a1ef7a38c407bee71349",
-          "size": 165376
+          "size": 116424,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-support-2026.10.29/gmb_tray-win-x64.dll"
         },
         "hdf5.dll": {
           "group": "support",
           "sha256": "4d215edfa26ee69766075d60ebdb8e09ad6c3e8e082f1bcb5a292df9c989d153",
-          "size": 4320768
+          "size": 4320768,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-support-2026.10.29/hdf5-win-x64.dll"
+        },
+        "hdf5_hl.dll": {
+          "group": "support",
+          "sha256": "894a97920b90e2d490f2242aec97030bb58d7c68f8b1a1ef7a38c407bee71349",
+          "size": 165376,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-support-2026.10.29/hdf5_hl-win-x64.dll"
         },
         "libcrypto-3-x64.dll": {
           "group": "support",
           "sha256": "c511a9db1adb7886f77026d8808a2217ac3f7975fca46b8bdb4dcc9072fd9f87",
-          "size": 7308288
+          "size": 7308288,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-support-2026.10.29/libcrypto-3-x64-win-x64.dll"
         },
         "libssl-3-x64.dll": {
           "group": "support",
           "sha256": "b94df46997b95262b9013bf9eb8a37fe53ff8cd877a39894ecca5bc74ce34092",
-          "size": 1321984
+          "size": 1321984,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-support-2026.10.29/libssl-3-x64-win-x64.dll"
         },
         "pdf_oxide.dll": {
           "group": "support",
           "sha256": "3abab7f77d97e4609d8c541b5e9fd33ebb39d75f3eadbebb51dd10c5b6882808",
-          "size": 28574208
-        },
-        "SDL2_image.dll": {
-          "group": "support",
-          "sha256": "79fc19743e5deb003f84635862b63d3c5d799a27eeaa0f40d7afb55c5834524a",
-          "size": 287232
-        },
-        "SDL2_mixer.dll": {
-          "group": "support",
-          "sha256": "79d84ea27b2b0402b5506bc6883e71fbca2874f983c727106fa26abb11b7f5b5",
-          "size": 421376
-        },
-        "SDL2_ttf.dll": {
-          "group": "support",
-          "sha256": "86febaf2ca137e417808a646b5920cdd10d7093b30a2071abde40b012c923c3d",
-          "size": 1751552
+          "size": 28574208,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-support-2026.10.29/pdf_oxide-win-x64.dll"
         },
         "SDL2.dll": {
           "group": "support",
           "sha256": "564306d1d75b9c55fb662a09a5c9ec0f38da06b8815fae841858118bdd9cb599",
-          "size": 1576448
+          "size": 1576448,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-support-2026.10.29/SDL2-win-x64.dll"
+        },
+        "SDL2_image.dll": {
+          "group": "support",
+          "sha256": "79fc19743e5deb003f84635862b63d3c5d799a27eeaa0f40d7afb55c5834524a",
+          "size": 287232,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-support-2026.10.29/SDL2_image-win-x64.dll"
+        },
+        "SDL2_mixer.dll": {
+          "group": "support",
+          "sha256": "79d84ea27b2b0402b5506bc6883e71fbca2874f983c727106fa26abb11b7f5b5",
+          "size": 421376,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-support-2026.10.29/SDL2_mixer-win-x64.dll"
+        },
+        "SDL2_ttf.dll": {
+          "group": "support",
+          "sha256": "86febaf2ca137e417808a646b5920cdd10d7093b30a2071abde40b012c923c3d",
+          "size": 1751552,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-support-2026.10.29/SDL2_ttf-win-x64.dll"
         },
         "SDL3.dll": {
           "group": "support",
           "sha256": "9fa7bcb4c3667bfe4cf5e5b740a1da708151af0d499c2d0afee50c9874ba181c",
-          "size": 2842624
+          "size": 2842624,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-support-2026.10.29/SDL3-win-x64.dll"
         }
       }
     }
