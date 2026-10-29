@@ -880,6 +880,19 @@
             }
           }
         },
+        "llmmotor": {
+          "kind": "github-release",
+          "tag": "gmb-llmmotor-2026.10.29",
+          "rids": {
+            "linux-arm64": {
+              "archive": "gmb-llmmotor-linux-arm64.zip",
+              "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-llmmotor-2026.10.29/gmb-llmmotor-linux-arm64.zip",
+              "sha256": "c5a4f17bffbf6c4eb88ef57cd52ce520a32a1692073716f38df04364a29d23e9",
+              "size": 22406,
+              "extractRoot": ""
+            }
+          }
+        },
         "core": {
           "kind": "github-release",
           "tag": "gmb-core-2026.10.29",
@@ -1184,6 +1197,11 @@
           "group": "engine",
           "sha256": "1d88066f43b31531030e35a54a131234290e2ce4ff01a73815fdeb06af90172d",
           "size": 803760
+        },
+        "libllm_ai_llamacpp.so": {
+          "group": "llmmotor",
+          "sha256": "5f4a6170a84d1d49638df2622ad7632180f469fc0cdfbec43554975d1163c0d4",
+          "size": 54456
         },
         "gmb_sql_csv_ext.so": {
           "group": "core",
