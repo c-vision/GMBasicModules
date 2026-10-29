@@ -19,11 +19,11 @@
         },
         "engine": {
           "kind": "github-release",
-          "tag": "gmb-engine-2026.10.28",
+          "tag": "gmb-engine-2026.10.29",
           "rids": {
             "osx-arm64": {
               "archive": "gmb-engine-osx-arm64.zip",
-              "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-engine-2026.10.28/gmb-engine-osx-arm64.zip",
+              "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-engine-2026.10.29/gmb-engine-osx-arm64.zip",
               "sha256": "e3b645daa2717371776d2a538b3aa3d040b4dd8f700057d23f3fce3faa9369d6",
               "size": 493037,
               "extractRoot": ""
@@ -32,11 +32,11 @@
         },
         "llmmotor": {
           "kind": "github-release",
-          "tag": "gmb-llmmotor-2026.10.28",
+          "tag": "gmb-llmmotor-2026.10.29",
           "rids": {
             "osx-arm64": {
               "archive": "gmb-llmmotor-osx-arm64.zip",
-              "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-llmmotor-2026.10.28/gmb-llmmotor-osx-arm64.zip",
+              "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-llmmotor-2026.10.29/gmb-llmmotor-osx-arm64.zip",
               "sha256": "3b685bcb24bfdbc72c9f240c6306c64e3047b6a8414bdff87ca4a0f25ff96375",
               "size": 66077559,
               "extractRoot": ""
@@ -45,11 +45,11 @@
         },
         "core": {
           "kind": "github-release",
-          "tag": "gmb-core-2026.10.28",
+          "tag": "gmb-core-2026.10.29",
           "rids": {
             "osx-arm64": {
               "archive": "gmb-core-osx-arm64.zip",
-              "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-core-2026.10.28/gmb-core-osx-arm64.zip",
+              "url": "https://github.com/c-vision/GMBasicModules/releases/download/gmb-core-2026.10.29/gmb-core-osx-arm64.zip",
               "sha256": "3da187f5ac45d48237e2d0f4910058525970e338e81cd500254ad9e36fdc328a",
               "size": 2956433,
               "extractRoot": ""
