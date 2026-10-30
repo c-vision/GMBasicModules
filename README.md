@@ -72,8 +72,8 @@ source side is ready and can be cross-compiled locally, even if the bundle is no
 | RID | `runtime` | `dev` | `llmmotor` | `support` | `ffi` | `torch` |
 |---|---|---|---|---|---|---|
 | `osx-arm64` (macOS Apple Silicon) | ✅ 94 files | ✅ 431 files | ✅ 5 files | ✅ (inside `runtime`) | ✅ 7 files | ✅ external |
-| `linux-arm64` | — | — | — | ✅ 40 files | — | — |
-| `linux-x64` | — | — | — | ✅ 20 files | — | ✅ external |
+| `linux-arm64` | ✅ 246 files | — | — | ✅ (inside `runtime`) | — | — |
+| `linux-x64` | ✅ 246 files | — | — | ✅ (inside `runtime`) | — | ✅ external |
 | `osx-x64` (macOS Intel) | ✅ 26 files | — | — | ⚠️ legacy 11 files | — | — |
 | `win-x64` | ✅ 26 files | — | — | ✅ 11 files | — | ✅ external |
 | `win-arm64` | ✅ 26 files | — | — | — | ✅ 6 files | — |
@@ -125,6 +125,8 @@ redistributable is needed.
 **macOS** — nothing beyond the OS. Every dylib is linked with `@rpath` and resolved from the cache.
 
 **Linux** — `glibc ≥ 2.38`, i.e. **Ubuntu 24.04 or newer** (the Linux bundles are built there).
+SDL2 and SDL2_ttf are compiled from source into the bundle: Ubuntu 24.04 ships `sdl2-compat`, which
+needs `libSDL3.so.0` at load time and would make every library that links SDL2 fail.
 The `support` set is *not* self-contained: it relies on the distribution packages
 
 ```
