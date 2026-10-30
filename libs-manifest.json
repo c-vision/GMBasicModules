@@ -3330,6 +3330,17 @@
             }
           },
           "version": "v2"
+        },
+        "ffi": {
+          "kind": "files",
+          "tag": "ffi-v2",
+          "rids": {
+            "osx-x64": {
+              "kind": "files",
+              "tag": "ffi-v2"
+            }
+          },
+          "version": "v2"
         }
       },
       "files": {
@@ -3554,6 +3565,42 @@
           "sha256": "e6b4afec7064da5d5e4412c3f0ac1268d133080bd8802329a64d0cf77c19c038",
           "size": 884992,
           "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v1/libssl.3-osx-x64.dylib"
+        },
+        "libgmbamqp.dylib": {
+          "group": "ffi",
+          "sha256": "0f4e2032f8fceb06c99acd730e22713e64de638b833571f45da4b179eebae47e",
+          "size": 14032,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/ffi-v2/libgmbamqp-osx-x64.dylib"
+        },
+        "libgmbmqtt.dylib": {
+          "group": "ffi",
+          "sha256": "077a9ee0130f2572d829398b9801b0119aac92ef315f821238ff9f6cc7e1d04f",
+          "size": 13880,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/ffi-v2/libgmbmqtt-osx-x64.dylib"
+        },
+        "libgmbgrpc.dylib": {
+          "group": "ffi",
+          "sha256": "bbb213abdae18ef1cf0402d892838f625e9e41b241bd1b19694828f553c6c7ac",
+          "size": 17576,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/ffi-v2/libgmbgrpc-osx-x64.dylib"
+        },
+        "libgmbkafka.dylib": {
+          "group": "ffi",
+          "sha256": "c7b1d69b23e160fc7b8405e55a89c73db14270349494025537e1fea7669e7691",
+          "size": 18072,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/ffi-v2/libgmbkafka-osx-x64.dylib"
+        },
+        "libgmbnats.dylib": {
+          "group": "ffi",
+          "sha256": "a5cd203b5f62e45dc50d03a441c0922e20f50f747aea76e3ef1fbecf869d4f13",
+          "size": 13960,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/ffi-v2/libgmbnats-osx-x64.dylib"
+        },
+        "libgmbprotobuf.dylib": {
+          "group": "ffi",
+          "sha256": "a077f43be5333be6c28b5a0d628a2830942585d3feb2f285e9e87776e869456c",
+          "size": 13400,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/ffi-v2/libgmbprotobuf-osx-x64.dylib"
         }
       }
     },
@@ -3590,6 +3637,17 @@
             "linux-x64": {
               "kind": "files",
               "tag": "runtime-v2"
+            }
+          },
+          "version": "v2"
+        },
+        "ffi": {
+          "kind": "files",
+          "tag": "ffi-v2",
+          "rids": {
+            "linux-x64": {
+              "kind": "files",
+              "tag": "ffi-v2"
             }
           },
           "version": "v2"
@@ -5071,6 +5129,42 @@
           "sha256": "0a2128bc10841fb29e76d08d945864dfb0b6a66da5df6df5d8299197439e54bb",
           "size": 755864,
           "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v4/libzstd-linux-x64.so.1.5.5"
+        },
+        "libgmbgrpc.so": {
+          "group": "ffi",
+          "sha256": "faf4574001780246409582f9d3b2fef47f4936175cb5e9af7a951068542dbfc4",
+          "size": 16488,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/ffi-v2/libgmbgrpc-linux-x64.so"
+        },
+        "libgmbamqp.so": {
+          "group": "ffi",
+          "sha256": "9ba326f714ba9be69049c6fdfbe99f0c2ac538f5bd456e8b2721072c22e85d29",
+          "size": 21040,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/ffi-v2/libgmbamqp-linux-x64.so"
+        },
+        "libgmbmqtt.so": {
+          "group": "ffi",
+          "sha256": "716803e99391dff4a323612a65855a772cdb7def2f4c3902864bf6757c25085f",
+          "size": 20880,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/ffi-v2/libgmbmqtt-linux-x64.so"
+        },
+        "libgmbkafka.so": {
+          "group": "ffi",
+          "sha256": "e1c2b270b6c5494dfd0a11e7a734c341e80055ffae53218af1e13f95c4167d01",
+          "size": 21360,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/ffi-v2/libgmbkafka-linux-x64.so"
+        },
+        "libgmbnats.so": {
+          "group": "ffi",
+          "sha256": "48630288c21dc653fa026a825b9fef8ae038ae1fee65a40b8251f6c0b62f0e71",
+          "size": 16880,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/ffi-v2/libgmbnats-linux-x64.so"
+        },
+        "libgmbprotobuf.so": {
+          "group": "ffi",
+          "sha256": "0de8860ecfd51180c1627c4319c421b67b540ea3eae04009431a2166ad167366",
+          "size": 16392,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/ffi-v2/libgmbprotobuf-linux-x64.so"
         }
       }
     },
@@ -5094,6 +5188,17 @@
             "linux-arm64": {
               "kind": "files",
               "tag": "runtime-v2"
+            }
+          },
+          "version": "v2"
+        },
+        "ffi": {
+          "kind": "files",
+          "tag": "ffi-v2",
+          "rids": {
+            "linux-arm64": {
+              "kind": "files",
+              "tag": "ffi-v2"
             }
           },
           "version": "v2"
@@ -6575,6 +6680,48 @@
           "sha256": "fe726238b170b83aa83bf1f8a79109b8b61b9eb45234304511d093bbe5f5fb20",
           "size": 657432,
           "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v4/libzstd-linux-arm64.so.1"
+        },
+        "libgmbmedia.so": {
+          "group": "ffi",
+          "sha256": "b06a9a6c8e5622baffe988d09b3801b2b5aa7e5368fb85363a7ece2e468a091e",
+          "size": 146984,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/ffi-v2/libgmbmedia-linux-arm64.so"
+        },
+        "libgmbgrpc.so": {
+          "group": "ffi",
+          "sha256": "e2b10cf0a104c0e18d2c34eeb0ac2bcde31f409ac6f7f967cb9f62a109466e29",
+          "size": 70680,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/ffi-v2/libgmbgrpc-linux-arm64.so"
+        },
+        "libgmbamqp.so": {
+          "group": "ffi",
+          "sha256": "7311c3aa3eedca6e77bc27f8cde750dcb7cae35e86cbda8ef656d510746d0fbc",
+          "size": 71112,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/ffi-v2/libgmbamqp-linux-arm64.so"
+        },
+        "libgmbmqtt.so": {
+          "group": "ffi",
+          "sha256": "73f2ddf5ef8b24f4cedc63b2be14cd5bed0b4aa2a3d0b61e08844ace959d20fe",
+          "size": 70976,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/ffi-v2/libgmbmqtt-linux-arm64.so"
+        },
+        "libgmbkafka.so": {
+          "group": "ffi",
+          "sha256": "2c81823b460afbbb8eb70bfca79bb5178ab1bb8dcc75f419a2190cc19950d48f",
+          "size": 71456,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/ffi-v2/libgmbkafka-linux-arm64.so"
+        },
+        "libgmbnats.so": {
+          "group": "ffi",
+          "sha256": "0edccbf0985a93979d5617e0f44c0ae6307c15860285767838566c824eba352c",
+          "size": 71024,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/ffi-v2/libgmbnats-linux-arm64.so"
+        },
+        "libgmbprotobuf.so": {
+          "group": "ffi",
+          "sha256": "63b1d2a9803e2048c01273623e99559f94d7a4749381f5e843883721cb0faf7d",
+          "size": 70552,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/ffi-v2/libgmbprotobuf-linux-arm64.so"
         }
       }
     },
@@ -6611,6 +6758,17 @@
             "win-x64": {
               "kind": "files",
               "tag": "runtime-v2"
+            }
+          },
+          "version": "v2"
+        },
+        "ffi": {
+          "kind": "files",
+          "tag": "ffi-v2",
+          "rids": {
+            "win-x64": {
+              "kind": "files",
+              "tag": "ffi-v2"
             }
           },
           "version": "v2"
@@ -6838,6 +6996,42 @@
           "sha256": "9fa7bcb4c3667bfe4cf5e5b740a1da708151af0d499c2d0afee50c9874ba181c",
           "size": 2842624,
           "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v1/SDL3-win-x64.dll"
+        },
+        "libgmbgrpc.dll": {
+          "group": "ffi",
+          "sha256": "1ffba97195e28853e64c006d7a18e561548459b798e27485aa7da3eae95e1c2c",
+          "size": 221696,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/ffi-v2/libgmbgrpc-win-x64.dll"
+        },
+        "libgmbkafka.dll": {
+          "group": "ffi",
+          "sha256": "981fac971a6d1a8a7c064784d6198bec26a7a7b1e9626b25f5e0b2b93b749280",
+          "size": 263168,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/ffi-v2/libgmbkafka-win-x64.dll"
+        },
+        "libgmbmqtt.dll": {
+          "group": "ffi",
+          "sha256": "3f8d43b038849ee2b264ff8aa1fdfb639eb772408877693fd13d32ccd2bb4383",
+          "size": 222208,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/ffi-v2/libgmbmqtt-win-x64.dll"
+        },
+        "libgmbnats.dll": {
+          "group": "ffi",
+          "sha256": "beda41e72a985ebc6e06711280151493dd7d5ff4dd49938a74c8a3f9310e2d90",
+          "size": 221696,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/ffi-v2/libgmbnats-win-x64.dll"
+        },
+        "libgmbamqp.dll": {
+          "group": "ffi",
+          "sha256": "cd555a097163c9d1a3d74de73c20155daf606ddb4e43569bc81b46a361a2f4ba",
+          "size": 223744,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/ffi-v2/libgmbamqp-win-x64.dll"
+        },
+        "libgmbprotobuf.dll": {
+          "group": "ffi",
+          "sha256": "9bb624ec2840c75384749f90e9318ce2ed7a3697bd406a71ee05a26c1f90f505",
+          "size": 221696,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/ffi-v2/libgmbprotobuf-win-x64.dll"
         }
       }
     },

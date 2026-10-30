@@ -72,10 +72,10 @@ source side is ready and can be cross-compiled locally, even if the bundle is no
 | RID | `runtime` | `dev` | `llmmotor` | `support` | `ffi` | `torch` |
 |---|---|---|---|---|---|---|
 | `osx-arm64` (macOS Apple Silicon) | ✅ 94 files | ✅ 431 files | ✅ 5 files | ✅ (inside `runtime`) | ✅ 7 files | ✅ external |
-| `linux-arm64` | ✅ 246 files | — | — | ✅ (inside `runtime`) | — | — |
-| `linux-x64` | ✅ 246 files | — | — | ✅ (inside `runtime`) | — | ✅ external |
-| `osx-x64` (macOS Intel) | ✅ 26 files | — | — | ⚠️ legacy 11 files | — | — |
-| `win-x64` | ✅ 26 files | — | — | ✅ 11 files | — | ✅ external |
+| `linux-arm64` | ✅ 246 files | — | — | ✅ (inside `runtime`) | ✅ 7 files | — |
+| `linux-x64` | ✅ 246 files | — | — | ✅ (inside `runtime`) | ✅ 6 files | ✅ external |
+| `osx-x64` (macOS Intel) | ✅ 26 files | — | — | ⚠️ legacy 11 files | ✅ 6 files | — |
+| `win-x64` | ✅ 26 files | — | — | ✅ 11 files | ✅ 6 files | ✅ external |
 | `win-arm64` | ✅ 26 files | — | — | — | ✅ 6 files | — |
 
 Notes:
