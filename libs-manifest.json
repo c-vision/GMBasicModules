@@ -6968,6 +6968,48 @@
           "size": 999936,
           "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libllmtoken-win-x64.dll"
         },
+        "libgmbclm.dll": {
+          "group": "runtime",
+          "sha256": "61923f763737a2b401c1ee75fc54718b0be209cf29ec903f0222cc8fea0c914f",
+          "size": 12550656,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libgmbclm-win-x64.dll"
+        },
+        "libgmbgrpc.dll": {
+          "group": "ffi",
+          "sha256": "1ffba97195e28853e64c006d7a18e561548459b798e27485aa7da3eae95e1c2c",
+          "size": 221696,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/ffi-v2/libgmbgrpc-win-x64.dll"
+        },
+        "libgmbkafka.dll": {
+          "group": "ffi",
+          "sha256": "981fac971a6d1a8a7c064784d6198bec26a7a7b1e9626b25f5e0b2b93b749280",
+          "size": 263168,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/ffi-v2/libgmbkafka-win-x64.dll"
+        },
+        "libgmbmqtt.dll": {
+          "group": "ffi",
+          "sha256": "3f8d43b038849ee2b264ff8aa1fdfb639eb772408877693fd13d32ccd2bb4383",
+          "size": 222208,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/ffi-v2/libgmbmqtt-win-x64.dll"
+        },
+        "libgmbnats.dll": {
+          "group": "ffi",
+          "sha256": "beda41e72a985ebc6e06711280151493dd7d5ff4dd49938a74c8a3f9310e2d90",
+          "size": 221696,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/ffi-v2/libgmbnats-win-x64.dll"
+        },
+        "libgmbamqp.dll": {
+          "group": "ffi",
+          "sha256": "cd555a097163c9d1a3d74de73c20155daf606ddb4e43569bc81b46a361a2f4ba",
+          "size": 223744,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/ffi-v2/libgmbamqp-win-x64.dll"
+        },
+        "libgmbprotobuf.dll": {
+          "group": "ffi",
+          "sha256": "9bb624ec2840c75384749f90e9318ce2ed7a3697bd406a71ee05a26c1f90f505",
+          "size": 221696,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/ffi-v2/libgmbprotobuf-win-x64.dll"
+        },
         "libssl-3-x64.dll": {
           "group": "support",
           "sha256": "b94df46997b95262b9013bf9eb8a37fe53ff8cd877a39894ecca5bc74ce34092",
@@ -7033,42 +7075,6 @@
           "sha256": "9fa7bcb4c3667bfe4cf5e5b740a1da708151af0d499c2d0afee50c9874ba181c",
           "size": 2842624,
           "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v1/SDL3-win-x64.dll"
-        },
-        "libgmbgrpc.dll": {
-          "group": "ffi",
-          "sha256": "1ffba97195e28853e64c006d7a18e561548459b798e27485aa7da3eae95e1c2c",
-          "size": 221696,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/ffi-v2/libgmbgrpc-win-x64.dll"
-        },
-        "libgmbkafka.dll": {
-          "group": "ffi",
-          "sha256": "981fac971a6d1a8a7c064784d6198bec26a7a7b1e9626b25f5e0b2b93b749280",
-          "size": 263168,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/ffi-v2/libgmbkafka-win-x64.dll"
-        },
-        "libgmbmqtt.dll": {
-          "group": "ffi",
-          "sha256": "3f8d43b038849ee2b264ff8aa1fdfb639eb772408877693fd13d32ccd2bb4383",
-          "size": 222208,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/ffi-v2/libgmbmqtt-win-x64.dll"
-        },
-        "libgmbnats.dll": {
-          "group": "ffi",
-          "sha256": "beda41e72a985ebc6e06711280151493dd7d5ff4dd49938a74c8a3f9310e2d90",
-          "size": 221696,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/ffi-v2/libgmbnats-win-x64.dll"
-        },
-        "libgmbamqp.dll": {
-          "group": "ffi",
-          "sha256": "cd555a097163c9d1a3d74de73c20155daf606ddb4e43569bc81b46a361a2f4ba",
-          "size": 223744,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/ffi-v2/libgmbamqp-win-x64.dll"
-        },
-        "libgmbprotobuf.dll": {
-          "group": "ffi",
-          "sha256": "9bb624ec2840c75384749f90e9318ce2ed7a3697bd406a71ee05a26c1f90f505",
-          "size": 221696,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/ffi-v2/libgmbprotobuf-win-x64.dll"
         }
       }
     },
@@ -7095,6 +7101,19 @@
             }
           },
           "version": "v2"
+        },
+        "torch": {
+          "kind": "external",
+          "tag": "pytorch-2.13.0",
+          "rids": {
+            "win-arm64": {
+              "archive": "libtorch-win-arm64-shared-with-deps-2.13.0+cpu.zip",
+              "url": "https://download.pytorch.org/libtorch/cpu/libtorch-win-arm64-shared-with-deps-2.13.0+cpu.zip",
+              "sha256": "",
+              "size": 0,
+              "extractRoot": "libtorch/lib"
+            }
+          }
         }
       },
       "files": {
@@ -7254,6 +7273,12 @@
           "size": 914944,
           "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libllmtoken-win-arm64.dll"
         },
+        "libgmbclm.dll": {
+          "group": "runtime",
+          "sha256": "2260763151ad88739e0485c10e3799601aa717ee72d9be9e3775471bb4c0c85f",
+          "size": 11003904,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libgmbclm-win-arm64.dll"
+        },
         "libgmbamqp.dll": {
           "group": "ffi",
           "sha256": "00f0410ae50dae2c4fa838b476a8649f5087c65e8106486bfa5820eb3affa1ef",
@@ -7289,6 +7314,31 @@
           "sha256": "18dbd5ba723c607963159a4830213459e92dadc65177e7bcbe6048dd79229b0d",
           "size": 189952,
           "url": "https://github.com/c-vision/GMBasicModules/releases/download/ffi-v2/libgmbprotobuf-win-arm64.dll"
+        },
+        "torch.dll": {
+          "group": "torch",
+          "sha256": "d26d23622354b3cef452b1e268d9c9c14a27bf6d72117207e7d1c78fb32c8c84",
+          "size": 9728
+        },
+        "torch_cpu.dll": {
+          "group": "torch",
+          "sha256": "03d94ae60025781512b13403a8a65ee6301b6812da2c68dd911971aaa3e4813b",
+          "size": 112476160
+        },
+        "c10.dll": {
+          "group": "torch",
+          "sha256": "0848bf63fc5cc36d7f87e60013a3aa35f7d3840de192c56872daf104bc4b43e8",
+          "size": 1159168
+        },
+        "armpl_lp64.dll": {
+          "group": "torch",
+          "sha256": "2913a6f3b11d43695f4a4cfe501e67e3d67ce14f652e0b99bdbe38d0564ba665",
+          "size": 37806080
+        },
+        "shm.dll": {
+          "group": "torch",
+          "sha256": "80caea5b80382e3645d5c3aac93b0e88d3fcd7433d2bc8262ee161ec8a8bf714",
+          "size": 14336
         }
       }
     }
