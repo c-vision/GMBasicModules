@@ -3351,6 +3351,78 @@
           "sha256": "f450e26b1eb70563dead8139a34266bd25a1d539b6f29c0db075164f28f73a5a",
           "size": 244944,
           "url": "https://github.com/c-vision/GMBasicModules/releases/download/domain-v1/libgmbor-osx-arm64.dylib"
+        },
+        "libgmbaviation.dylib": {
+          "group": "domain",
+          "sha256": "dd15fe541e34e155264789871e21dbaf3f0ba7a977c43d7f0464150f951cfb6b",
+          "size": 106152,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/domain-v1/libgmbaviation-osx-arm64.dylib"
+        },
+        "libgmbgeo.dylib": {
+          "group": "domain",
+          "sha256": "3910ec0fa7ee491c1ff32a715103852b2d4745abc98b2e0ab2b54fb9b194887f",
+          "size": 55088,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/domain-v1/libgmbgeo-osx-arm64.dylib"
+        },
+        "libgmblagrangian.dylib": {
+          "group": "domain",
+          "sha256": "3eeac175e4e1e811883efe6760a0c983ceb4c3274c6cd6efc7d81ad024dcfe50",
+          "size": 33800,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/domain-v1/libgmblagrangian-osx-arm64.dylib"
+        },
+        "libgmbflow.dylib": {
+          "group": "domain",
+          "sha256": "45d855d337fa457a31684d83c4b140eaa3457f0faef46112b6762ae7474d6d0c",
+          "size": 53328,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/domain-v1/libgmbflow-osx-arm64.dylib"
+        },
+        "libgmbgametheory.dylib": {
+          "group": "domain",
+          "sha256": "4a5cb6944b202c5562b4ebdceb964a592262bc9c1241b70e5fe759739607efc8",
+          "size": 68904,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/domain-v1/libgmbgametheory-osx-arm64.dylib"
+        },
+        "libgmblocalsearch.dylib": {
+          "group": "domain",
+          "sha256": "41fb0bc09a58b2fd953fe8991f47c8cabd85e08976fc1cf32802b2bce3bd6c5d",
+          "size": 35752,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/domain-v1/libgmblocalsearch-osx-arm64.dylib"
+        },
+        "libgmbmath.dylib": {
+          "group": "domain",
+          "sha256": "109aa9d7bb7c30048ce545c6a88dee7df73239d0f6217cef0c5407b6d71562b8",
+          "size": 629424,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/domain-v1/libgmbmath-osx-arm64.dylib"
+        },
+        "libgmbmathprog.dylib": {
+          "group": "domain",
+          "sha256": "609c6fef821885975be2e2c4412e9fc74355e3c9bb94b9452c57d8c695ff5e29",
+          "size": 69848,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/domain-v1/libgmbmathprog-osx-arm64.dylib"
+        },
+        "libgmbpgm.dylib": {
+          "group": "domain",
+          "sha256": "e17634042714af5286093d0b9c48646ae41d22fc609882c9bf8877700cf1abbe",
+          "size": 33872,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/domain-v1/libgmbpgm-osx-arm64.dylib"
+        },
+        "libgmbscheduling.dylib": {
+          "group": "domain",
+          "sha256": "acf2d8ed7da1717d59da17e01ba3c5ebc7ce8735ec1d1d8a6e1085e77109d744",
+          "size": 33800,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/domain-v1/libgmbscheduling-osx-arm64.dylib"
+        },
+        "libgmbstats.dylib": {
+          "group": "domain",
+          "sha256": "9b64df4479ad688946bce28320664a11477eab3cec2ab338369fda347ecf674b",
+          "size": 1088032,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/domain-v1/libgmbstats-osx-arm64.dylib"
+        },
+        "libgmbwsp.dylib": {
+          "group": "domain",
+          "sha256": "121ec88d9c439ecd55c5a8af1993a033b686cae272a9e2f9bc8b227bf79be455",
+          "size": 144880,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/domain-v1/libgmbwsp-osx-arm64.dylib"
         }
       }
     },
