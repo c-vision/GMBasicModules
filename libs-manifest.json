@@ -1,5 +1,5 @@
 {
-  "version": "2026.11.04",
+  "version": "2026.11.06",
   "cacheDir": "~/.gmbasic/libs",
   "rids": {
     "osx-arm64": {
@@ -60,6 +60,17 @@
               "extractRoot": "libtorch/lib"
             }
           }
+        },
+        "domain": {
+          "kind": "files",
+          "tag": "domain-v1",
+          "rids": {
+            "osx-arm64": {
+              "kind": "files",
+              "tag": "domain-v1"
+            }
+          },
+          "version": "v1"
         }
       },
       "files": {
@@ -3310,6 +3321,36 @@
           "sha256": "c4c3a9add965d83a10465bed4dccbac239659b1944a1ad5d040d396d1b030b18",
           "size": 34296,
           "url": "https://github.com/c-vision/GMBasicModules/releases/download/ffi-v2/libgmbprotobuf-osx-arm64.dylib"
+        },
+        "libgmbneural.dylib": {
+          "group": "domain",
+          "sha256": "42ab171c9947d5ae9c2c24531c9017c08f4bb4ea2479487269bb68d19e863b0e",
+          "size": 209040,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/domain-v1/libgmbneural-osx-arm64.dylib"
+        },
+        "libgmbconic.dylib": {
+          "group": "domain",
+          "sha256": "d933214790a7a72dda09794f0f85e72e5d3d452c1031c3a41b2c39f19ce309ff",
+          "size": 188112,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/domain-v1/libgmbconic-osx-arm64.dylib"
+        },
+        "libgmbgraphics.dylib": {
+          "group": "domain",
+          "sha256": "d8e34b253ae5ce21cb3f7fc9c415c73ce4bc5b5de8f3c14707cd5f63daac0180",
+          "size": 143368,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/domain-v1/libgmbgraphics-osx-arm64.dylib"
+        },
+        "libgmbgraph.dylib": {
+          "group": "domain",
+          "sha256": "ca72af408cb04051da8cea3c7a6d96a590d1be13a25db5630612c185c0cc5188",
+          "size": 89024,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/domain-v1/libgmbgraph-osx-arm64.dylib"
+        },
+        "libgmbor.dylib": {
+          "group": "domain",
+          "sha256": "f450e26b1eb70563dead8139a34266bd25a1d539b6f29c0db075164f28f73a5a",
+          "size": 244944,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/domain-v1/libgmbor-osx-arm64.dylib"
         }
       }
     },
