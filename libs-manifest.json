@@ -1,5 +1,5 @@
 {
-  "version": "2026.11.06",
+  "version": "2026.11.10",
   "cacheDir": "~/.gmbasic/libs",
   "rids": {
     "osx-arm64": {
@@ -68,6 +68,17 @@
             "osx-arm64": {
               "kind": "files",
               "tag": "domain-v1"
+            }
+          },
+          "version": "v1"
+        },
+        "toolchain": {
+          "kind": "files",
+          "tag": "toolchain-v1",
+          "rids": {
+            "osx-arm64": {
+              "kind": "files",
+              "tag": "toolchain-v1"
             }
           },
           "version": "v1"
@@ -3423,6 +3434,12 @@
           "sha256": "121ec88d9c439ecd55c5a8af1993a033b686cae272a9e2f9bc8b227bf79be455",
           "size": 144880,
           "url": "https://github.com/c-vision/GMBasicModules/releases/download/domain-v1/libgmbwsp-osx-arm64.dylib"
+        },
+        "zig-0.17.0.tar.xz": {
+          "group": "toolchain",
+          "sha256": "c8be537355eb72644a3c9d825ca84cc589ec6baf994f1171b683e8354176c280",
+          "size": 57411628,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/toolchain-v1/zig-0.17.0-osx-arm64.tar.xz"
         }
       }
     },
@@ -3460,6 +3477,17 @@
             }
           },
           "version": "v2"
+        },
+        "toolchain": {
+          "kind": "files",
+          "tag": "toolchain-v1",
+          "rids": {
+            "osx-x64": {
+              "kind": "files",
+              "tag": "toolchain-v1"
+            }
+          },
+          "version": "v1"
         }
       },
       "files": {
@@ -3720,6 +3748,12 @@
           "sha256": "a077f43be5333be6c28b5a0d628a2830942585d3feb2f285e9e87776e869456c",
           "size": 13400,
           "url": "https://github.com/c-vision/GMBasicModules/releases/download/ffi-v2/libgmbprotobuf-osx-x64.dylib"
+        },
+        "zig-0.17.0.tar.xz": {
+          "group": "toolchain",
+          "sha256": "85ed79aaf7fe6914b29b312e26da3d2f48c561ed75b562147936b4961efd17ac",
+          "size": 63137212,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/toolchain-v1/zig-0.17.0-osx-x64.tar.xz"
         }
       }
     },
@@ -3770,6 +3804,17 @@
             }
           },
           "version": "v2"
+        },
+        "toolchain": {
+          "kind": "files",
+          "tag": "toolchain-v1",
+          "rids": {
+            "linux-x64": {
+              "kind": "files",
+              "tag": "toolchain-v1"
+            }
+          },
+          "version": "v1"
         }
       },
       "files": {
@@ -5309,6 +5354,12 @@
           "group": "torch",
           "sha256": "d3539f0adf29d40515d063bac49a09dbb8619d405059e7a6d61da40cc7f5dc45",
           "size": 41336
+        },
+        "zig-0.17.0.tar.xz": {
+          "group": "toolchain",
+          "sha256": "b67efcfcafcfa6b0da89f99713fa04e67b7036496f04b91cb11e0545779ee0cc",
+          "size": 60818848,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/toolchain-v1/zig-0.17.0-linux-x64.tar.xz"
         }
       }
     },
@@ -5343,6 +5394,17 @@
             "linux-arm64": {
               "kind": "files",
               "tag": "ffi-v2"
+            }
+          },
+          "version": "v2"
+        },
+        "toolchain": {
+          "kind": "files",
+          "tag": "toolchain-v2",
+          "rids": {
+            "linux-arm64": {
+              "kind": "files",
+              "tag": "toolchain-v2"
             }
           },
           "version": "v2"
@@ -6872,6 +6934,12 @@
           "sha256": "63b1d2a9803e2048c01273623e99559f94d7a4749381f5e843883721cb0faf7d",
           "size": 70552,
           "url": "https://github.com/c-vision/GMBasicModules/releases/download/ffi-v2/libgmbprotobuf-linux-arm64.so"
+        },
+        "zig-0.17.0.tar.xz": {
+          "group": "toolchain",
+          "sha256": "38bdb455a49d5168bfbba56d5a056023f8536e2e690a8e02f84038799ea13f3a",
+          "size": 55349376,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/toolchain-v2/zig-0.17.0-linux-arm64.tar.xz"
         }
       }
     },
@@ -6922,6 +6990,17 @@
             }
           },
           "version": "v2"
+        },
+        "toolchain": {
+          "kind": "files",
+          "tag": "toolchain-v1",
+          "rids": {
+            "win-x64": {
+              "kind": "files",
+              "tag": "toolchain-v1"
+            }
+          },
+          "version": "v1"
         }
       },
       "files": {
@@ -7188,6 +7267,12 @@
           "sha256": "9fa7bcb4c3667bfe4cf5e5b740a1da708151af0d499c2d0afee50c9874ba181c",
           "size": 2842624,
           "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v1/SDL3-win-x64.dll"
+        },
+        "zig-0.17.0.tar.xz": {
+          "group": "toolchain",
+          "sha256": "a143341a173cd75903aaf00ff690f176b40ad450776c322d1f478d25ec24a25c",
+          "size": 61670492,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/toolchain-v1/zig-0.17.0-win-x64.tar.xz"
         }
       }
     },
@@ -7227,6 +7312,17 @@
               "extractRoot": "libtorch/lib"
             }
           }
+        },
+        "toolchain": {
+          "kind": "files",
+          "tag": "toolchain-v2",
+          "rids": {
+            "win-arm64": {
+              "kind": "files",
+              "tag": "toolchain-v2"
+            }
+          },
+          "version": "v2"
         }
       },
       "files": {
@@ -7452,6 +7548,12 @@
           "group": "torch",
           "sha256": "80caea5b80382e3645d5c3aac93b0e88d3fcd7433d2bc8262ee161ec8a8bf714",
           "size": 14336
+        },
+        "zig-0.17.0.tar.xz": {
+          "group": "toolchain",
+          "sha256": "eb7ae007e21b39025f78a1d19adb5d9d7ec7c7d5053d36a9e905d12899b48fc0",
+          "size": 55202384,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/toolchain-v2/zig-0.17.0-win-arm64.tar.xz"
         }
       }
     }
