@@ -7654,17 +7654,53 @@
         },
         "toolchain": {
           "kind": "files",
-          "tag": "toolchain-v2",
+          "tag": "toolchain-v3",
           "rids": {
             "win-arm64": {
               "kind": "files",
-              "tag": "toolchain-v2"
+              "tag": "toolchain-v3"
             }
           },
-          "version": "v2"
+          "version": "v3"
+        },
+        "domain": {
+          "kind": "files",
+          "tag": "domain-v3",
+          "rids": {
+            "win-arm64": {
+              "kind": "files",
+              "tag": "domain-v3"
+            }
+          },
+          "version": "v3"
         }
       },
       "files": {
+        "torch.dll": {
+          "group": "torch",
+          "sha256": "d26d23622354b3cef452b1e268d9c9c14a27bf6d72117207e7d1c78fb32c8c84",
+          "size": 9728
+        },
+        "torch_cpu.dll": {
+          "group": "torch",
+          "sha256": "03d94ae60025781512b13403a8a65ee6301b6812da2c68dd911971aaa3e4813b",
+          "size": 112476160
+        },
+        "c10.dll": {
+          "group": "torch",
+          "sha256": "0848bf63fc5cc36d7f87e60013a3aa35f7d3840de192c56872daf104bc4b43e8",
+          "size": 1159168
+        },
+        "armpl_lp64.dll": {
+          "group": "torch",
+          "sha256": "2913a6f3b11d43695f4a4cfe501e67e3d67ce14f652e0b99bdbe38d0564ba665",
+          "size": 37806080
+        },
+        "shm.dll": {
+          "group": "torch",
+          "sha256": "80caea5b80382e3645d5c3aac93b0e88d3fcd7433d2bc8262ee161ec8a8bf714",
+          "size": 14336
+        },
         "libgmb_compress.dll": {
           "group": "runtime",
           "sha256": "984b93dfd8d145ba86ae3278d1aba813834d35d5c64212abf8e36d352840bb22",
@@ -7863,36 +7899,113 @@
           "size": 189952,
           "url": "https://github.com/c-vision/GMBasicModules/releases/download/ffi-v2/libgmbprotobuf-win-arm64.dll"
         },
-        "torch.dll": {
-          "group": "torch",
-          "sha256": "d26d23622354b3cef452b1e268d9c9c14a27bf6d72117207e7d1c78fb32c8c84",
-          "size": 9728
+        "libgmbaviation.dll": {
+          "group": "domain",
+          "sha256": "cd7b820dfd5dd769f200a9f3834fbdf02d6c2ea019b68d9b215428cd61185d04",
+          "size": 242688,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/domain-v3/libgmbaviation-win-arm64.dll"
         },
-        "torch_cpu.dll": {
-          "group": "torch",
-          "sha256": "03d94ae60025781512b13403a8a65ee6301b6812da2c68dd911971aaa3e4813b",
-          "size": 112476160
+        "libgmbgeo.dll": {
+          "group": "domain",
+          "sha256": "2f60ef8dd0f8a2706278830929af27071d195187145f630822c02d623a42feaf",
+          "size": 208384,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/domain-v3/libgmbgeo-win-arm64.dll"
         },
-        "c10.dll": {
-          "group": "torch",
-          "sha256": "0848bf63fc5cc36d7f87e60013a3aa35f7d3840de192c56872daf104bc4b43e8",
-          "size": 1159168
+        "libgmbflow.dll": {
+          "group": "domain",
+          "sha256": "199eb85ecfe4e010348ca5c27ba2778101b348fe01dd0827c7cc91f67947f769",
+          "size": 208384,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/domain-v3/libgmbflow-win-arm64.dll"
         },
-        "armpl_lp64.dll": {
-          "group": "torch",
-          "sha256": "2913a6f3b11d43695f4a4cfe501e67e3d67ce14f652e0b99bdbe38d0564ba665",
-          "size": 37806080
+        "libgmbgametheory.dll": {
+          "group": "domain",
+          "sha256": "8b0f72a16d8eadb414f384b5fc6e2dac2322aeba9ad483e0ba46ebf80c482a1e",
+          "size": 216576,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/domain-v3/libgmbgametheory-win-arm64.dll"
         },
-        "shm.dll": {
-          "group": "torch",
-          "sha256": "80caea5b80382e3645d5c3aac93b0e88d3fcd7433d2bc8262ee161ec8a8bf714",
-          "size": 14336
+        "libgmbconic.dll": {
+          "group": "domain",
+          "sha256": "c619912c25151a000dfe8d04e190a860fcc5b3245832e1faef4f547ffc2988bf",
+          "size": 343040,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/domain-v3/libgmbconic-win-arm64.dll"
+        },
+        "libgmbgraph.dll": {
+          "group": "domain",
+          "sha256": "e6c3c6a4c2b58b02a75a5a5ad93652b65b3362751d8eba61fed837fb077e05b9",
+          "size": 234496,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/domain-v3/libgmbgraph-win-arm64.dll"
+        },
+        "libgmbgraphics.dll": {
+          "group": "domain",
+          "sha256": "f79ca2489688da33780a837d9bf68baf9f123945b5aabce98ead3b9cc8520ae3",
+          "size": 289280,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/domain-v3/libgmbgraphics-win-arm64.dll"
+        },
+        "libgmblocalsearch.dll": {
+          "group": "domain",
+          "sha256": "c59c269ed9254f9f0d4be83beeb02285469b85deecb0bcb45f235aed4e2a67b0",
+          "size": 200192,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/domain-v3/libgmblocalsearch-win-arm64.dll"
+        },
+        "libgmblagrangian.dll": {
+          "group": "domain",
+          "sha256": "2804db4210e0483893310a662e9602fe8c8f5c7ea391efd4c2b1b7e06c88ff6e",
+          "size": 188416,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/domain-v3/libgmblagrangian-win-arm64.dll"
+        },
+        "libgmbmath.dll": {
+          "group": "domain",
+          "sha256": "025d62fbfe50f071fed862792cd89b29390fa9c1701e2c377b66c9ff07acb537",
+          "size": 723456,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/domain-v3/libgmbmath-win-arm64.dll"
+        },
+        "libgmbmathprog.dll": {
+          "group": "domain",
+          "sha256": "0f806492f32daf681d368482c103f9ef29583d7f824485deab6a5f689794ff58",
+          "size": 218112,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/domain-v3/libgmbmathprog-win-arm64.dll"
+        },
+        "libgmbneural.dll": {
+          "group": "domain",
+          "sha256": "b139421f7bc0adf4016e053b9aa2aefd40cd593d28bf48b9e02d1928b9a2bd12",
+          "size": 343040,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/domain-v3/libgmbneural-win-arm64.dll"
+        },
+        "libgmbor.dll": {
+          "group": "domain",
+          "sha256": "fb1dd20dce4b3b9086c3a46cebf53d891bb3c8ba9b95f204919d5ab67d2eec4e",
+          "size": 331776,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/domain-v3/libgmbor-win-arm64.dll"
+        },
+        "libgmbpgm.dll": {
+          "group": "domain",
+          "sha256": "994bdf90df785ed0e070760152180ab146996030678140a481addabc4e6922e1",
+          "size": 188928,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/domain-v3/libgmbpgm-win-arm64.dll"
+        },
+        "libgmbscheduling.dll": {
+          "group": "domain",
+          "sha256": "0936d121708e6d6509076b710111bf43dca11821336724105ca43893d24ac43c",
+          "size": 188416,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/domain-v3/libgmbscheduling-win-arm64.dll"
+        },
+        "libgmbstats.dll": {
+          "group": "domain",
+          "sha256": "dd1f2455a5e507090f654eaa62d1343fce3a3344746954aace399ff2973337af",
+          "size": 1129472,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/domain-v3/libgmbstats-win-arm64.dll"
+        },
+        "libgmbwsp.dll": {
+          "group": "domain",
+          "sha256": "143113138f29411cb86661e0e7431de799685cc322681223bab238f90526f512",
+          "size": 385024,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/domain-v3/libgmbwsp-win-arm64.dll"
         },
         "zig-0.17.0.tar.xz": {
           "group": "toolchain",
-          "sha256": "eb7ae007e21b39025f78a1d19adb5d9d7ec7c7d5053d36a9e905d12899b48fc0",
-          "size": 55202384,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/toolchain-v2/zig-0.17.0-win-arm64.tar.xz"
+          "sha256": "90d49dccbc5ecd65e3922ab84b4345bf7fd25f5e7211fe75f12d2b05c254fbc7",
+          "size": 55110956,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/toolchain-v3/zig-0.17.0-win-arm64.tar.xz"
         }
       }
     }
