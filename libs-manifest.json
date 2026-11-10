@@ -5513,346 +5513,1431 @@
         },
         "toolchain": {
           "kind": "files",
-          "tag": "toolchain-v2",
+          "tag": "toolchain-v3",
           "rids": {
             "linux-arm64": {
               "kind": "files",
-              "tag": "toolchain-v2"
+              "tag": "toolchain-v3"
             }
           },
-          "version": "v2"
+          "version": "v3"
+        },
+        "domain": {
+          "kind": "files",
+          "tag": "domain-v3",
+          "rids": {
+            "linux-arm64": {
+              "kind": "files",
+              "tag": "domain-v3"
+            }
+          },
+          "version": "v3"
         }
       },
       "files": {
+        "libasound.so": {
+          "group": "runtime",
+          "sha256": "ffcf03bddf79f3a3d9b9b93b3548cec3a8bd6f6f495dcf0e3bff2dd7e6e34d2f",
+          "size": 1182176,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libasound-linux-arm64.so"
+        },
+        "libapparmor.so": {
+          "group": "runtime",
+          "sha256": "d6d64963817f70b55203214453697ae9df5f0fdbd884b8115df20e8f0187bc85",
+          "size": 133768,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libapparmor-linux-arm64.so"
+        },
+        "libapparmor.so.1": {
+          "group": "runtime",
+          "sha256": "d6d64963817f70b55203214453697ae9df5f0fdbd884b8115df20e8f0187bc85",
+          "size": 133768,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libapparmor-linux-arm64.so.1"
+        },
+        "libasound.so.2": {
+          "group": "runtime",
+          "sha256": "ffcf03bddf79f3a3d9b9b93b3548cec3a8bd6f6f495dcf0e3bff2dd7e6e34d2f",
+          "size": 1182176,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libasound-linux-arm64.so.2"
+        },
+        "libasyncns.so.0": {
+          "group": "runtime",
+          "sha256": "fdc62a2e1fa5b3ebd6d6bc801b5d9627dec695c8c83c49e02cfa81396b610326",
+          "size": 67352,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libasyncns-linux-arm64.so.0"
+        },
+        "libbrotlicommon.so": {
+          "group": "runtime",
+          "sha256": "71fdb0eb9f2c43c777ed0e7ab30f0741f76861739798a618ab030c12c792919c",
+          "size": 198784,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libbrotlicommon-linux-arm64.so"
+        },
+        "libasyncns.so": {
+          "group": "runtime",
+          "sha256": "fdc62a2e1fa5b3ebd6d6bc801b5d9627dec695c8c83c49e02cfa81396b610326",
+          "size": 67352,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libasyncns-linux-arm64.so"
+        },
+        "libbrotlicommon.so.1": {
+          "group": "runtime",
+          "sha256": "71fdb0eb9f2c43c777ed0e7ab30f0741f76861739798a618ab030c12c792919c",
+          "size": 198784,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libbrotlicommon-linux-arm64.so.1"
+        },
+        "libbrotlicommon.so.1.1.0": {
+          "group": "runtime",
+          "sha256": "71fdb0eb9f2c43c777ed0e7ab30f0741f76861739798a618ab030c12c792919c",
+          "size": 198784,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libbrotlicommon-linux-arm64.so.1.1.0"
+        },
+        "libbrotlidec.so": {
+          "group": "runtime",
+          "sha256": "18ab766ad16cd9806ff65a9397e6c09c6bea15d7e8ef1b7614bb4b6134a25e58",
+          "size": 67688,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libbrotlidec-linux-arm64.so"
+        },
+        "libbrotlidec.so.1": {
+          "group": "runtime",
+          "sha256": "18ab766ad16cd9806ff65a9397e6c09c6bea15d7e8ef1b7614bb4b6134a25e58",
+          "size": 67688,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libbrotlidec-linux-arm64.so.1"
+        },
+        "libbrotlidec.so.1.1.0": {
+          "group": "runtime",
+          "sha256": "18ab766ad16cd9806ff65a9397e6c09c6bea15d7e8ef1b7614bb4b6134a25e58",
+          "size": 67688,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libbrotlidec-linux-arm64.so.1.1.0"
+        },
+        "libbrotlienc.so": {
+          "group": "runtime",
+          "sha256": "bec4a5c72d0f4be1674005d70b9bf2a33ff7b7b50998d944e8fcdf6f4fde7b4b",
+          "size": 592328,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libbrotlienc-linux-arm64.so"
+        },
+        "libbrotlienc.so.1.1.0": {
+          "group": "runtime",
+          "sha256": "bec4a5c72d0f4be1674005d70b9bf2a33ff7b7b50998d944e8fcdf6f4fde7b4b",
+          "size": 592328,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libbrotlienc-linux-arm64.so.1.1.0"
+        },
+        "libbrotlienc.so.1": {
+          "group": "runtime",
+          "sha256": "bec4a5c72d0f4be1674005d70b9bf2a33ff7b7b50998d944e8fcdf6f4fde7b4b",
+          "size": 592328,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libbrotlienc-linux-arm64.so.1"
+        },
+        "libbsd.so": {
+          "group": "runtime",
+          "sha256": "6c5348ee0e1777f13e148b7492fa311b6f65adb0dc21a001a67ebc18948e6b3e",
+          "size": 133944,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libbsd-linux-arm64.so"
+        },
+        "libbsd.so.0": {
+          "group": "runtime",
+          "sha256": "6c5348ee0e1777f13e148b7492fa311b6f65adb0dc21a001a67ebc18948e6b3e",
+          "size": 133944,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libbsd-linux-arm64.so.0"
+        },
+        "libbz2.so": {
+          "group": "runtime",
+          "sha256": "ac19913f44443f68f2e3ca29d79caaa785cd257bb424b028234bb4a2e8745c07",
+          "size": 70504,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libbz2-linux-arm64.so"
+        },
+        "libbz2.so.1.0": {
+          "group": "runtime",
+          "sha256": "ac19913f44443f68f2e3ca29d79caaa785cd257bb424b028234bb4a2e8745c07",
+          "size": 70504,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libbz2-linux-arm64.so.1.0"
+        },
+        "libcap.so": {
+          "group": "runtime",
+          "sha256": "1b6d3932cf8b60b2f27f80cdd26d9a296b8a9608fc02b4eccb8fb2fdab73fea2",
+          "size": 67704,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libcap-linux-arm64.so"
+        },
+        "libcap.so.2": {
+          "group": "runtime",
+          "sha256": "1b6d3932cf8b60b2f27f80cdd26d9a296b8a9608fc02b4eccb8fb2fdab73fea2",
+          "size": 67704,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libcap-linux-arm64.so.2"
+        },
+        "libcom_err.so": {
+          "group": "runtime",
+          "sha256": "6a9d07af8817ed06466027a77fc7f2e8972a4a0e68895738d9acdc35470f416e",
+          "size": 67432,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libcom_err-linux-arm64.so"
+        },
+        "libcom_err.so.2": {
+          "group": "runtime",
+          "sha256": "6a9d07af8817ed06466027a77fc7f2e8972a4a0e68895738d9acdc35470f416e",
+          "size": 67432,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libcom_err-linux-arm64.so.2"
+        },
+        "libcrypto.so": {
+          "group": "runtime",
+          "sha256": "b27a2396652ee28629c94d59d667c417dbffdf2dee84e5bf140bd17d3eedb7d9",
+          "size": 4663464,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libcrypto-linux-arm64.so"
+        },
+        "libcrypto.so.3": {
+          "group": "runtime",
+          "sha256": "b27a2396652ee28629c94d59d667c417dbffdf2dee84e5bf140bd17d3eedb7d9",
+          "size": 4663464,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libcrypto-linux-arm64.so.3"
+        },
+        "libcurl.so.4": {
+          "group": "runtime",
+          "sha256": "de8d6331f6afe49c077a526ec5e60ff37e13219477d02cf19dc7caffbfe183a2",
+          "size": 798104,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libcurl-linux-arm64.so.4"
+        },
+        "libcurl.so": {
+          "group": "runtime",
+          "sha256": "de8d6331f6afe49c077a526ec5e60ff37e13219477d02cf19dc7caffbfe183a2",
+          "size": 798104,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libcurl-linux-arm64.so"
+        },
+        "libcurl.so.4.8.0": {
+          "group": "runtime",
+          "sha256": "de8d6331f6afe49c077a526ec5e60ff37e13219477d02cf19dc7caffbfe183a2",
+          "size": 798104,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libcurl-linux-arm64.so.4.8.0"
+        },
+        "libdbus-1.so": {
+          "group": "runtime",
+          "sha256": "9b8d0d8b10bdffc68f6699b03e7be99d4dc40552aca189be43b55c5f84753241",
+          "size": 395336,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libdbus-1-linux-arm64.so"
+        },
+        "libdb-5.3.so": {
+          "group": "runtime",
+          "sha256": "a50e584493c1cc362bd43be05a30bf8493fc22578e1acdd702163ac6d2ef2e68",
+          "size": 1707368,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libdb-5.3-linux-arm64.so"
+        },
+        "libdbus-1.so.3": {
+          "group": "runtime",
+          "sha256": "9b8d0d8b10bdffc68f6699b03e7be99d4dc40552aca189be43b55c5f84753241",
+          "size": 395336,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libdbus-1-linux-arm64.so.3"
+        },
+        "libdecor-0.so": {
+          "group": "runtime",
+          "sha256": "c3f35fb9a3f248f4836347d79f880cc9894190b280f9a0a3a97ef172ed388662",
+          "size": 67832,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libdecor-0-linux-arm64.so"
+        },
+        "libdecor-0.so.0": {
+          "group": "runtime",
+          "sha256": "c3f35fb9a3f248f4836347d79f880cc9894190b280f9a0a3a97ef172ed388662",
+          "size": 67832,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libdecor-0-linux-arm64.so.0"
+        },
+        "libdeflate.so": {
+          "group": "runtime",
+          "sha256": "fc8c2ebe21ec4eebfccabcd6618b216a1bcf9a55dfc38c5af26e3b0ab835f4eb",
+          "size": 67384,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libdeflate-linux-arm64.so"
+        },
+        "libdeflate.so.0": {
+          "group": "runtime",
+          "sha256": "fc8c2ebe21ec4eebfccabcd6618b216a1bcf9a55dfc38c5af26e3b0ab835f4eb",
+          "size": 67384,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libdeflate-linux-arm64.so.0"
+        },
+        "libdrm.so": {
+          "group": "runtime",
+          "sha256": "efa8992c21c657acb37e3fa63653161b53a9d73a0828851c9b725fa5e35cadf3",
+          "size": 133616,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libdrm-linux-arm64.so"
+        },
+        "libdrm.so.2": {
+          "group": "runtime",
+          "sha256": "efa8992c21c657acb37e3fa63653161b53a9d73a0828851c9b725fa5e35cadf3",
+          "size": 133616,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libdrm-linux-arm64.so.2"
+        },
+        "libexpat.so": {
+          "group": "runtime",
+          "sha256": "b4b445a092ad711e535cfa7241974f709b716194c58227abc75b05e3a3bec7f7",
+          "size": 198712,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libexpat-linux-arm64.so"
+        },
+        "libexpat.so.1": {
+          "group": "runtime",
+          "sha256": "b4b445a092ad711e535cfa7241974f709b716194c58227abc75b05e3a3bec7f7",
+          "size": 198712,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libexpat-linux-arm64.so.1"
+        },
+        "libffi.so": {
+          "group": "runtime",
+          "sha256": "9dd873a938c4d7df76912d01f6a28aa4aa73d583bd20485a0dbfe5aa9673a191",
+          "size": 67944,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libffi-linux-arm64.so"
+        },
+        "libffi.so.8": {
+          "group": "runtime",
+          "sha256": "9dd873a938c4d7df76912d01f6a28aa4aa73d583bd20485a0dbfe5aa9673a191",
+          "size": 67944,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libffi-linux-arm64.so.8"
+        },
+        "libFLAC.so": {
+          "group": "runtime",
+          "sha256": "a547ee7c9ac918e0432950790bf8beab0f86c6c143a3d6a8e9e5fc35553f6d56",
+          "size": 329600,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libFLAC-linux-arm64.so"
+        },
+        "libFLAC.so.12": {
+          "group": "runtime",
+          "sha256": "a547ee7c9ac918e0432950790bf8beab0f86c6c143a3d6a8e9e5fc35553f6d56",
+          "size": 329600,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libFLAC-linux-arm64.so.12"
+        },
+        "libfluidsynth.so": {
+          "group": "runtime",
+          "sha256": "f5a0366e526f1b8c30a0ab5c063d9c94f2af3ceacb94be3849910272ca8fed4f",
+          "size": 591992,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libfluidsynth-linux-arm64.so"
+        },
+        "libfluidsynth.so.3": {
+          "group": "runtime",
+          "sha256": "f5a0366e526f1b8c30a0ab5c063d9c94f2af3ceacb94be3849910272ca8fed4f",
+          "size": 591992,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libfluidsynth-linux-arm64.so.3"
+        },
+        "libfreetype.so": {
+          "group": "runtime",
+          "sha256": "99245e15654c582d5f421034652fd8c2970a23774bc06b84e335b755de45338f",
+          "size": 854104,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libfreetype-linux-arm64.so"
+        },
+        "libfreetype.so.6": {
+          "group": "runtime",
+          "sha256": "99245e15654c582d5f421034652fd8c2970a23774bc06b84e335b755de45338f",
+          "size": 854104,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libfreetype-linux-arm64.so.6"
+        },
+        "libgbm.so": {
+          "group": "runtime",
+          "sha256": "be9ebce17a6790b1233356b8501e4f47412fc61e09e008db6b2c7d49c620bc8f",
+          "size": 67824,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libgbm-linux-arm64.so"
+        },
+        "libgbm.so.1": {
+          "group": "runtime",
+          "sha256": "be9ebce17a6790b1233356b8501e4f47412fc61e09e008db6b2c7d49c620bc8f",
+          "size": 67824,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libgbm-linux-arm64.so.1"
+        },
+        "libgcrypt.so": {
+          "group": "runtime",
+          "sha256": "0021b10f8cf217477b73eb3721ed5711c02f77d9251a346552f6099928329151",
+          "size": 1000536,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libgcrypt-linux-arm64.so"
+        },
+        "libgcrypt.so.20": {
+          "group": "runtime",
+          "sha256": "0021b10f8cf217477b73eb3721ed5711c02f77d9251a346552f6099928329151",
+          "size": 1000536,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libgcrypt-linux-arm64.so.20"
+        },
+        "libglib-2.0.so": {
+          "group": "runtime",
+          "sha256": "1003d9edb8f9e860310b2c0ddaa1c29deb2fde3cf7268316fe655f4d44022187",
+          "size": 1445440,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libglib-2.0-linux-arm64.so"
+        },
+        "libglib-2.0.so.0": {
+          "group": "runtime",
+          "sha256": "1003d9edb8f9e860310b2c0ddaa1c29deb2fde3cf7268316fe655f4d44022187",
+          "size": 1445440,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libglib-2.0-linux-arm64.so.0"
+        },
+        "libgmodule-2.0.so": {
+          "group": "runtime",
+          "sha256": "39c6275d3174b8b80ab5940babd9faa38e7429f01a34e06e0e773ab981f1dd17",
+          "size": 67584,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libgmodule-2.0-linux-arm64.so"
+        },
+        "libgmodule-2.0.so.0": {
+          "group": "runtime",
+          "sha256": "39c6275d3174b8b80ab5940babd9faa38e7429f01a34e06e0e773ab981f1dd17",
+          "size": 67584,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libgmodule-2.0-linux-arm64.so.0"
+        },
+        "libgmp.so": {
+          "group": "runtime",
+          "sha256": "39b6701812ed7135f28df49352b3f6664c7a9f56880a3fe50c1b87cd7681db9b",
+          "size": 526632,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libgmp-linux-arm64.so"
+        },
+        "libgmp.so.10": {
+          "group": "runtime",
+          "sha256": "39b6701812ed7135f28df49352b3f6664c7a9f56880a3fe50c1b87cd7681db9b",
+          "size": 526632,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libgmp-linux-arm64.so.10"
+        },
+        "libgnutls.so": {
+          "group": "runtime",
+          "sha256": "17ffd34fd0bc239903ca37e95bb14eab6ee986c8d1260a5a08f16e0bfc669739",
+          "size": 2171912,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libgnutls-linux-arm64.so"
+        },
+        "libgnutls.so.30": {
+          "group": "runtime",
+          "sha256": "17ffd34fd0bc239903ca37e95bb14eab6ee986c8d1260a5a08f16e0bfc669739",
+          "size": 2171912,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libgnutls-linux-arm64.so.30"
+        },
+        "libgobject-2.0.so": {
+          "group": "runtime",
+          "sha256": "f96292bbc0e05e2b7269350f987e88edc2be6f484d0a650e6aee985e0fbc70a8",
+          "size": 462704,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libgobject-2.0-linux-arm64.so"
+        },
+        "libgobject-2.0.so.0": {
+          "group": "runtime",
+          "sha256": "f96292bbc0e05e2b7269350f987e88edc2be6f484d0a650e6aee985e0fbc70a8",
+          "size": 462704,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libgobject-2.0-linux-arm64.so.0"
+        },
+        "libgomp.so": {
+          "group": "runtime",
+          "sha256": "33c8bcb7d33228fe5101bfeb201bcaff4563d4ecf09497229b9deba522ebaf3d",
+          "size": 397088,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libgomp-linux-arm64.so"
+        },
+        "libgomp.so.1": {
+          "group": "runtime",
+          "sha256": "33c8bcb7d33228fe5101bfeb201bcaff4563d4ecf09497229b9deba522ebaf3d",
+          "size": 397088,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libgomp-linux-arm64.so.1"
+        },
+        "libgpg-error.so": {
+          "group": "runtime",
+          "sha256": "ff2dccba4993ef97775b70c1ed1144f70dfe8581ee48c1eb25c76878c6cdfdf7",
+          "size": 198648,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libgpg-error-linux-arm64.so"
+        },
+        "libgpg-error.so.0": {
+          "group": "runtime",
+          "sha256": "ff2dccba4993ef97775b70c1ed1144f70dfe8581ee48c1eb25c76878c6cdfdf7",
+          "size": 198648,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libgpg-error-linux-arm64.so.0"
+        },
+        "libgraphite2.so": {
+          "group": "runtime",
+          "sha256": "26d512d2a2ca2a524def93057c46e2aa759d5e31990142ea8485e0cf167e87d8",
+          "size": 133200,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libgraphite2-linux-arm64.so"
+        },
+        "libgraphite2.so.3": {
+          "group": "runtime",
+          "sha256": "26d512d2a2ca2a524def93057c46e2aa759d5e31990142ea8485e0cf167e87d8",
+          "size": 133200,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libgraphite2-linux-arm64.so.3"
+        },
+        "libgssapi_krb5.so": {
+          "group": "runtime",
+          "sha256": "bc7d5e3ea14504c76dc71d9f7466dd3ac2589910d472412689de1d296722b086",
+          "size": 334304,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libgssapi_krb5-linux-arm64.so"
+        },
+        "libgssapi_krb5.so.2": {
+          "group": "runtime",
+          "sha256": "bc7d5e3ea14504c76dc71d9f7466dd3ac2589910d472412689de1d296722b086",
+          "size": 334304,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libgssapi_krb5-linux-arm64.so.2"
+        },
+        "libharfbuzz.so": {
+          "group": "runtime",
+          "sha256": "a59db36b314e8b9d03c59c587fe6651c8b46bd4736091f9d6784f5e0166a5907",
+          "size": 1117936,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libharfbuzz-linux-arm64.so"
+        },
+        "libharfbuzz.so.0": {
+          "group": "runtime",
+          "sha256": "a59db36b314e8b9d03c59c587fe6651c8b46bd4736091f9d6784f5e0166a5907",
+          "size": 1117936,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libharfbuzz-linux-arm64.so.0"
+        },
+        "libhogweed.so": {
+          "group": "runtime",
+          "sha256": "0495ad11a2266d7300436d57859fc8ebceac79e5235a393c42ae91d6fc23ce84",
+          "size": 329656,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libhogweed-linux-arm64.so"
+        },
+        "libhogweed.so.6": {
+          "group": "runtime",
+          "sha256": "0495ad11a2266d7300436d57859fc8ebceac79e5235a393c42ae91d6fc23ce84",
+          "size": 329656,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libhogweed-linux-arm64.so.6"
+        },
+        "libidn2.so": {
+          "group": "runtime",
+          "sha256": "34a2427db57d47458b460ab15a24e7de73b56fbc7b458af837556445f60ffb4e",
+          "size": 132968,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libidn2-linux-arm64.so"
+        },
+        "libidn2.so.0": {
+          "group": "runtime",
+          "sha256": "34a2427db57d47458b460ab15a24e7de73b56fbc7b458af837556445f60ffb4e",
+          "size": 132968,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libidn2-linux-arm64.so.0"
+        },
+        "libinstpatch-1.0.so": {
+          "group": "runtime",
+          "sha256": "2e2a30ca95bdd6a89d050fd7a0fc11b304fde89ef7d1520655f243ff1a1f47be",
+          "size": 789488,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libinstpatch-1.0-linux-arm64.so"
+        },
+        "libinstpatch-1.0.so.2": {
+          "group": "runtime",
+          "sha256": "2e2a30ca95bdd6a89d050fd7a0fc11b304fde89ef7d1520655f243ff1a1f47be",
+          "size": 789488,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libinstpatch-1.0-linux-arm64.so.2"
+        },
+        "libjack.so": {
+          "group": "runtime",
+          "sha256": "14b789fdfcea039721fa7155531772376288b5b511ff80505ecd49eae21b3a3d",
+          "size": 395512,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libjack-linux-arm64.so"
+        },
+        "libjack.so.0": {
+          "group": "runtime",
+          "sha256": "14b789fdfcea039721fa7155531772376288b5b511ff80505ecd49eae21b3a3d",
+          "size": 395512,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libjack-linux-arm64.so.0"
+        },
+        "libjbig.so": {
+          "group": "runtime",
+          "sha256": "edfa3b74da686481be974c3f514dbe8487ad8faf258b634ab4227d98b33cb888",
+          "size": 78448,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libjbig-linux-arm64.so"
+        },
+        "libjpeg.so": {
+          "group": "runtime",
+          "sha256": "d45014b67ae6df2f15c8fb3e86d37b78375deede47ef73b7c61e8b6b28c8223f",
+          "size": 395264,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libjpeg-linux-arm64.so"
+        },
+        "libjbig.so.0": {
+          "group": "runtime",
+          "sha256": "edfa3b74da686481be974c3f514dbe8487ad8faf258b634ab4227d98b33cb888",
+          "size": 78448,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libjbig-linux-arm64.so.0"
+        },
+        "libjpeg.so.8": {
+          "group": "runtime",
+          "sha256": "d45014b67ae6df2f15c8fb3e86d37b78375deede47ef73b7c61e8b6b28c8223f",
+          "size": 395264,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libjpeg-linux-arm64.so.8"
+        },
+        "libk5crypto.so": {
+          "group": "runtime",
+          "sha256": "c6a2380d979bb168328b6dc35ec0d96f50338a7be23fb14f8444497dd8148e05",
+          "size": 198920,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libk5crypto-linux-arm64.so"
+        },
+        "libk5crypto.so.3": {
+          "group": "runtime",
+          "sha256": "c6a2380d979bb168328b6dc35ec0d96f50338a7be23fb14f8444497dd8148e05",
+          "size": 198920,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libk5crypto-linux-arm64.so.3"
+        },
+        "libkeyutils.so": {
+          "group": "runtime",
+          "sha256": "a58e06275e8e2010be20f367b7f2263e56130c04cb83523f29ae94555705ea59",
+          "size": 67432,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libkeyutils-linux-arm64.so"
+        },
+        "libkeyutils.so.1": {
+          "group": "runtime",
+          "sha256": "a58e06275e8e2010be20f367b7f2263e56130c04cb83523f29ae94555705ea59",
+          "size": 67432,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libkeyutils-linux-arm64.so.1"
+        },
+        "libkrb5.so": {
+          "group": "runtime",
+          "sha256": "af6c2e7313dbea842a1912a22f14daab2ea24877dd30e576a525b6becc5c029e",
+          "size": 859920,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libkrb5-linux-arm64.so"
+        },
+        "libkrb5.so.3": {
+          "group": "runtime",
+          "sha256": "af6c2e7313dbea842a1912a22f14daab2ea24877dd30e576a525b6becc5c029e",
+          "size": 859920,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libkrb5-linux-arm64.so.3"
+        },
+        "libkrb5support.so": {
+          "group": "runtime",
+          "sha256": "6f4ce70567c2c953510bfa5c839f0ce7136330b127cb1746f7ce0ff6f4d4d4f5",
+          "size": 68192,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libkrb5support-linux-arm64.so"
+        },
+        "liblber.so": {
+          "group": "runtime",
+          "sha256": "92e756c779c3fa77c4e8ad1ef0d97ebc2eaeccb2f9829da521691c52df4129d5",
+          "size": 67792,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/liblber-linux-arm64.so"
+        },
+        "libkrb5support.so.0": {
+          "group": "runtime",
+          "sha256": "6f4ce70567c2c953510bfa5c839f0ce7136330b127cb1746f7ce0ff6f4d4d4f5",
+          "size": 68192,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libkrb5support-linux-arm64.so.0"
+        },
+        "liblber.so.2": {
+          "group": "runtime",
+          "sha256": "92e756c779c3fa77c4e8ad1ef0d97ebc2eaeccb2f9829da521691c52df4129d5",
+          "size": 67792,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/liblber-linux-arm64.so.2"
+        },
+        "libldap.so": {
+          "group": "runtime",
+          "sha256": "6d3332e01734a21c0b1b18e993d6117a31f8227d3859556397704f266e18e262",
+          "size": 396656,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libldap-linux-arm64.so"
+        },
+        "libldap.so.2": {
+          "group": "runtime",
+          "sha256": "6d3332e01734a21c0b1b18e993d6117a31f8227d3859556397704f266e18e262",
+          "size": 396656,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libldap-linux-arm64.so.2"
+        },
+        "libLerc.so": {
+          "group": "runtime",
+          "sha256": "8148fbb2d121a08abf6ffe493a4994086eb43a785059871dbee1647ce115305b",
+          "size": 526288,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libLerc-linux-arm64.so"
+        },
+        "libLerc.so.4": {
+          "group": "runtime",
+          "sha256": "8148fbb2d121a08abf6ffe493a4994086eb43a785059871dbee1647ce115305b",
+          "size": 526288,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libLerc-linux-arm64.so.4"
+        },
+        "liblz4.so.1": {
+          "group": "runtime",
+          "sha256": "d1482a2f74152881d8b83708fedae7bca039f5608024f1178dc21a17df9887a7",
+          "size": 133136,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/liblz4-linux-arm64.so.1"
+        },
+        "liblzma.so": {
+          "group": "runtime",
+          "sha256": "50e9207a39bea9767f8ceaf464655953622ac3bac7ac5d24433f207f810cbd80",
+          "size": 198584,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/liblzma-linux-arm64.so"
+        },
+        "liblz4.so": {
+          "group": "runtime",
+          "sha256": "d1482a2f74152881d8b83708fedae7bca039f5608024f1178dc21a17df9887a7",
+          "size": 133136,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/liblz4-linux-arm64.so"
+        },
+        "liblz4.so.1.9.4": {
+          "group": "runtime",
+          "sha256": "d1482a2f74152881d8b83708fedae7bca039f5608024f1178dc21a17df9887a7",
+          "size": 133136,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/liblz4-linux-arm64.so.1.9.4"
+        },
+        "liblzma.so.5": {
+          "group": "runtime",
+          "sha256": "50e9207a39bea9767f8ceaf464655953622ac3bac7ac5d24433f207f810cbd80",
+          "size": 198584,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/liblzma-linux-arm64.so.5"
+        },
+        "liblzma.so.5.4.5": {
+          "group": "runtime",
+          "sha256": "50e9207a39bea9767f8ceaf464655953622ac3bac7ac5d24433f207f810cbd80",
+          "size": 198584,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/liblzma-linux-arm64.so.5.4.5"
+        },
+        "libmd.so": {
+          "group": "runtime",
+          "sha256": "30d117046ce9405745e0d0d4722cff121f532913180bbb9425b38d076319ac08",
+          "size": 67584,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libmd-linux-arm64.so"
+        },
+        "libmd.so.0": {
+          "group": "runtime",
+          "sha256": "30d117046ce9405745e0d0d4722cff121f532913180bbb9425b38d076319ac08",
+          "size": 67584,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libmd-linux-arm64.so.0"
+        },
+        "libmodplug.so": {
+          "group": "runtime",
+          "sha256": "8174164d3f02d9846b5921c24fd0e16e75a8567253648c8a6273edee515fc326",
+          "size": 329688,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libmodplug-linux-arm64.so"
+        },
+        "libmodplug.so.1": {
+          "group": "runtime",
+          "sha256": "8174164d3f02d9846b5921c24fd0e16e75a8567253648c8a6273edee515fc326",
+          "size": 329688,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libmodplug-linux-arm64.so.1"
+        },
+        "libmp3lame.so": {
+          "group": "runtime",
+          "sha256": "2bd9422e3f287a648eb150bc5ee7eeea228a522dfb7d1491a5548fa7842b677e",
+          "size": 329576,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libmp3lame-linux-arm64.so"
+        },
+        "libmp3lame.so.0": {
+          "group": "runtime",
+          "sha256": "2bd9422e3f287a648eb150bc5ee7eeea228a522dfb7d1491a5548fa7842b677e",
+          "size": 329576,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libmp3lame-linux-arm64.so.0"
+        },
+        "libmpg123.so": {
+          "group": "runtime",
+          "sha256": "a7e2858dbb474686f75d4082e84f26eca06d942a3982c9f0da5b7dad95c61147",
+          "size": 331400,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libmpg123-linux-arm64.so"
+        },
+        "libmpg123.so.0": {
+          "group": "runtime",
+          "sha256": "a7e2858dbb474686f75d4082e84f26eca06d942a3982c9f0da5b7dad95c61147",
+          "size": 331400,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libmpg123-linux-arm64.so.0"
+        },
+        "libmvec.so": {
+          "group": "runtime",
+          "sha256": "ecf27aef2109bfe2e251e037e2a5bb252c19077cbf30a4913b50e6ea6e69dc63",
+          "size": 67512,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libmvec-linux-arm64.so"
+        },
+        "libmvec.so.1": {
+          "group": "runtime",
+          "sha256": "ecf27aef2109bfe2e251e037e2a5bb252c19077cbf30a4913b50e6ea6e69dc63",
+          "size": 67512,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libmvec-linux-arm64.so.1"
+        },
+        "libnettle.so": {
+          "group": "runtime",
+          "sha256": "8fd8ed433f1b993fe8b8aa8d3fa5342955ab581dc5ce418381872cd3df3dbb11",
+          "size": 395272,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libnettle-linux-arm64.so"
+        },
+        "libnettle.so.8": {
+          "group": "runtime",
+          "sha256": "8fd8ed433f1b993fe8b8aa8d3fa5342955ab581dc5ce418381872cd3df3dbb11",
+          "size": 395272,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libnettle-linux-arm64.so.8"
+        },
+        "libnghttp2.so.14": {
+          "group": "runtime",
+          "sha256": "e856f9cf7add5eda678ed08d493dd5738484a6c96ad561790be64779a2db9a6f",
+          "size": 198768,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libnghttp2-linux-arm64.so.14"
+        },
+        "libnghttp2.so": {
+          "group": "runtime",
+          "sha256": "e856f9cf7add5eda678ed08d493dd5738484a6c96ad561790be64779a2db9a6f",
+          "size": 198768,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libnghttp2-linux-arm64.so"
+        },
+        "libogg.so": {
+          "group": "runtime",
+          "sha256": "888224cbf3e81f365449d66c444efcf02b46271c598de929a2e51c77486663f4",
+          "size": 67352,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libogg-linux-arm64.so"
+        },
+        "libogg.so.0": {
+          "group": "runtime",
+          "sha256": "888224cbf3e81f365449d66c444efcf02b46271c598de929a2e51c77486663f4",
+          "size": 67352,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libogg-linux-arm64.so.0"
+        },
+        "libopus.so": {
+          "group": "runtime",
+          "sha256": "a346225ddd7a5964d718b51cd148639f80f6e3e2b17b3c73cc87ac82222314a5",
+          "size": 395360,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libopus-linux-arm64.so"
+        },
+        "libopus.so.0": {
+          "group": "runtime",
+          "sha256": "a346225ddd7a5964d718b51cd148639f80f6e3e2b17b3c73cc87ac82222314a5",
+          "size": 395360,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libopus-linux-arm64.so.0"
+        },
+        "libopusfile.so": {
+          "group": "runtime",
+          "sha256": "61ae34f4f839d1d36dccafc8fd800b61474cc937ca93f042a97d8d94a90fa296",
+          "size": 67592,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libopusfile-linux-arm64.so"
+        },
+        "libp11-kit.so": {
+          "group": "runtime",
+          "sha256": "d59c4e2e0135960aee4264dcfe21a677c15b8dc3561ace2f0b2297f79a890aec",
+          "size": 1889776,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libp11-kit-linux-arm64.so"
+        },
+        "libopusfile.so.0": {
+          "group": "runtime",
+          "sha256": "61ae34f4f839d1d36dccafc8fd800b61474cc937ca93f042a97d8d94a90fa296",
+          "size": 67592,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libopusfile-linux-arm64.so.0"
+        },
+        "libp11-kit.so.0": {
+          "group": "runtime",
+          "sha256": "d59c4e2e0135960aee4264dcfe21a677c15b8dc3561ace2f0b2297f79a890aec",
+          "size": 1889776,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libp11-kit-linux-arm64.so.0"
+        },
+        "libpcre2-8.so": {
+          "group": "runtime",
+          "sha256": "aa4e91ff910dbb8e40472ed4fcaaeebfef19ad13fe925d9ed8e22e87d45ce13b",
+          "size": 592328,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libpcre2-8-linux-arm64.so"
+        },
+        "libpcre2-8.so.0": {
+          "group": "runtime",
+          "sha256": "aa4e91ff910dbb8e40472ed4fcaaeebfef19ad13fe925d9ed8e22e87d45ce13b",
+          "size": 592328,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libpcre2-8-linux-arm64.so.0"
+        },
+        "libpcre2-8.so.0.11.2": {
+          "group": "runtime",
+          "sha256": "aa4e91ff910dbb8e40472ed4fcaaeebfef19ad13fe925d9ed8e22e87d45ce13b",
+          "size": 592328,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libpcre2-8-linux-arm64.so.0.11.2"
+        },
+        "libpipewire-0.3.so": {
+          "group": "runtime",
+          "sha256": "fd8c3425b8e0598a872707b1eb2b2f58671be9903fe48ed1ac89b6f8ba2ef921",
+          "size": 920240,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libpipewire-0.3-linux-arm64.so"
+        },
+        "libpipewire-0.3.so.0": {
+          "group": "runtime",
+          "sha256": "fd8c3425b8e0598a872707b1eb2b2f58671be9903fe48ed1ac89b6f8ba2ef921",
+          "size": 920240,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libpipewire-0.3-linux-arm64.so.0"
+        },
+        "libpng16.so": {
+          "group": "runtime",
+          "sha256": "cb6e50ae78b927c643263e7c0ae55f846d2a01986d870d2c27e7b999347058ed",
+          "size": 264040,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libpng16-linux-arm64.so"
+        },
+        "libpsl.so": {
+          "group": "runtime",
+          "sha256": "95bd0ee93925255421d4f2adc621ac26e451fae04f613c8edd368c288be43488",
+          "size": 132888,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libpsl-linux-arm64.so"
+        },
+        "libpng16.so.16": {
+          "group": "runtime",
+          "sha256": "cb6e50ae78b927c643263e7c0ae55f846d2a01986d870d2c27e7b999347058ed",
+          "size": 264040,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libpng16-linux-arm64.so.16"
+        },
+        "libpsl.so.5": {
+          "group": "runtime",
+          "sha256": "95bd0ee93925255421d4f2adc621ac26e451fae04f613c8edd368c288be43488",
+          "size": 132888,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libpsl-linux-arm64.so.5"
+        },
+        "libpulse-simple.so": {
+          "group": "runtime",
+          "sha256": "dbcee202125d45c6a99c092efed64419519d7cea5be4c57d12fd0ca2b371e992",
+          "size": 67592,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libpulse-simple-linux-arm64.so"
+        },
+        "libpulse-simple.so.0": {
+          "group": "runtime",
+          "sha256": "dbcee202125d45c6a99c092efed64419519d7cea5be4c57d12fd0ca2b371e992",
+          "size": 67592,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libpulse-simple-linux-arm64.so.0"
+        },
+        "libpulse.so": {
+          "group": "runtime",
+          "sha256": "cca7dd98ddd32c558885362b9b5fa1065ac4c5fe0c6393960ec9c85671e6f6c8",
+          "size": 330728,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libpulse-linux-arm64.so"
+        },
+        "libpulse.so.0": {
+          "group": "runtime",
+          "sha256": "cca7dd98ddd32c558885362b9b5fa1065ac4c5fe0c6393960ec9c85671e6f6c8",
+          "size": 330728,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libpulse-linux-arm64.so.0"
+        },
+        "libpulsecommon-16.1.so": {
+          "group": "runtime",
+          "sha256": "b972e84100fc6043a30bf626808e712d7647f841d2c59a0ade2f5cba76061bdb",
+          "size": 526448,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libpulsecommon-16.1-linux-arm64.so"
+        },
+        "libreadline.so": {
+          "group": "runtime",
+          "sha256": "926b1d5d4793773021fb3383d797241323a1b68fb2eb4863e67cdf006dddf603",
+          "size": 417504,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libreadline-linux-arm64.so"
+        },
+        "libreadline.so.8": {
+          "group": "runtime",
+          "sha256": "926b1d5d4793773021fb3383d797241323a1b68fb2eb4863e67cdf006dddf603",
+          "size": 417504,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libreadline-linux-arm64.so.8"
+        },
+        "libresolv.so": {
+          "group": "runtime",
+          "sha256": "92890287859788043628489a25fa39a623119328f6c0ac8e91f9ca60ab90650e",
+          "size": 67720,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libresolv-linux-arm64.so"
+        },
+        "libresolv.so.2": {
+          "group": "runtime",
+          "sha256": "92890287859788043628489a25fa39a623119328f6c0ac8e91f9ca60ab90650e",
+          "size": 67720,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libresolv-linux-arm64.so.2"
+        },
+        "librtmp.so": {
+          "group": "runtime",
+          "sha256": "0e449c6660fb3dc7e06c56034f41106e9cf48a3baf5d30c1e0b53a48276d0c51",
+          "size": 133928,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/librtmp-linux-arm64.so"
+        },
+        "librtmp.so.1": {
+          "group": "runtime",
+          "sha256": "0e449c6660fb3dc7e06c56034f41106e9cf48a3baf5d30c1e0b53a48276d0c51",
+          "size": 133928,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/librtmp-linux-arm64.so.1"
+        },
+        "libsamplerate.so": {
+          "group": "runtime",
+          "sha256": "901517f654782534a4ad2db28c69a3b921e20abec4b012fc703fc3ff95e3d755",
+          "size": 1509680,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libsamplerate-linux-arm64.so"
+        },
+        "libsamplerate.so.0": {
+          "group": "runtime",
+          "sha256": "901517f654782534a4ad2db28c69a3b921e20abec4b012fc703fc3ff95e3d755",
+          "size": 1509680,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libsamplerate-linux-arm64.so.0"
+        },
+        "libsasl2.so": {
+          "group": "runtime",
+          "sha256": "f936a889bcc2d8b5ac8b89e2b37e4359bbd87cbbe87bd2b2002358dfffe04cce",
+          "size": 133800,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libsasl2-linux-arm64.so"
+        },
+        "libsasl2.so.2": {
+          "group": "runtime",
+          "sha256": "f936a889bcc2d8b5ac8b89e2b37e4359bbd87cbbe87bd2b2002358dfffe04cce",
+          "size": 133800,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libsasl2-linux-arm64.so.2"
+        },
+        "libSDL2_image-2.0.so": {
+          "group": "runtime",
+          "sha256": "38d3930550421b8d206bced16828b183dc5881fc27ce54656ffcd98fb4e1c441",
+          "size": 132968,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libSDL2_image-2.0-linux-arm64.so"
+        },
+        "libSDL2_image-2.0.so.0": {
+          "group": "runtime",
+          "sha256": "38d3930550421b8d206bced16828b183dc5881fc27ce54656ffcd98fb4e1c441",
+          "size": 132968,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libSDL2_image-2.0-linux-arm64.so.0"
+        },
+        "libSDL2_image-2.0.so.0.800.2": {
+          "group": "runtime",
+          "sha256": "38d3930550421b8d206bced16828b183dc5881fc27ce54656ffcd98fb4e1c441",
+          "size": 132968,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libSDL2_image-2.0-linux-arm64.so.0.800.2"
+        },
+        "libSDL2_mixer-2.0.so": {
+          "group": "runtime",
+          "sha256": "96417a9054e6057c6ad5225283bc753017c6ebc2274cca35c9b672b27f01ad69",
+          "size": 200544,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libSDL2_mixer-2.0-linux-arm64.so"
+        },
+        "libSDL2_mixer-2.0.so.0": {
+          "group": "runtime",
+          "sha256": "96417a9054e6057c6ad5225283bc753017c6ebc2274cca35c9b672b27f01ad69",
+          "size": 200544,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libSDL2_mixer-2.0-linux-arm64.so.0"
+        },
+        "libSDL2_mixer-2.0.so.0.800.0": {
+          "group": "runtime",
+          "sha256": "96417a9054e6057c6ad5225283bc753017c6ebc2274cca35c9b672b27f01ad69",
+          "size": 200544,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libSDL2_mixer-2.0-linux-arm64.so.0.800.0"
+        },
+        "libSDL2_ttf-2.0.so": {
+          "group": "runtime",
+          "sha256": "8d30a356a85b112bef164575801ed53ba8f234972b9ccf0ccb83b3debb22bb40",
+          "size": 67360,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libSDL2_ttf-2.0-linux-arm64.so"
+        },
+        "libSDL2_ttf-2.0.so.0": {
+          "group": "runtime",
+          "sha256": "8d30a356a85b112bef164575801ed53ba8f234972b9ccf0ccb83b3debb22bb40",
+          "size": 67360,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libSDL2_ttf-2.0-linux-arm64.so.0"
+        },
+        "libSDL2_ttf-2.0.so.0.2200.0": {
+          "group": "runtime",
+          "sha256": "8d30a356a85b112bef164575801ed53ba8f234972b9ccf0ccb83b3debb22bb40",
+          "size": 67360,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libSDL2_ttf-2.0-linux-arm64.so.0.2200.0"
+        },
+        "libSDL2_ttf.so": {
+          "group": "runtime",
+          "sha256": "8d30a356a85b112bef164575801ed53ba8f234972b9ccf0ccb83b3debb22bb40",
+          "size": 67360,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libSDL2_ttf-linux-arm64.so"
+        },
+        "libSDL2-2.0.so": {
+          "group": "runtime",
+          "sha256": "2490ad40b5af76d234f0a2aa4b713be20016138a30cdd32e36851fdd39aba6e6",
+          "size": 1995120,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libSDL2-2.0-linux-arm64.so"
+        },
+        "libSDL2-2.0.so.0": {
+          "group": "runtime",
+          "sha256": "2490ad40b5af76d234f0a2aa4b713be20016138a30cdd32e36851fdd39aba6e6",
+          "size": 1995120,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libSDL2-2.0-linux-arm64.so.0"
+        },
+        "libSDL2-2.0.so.0.3000.0": {
+          "group": "runtime",
+          "sha256": "2490ad40b5af76d234f0a2aa4b713be20016138a30cdd32e36851fdd39aba6e6",
+          "size": 1995120,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libSDL2-2.0-linux-arm64.so.0.3000.0"
+        },
+        "libSDL2.so": {
+          "group": "runtime",
+          "sha256": "2490ad40b5af76d234f0a2aa4b713be20016138a30cdd32e36851fdd39aba6e6",
+          "size": 1995120,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libSDL2-linux-arm64.so"
+        },
+        "libsharpyuv.so": {
+          "group": "runtime",
+          "sha256": "aa4617020b4bc450ef4382ea93ab3d6bef6571433498794a9b88a5675d52fe6d",
+          "size": 67520,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libsharpyuv-linux-arm64.so"
+        },
+        "libsharpyuv.so.0": {
+          "group": "runtime",
+          "sha256": "aa4617020b4bc450ef4382ea93ab3d6bef6571433498794a9b88a5675d52fe6d",
+          "size": 67520,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libsharpyuv-linux-arm64.so.0"
+        },
+        "libsndfile.so": {
+          "group": "runtime",
+          "sha256": "2a44435dc9a00828d0e734eba66ed2a25b960b4946d957a5817750e8f246d652",
+          "size": 594792,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libsndfile-linux-arm64.so"
+        },
+        "libsndfile.so.1": {
+          "group": "runtime",
+          "sha256": "2a44435dc9a00828d0e734eba66ed2a25b960b4946d957a5817750e8f246d652",
+          "size": 594792,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libsndfile-linux-arm64.so.1"
+        },
+        "libsqlite3.so": {
+          "group": "runtime",
+          "sha256": "ffab9364e26ea7bec92cedde903dd04eabae8b5eae86ec2bd7e3e9201725069e",
+          "size": 1526192,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libsqlite3-linux-arm64.so"
+        },
+        "libsqlite3.so.0": {
+          "group": "runtime",
+          "sha256": "ffab9364e26ea7bec92cedde903dd04eabae8b5eae86ec2bd7e3e9201725069e",
+          "size": 1526192,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libsqlite3-linux-arm64.so.0"
+        },
+        "libsqlite3.so.0.8.6": {
+          "group": "runtime",
+          "sha256": "ffab9364e26ea7bec92cedde903dd04eabae8b5eae86ec2bd7e3e9201725069e",
+          "size": 1526192,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libsqlite3-linux-arm64.so.0.8.6"
+        },
+        "libssh.so": {
+          "group": "runtime",
+          "sha256": "4128783c7842fa6076f2ab9dd5000772280a09dc0e061634b0261e35e00dc006",
+          "size": 466056,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libssh-linux-arm64.so"
+        },
+        "libssh.so.4": {
+          "group": "runtime",
+          "sha256": "4128783c7842fa6076f2ab9dd5000772280a09dc0e061634b0261e35e00dc006",
+          "size": 466056,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libssh-linux-arm64.so.4"
+        },
+        "libssl.so": {
+          "group": "runtime",
+          "sha256": "cd89f6e6eea72583e1f1f98f8ea6b0f5e9281d7a0e4262a2e36f648be789d565",
+          "size": 737192,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libssl-linux-arm64.so"
+        },
+        "libssl.so.3": {
+          "group": "runtime",
+          "sha256": "cd89f6e6eea72583e1f1f98f8ea6b0f5e9281d7a0e4262a2e36f648be789d565",
+          "size": 737192,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libssl-linux-arm64.so.3"
+        },
+        "libsystemd.so": {
+          "group": "runtime",
+          "sha256": "f0574d5aa73fb8ef26d159d909751c1cf4555ce8679ac5c1ebac76bbdddaec7f",
+          "size": 989464,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libsystemd-linux-arm64.so"
+        },
+        "libsystemd.so.0": {
+          "group": "runtime",
+          "sha256": "f0574d5aa73fb8ef26d159d909751c1cf4555ce8679ac5c1ebac76bbdddaec7f",
+          "size": 989464,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libsystemd-linux-arm64.so.0"
+        },
+        "libtasn1.so.6": {
+          "group": "runtime",
+          "sha256": "039d653f8fdfa01240882b0033aca6887e1e9e6dc39acbea51d658fa75437955",
+          "size": 133048,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libtasn1-linux-arm64.so.6"
+        },
+        "libtasn1.so": {
+          "group": "runtime",
+          "sha256": "039d653f8fdfa01240882b0033aca6887e1e9e6dc39acbea51d658fa75437955",
+          "size": 133048,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libtasn1-linux-arm64.so"
+        },
+        "libtiff.so": {
+          "group": "runtime",
+          "sha256": "77c7228f8a58fa77915555d74727f42e1d1fe0716dda84cb3983c7f891c51f93",
+          "size": 591816,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libtiff-linux-arm64.so"
+        },
+        "libtiff.so.6": {
+          "group": "runtime",
+          "sha256": "77c7228f8a58fa77915555d74727f42e1d1fe0716dda84cb3983c7f891c51f93",
+          "size": 591816,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libtiff-linux-arm64.so.6"
+        },
+        "libtinfo.so": {
+          "group": "runtime",
+          "sha256": "2d2f2bb5a2dd09a3f54dfe7847a7f601203a0e3fed210cb58df740d07989f554",
+          "size": 265416,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libtinfo-linux-arm64.so"
+        },
+        "libtinfo.so.6": {
+          "group": "runtime",
+          "sha256": "2d2f2bb5a2dd09a3f54dfe7847a7f601203a0e3fed210cb58df740d07989f554",
+          "size": 265416,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libtinfo-linux-arm64.so.6"
+        },
+        "libunistring.so": {
+          "group": "runtime",
+          "sha256": "639c4c15f94e960450b69475d7282e4760fd5895a6a4f4e85f44bb15b74e512c",
+          "size": 1771448,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libunistring-linux-arm64.so"
+        },
+        "libvorbis.so": {
+          "group": "runtime",
+          "sha256": "10601a705b62bfd00ea6741b7a167129b918eb9f5ed9f5bd835ce3d94b0bc156",
+          "size": 198504,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libvorbis-linux-arm64.so"
+        },
+        "libunistring.so.5": {
+          "group": "runtime",
+          "sha256": "639c4c15f94e960450b69475d7282e4760fd5895a6a4f4e85f44bb15b74e512c",
+          "size": 1771448,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libunistring-linux-arm64.so.5"
+        },
+        "libvorbis.so.0": {
+          "group": "runtime",
+          "sha256": "10601a705b62bfd00ea6741b7a167129b918eb9f5ed9f5bd835ce3d94b0bc156",
+          "size": 198504,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libvorbis-linux-arm64.so.0"
+        },
+        "libvorbisenc.so": {
+          "group": "runtime",
+          "sha256": "602d16f3b6e7ff62d4fbfcdf5cfc9a2fc7eae187add4f4313eac4b5380f91ffb",
+          "size": 722856,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libvorbisenc-linux-arm64.so"
+        },
+        "libvorbisenc.so.2": {
+          "group": "runtime",
+          "sha256": "602d16f3b6e7ff62d4fbfcdf5cfc9a2fc7eae187add4f4313eac4b5380f91ffb",
+          "size": 722856,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libvorbisenc-linux-arm64.so.2"
+        },
+        "libvorbisfile.so": {
+          "group": "runtime",
+          "sha256": "5aee4e4c15bd1ee6714476cbecc081164cb41d6aeb568e38e92eab8a6fa1fb8e",
+          "size": 67384,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libvorbisfile-linux-arm64.so"
+        },
+        "libvorbisfile.so.3": {
+          "group": "runtime",
+          "sha256": "5aee4e4c15bd1ee6714476cbecc081164cb41d6aeb568e38e92eab8a6fa1fb8e",
+          "size": 67384,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libvorbisfile-linux-arm64.so.3"
+        },
+        "libwayland-client.so": {
+          "group": "runtime",
+          "sha256": "f31270db49694b1236d0e161ee23765ed82acec9c01bc9e0d6444e8d744f85e2",
+          "size": 68632,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libwayland-client-linux-arm64.so"
+        },
+        "libwayland-client.so.0": {
+          "group": "runtime",
+          "sha256": "f31270db49694b1236d0e161ee23765ed82acec9c01bc9e0d6444e8d744f85e2",
+          "size": 68632,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libwayland-client-linux-arm64.so.0"
+        },
+        "libwayland-cursor.so": {
+          "group": "runtime",
+          "sha256": "b9ec80ef43478736bb4efbc8a80daa15c12464b68905f74203292e2914ade4d8",
+          "size": 80184,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libwayland-cursor-linux-arm64.so"
+        },
+        "libwayland-cursor.so.0": {
+          "group": "runtime",
+          "sha256": "b9ec80ef43478736bb4efbc8a80daa15c12464b68905f74203292e2914ade4d8",
+          "size": 80184,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libwayland-cursor-linux-arm64.so.0"
+        },
+        "libwayland-egl.so": {
+          "group": "runtime",
+          "sha256": "c714397e5fd2ff5de7998299e74a007190776d3d9ec3e91b856a4cae1019746a",
+          "size": 67384,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libwayland-egl-linux-arm64.so"
+        },
+        "libwayland-egl.so.1": {
+          "group": "runtime",
+          "sha256": "c714397e5fd2ff5de7998299e74a007190776d3d9ec3e91b856a4cae1019746a",
+          "size": 67384,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libwayland-egl-linux-arm64.so.1"
+        },
+        "libwebp.so": {
+          "group": "runtime",
+          "sha256": "d921459ab6508b3239218b0e4c2e44dbd2e702aeff4273190bf25d2036373930",
+          "size": 395616,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libwebp-linux-arm64.so"
+        },
+        "libwebpdemux.so": {
+          "group": "runtime",
+          "sha256": "00012d1d86882db5a4e0a22a67ec407d228512503a3e75089456cd4090f41bc2",
+          "size": 67592,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libwebpdemux-linux-arm64.so"
+        },
+        "libwebp.so.7": {
+          "group": "runtime",
+          "sha256": "d921459ab6508b3239218b0e4c2e44dbd2e702aeff4273190bf25d2036373930",
+          "size": 395616,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libwebp-linux-arm64.so.7"
+        },
+        "libwebpdemux.so.2": {
+          "group": "runtime",
+          "sha256": "00012d1d86882db5a4e0a22a67ec407d228512503a3e75089456cd4090f41bc2",
+          "size": 67592,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libwebpdemux-linux-arm64.so.2"
+        },
+        "libX11-xcb.so": {
+          "group": "runtime",
+          "sha256": "184488e82500e347251f9c31c4a9535b828e669208976c8f8bda6926bc977f7d",
+          "size": 67216,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libX11-xcb-linux-arm64.so"
+        },
+        "libX11-xcb.so.1": {
+          "group": "runtime",
+          "sha256": "184488e82500e347251f9c31c4a9535b828e669208976c8f8bda6926bc977f7d",
+          "size": 67216,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libX11-xcb-linux-arm64.so.1"
+        },
+        "libX11.so": {
+          "group": "runtime",
+          "sha256": "f26491f53363c4597d4e3928d780d2f16fd174c60e9fccb24f51b6b2e72acbe5",
+          "size": 1390984,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libX11-linux-arm64.so"
+        },
+        "libX11.so.6": {
+          "group": "runtime",
+          "sha256": "f26491f53363c4597d4e3928d780d2f16fd174c60e9fccb24f51b6b2e72acbe5",
+          "size": 1390984,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libX11-linux-arm64.so.6"
+        },
+        "libXau.so": {
+          "group": "runtime",
+          "sha256": "6fff1a9d4b5bc4d91df752b12600f8aedcd8ac33ea01a48295326675243d68c0",
+          "size": 67640,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libXau-linux-arm64.so"
+        },
+        "libXau.so.6": {
+          "group": "runtime",
+          "sha256": "6fff1a9d4b5bc4d91df752b12600f8aedcd8ac33ea01a48295326675243d68c0",
+          "size": 67640,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libXau-linux-arm64.so.6"
+        },
+        "libxcb.so": {
+          "group": "runtime",
+          "sha256": "cc570b1aff9e2ffe32c1add5aa23cb65b041a3615810566bb32efcc0c3f83f28",
+          "size": 199048,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libxcb-linux-arm64.so"
+        },
+        "libxcb.so.1": {
+          "group": "runtime",
+          "sha256": "cc570b1aff9e2ffe32c1add5aa23cb65b041a3615810566bb32efcc0c3f83f28",
+          "size": 199048,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libxcb-linux-arm64.so.1"
+        },
+        "libXcursor.so": {
+          "group": "runtime",
+          "sha256": "b6b7d3d4ef3783743131510469170957994d34bfe1c0b344107e5b29dbc68b91",
+          "size": 67840,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libXcursor-linux-arm64.so"
+        },
+        "libXcursor.so.1": {
+          "group": "runtime",
+          "sha256": "b6b7d3d4ef3783743131510469170957994d34bfe1c0b344107e5b29dbc68b91",
+          "size": 67840,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libXcursor-linux-arm64.so.1"
+        },
+        "libXdmcp.so": {
+          "group": "runtime",
+          "sha256": "84b6623297efd8eb43f98af678acbb68ca31de7617dab042a1dcc7c6feb8a2ea",
+          "size": 67528,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libXdmcp-linux-arm64.so"
+        },
+        "libXdmcp.so.6": {
+          "group": "runtime",
+          "sha256": "84b6623297efd8eb43f98af678acbb68ca31de7617dab042a1dcc7c6feb8a2ea",
+          "size": 67528,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libXdmcp-linux-arm64.so.6"
+        },
+        "libXext.so": {
+          "group": "runtime",
+          "sha256": "9201e1e51d6dccd7934d4e74883e9c5fa8628c332ae79fbe163e40d73825bb6e",
+          "size": 134600,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libXext-linux-arm64.so"
+        },
+        "libXext.so.6": {
+          "group": "runtime",
+          "sha256": "9201e1e51d6dccd7934d4e74883e9c5fa8628c332ae79fbe163e40d73825bb6e",
+          "size": 134600,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libXext-linux-arm64.so.6"
+        },
+        "libXfixes.so": {
+          "group": "runtime",
+          "sha256": "9648a5d60429081376126a707a342ebf83c0df535aa99eb56e77327a071dbf0d",
+          "size": 67624,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libXfixes-linux-arm64.so"
+        },
+        "libXfixes.so.3": {
+          "group": "runtime",
+          "sha256": "9648a5d60429081376126a707a342ebf83c0df535aa99eb56e77327a071dbf0d",
+          "size": 67624,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libXfixes-linux-arm64.so.3"
+        },
+        "libXi.so": {
+          "group": "runtime",
+          "sha256": "be081f920c99e38c2cfa0075c322219892fdce2a1c2f185777136a78662427f5",
+          "size": 67888,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libXi-linux-arm64.so"
+        },
+        "libXi.so.6": {
+          "group": "runtime",
+          "sha256": "be081f920c99e38c2cfa0075c322219892fdce2a1c2f185777136a78662427f5",
+          "size": 67888,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libXi-linux-arm64.so.6"
+        },
+        "libxkbcommon.so": {
+          "group": "runtime",
+          "sha256": "1dc9466c1328e7bf5dc2f46cc454e68800b950325572f48a81902af8d5c25aa0",
+          "size": 330088,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libxkbcommon-linux-arm64.so"
+        },
+        "libxkbcommon.so.0": {
+          "group": "runtime",
+          "sha256": "1dc9466c1328e7bf5dc2f46cc454e68800b950325572f48a81902af8d5c25aa0",
+          "size": 330088,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libxkbcommon-linux-arm64.so.0"
+        },
+        "libXrandr.so.2": {
+          "group": "runtime",
+          "sha256": "15d767d672acc63335db50327129668d858261f88773d6f4d630a2b3a55f8a4a",
+          "size": 67752,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libXrandr-linux-arm64.so.2"
+        },
+        "libXrender.so": {
+          "group": "runtime",
+          "sha256": "ec225f2428e5759c5087c0b3fd7233256935da1c2a7dcc2a0e6c3f9b25a44979",
+          "size": 67952,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libXrender-linux-arm64.so"
+        },
+        "libXrandr.so": {
+          "group": "runtime",
+          "sha256": "15d767d672acc63335db50327129668d858261f88773d6f4d630a2b3a55f8a4a",
+          "size": 67752,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libXrandr-linux-arm64.so"
+        },
+        "libXrender.so.1": {
+          "group": "runtime",
+          "sha256": "ec225f2428e5759c5087c0b3fd7233256935da1c2a7dcc2a0e6c3f9b25a44979",
+          "size": 67952,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libXrender-linux-arm64.so.1"
+        },
+        "libXss.so": {
+          "group": "runtime",
+          "sha256": "ad398410c26d7bacfc095b7a7cf7632085c146a583bf4e3e987da1f7b4675643",
+          "size": 67664,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libXss-linux-arm64.so"
+        },
+        "libXss.so.1": {
+          "group": "runtime",
+          "sha256": "ad398410c26d7bacfc095b7a7cf7632085c146a583bf4e3e987da1f7b4675643",
+          "size": 67664,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libXss-linux-arm64.so.1"
+        },
+        "libz.so": {
+          "group": "runtime",
+          "sha256": "52a1d5c0cbffb3596c7f0636cb1af8e131e00eb77ff92d1353057d5161d420d3",
+          "size": 133272,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libz-linux-arm64.so"
+        },
+        "libz.so.1": {
+          "group": "runtime",
+          "sha256": "52a1d5c0cbffb3596c7f0636cb1af8e131e00eb77ff92d1353057d5161d420d3",
+          "size": 133272,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libz-linux-arm64.so.1"
+        },
+        "libz.so.1.3": {
+          "group": "runtime",
+          "sha256": "52a1d5c0cbffb3596c7f0636cb1af8e131e00eb77ff92d1353057d5161d420d3",
+          "size": 133272,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libz-linux-arm64.so.1.3"
+        },
+        "libzstd.so": {
+          "group": "runtime",
+          "sha256": "fe726238b170b83aa83bf1f8a79109b8b61b9eb45234304511d093bbe5f5fb20",
+          "size": 657432,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libzstd-linux-arm64.so"
+        },
+        "libzstd.so.1.5.5": {
+          "group": "runtime",
+          "sha256": "fe726238b170b83aa83bf1f8a79109b8b61b9eb45234304511d093bbe5f5fb20",
+          "size": 657432,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libzstd-linux-arm64.so.1.5.5"
+        },
+        "libzstd.so.1": {
+          "group": "runtime",
+          "sha256": "fe726238b170b83aa83bf1f8a79109b8b61b9eb45234304511d093bbe5f5fb20",
+          "size": 657432,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libzstd-linux-arm64.so.1"
+        },
         "gmb_sql_csv_ext.so": {
           "group": "runtime",
           "sha256": "22881b0b74ccff3241ff59ae365042483622f118f894265e95e46764bce2d9bf",
           "size": 71656,
           "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/gmb_sql_csv_ext-linux-arm64.so"
         },
-        "libasound.so": {
-          "group": "support",
-          "sha256": "ffcf03bddf79f3a3d9b9b93b3548cec3a8bd6f6f495dcf0e3bff2dd7e6e34d2f",
-          "size": 1182176,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v4/libasound-linux-arm64.so"
-        },
-        "libapparmor.so": {
-          "group": "support",
-          "sha256": "d6d64963817f70b55203214453697ae9df5f0fdbd884b8115df20e8f0187bc85",
-          "size": 133768,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v4/libapparmor-linux-arm64.so"
-        },
-        "libapparmor.so.1": {
-          "group": "support",
-          "sha256": "d6d64963817f70b55203214453697ae9df5f0fdbd884b8115df20e8f0187bc85",
-          "size": 133768,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v4/libapparmor-linux-arm64.so.1"
-        },
         "gmb_sql_parquet_ext.so": {
           "group": "runtime",
           "sha256": "5833514ff95bb2946ab1c6e286e908f8ded0bf504d6a8a9963e954a3bd967d51",
           "size": 138712,
           "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/gmb_sql_parquet_ext-linux-arm64.so"
-        },
-        "libasound.so.2": {
-          "group": "support",
-          "sha256": "ffcf03bddf79f3a3d9b9b93b3548cec3a8bd6f6f495dcf0e3bff2dd7e6e34d2f",
-          "size": 1182176,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v4/libasound-linux-arm64.so.2"
-        },
-        "libasyncns.so.0": {
-          "group": "support",
-          "sha256": "fdc62a2e1fa5b3ebd6d6bc801b5d9627dec695c8c83c49e02cfa81396b610326",
-          "size": 67352,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v4/libasyncns-linux-arm64.so.0"
-        },
-        "libbrotlicommon.so": {
-          "group": "support",
-          "sha256": "71fdb0eb9f2c43c777ed0e7ab30f0741f76861739798a618ab030c12c792919c",
-          "size": 198784,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v4/libbrotlicommon-linux-arm64.so"
-        },
-        "libasyncns.so": {
-          "group": "support",
-          "sha256": "fdc62a2e1fa5b3ebd6d6bc801b5d9627dec695c8c83c49e02cfa81396b610326",
-          "size": 67352,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v4/libasyncns-linux-arm64.so"
-        },
-        "libbrotlicommon.so.1": {
-          "group": "support",
-          "sha256": "71fdb0eb9f2c43c777ed0e7ab30f0741f76861739798a618ab030c12c792919c",
-          "size": 198784,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v4/libbrotlicommon-linux-arm64.so.1"
-        },
-        "libbrotlicommon.so.1.1.0": {
-          "group": "support",
-          "sha256": "71fdb0eb9f2c43c777ed0e7ab30f0741f76861739798a618ab030c12c792919c",
-          "size": 198784,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v4/libbrotlicommon-linux-arm64.so.1.1.0"
-        },
-        "libbrotlidec.so": {
-          "group": "support",
-          "sha256": "18ab766ad16cd9806ff65a9397e6c09c6bea15d7e8ef1b7614bb4b6134a25e58",
-          "size": 67688,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v4/libbrotlidec-linux-arm64.so"
-        },
-        "libbrotlidec.so.1": {
-          "group": "support",
-          "sha256": "18ab766ad16cd9806ff65a9397e6c09c6bea15d7e8ef1b7614bb4b6134a25e58",
-          "size": 67688,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v4/libbrotlidec-linux-arm64.so.1"
-        },
-        "libbrotlidec.so.1.1.0": {
-          "group": "support",
-          "sha256": "18ab766ad16cd9806ff65a9397e6c09c6bea15d7e8ef1b7614bb4b6134a25e58",
-          "size": 67688,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v4/libbrotlidec-linux-arm64.so.1.1.0"
-        },
-        "libbrotlienc.so": {
-          "group": "support",
-          "sha256": "bec4a5c72d0f4be1674005d70b9bf2a33ff7b7b50998d944e8fcdf6f4fde7b4b",
-          "size": 592328,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v4/libbrotlienc-linux-arm64.so"
-        },
-        "libbrotlienc.so.1.1.0": {
-          "group": "support",
-          "sha256": "bec4a5c72d0f4be1674005d70b9bf2a33ff7b7b50998d944e8fcdf6f4fde7b4b",
-          "size": 592328,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v4/libbrotlienc-linux-arm64.so.1.1.0"
-        },
-        "libbrotlienc.so.1": {
-          "group": "support",
-          "sha256": "bec4a5c72d0f4be1674005d70b9bf2a33ff7b7b50998d944e8fcdf6f4fde7b4b",
-          "size": 592328,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v4/libbrotlienc-linux-arm64.so.1"
-        },
-        "libbsd.so": {
-          "group": "support",
-          "sha256": "6c5348ee0e1777f13e148b7492fa311b6f65adb0dc21a001a67ebc18948e6b3e",
-          "size": 133944,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v4/libbsd-linux-arm64.so"
-        },
-        "libbsd.so.0": {
-          "group": "support",
-          "sha256": "6c5348ee0e1777f13e148b7492fa311b6f65adb0dc21a001a67ebc18948e6b3e",
-          "size": 133944,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v4/libbsd-linux-arm64.so.0"
-        },
-        "libbz2.so": {
-          "group": "support",
-          "sha256": "ac19913f44443f68f2e3ca29d79caaa785cd257bb424b028234bb4a2e8745c07",
-          "size": 70504,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v4/libbz2-linux-arm64.so"
-        },
-        "libbz2.so.1.0": {
-          "group": "support",
-          "sha256": "ac19913f44443f68f2e3ca29d79caaa785cd257bb424b028234bb4a2e8745c07",
-          "size": 70504,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v4/libbz2-linux-arm64.so.1.0"
-        },
-        "libcap.so": {
-          "group": "support",
-          "sha256": "1b6d3932cf8b60b2f27f80cdd26d9a296b8a9608fc02b4eccb8fb2fdab73fea2",
-          "size": 67704,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v4/libcap-linux-arm64.so"
-        },
-        "libcap.so.2": {
-          "group": "support",
-          "sha256": "1b6d3932cf8b60b2f27f80cdd26d9a296b8a9608fc02b4eccb8fb2fdab73fea2",
-          "size": 67704,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v4/libcap-linux-arm64.so.2"
-        },
-        "libcom_err.so": {
-          "group": "support",
-          "sha256": "6a9d07af8817ed06466027a77fc7f2e8972a4a0e68895738d9acdc35470f416e",
-          "size": 67432,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v4/libcom_err-linux-arm64.so"
-        },
-        "libcom_err.so.2": {
-          "group": "support",
-          "sha256": "6a9d07af8817ed06466027a77fc7f2e8972a4a0e68895738d9acdc35470f416e",
-          "size": 67432,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v4/libcom_err-linux-arm64.so.2"
-        },
-        "libcrypto.so": {
-          "group": "support",
-          "sha256": "b27a2396652ee28629c94d59d667c417dbffdf2dee84e5bf140bd17d3eedb7d9",
-          "size": 4663464,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v4/libcrypto-linux-arm64.so"
-        },
-        "libcrypto.so.3": {
-          "group": "support",
-          "sha256": "b27a2396652ee28629c94d59d667c417dbffdf2dee84e5bf140bd17d3eedb7d9",
-          "size": 4663464,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v4/libcrypto-linux-arm64.so.3"
-        },
-        "libcurl.so.4": {
-          "group": "support",
-          "sha256": "de8d6331f6afe49c077a526ec5e60ff37e13219477d02cf19dc7caffbfe183a2",
-          "size": 798104,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v4/libcurl-linux-arm64.so.4"
-        },
-        "libcurl.so": {
-          "group": "support",
-          "sha256": "de8d6331f6afe49c077a526ec5e60ff37e13219477d02cf19dc7caffbfe183a2",
-          "size": 798104,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v4/libcurl-linux-arm64.so"
-        },
-        "libcurl.so.4.8.0": {
-          "group": "support",
-          "sha256": "de8d6331f6afe49c077a526ec5e60ff37e13219477d02cf19dc7caffbfe183a2",
-          "size": 798104,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v4/libcurl-linux-arm64.so.4.8.0"
-        },
-        "libdbus-1.so": {
-          "group": "support",
-          "sha256": "9b8d0d8b10bdffc68f6699b03e7be99d4dc40552aca189be43b55c5f84753241",
-          "size": 395336,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v4/libdbus-1-linux-arm64.so"
-        },
-        "libdb-5.3.so": {
-          "group": "support",
-          "sha256": "a50e584493c1cc362bd43be05a30bf8493fc22578e1acdd702163ac6d2ef2e68",
-          "size": 1707368,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v4/libdb-5.3-linux-arm64.so"
-        },
-        "libdbus-1.so.3": {
-          "group": "support",
-          "sha256": "9b8d0d8b10bdffc68f6699b03e7be99d4dc40552aca189be43b55c5f84753241",
-          "size": 395336,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v4/libdbus-1-linux-arm64.so.3"
-        },
-        "libdecor-0.so": {
-          "group": "support",
-          "sha256": "c3f35fb9a3f248f4836347d79f880cc9894190b280f9a0a3a97ef172ed388662",
-          "size": 67832,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v4/libdecor-0-linux-arm64.so"
-        },
-        "libdecor-0.so.0": {
-          "group": "support",
-          "sha256": "c3f35fb9a3f248f4836347d79f880cc9894190b280f9a0a3a97ef172ed388662",
-          "size": 67832,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v4/libdecor-0-linux-arm64.so.0"
-        },
-        "libdeflate.so": {
-          "group": "support",
-          "sha256": "fc8c2ebe21ec4eebfccabcd6618b216a1bcf9a55dfc38c5af26e3b0ab835f4eb",
-          "size": 67384,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v4/libdeflate-linux-arm64.so"
-        },
-        "libdeflate.so.0": {
-          "group": "support",
-          "sha256": "fc8c2ebe21ec4eebfccabcd6618b216a1bcf9a55dfc38c5af26e3b0ab835f4eb",
-          "size": 67384,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v4/libdeflate-linux-arm64.so.0"
-        },
-        "libdrm.so": {
-          "group": "support",
-          "sha256": "efa8992c21c657acb37e3fa63653161b53a9d73a0828851c9b725fa5e35cadf3",
-          "size": 133616,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v4/libdrm-linux-arm64.so"
-        },
-        "libdrm.so.2": {
-          "group": "support",
-          "sha256": "efa8992c21c657acb37e3fa63653161b53a9d73a0828851c9b725fa5e35cadf3",
-          "size": 133616,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v4/libdrm-linux-arm64.so.2"
-        },
-        "libexpat.so": {
-          "group": "support",
-          "sha256": "b4b445a092ad711e535cfa7241974f709b716194c58227abc75b05e3a3bec7f7",
-          "size": 198712,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v4/libexpat-linux-arm64.so"
-        },
-        "libexpat.so.1": {
-          "group": "support",
-          "sha256": "b4b445a092ad711e535cfa7241974f709b716194c58227abc75b05e3a3bec7f7",
-          "size": 198712,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v4/libexpat-linux-arm64.so.1"
-        },
-        "libffi.so": {
-          "group": "support",
-          "sha256": "9dd873a938c4d7df76912d01f6a28aa4aa73d583bd20485a0dbfe5aa9673a191",
-          "size": 67944,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v4/libffi-linux-arm64.so"
-        },
-        "libffi.so.8": {
-          "group": "support",
-          "sha256": "9dd873a938c4d7df76912d01f6a28aa4aa73d583bd20485a0dbfe5aa9673a191",
-          "size": 67944,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v4/libffi-linux-arm64.so.8"
-        },
-        "libFLAC.so": {
-          "group": "support",
-          "sha256": "a547ee7c9ac918e0432950790bf8beab0f86c6c143a3d6a8e9e5fc35553f6d56",
-          "size": 329600,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v4/libFLAC-linux-arm64.so"
-        },
-        "libFLAC.so.12": {
-          "group": "support",
-          "sha256": "a547ee7c9ac918e0432950790bf8beab0f86c6c143a3d6a8e9e5fc35553f6d56",
-          "size": 329600,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v4/libFLAC-linux-arm64.so.12"
-        },
-        "libfluidsynth.so": {
-          "group": "support",
-          "sha256": "f5a0366e526f1b8c30a0ab5c063d9c94f2af3ceacb94be3849910272ca8fed4f",
-          "size": 591992,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v4/libfluidsynth-linux-arm64.so"
-        },
-        "libfluidsynth.so.3": {
-          "group": "support",
-          "sha256": "f5a0366e526f1b8c30a0ab5c063d9c94f2af3ceacb94be3849910272ca8fed4f",
-          "size": 591992,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v4/libfluidsynth-linux-arm64.so.3"
-        },
-        "libfreetype.so": {
-          "group": "support",
-          "sha256": "99245e15654c582d5f421034652fd8c2970a23774bc06b84e335b755de45338f",
-          "size": 854104,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v4/libfreetype-linux-arm64.so"
-        },
-        "libfreetype.so.6": {
-          "group": "support",
-          "sha256": "99245e15654c582d5f421034652fd8c2970a23774bc06b84e335b755de45338f",
-          "size": 854104,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v4/libfreetype-linux-arm64.so.6"
-        },
-        "libgbm.so": {
-          "group": "support",
-          "sha256": "be9ebce17a6790b1233356b8501e4f47412fc61e09e008db6b2c7d49c620bc8f",
-          "size": 67824,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v4/libgbm-linux-arm64.so"
-        },
-        "libgbm.so.1": {
-          "group": "support",
-          "sha256": "be9ebce17a6790b1233356b8501e4f47412fc61e09e008db6b2c7d49c620bc8f",
-          "size": 67824,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v4/libgbm-linux-arm64.so.1"
-        },
-        "libgcrypt.so": {
-          "group": "support",
-          "sha256": "0021b10f8cf217477b73eb3721ed5711c02f77d9251a346552f6099928329151",
-          "size": 1000536,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v4/libgcrypt-linux-arm64.so"
-        },
-        "libgcrypt.so.20": {
-          "group": "support",
-          "sha256": "0021b10f8cf217477b73eb3721ed5711c02f77d9251a346552f6099928329151",
-          "size": 1000536,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v4/libgcrypt-linux-arm64.so.20"
-        },
-        "libglib-2.0.so": {
-          "group": "support",
-          "sha256": "1003d9edb8f9e860310b2c0ddaa1c29deb2fde3cf7268316fe655f4d44022187",
-          "size": 1445440,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v4/libglib-2.0-linux-arm64.so"
-        },
-        "libglib-2.0.so.0": {
-          "group": "support",
-          "sha256": "1003d9edb8f9e860310b2c0ddaa1c29deb2fde3cf7268316fe655f4d44022187",
-          "size": 1445440,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v4/libglib-2.0-linux-arm64.so.0"
         },
         "libgmb_ai_llm.so": {
           "group": "runtime",
@@ -5902,270 +6987,6 @@
           "size": 71248,
           "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libgmb_tray-linux-arm64.so"
         },
-        "libgmodule-2.0.so": {
-          "group": "support",
-          "sha256": "39c6275d3174b8b80ab5940babd9faa38e7429f01a34e06e0e773ab981f1dd17",
-          "size": 67584,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v4/libgmodule-2.0-linux-arm64.so"
-        },
-        "libgmodule-2.0.so.0": {
-          "group": "support",
-          "sha256": "39c6275d3174b8b80ab5940babd9faa38e7429f01a34e06e0e773ab981f1dd17",
-          "size": 67584,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v4/libgmodule-2.0-linux-arm64.so.0"
-        },
-        "libgmp.so": {
-          "group": "support",
-          "sha256": "39b6701812ed7135f28df49352b3f6664c7a9f56880a3fe50c1b87cd7681db9b",
-          "size": 526632,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v4/libgmp-linux-arm64.so"
-        },
-        "libgmp.so.10": {
-          "group": "support",
-          "sha256": "39b6701812ed7135f28df49352b3f6664c7a9f56880a3fe50c1b87cd7681db9b",
-          "size": 526632,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v4/libgmp-linux-arm64.so.10"
-        },
-        "libgnutls.so": {
-          "group": "support",
-          "sha256": "17ffd34fd0bc239903ca37e95bb14eab6ee986c8d1260a5a08f16e0bfc669739",
-          "size": 2171912,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v4/libgnutls-linux-arm64.so"
-        },
-        "libgnutls.so.30": {
-          "group": "support",
-          "sha256": "17ffd34fd0bc239903ca37e95bb14eab6ee986c8d1260a5a08f16e0bfc669739",
-          "size": 2171912,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v4/libgnutls-linux-arm64.so.30"
-        },
-        "libgobject-2.0.so": {
-          "group": "support",
-          "sha256": "f96292bbc0e05e2b7269350f987e88edc2be6f484d0a650e6aee985e0fbc70a8",
-          "size": 462704,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v4/libgobject-2.0-linux-arm64.so"
-        },
-        "libgobject-2.0.so.0": {
-          "group": "support",
-          "sha256": "f96292bbc0e05e2b7269350f987e88edc2be6f484d0a650e6aee985e0fbc70a8",
-          "size": 462704,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v4/libgobject-2.0-linux-arm64.so.0"
-        },
-        "libgomp.so": {
-          "group": "support",
-          "sha256": "33c8bcb7d33228fe5101bfeb201bcaff4563d4ecf09497229b9deba522ebaf3d",
-          "size": 397088,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v4/libgomp-linux-arm64.so"
-        },
-        "libgomp.so.1": {
-          "group": "support",
-          "sha256": "33c8bcb7d33228fe5101bfeb201bcaff4563d4ecf09497229b9deba522ebaf3d",
-          "size": 397088,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v4/libgomp-linux-arm64.so.1"
-        },
-        "libgpg-error.so": {
-          "group": "support",
-          "sha256": "ff2dccba4993ef97775b70c1ed1144f70dfe8581ee48c1eb25c76878c6cdfdf7",
-          "size": 198648,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v4/libgpg-error-linux-arm64.so"
-        },
-        "libgpg-error.so.0": {
-          "group": "support",
-          "sha256": "ff2dccba4993ef97775b70c1ed1144f70dfe8581ee48c1eb25c76878c6cdfdf7",
-          "size": 198648,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v4/libgpg-error-linux-arm64.so.0"
-        },
-        "libgraphite2.so": {
-          "group": "support",
-          "sha256": "26d512d2a2ca2a524def93057c46e2aa759d5e31990142ea8485e0cf167e87d8",
-          "size": 133200,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v4/libgraphite2-linux-arm64.so"
-        },
-        "libgraphite2.so.3": {
-          "group": "support",
-          "sha256": "26d512d2a2ca2a524def93057c46e2aa759d5e31990142ea8485e0cf167e87d8",
-          "size": 133200,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v4/libgraphite2-linux-arm64.so.3"
-        },
-        "libgssapi_krb5.so": {
-          "group": "support",
-          "sha256": "bc7d5e3ea14504c76dc71d9f7466dd3ac2589910d472412689de1d296722b086",
-          "size": 334304,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v4/libgssapi_krb5-linux-arm64.so"
-        },
-        "libgssapi_krb5.so.2": {
-          "group": "support",
-          "sha256": "bc7d5e3ea14504c76dc71d9f7466dd3ac2589910d472412689de1d296722b086",
-          "size": 334304,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v4/libgssapi_krb5-linux-arm64.so.2"
-        },
-        "libharfbuzz.so": {
-          "group": "support",
-          "sha256": "a59db36b314e8b9d03c59c587fe6651c8b46bd4736091f9d6784f5e0166a5907",
-          "size": 1117936,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v4/libharfbuzz-linux-arm64.so"
-        },
-        "libharfbuzz.so.0": {
-          "group": "support",
-          "sha256": "a59db36b314e8b9d03c59c587fe6651c8b46bd4736091f9d6784f5e0166a5907",
-          "size": 1117936,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v4/libharfbuzz-linux-arm64.so.0"
-        },
-        "libhogweed.so": {
-          "group": "support",
-          "sha256": "0495ad11a2266d7300436d57859fc8ebceac79e5235a393c42ae91d6fc23ce84",
-          "size": 329656,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v4/libhogweed-linux-arm64.so"
-        },
-        "libhogweed.so.6": {
-          "group": "support",
-          "sha256": "0495ad11a2266d7300436d57859fc8ebceac79e5235a393c42ae91d6fc23ce84",
-          "size": 329656,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v4/libhogweed-linux-arm64.so.6"
-        },
-        "libidn2.so": {
-          "group": "support",
-          "sha256": "34a2427db57d47458b460ab15a24e7de73b56fbc7b458af837556445f60ffb4e",
-          "size": 132968,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v4/libidn2-linux-arm64.so"
-        },
-        "libidn2.so.0": {
-          "group": "support",
-          "sha256": "34a2427db57d47458b460ab15a24e7de73b56fbc7b458af837556445f60ffb4e",
-          "size": 132968,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v4/libidn2-linux-arm64.so.0"
-        },
-        "libinstpatch-1.0.so": {
-          "group": "support",
-          "sha256": "2e2a30ca95bdd6a89d050fd7a0fc11b304fde89ef7d1520655f243ff1a1f47be",
-          "size": 789488,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v4/libinstpatch-1.0-linux-arm64.so"
-        },
-        "libinstpatch-1.0.so.2": {
-          "group": "support",
-          "sha256": "2e2a30ca95bdd6a89d050fd7a0fc11b304fde89ef7d1520655f243ff1a1f47be",
-          "size": 789488,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v4/libinstpatch-1.0-linux-arm64.so.2"
-        },
-        "libjack.so": {
-          "group": "support",
-          "sha256": "14b789fdfcea039721fa7155531772376288b5b511ff80505ecd49eae21b3a3d",
-          "size": 395512,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v4/libjack-linux-arm64.so"
-        },
-        "libjack.so.0": {
-          "group": "support",
-          "sha256": "14b789fdfcea039721fa7155531772376288b5b511ff80505ecd49eae21b3a3d",
-          "size": 395512,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v4/libjack-linux-arm64.so.0"
-        },
-        "libjbig.so": {
-          "group": "support",
-          "sha256": "edfa3b74da686481be974c3f514dbe8487ad8faf258b634ab4227d98b33cb888",
-          "size": 78448,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v4/libjbig-linux-arm64.so"
-        },
-        "libjpeg.so": {
-          "group": "support",
-          "sha256": "d45014b67ae6df2f15c8fb3e86d37b78375deede47ef73b7c61e8b6b28c8223f",
-          "size": 395264,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v4/libjpeg-linux-arm64.so"
-        },
-        "libjbig.so.0": {
-          "group": "support",
-          "sha256": "edfa3b74da686481be974c3f514dbe8487ad8faf258b634ab4227d98b33cb888",
-          "size": 78448,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v4/libjbig-linux-arm64.so.0"
-        },
-        "libjpeg.so.8": {
-          "group": "support",
-          "sha256": "d45014b67ae6df2f15c8fb3e86d37b78375deede47ef73b7c61e8b6b28c8223f",
-          "size": 395264,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v4/libjpeg-linux-arm64.so.8"
-        },
-        "libk5crypto.so": {
-          "group": "support",
-          "sha256": "c6a2380d979bb168328b6dc35ec0d96f50338a7be23fb14f8444497dd8148e05",
-          "size": 198920,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v4/libk5crypto-linux-arm64.so"
-        },
-        "libk5crypto.so.3": {
-          "group": "support",
-          "sha256": "c6a2380d979bb168328b6dc35ec0d96f50338a7be23fb14f8444497dd8148e05",
-          "size": 198920,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v4/libk5crypto-linux-arm64.so.3"
-        },
-        "libkeyutils.so": {
-          "group": "support",
-          "sha256": "a58e06275e8e2010be20f367b7f2263e56130c04cb83523f29ae94555705ea59",
-          "size": 67432,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v4/libkeyutils-linux-arm64.so"
-        },
-        "libkeyutils.so.1": {
-          "group": "support",
-          "sha256": "a58e06275e8e2010be20f367b7f2263e56130c04cb83523f29ae94555705ea59",
-          "size": 67432,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v4/libkeyutils-linux-arm64.so.1"
-        },
-        "libkrb5.so": {
-          "group": "support",
-          "sha256": "af6c2e7313dbea842a1912a22f14daab2ea24877dd30e576a525b6becc5c029e",
-          "size": 859920,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v4/libkrb5-linux-arm64.so"
-        },
-        "libkrb5.so.3": {
-          "group": "support",
-          "sha256": "af6c2e7313dbea842a1912a22f14daab2ea24877dd30e576a525b6becc5c029e",
-          "size": 859920,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v4/libkrb5-linux-arm64.so.3"
-        },
-        "libkrb5support.so": {
-          "group": "support",
-          "sha256": "6f4ce70567c2c953510bfa5c839f0ce7136330b127cb1746f7ce0ff6f4d4d4f5",
-          "size": 68192,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v4/libkrb5support-linux-arm64.so"
-        },
-        "liblber.so": {
-          "group": "support",
-          "sha256": "92e756c779c3fa77c4e8ad1ef0d97ebc2eaeccb2f9829da521691c52df4129d5",
-          "size": 67792,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v4/liblber-linux-arm64.so"
-        },
-        "libkrb5support.so.0": {
-          "group": "support",
-          "sha256": "6f4ce70567c2c953510bfa5c839f0ce7136330b127cb1746f7ce0ff6f4d4d4f5",
-          "size": 68192,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v4/libkrb5support-linux-arm64.so.0"
-        },
-        "liblber.so.2": {
-          "group": "support",
-          "sha256": "92e756c779c3fa77c4e8ad1ef0d97ebc2eaeccb2f9829da521691c52df4129d5",
-          "size": 67792,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v4/liblber-linux-arm64.so.2"
-        },
-        "libldap.so": {
-          "group": "support",
-          "sha256": "6d3332e01734a21c0b1b18e993d6117a31f8227d3859556397704f266e18e262",
-          "size": 396656,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v4/libldap-linux-arm64.so"
-        },
-        "libldap.so.2": {
-          "group": "support",
-          "sha256": "6d3332e01734a21c0b1b18e993d6117a31f8227d3859556397704f266e18e262",
-          "size": 396656,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v4/libldap-linux-arm64.so.2"
-        },
-        "libLerc.so": {
-          "group": "support",
-          "sha256": "8148fbb2d121a08abf6ffe493a4994086eb43a785059871dbee1647ce115305b",
-          "size": 526288,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v4/libLerc-linux-arm64.so"
-        },
-        "libLerc.so.4": {
-          "group": "support",
-          "sha256": "8148fbb2d121a08abf6ffe493a4994086eb43a785059871dbee1647ce115305b",
-          "size": 526288,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v4/libLerc-linux-arm64.so.4"
-        },
         "libllmcodec_fp8.so": {
           "group": "runtime",
           "sha256": "8e4515adfa51364ce4cddeb0e88bb0fbfca251c0c21ba1d8d2b71dbff9d37a20",
@@ -6189,816 +7010,6 @@
           "sha256": "aa405909d759b272dbeab2cdd585e9384dd47859803d850a90c88c561aa1ade5",
           "size": 820744,
           "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libllmtoken-linux-arm64.so"
-        },
-        "liblz4.so.1": {
-          "group": "support",
-          "sha256": "d1482a2f74152881d8b83708fedae7bca039f5608024f1178dc21a17df9887a7",
-          "size": 133136,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v4/liblz4-linux-arm64.so.1"
-        },
-        "liblzma.so": {
-          "group": "support",
-          "sha256": "50e9207a39bea9767f8ceaf464655953622ac3bac7ac5d24433f207f810cbd80",
-          "size": 198584,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v4/liblzma-linux-arm64.so"
-        },
-        "liblz4.so": {
-          "group": "support",
-          "sha256": "d1482a2f74152881d8b83708fedae7bca039f5608024f1178dc21a17df9887a7",
-          "size": 133136,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v4/liblz4-linux-arm64.so"
-        },
-        "liblz4.so.1.9.4": {
-          "group": "support",
-          "sha256": "d1482a2f74152881d8b83708fedae7bca039f5608024f1178dc21a17df9887a7",
-          "size": 133136,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v4/liblz4-linux-arm64.so.1.9.4"
-        },
-        "liblzma.so.5": {
-          "group": "support",
-          "sha256": "50e9207a39bea9767f8ceaf464655953622ac3bac7ac5d24433f207f810cbd80",
-          "size": 198584,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v4/liblzma-linux-arm64.so.5"
-        },
-        "liblzma.so.5.4.5": {
-          "group": "support",
-          "sha256": "50e9207a39bea9767f8ceaf464655953622ac3bac7ac5d24433f207f810cbd80",
-          "size": 198584,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v4/liblzma-linux-arm64.so.5.4.5"
-        },
-        "libmd.so": {
-          "group": "support",
-          "sha256": "30d117046ce9405745e0d0d4722cff121f532913180bbb9425b38d076319ac08",
-          "size": 67584,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v4/libmd-linux-arm64.so"
-        },
-        "libmd.so.0": {
-          "group": "support",
-          "sha256": "30d117046ce9405745e0d0d4722cff121f532913180bbb9425b38d076319ac08",
-          "size": 67584,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v4/libmd-linux-arm64.so.0"
-        },
-        "libmodplug.so": {
-          "group": "support",
-          "sha256": "8174164d3f02d9846b5921c24fd0e16e75a8567253648c8a6273edee515fc326",
-          "size": 329688,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v4/libmodplug-linux-arm64.so"
-        },
-        "libmodplug.so.1": {
-          "group": "support",
-          "sha256": "8174164d3f02d9846b5921c24fd0e16e75a8567253648c8a6273edee515fc326",
-          "size": 329688,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v4/libmodplug-linux-arm64.so.1"
-        },
-        "libmp3lame.so": {
-          "group": "support",
-          "sha256": "2bd9422e3f287a648eb150bc5ee7eeea228a522dfb7d1491a5548fa7842b677e",
-          "size": 329576,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v4/libmp3lame-linux-arm64.so"
-        },
-        "libmp3lame.so.0": {
-          "group": "support",
-          "sha256": "2bd9422e3f287a648eb150bc5ee7eeea228a522dfb7d1491a5548fa7842b677e",
-          "size": 329576,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v4/libmp3lame-linux-arm64.so.0"
-        },
-        "libmpg123.so": {
-          "group": "support",
-          "sha256": "a7e2858dbb474686f75d4082e84f26eca06d942a3982c9f0da5b7dad95c61147",
-          "size": 331400,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v4/libmpg123-linux-arm64.so"
-        },
-        "libmpg123.so.0": {
-          "group": "support",
-          "sha256": "a7e2858dbb474686f75d4082e84f26eca06d942a3982c9f0da5b7dad95c61147",
-          "size": 331400,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v4/libmpg123-linux-arm64.so.0"
-        },
-        "libmvec.so": {
-          "group": "support",
-          "sha256": "ecf27aef2109bfe2e251e037e2a5bb252c19077cbf30a4913b50e6ea6e69dc63",
-          "size": 67512,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v4/libmvec-linux-arm64.so"
-        },
-        "libmvec.so.1": {
-          "group": "support",
-          "sha256": "ecf27aef2109bfe2e251e037e2a5bb252c19077cbf30a4913b50e6ea6e69dc63",
-          "size": 67512,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v4/libmvec-linux-arm64.so.1"
-        },
-        "libnettle.so": {
-          "group": "support",
-          "sha256": "8fd8ed433f1b993fe8b8aa8d3fa5342955ab581dc5ce418381872cd3df3dbb11",
-          "size": 395272,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v4/libnettle-linux-arm64.so"
-        },
-        "libnettle.so.8": {
-          "group": "support",
-          "sha256": "8fd8ed433f1b993fe8b8aa8d3fa5342955ab581dc5ce418381872cd3df3dbb11",
-          "size": 395272,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v4/libnettle-linux-arm64.so.8"
-        },
-        "libnghttp2.so.14": {
-          "group": "support",
-          "sha256": "e856f9cf7add5eda678ed08d493dd5738484a6c96ad561790be64779a2db9a6f",
-          "size": 198768,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v4/libnghttp2-linux-arm64.so.14"
-        },
-        "libnghttp2.so": {
-          "group": "support",
-          "sha256": "e856f9cf7add5eda678ed08d493dd5738484a6c96ad561790be64779a2db9a6f",
-          "size": 198768,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v4/libnghttp2-linux-arm64.so"
-        },
-        "libogg.so": {
-          "group": "support",
-          "sha256": "888224cbf3e81f365449d66c444efcf02b46271c598de929a2e51c77486663f4",
-          "size": 67352,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v4/libogg-linux-arm64.so"
-        },
-        "libogg.so.0": {
-          "group": "support",
-          "sha256": "888224cbf3e81f365449d66c444efcf02b46271c598de929a2e51c77486663f4",
-          "size": 67352,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v4/libogg-linux-arm64.so.0"
-        },
-        "libopus.so": {
-          "group": "support",
-          "sha256": "a346225ddd7a5964d718b51cd148639f80f6e3e2b17b3c73cc87ac82222314a5",
-          "size": 395360,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v4/libopus-linux-arm64.so"
-        },
-        "libopus.so.0": {
-          "group": "support",
-          "sha256": "a346225ddd7a5964d718b51cd148639f80f6e3e2b17b3c73cc87ac82222314a5",
-          "size": 395360,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v4/libopus-linux-arm64.so.0"
-        },
-        "libopusfile.so": {
-          "group": "support",
-          "sha256": "61ae34f4f839d1d36dccafc8fd800b61474cc937ca93f042a97d8d94a90fa296",
-          "size": 67592,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v4/libopusfile-linux-arm64.so"
-        },
-        "libp11-kit.so": {
-          "group": "support",
-          "sha256": "d59c4e2e0135960aee4264dcfe21a677c15b8dc3561ace2f0b2297f79a890aec",
-          "size": 1889776,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v4/libp11-kit-linux-arm64.so"
-        },
-        "libopusfile.so.0": {
-          "group": "support",
-          "sha256": "61ae34f4f839d1d36dccafc8fd800b61474cc937ca93f042a97d8d94a90fa296",
-          "size": 67592,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v4/libopusfile-linux-arm64.so.0"
-        },
-        "libp11-kit.so.0": {
-          "group": "support",
-          "sha256": "d59c4e2e0135960aee4264dcfe21a677c15b8dc3561ace2f0b2297f79a890aec",
-          "size": 1889776,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v4/libp11-kit-linux-arm64.so.0"
-        },
-        "libpcre2-8.so": {
-          "group": "support",
-          "sha256": "aa4e91ff910dbb8e40472ed4fcaaeebfef19ad13fe925d9ed8e22e87d45ce13b",
-          "size": 592328,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v4/libpcre2-8-linux-arm64.so"
-        },
-        "libpcre2-8.so.0": {
-          "group": "support",
-          "sha256": "aa4e91ff910dbb8e40472ed4fcaaeebfef19ad13fe925d9ed8e22e87d45ce13b",
-          "size": 592328,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v4/libpcre2-8-linux-arm64.so.0"
-        },
-        "libpcre2-8.so.0.11.2": {
-          "group": "support",
-          "sha256": "aa4e91ff910dbb8e40472ed4fcaaeebfef19ad13fe925d9ed8e22e87d45ce13b",
-          "size": 592328,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v4/libpcre2-8-linux-arm64.so.0.11.2"
-        },
-        "libpipewire-0.3.so": {
-          "group": "support",
-          "sha256": "fd8c3425b8e0598a872707b1eb2b2f58671be9903fe48ed1ac89b6f8ba2ef921",
-          "size": 920240,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v4/libpipewire-0.3-linux-arm64.so"
-        },
-        "libpipewire-0.3.so.0": {
-          "group": "support",
-          "sha256": "fd8c3425b8e0598a872707b1eb2b2f58671be9903fe48ed1ac89b6f8ba2ef921",
-          "size": 920240,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v4/libpipewire-0.3-linux-arm64.so.0"
-        },
-        "libpng16.so": {
-          "group": "support",
-          "sha256": "cb6e50ae78b927c643263e7c0ae55f846d2a01986d870d2c27e7b999347058ed",
-          "size": 264040,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v4/libpng16-linux-arm64.so"
-        },
-        "libpsl.so": {
-          "group": "support",
-          "sha256": "95bd0ee93925255421d4f2adc621ac26e451fae04f613c8edd368c288be43488",
-          "size": 132888,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v4/libpsl-linux-arm64.so"
-        },
-        "libpng16.so.16": {
-          "group": "support",
-          "sha256": "cb6e50ae78b927c643263e7c0ae55f846d2a01986d870d2c27e7b999347058ed",
-          "size": 264040,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v4/libpng16-linux-arm64.so.16"
-        },
-        "libpsl.so.5": {
-          "group": "support",
-          "sha256": "95bd0ee93925255421d4f2adc621ac26e451fae04f613c8edd368c288be43488",
-          "size": 132888,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v4/libpsl-linux-arm64.so.5"
-        },
-        "libpulse-simple.so": {
-          "group": "support",
-          "sha256": "dbcee202125d45c6a99c092efed64419519d7cea5be4c57d12fd0ca2b371e992",
-          "size": 67592,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v4/libpulse-simple-linux-arm64.so"
-        },
-        "libpulse-simple.so.0": {
-          "group": "support",
-          "sha256": "dbcee202125d45c6a99c092efed64419519d7cea5be4c57d12fd0ca2b371e992",
-          "size": 67592,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v4/libpulse-simple-linux-arm64.so.0"
-        },
-        "libpulse.so": {
-          "group": "support",
-          "sha256": "cca7dd98ddd32c558885362b9b5fa1065ac4c5fe0c6393960ec9c85671e6f6c8",
-          "size": 330728,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v4/libpulse-linux-arm64.so"
-        },
-        "libpulse.so.0": {
-          "group": "support",
-          "sha256": "cca7dd98ddd32c558885362b9b5fa1065ac4c5fe0c6393960ec9c85671e6f6c8",
-          "size": 330728,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v4/libpulse-linux-arm64.so.0"
-        },
-        "libpulsecommon-16.1.so": {
-          "group": "support",
-          "sha256": "b972e84100fc6043a30bf626808e712d7647f841d2c59a0ade2f5cba76061bdb",
-          "size": 526448,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v4/libpulsecommon-16.1-linux-arm64.so"
-        },
-        "libreadline.so": {
-          "group": "support",
-          "sha256": "926b1d5d4793773021fb3383d797241323a1b68fb2eb4863e67cdf006dddf603",
-          "size": 417504,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v4/libreadline-linux-arm64.so"
-        },
-        "libreadline.so.8": {
-          "group": "support",
-          "sha256": "926b1d5d4793773021fb3383d797241323a1b68fb2eb4863e67cdf006dddf603",
-          "size": 417504,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v4/libreadline-linux-arm64.so.8"
-        },
-        "libresolv.so": {
-          "group": "support",
-          "sha256": "92890287859788043628489a25fa39a623119328f6c0ac8e91f9ca60ab90650e",
-          "size": 67720,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v4/libresolv-linux-arm64.so"
-        },
-        "libresolv.so.2": {
-          "group": "support",
-          "sha256": "92890287859788043628489a25fa39a623119328f6c0ac8e91f9ca60ab90650e",
-          "size": 67720,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v4/libresolv-linux-arm64.so.2"
-        },
-        "librtmp.so": {
-          "group": "support",
-          "sha256": "0e449c6660fb3dc7e06c56034f41106e9cf48a3baf5d30c1e0b53a48276d0c51",
-          "size": 133928,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v4/librtmp-linux-arm64.so"
-        },
-        "librtmp.so.1": {
-          "group": "support",
-          "sha256": "0e449c6660fb3dc7e06c56034f41106e9cf48a3baf5d30c1e0b53a48276d0c51",
-          "size": 133928,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v4/librtmp-linux-arm64.so.1"
-        },
-        "libsamplerate.so": {
-          "group": "support",
-          "sha256": "901517f654782534a4ad2db28c69a3b921e20abec4b012fc703fc3ff95e3d755",
-          "size": 1509680,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v4/libsamplerate-linux-arm64.so"
-        },
-        "libsamplerate.so.0": {
-          "group": "support",
-          "sha256": "901517f654782534a4ad2db28c69a3b921e20abec4b012fc703fc3ff95e3d755",
-          "size": 1509680,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v4/libsamplerate-linux-arm64.so.0"
-        },
-        "libsasl2.so": {
-          "group": "support",
-          "sha256": "f936a889bcc2d8b5ac8b89e2b37e4359bbd87cbbe87bd2b2002358dfffe04cce",
-          "size": 133800,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v4/libsasl2-linux-arm64.so"
-        },
-        "libsasl2.so.2": {
-          "group": "support",
-          "sha256": "f936a889bcc2d8b5ac8b89e2b37e4359bbd87cbbe87bd2b2002358dfffe04cce",
-          "size": 133800,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v4/libsasl2-linux-arm64.so.2"
-        },
-        "libSDL2_image-2.0.so": {
-          "group": "support",
-          "sha256": "38d3930550421b8d206bced16828b183dc5881fc27ce54656ffcd98fb4e1c441",
-          "size": 132968,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v4/libSDL2_image-2.0-linux-arm64.so"
-        },
-        "libSDL2_image-2.0.so.0": {
-          "group": "support",
-          "sha256": "38d3930550421b8d206bced16828b183dc5881fc27ce54656ffcd98fb4e1c441",
-          "size": 132968,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v4/libSDL2_image-2.0-linux-arm64.so.0"
-        },
-        "libSDL2_image-2.0.so.0.800.2": {
-          "group": "support",
-          "sha256": "38d3930550421b8d206bced16828b183dc5881fc27ce54656ffcd98fb4e1c441",
-          "size": 132968,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v4/libSDL2_image-2.0-linux-arm64.so.0.800.2"
-        },
-        "libSDL2_mixer-2.0.so": {
-          "group": "support",
-          "sha256": "96417a9054e6057c6ad5225283bc753017c6ebc2274cca35c9b672b27f01ad69",
-          "size": 200544,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v4/libSDL2_mixer-2.0-linux-arm64.so"
-        },
-        "libSDL2_mixer-2.0.so.0": {
-          "group": "support",
-          "sha256": "96417a9054e6057c6ad5225283bc753017c6ebc2274cca35c9b672b27f01ad69",
-          "size": 200544,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v4/libSDL2_mixer-2.0-linux-arm64.so.0"
-        },
-        "libSDL2_mixer-2.0.so.0.800.0": {
-          "group": "support",
-          "sha256": "96417a9054e6057c6ad5225283bc753017c6ebc2274cca35c9b672b27f01ad69",
-          "size": 200544,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v4/libSDL2_mixer-2.0-linux-arm64.so.0.800.0"
-        },
-        "libSDL2_ttf-2.0.so": {
-          "group": "support",
-          "sha256": "8d30a356a85b112bef164575801ed53ba8f234972b9ccf0ccb83b3debb22bb40",
-          "size": 67360,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v4/libSDL2_ttf-2.0-linux-arm64.so"
-        },
-        "libSDL2_ttf-2.0.so.0": {
-          "group": "support",
-          "sha256": "8d30a356a85b112bef164575801ed53ba8f234972b9ccf0ccb83b3debb22bb40",
-          "size": 67360,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v4/libSDL2_ttf-2.0-linux-arm64.so.0"
-        },
-        "libSDL2_ttf-2.0.so.0.2200.0": {
-          "group": "support",
-          "sha256": "8d30a356a85b112bef164575801ed53ba8f234972b9ccf0ccb83b3debb22bb40",
-          "size": 67360,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v4/libSDL2_ttf-2.0-linux-arm64.so.0.2200.0"
-        },
-        "libSDL2_ttf.so": {
-          "group": "support",
-          "sha256": "8d30a356a85b112bef164575801ed53ba8f234972b9ccf0ccb83b3debb22bb40",
-          "size": 67360,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v4/libSDL2_ttf-linux-arm64.so"
-        },
-        "libSDL2-2.0.so": {
-          "group": "support",
-          "sha256": "2490ad40b5af76d234f0a2aa4b713be20016138a30cdd32e36851fdd39aba6e6",
-          "size": 1995120,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v4/libSDL2-2.0-linux-arm64.so"
-        },
-        "libSDL2-2.0.so.0": {
-          "group": "support",
-          "sha256": "2490ad40b5af76d234f0a2aa4b713be20016138a30cdd32e36851fdd39aba6e6",
-          "size": 1995120,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v4/libSDL2-2.0-linux-arm64.so.0"
-        },
-        "libSDL2-2.0.so.0.3000.0": {
-          "group": "support",
-          "sha256": "2490ad40b5af76d234f0a2aa4b713be20016138a30cdd32e36851fdd39aba6e6",
-          "size": 1995120,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v4/libSDL2-2.0-linux-arm64.so.0.3000.0"
-        },
-        "libSDL2.so": {
-          "group": "support",
-          "sha256": "2490ad40b5af76d234f0a2aa4b713be20016138a30cdd32e36851fdd39aba6e6",
-          "size": 1995120,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v4/libSDL2-linux-arm64.so"
-        },
-        "libsharpyuv.so": {
-          "group": "support",
-          "sha256": "aa4617020b4bc450ef4382ea93ab3d6bef6571433498794a9b88a5675d52fe6d",
-          "size": 67520,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v4/libsharpyuv-linux-arm64.so"
-        },
-        "libsharpyuv.so.0": {
-          "group": "support",
-          "sha256": "aa4617020b4bc450ef4382ea93ab3d6bef6571433498794a9b88a5675d52fe6d",
-          "size": 67520,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v4/libsharpyuv-linux-arm64.so.0"
-        },
-        "libsndfile.so": {
-          "group": "support",
-          "sha256": "2a44435dc9a00828d0e734eba66ed2a25b960b4946d957a5817750e8f246d652",
-          "size": 594792,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v4/libsndfile-linux-arm64.so"
-        },
-        "libsndfile.so.1": {
-          "group": "support",
-          "sha256": "2a44435dc9a00828d0e734eba66ed2a25b960b4946d957a5817750e8f246d652",
-          "size": 594792,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v4/libsndfile-linux-arm64.so.1"
-        },
-        "libsqlite3.so": {
-          "group": "support",
-          "sha256": "ffab9364e26ea7bec92cedde903dd04eabae8b5eae86ec2bd7e3e9201725069e",
-          "size": 1526192,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v4/libsqlite3-linux-arm64.so"
-        },
-        "libsqlite3.so.0": {
-          "group": "support",
-          "sha256": "ffab9364e26ea7bec92cedde903dd04eabae8b5eae86ec2bd7e3e9201725069e",
-          "size": 1526192,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v4/libsqlite3-linux-arm64.so.0"
-        },
-        "libsqlite3.so.0.8.6": {
-          "group": "support",
-          "sha256": "ffab9364e26ea7bec92cedde903dd04eabae8b5eae86ec2bd7e3e9201725069e",
-          "size": 1526192,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v4/libsqlite3-linux-arm64.so.0.8.6"
-        },
-        "libssh.so": {
-          "group": "support",
-          "sha256": "4128783c7842fa6076f2ab9dd5000772280a09dc0e061634b0261e35e00dc006",
-          "size": 466056,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v4/libssh-linux-arm64.so"
-        },
-        "libssh.so.4": {
-          "group": "support",
-          "sha256": "4128783c7842fa6076f2ab9dd5000772280a09dc0e061634b0261e35e00dc006",
-          "size": 466056,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v4/libssh-linux-arm64.so.4"
-        },
-        "libssl.so": {
-          "group": "support",
-          "sha256": "cd89f6e6eea72583e1f1f98f8ea6b0f5e9281d7a0e4262a2e36f648be789d565",
-          "size": 737192,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v4/libssl-linux-arm64.so"
-        },
-        "libssl.so.3": {
-          "group": "support",
-          "sha256": "cd89f6e6eea72583e1f1f98f8ea6b0f5e9281d7a0e4262a2e36f648be789d565",
-          "size": 737192,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v4/libssl-linux-arm64.so.3"
-        },
-        "libsystemd.so": {
-          "group": "support",
-          "sha256": "f0574d5aa73fb8ef26d159d909751c1cf4555ce8679ac5c1ebac76bbdddaec7f",
-          "size": 989464,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v4/libsystemd-linux-arm64.so"
-        },
-        "libsystemd.so.0": {
-          "group": "support",
-          "sha256": "f0574d5aa73fb8ef26d159d909751c1cf4555ce8679ac5c1ebac76bbdddaec7f",
-          "size": 989464,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v4/libsystemd-linux-arm64.so.0"
-        },
-        "libtasn1.so.6": {
-          "group": "support",
-          "sha256": "039d653f8fdfa01240882b0033aca6887e1e9e6dc39acbea51d658fa75437955",
-          "size": 133048,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v4/libtasn1-linux-arm64.so.6"
-        },
-        "libtasn1.so": {
-          "group": "support",
-          "sha256": "039d653f8fdfa01240882b0033aca6887e1e9e6dc39acbea51d658fa75437955",
-          "size": 133048,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v4/libtasn1-linux-arm64.so"
-        },
-        "libtiff.so": {
-          "group": "support",
-          "sha256": "77c7228f8a58fa77915555d74727f42e1d1fe0716dda84cb3983c7f891c51f93",
-          "size": 591816,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v4/libtiff-linux-arm64.so"
-        },
-        "libtiff.so.6": {
-          "group": "support",
-          "sha256": "77c7228f8a58fa77915555d74727f42e1d1fe0716dda84cb3983c7f891c51f93",
-          "size": 591816,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v4/libtiff-linux-arm64.so.6"
-        },
-        "libtinfo.so": {
-          "group": "support",
-          "sha256": "2d2f2bb5a2dd09a3f54dfe7847a7f601203a0e3fed210cb58df740d07989f554",
-          "size": 265416,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v4/libtinfo-linux-arm64.so"
-        },
-        "libtinfo.so.6": {
-          "group": "support",
-          "sha256": "2d2f2bb5a2dd09a3f54dfe7847a7f601203a0e3fed210cb58df740d07989f554",
-          "size": 265416,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v4/libtinfo-linux-arm64.so.6"
-        },
-        "libunistring.so": {
-          "group": "support",
-          "sha256": "639c4c15f94e960450b69475d7282e4760fd5895a6a4f4e85f44bb15b74e512c",
-          "size": 1771448,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v4/libunistring-linux-arm64.so"
-        },
-        "libvorbis.so": {
-          "group": "support",
-          "sha256": "10601a705b62bfd00ea6741b7a167129b918eb9f5ed9f5bd835ce3d94b0bc156",
-          "size": 198504,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v4/libvorbis-linux-arm64.so"
-        },
-        "libunistring.so.5": {
-          "group": "support",
-          "sha256": "639c4c15f94e960450b69475d7282e4760fd5895a6a4f4e85f44bb15b74e512c",
-          "size": 1771448,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v4/libunistring-linux-arm64.so.5"
-        },
-        "libvorbis.so.0": {
-          "group": "support",
-          "sha256": "10601a705b62bfd00ea6741b7a167129b918eb9f5ed9f5bd835ce3d94b0bc156",
-          "size": 198504,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v4/libvorbis-linux-arm64.so.0"
-        },
-        "libvorbisenc.so": {
-          "group": "support",
-          "sha256": "602d16f3b6e7ff62d4fbfcdf5cfc9a2fc7eae187add4f4313eac4b5380f91ffb",
-          "size": 722856,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v4/libvorbisenc-linux-arm64.so"
-        },
-        "libvorbisenc.so.2": {
-          "group": "support",
-          "sha256": "602d16f3b6e7ff62d4fbfcdf5cfc9a2fc7eae187add4f4313eac4b5380f91ffb",
-          "size": 722856,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v4/libvorbisenc-linux-arm64.so.2"
-        },
-        "libvorbisfile.so": {
-          "group": "support",
-          "sha256": "5aee4e4c15bd1ee6714476cbecc081164cb41d6aeb568e38e92eab8a6fa1fb8e",
-          "size": 67384,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v4/libvorbisfile-linux-arm64.so"
-        },
-        "libvorbisfile.so.3": {
-          "group": "support",
-          "sha256": "5aee4e4c15bd1ee6714476cbecc081164cb41d6aeb568e38e92eab8a6fa1fb8e",
-          "size": 67384,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v4/libvorbisfile-linux-arm64.so.3"
-        },
-        "libwayland-client.so": {
-          "group": "support",
-          "sha256": "f31270db49694b1236d0e161ee23765ed82acec9c01bc9e0d6444e8d744f85e2",
-          "size": 68632,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v4/libwayland-client-linux-arm64.so"
-        },
-        "libwayland-client.so.0": {
-          "group": "support",
-          "sha256": "f31270db49694b1236d0e161ee23765ed82acec9c01bc9e0d6444e8d744f85e2",
-          "size": 68632,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v4/libwayland-client-linux-arm64.so.0"
-        },
-        "libwayland-cursor.so": {
-          "group": "support",
-          "sha256": "b9ec80ef43478736bb4efbc8a80daa15c12464b68905f74203292e2914ade4d8",
-          "size": 80184,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v4/libwayland-cursor-linux-arm64.so"
-        },
-        "libwayland-cursor.so.0": {
-          "group": "support",
-          "sha256": "b9ec80ef43478736bb4efbc8a80daa15c12464b68905f74203292e2914ade4d8",
-          "size": 80184,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v4/libwayland-cursor-linux-arm64.so.0"
-        },
-        "libwayland-egl.so": {
-          "group": "support",
-          "sha256": "c714397e5fd2ff5de7998299e74a007190776d3d9ec3e91b856a4cae1019746a",
-          "size": 67384,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v4/libwayland-egl-linux-arm64.so"
-        },
-        "libwayland-egl.so.1": {
-          "group": "support",
-          "sha256": "c714397e5fd2ff5de7998299e74a007190776d3d9ec3e91b856a4cae1019746a",
-          "size": 67384,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v4/libwayland-egl-linux-arm64.so.1"
-        },
-        "libwebp.so": {
-          "group": "support",
-          "sha256": "d921459ab6508b3239218b0e4c2e44dbd2e702aeff4273190bf25d2036373930",
-          "size": 395616,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v4/libwebp-linux-arm64.so"
-        },
-        "libwebpdemux.so": {
-          "group": "support",
-          "sha256": "00012d1d86882db5a4e0a22a67ec407d228512503a3e75089456cd4090f41bc2",
-          "size": 67592,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v4/libwebpdemux-linux-arm64.so"
-        },
-        "libwebp.so.7": {
-          "group": "support",
-          "sha256": "d921459ab6508b3239218b0e4c2e44dbd2e702aeff4273190bf25d2036373930",
-          "size": 395616,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v4/libwebp-linux-arm64.so.7"
-        },
-        "libwebpdemux.so.2": {
-          "group": "support",
-          "sha256": "00012d1d86882db5a4e0a22a67ec407d228512503a3e75089456cd4090f41bc2",
-          "size": 67592,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v4/libwebpdemux-linux-arm64.so.2"
-        },
-        "libX11-xcb.so": {
-          "group": "support",
-          "sha256": "184488e82500e347251f9c31c4a9535b828e669208976c8f8bda6926bc977f7d",
-          "size": 67216,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v4/libX11-xcb-linux-arm64.so"
-        },
-        "libX11-xcb.so.1": {
-          "group": "support",
-          "sha256": "184488e82500e347251f9c31c4a9535b828e669208976c8f8bda6926bc977f7d",
-          "size": 67216,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v4/libX11-xcb-linux-arm64.so.1"
-        },
-        "libX11.so": {
-          "group": "support",
-          "sha256": "f26491f53363c4597d4e3928d780d2f16fd174c60e9fccb24f51b6b2e72acbe5",
-          "size": 1390984,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v4/libX11-linux-arm64.so"
-        },
-        "libX11.so.6": {
-          "group": "support",
-          "sha256": "f26491f53363c4597d4e3928d780d2f16fd174c60e9fccb24f51b6b2e72acbe5",
-          "size": 1390984,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v4/libX11-linux-arm64.so.6"
-        },
-        "libXau.so": {
-          "group": "support",
-          "sha256": "6fff1a9d4b5bc4d91df752b12600f8aedcd8ac33ea01a48295326675243d68c0",
-          "size": 67640,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v4/libXau-linux-arm64.so"
-        },
-        "libXau.so.6": {
-          "group": "support",
-          "sha256": "6fff1a9d4b5bc4d91df752b12600f8aedcd8ac33ea01a48295326675243d68c0",
-          "size": 67640,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v4/libXau-linux-arm64.so.6"
-        },
-        "libxcb.so": {
-          "group": "support",
-          "sha256": "cc570b1aff9e2ffe32c1add5aa23cb65b041a3615810566bb32efcc0c3f83f28",
-          "size": 199048,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v4/libxcb-linux-arm64.so"
-        },
-        "libxcb.so.1": {
-          "group": "support",
-          "sha256": "cc570b1aff9e2ffe32c1add5aa23cb65b041a3615810566bb32efcc0c3f83f28",
-          "size": 199048,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v4/libxcb-linux-arm64.so.1"
-        },
-        "libXcursor.so": {
-          "group": "support",
-          "sha256": "b6b7d3d4ef3783743131510469170957994d34bfe1c0b344107e5b29dbc68b91",
-          "size": 67840,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v4/libXcursor-linux-arm64.so"
-        },
-        "libXcursor.so.1": {
-          "group": "support",
-          "sha256": "b6b7d3d4ef3783743131510469170957994d34bfe1c0b344107e5b29dbc68b91",
-          "size": 67840,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v4/libXcursor-linux-arm64.so.1"
-        },
-        "libXdmcp.so": {
-          "group": "support",
-          "sha256": "84b6623297efd8eb43f98af678acbb68ca31de7617dab042a1dcc7c6feb8a2ea",
-          "size": 67528,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v4/libXdmcp-linux-arm64.so"
-        },
-        "libXdmcp.so.6": {
-          "group": "support",
-          "sha256": "84b6623297efd8eb43f98af678acbb68ca31de7617dab042a1dcc7c6feb8a2ea",
-          "size": 67528,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v4/libXdmcp-linux-arm64.so.6"
-        },
-        "libXext.so": {
-          "group": "support",
-          "sha256": "9201e1e51d6dccd7934d4e74883e9c5fa8628c332ae79fbe163e40d73825bb6e",
-          "size": 134600,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v4/libXext-linux-arm64.so"
-        },
-        "libXext.so.6": {
-          "group": "support",
-          "sha256": "9201e1e51d6dccd7934d4e74883e9c5fa8628c332ae79fbe163e40d73825bb6e",
-          "size": 134600,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v4/libXext-linux-arm64.so.6"
-        },
-        "libXfixes.so": {
-          "group": "support",
-          "sha256": "9648a5d60429081376126a707a342ebf83c0df535aa99eb56e77327a071dbf0d",
-          "size": 67624,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v4/libXfixes-linux-arm64.so"
-        },
-        "libXfixes.so.3": {
-          "group": "support",
-          "sha256": "9648a5d60429081376126a707a342ebf83c0df535aa99eb56e77327a071dbf0d",
-          "size": 67624,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v4/libXfixes-linux-arm64.so.3"
-        },
-        "libXi.so": {
-          "group": "support",
-          "sha256": "be081f920c99e38c2cfa0075c322219892fdce2a1c2f185777136a78662427f5",
-          "size": 67888,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v4/libXi-linux-arm64.so"
-        },
-        "libXi.so.6": {
-          "group": "support",
-          "sha256": "be081f920c99e38c2cfa0075c322219892fdce2a1c2f185777136a78662427f5",
-          "size": 67888,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v4/libXi-linux-arm64.so.6"
-        },
-        "libxkbcommon.so": {
-          "group": "support",
-          "sha256": "1dc9466c1328e7bf5dc2f46cc454e68800b950325572f48a81902af8d5c25aa0",
-          "size": 330088,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v4/libxkbcommon-linux-arm64.so"
-        },
-        "libxkbcommon.so.0": {
-          "group": "support",
-          "sha256": "1dc9466c1328e7bf5dc2f46cc454e68800b950325572f48a81902af8d5c25aa0",
-          "size": 330088,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v4/libxkbcommon-linux-arm64.so.0"
-        },
-        "libXrandr.so.2": {
-          "group": "support",
-          "sha256": "15d767d672acc63335db50327129668d858261f88773d6f4d630a2b3a55f8a4a",
-          "size": 67752,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v4/libXrandr-linux-arm64.so.2"
-        },
-        "libXrender.so": {
-          "group": "support",
-          "sha256": "ec225f2428e5759c5087c0b3fd7233256935da1c2a7dcc2a0e6c3f9b25a44979",
-          "size": 67952,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v4/libXrender-linux-arm64.so"
-        },
-        "libXrandr.so": {
-          "group": "support",
-          "sha256": "15d767d672acc63335db50327129668d858261f88773d6f4d630a2b3a55f8a4a",
-          "size": 67752,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v4/libXrandr-linux-arm64.so"
-        },
-        "libXrender.so.1": {
-          "group": "support",
-          "sha256": "ec225f2428e5759c5087c0b3fd7233256935da1c2a7dcc2a0e6c3f9b25a44979",
-          "size": 67952,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v4/libXrender-linux-arm64.so.1"
-        },
-        "libXss.so": {
-          "group": "support",
-          "sha256": "ad398410c26d7bacfc095b7a7cf7632085c146a583bf4e3e987da1f7b4675643",
-          "size": 67664,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v4/libXss-linux-arm64.so"
-        },
-        "libXss.so.1": {
-          "group": "support",
-          "sha256": "ad398410c26d7bacfc095b7a7cf7632085c146a583bf4e3e987da1f7b4675643",
-          "size": 67664,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v4/libXss-linux-arm64.so.1"
-        },
-        "libz.so": {
-          "group": "support",
-          "sha256": "52a1d5c0cbffb3596c7f0636cb1af8e131e00eb77ff92d1353057d5161d420d3",
-          "size": 133272,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v4/libz-linux-arm64.so"
-        },
-        "libz.so.1": {
-          "group": "support",
-          "sha256": "52a1d5c0cbffb3596c7f0636cb1af8e131e00eb77ff92d1353057d5161d420d3",
-          "size": 133272,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v4/libz-linux-arm64.so.1"
-        },
-        "libz.so.1.3": {
-          "group": "support",
-          "sha256": "52a1d5c0cbffb3596c7f0636cb1af8e131e00eb77ff92d1353057d5161d420d3",
-          "size": 133272,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v4/libz-linux-arm64.so.1.3"
-        },
-        "libzstd.so": {
-          "group": "support",
-          "sha256": "fe726238b170b83aa83bf1f8a79109b8b61b9eb45234304511d093bbe5f5fb20",
-          "size": 657432,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v4/libzstd-linux-arm64.so"
-        },
-        "libzstd.so.1.5.5": {
-          "group": "support",
-          "sha256": "fe726238b170b83aa83bf1f8a79109b8b61b9eb45234304511d093bbe5f5fb20",
-          "size": 657432,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v4/libzstd-linux-arm64.so.1.5.5"
-        },
-        "libzstd.so.1": {
-          "group": "support",
-          "sha256": "fe726238b170b83aa83bf1f8a79109b8b61b9eb45234304511d093bbe5f5fb20",
-          "size": 657432,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v4/libzstd-linux-arm64.so.1"
         },
         "libgmbclm.so": {
           "group": "runtime",
@@ -7048,11 +7059,113 @@
           "size": 70552,
           "url": "https://github.com/c-vision/GMBasicModules/releases/download/ffi-v2/libgmbprotobuf-linux-arm64.so"
         },
+        "libgmbgeo.so": {
+          "group": "domain",
+          "sha256": "aa6c194a8607e5cff3837873c6865a10150bad5adb221ccde0c6459fc87e45e9",
+          "size": 122912,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/domain-v3/libgmbgeo-linux-arm64.so"
+        },
+        "libgmbgametheory.so": {
+          "group": "domain",
+          "sha256": "b0e693c16bb5bec729bb316a310b55509dd4f3715bb777899cf4d22959fd17d2",
+          "size": 129016,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/domain-v3/libgmbgametheory-linux-arm64.so"
+        },
+        "libgmbflow.so": {
+          "group": "domain",
+          "sha256": "30263760e3ac67ac37d9e64f446a2c06ca33b7ed200e0f3f8b00f3fb36c2b078",
+          "size": 107352,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/domain-v3/libgmbflow-linux-arm64.so"
+        },
+        "libgmbconic.so": {
+          "group": "domain",
+          "sha256": "d308467abb5d9189098e21fc4dda3dc8a39b43a252bb8f935efb23887c474c2e",
+          "size": 654176,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/domain-v3/libgmbconic-linux-arm64.so"
+        },
+        "libgmbaviation.so": {
+          "group": "domain",
+          "sha256": "e2c1f47c8d1a6cc4c3605b007211cae7e7d59707ae43791b69ac225f4de08e35",
+          "size": 250136,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/domain-v3/libgmbaviation-linux-arm64.so"
+        },
+        "libgmbgraph.so": {
+          "group": "domain",
+          "sha256": "0ee9a6eeb188180ecaf2461f7f3352a0ea1787166d21549b140859f76491a693",
+          "size": 202920,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/domain-v3/libgmbgraph-linux-arm64.so"
+        },
+        "libgmbgraphics.so": {
+          "group": "domain",
+          "sha256": "2b7ff37901f1f0068bffad29071b12a3372d6f043e15b0ae295dbe0aa6783791",
+          "size": 564592,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/domain-v3/libgmbgraphics-linux-arm64.so"
+        },
+        "libgmblagrangian.so": {
+          "group": "domain",
+          "sha256": "0010820c7d792d9af5f6c3971bd7a1fe4d3d6af27c3d5b3ac71691bff55523fb",
+          "size": 13904,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/domain-v3/libgmblagrangian-linux-arm64.so"
+        },
+        "libgmblocalsearch.so": {
+          "group": "domain",
+          "sha256": "f171ea72cfbfe1ce58f4836c7068e4d734b37311cb2dfa22fd8d2ae858ca247a",
+          "size": 80896,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/domain-v3/libgmblocalsearch-linux-arm64.so"
+        },
+        "libgmbmath.so": {
+          "group": "domain",
+          "sha256": "20597748153428ec9f47514002ba152943c5959231b3580d4a60b0adac5cb932",
+          "size": 3382552,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/domain-v3/libgmbmath-linux-arm64.so"
+        },
+        "libgmbmathprog.so": {
+          "group": "domain",
+          "sha256": "94c1e533accf3a46a7049ec2bf46bb444b5dd85af0e8b26c20d44339078bab93",
+          "size": 147136,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/domain-v3/libgmbmathprog-linux-arm64.so"
+        },
+        "libgmbneural.so": {
+          "group": "domain",
+          "sha256": "9c2a23bca71d5a617f02ebacf7da333c61085b86a37501a6004298e61faba926",
+          "size": 695296,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/domain-v3/libgmbneural-linux-arm64.so"
+        },
+        "libgmbor.so": {
+          "group": "domain",
+          "sha256": "c3d242d23de3a99002bea19fd9b58697e2a927637d6eb1ad1b6ee74e9bdeca3f",
+          "size": 643768,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/domain-v3/libgmbor-linux-arm64.so"
+        },
+        "libgmbpgm.so": {
+          "group": "domain",
+          "sha256": "122da01a690970b4a2460ae453f51b926e0d699b5b54e268999484aeb0306416",
+          "size": 18952,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/domain-v3/libgmbpgm-linux-arm64.so"
+        },
+        "libgmbscheduling.so": {
+          "group": "domain",
+          "sha256": "86dc9f0ce4388d7e7cf926d4ccfd126a1a7c550ea6bb68f74f0ad395d6a4f5a5",
+          "size": 13800,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/domain-v3/libgmbscheduling-linux-arm64.so"
+        },
+        "libgmbstats.so": {
+          "group": "domain",
+          "sha256": "7843819f7e510409a7cf7ad13b8cde34fa9ae46ce45d3e94d77bc789824159f2",
+          "size": 5118032,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/domain-v3/libgmbstats-linux-arm64.so"
+        },
+        "libgmbwsp.so": {
+          "group": "domain",
+          "sha256": "2b230db26cf40b8c143d6daa615c09c461cf7198e4592fdfee706ee3633abb67",
+          "size": 1570248,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/domain-v3/libgmbwsp-linux-arm64.so"
+        },
         "zig-0.17.0.tar.xz": {
           "group": "toolchain",
-          "sha256": "38bdb455a49d5168bfbba56d5a056023f8536e2e690a8e02f84038799ea13f3a",
-          "size": 55349376,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/toolchain-v2/zig-0.17.0-linux-arm64.tar.xz"
+          "sha256": "7a2edf98d54c116474626aeaec5088613c47ee39abb05399bad015a85546b8f4",
+          "size": 54691712,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/toolchain-v3/zig-0.17.0-linux-arm64.tar.xz"
         }
       }
     },
