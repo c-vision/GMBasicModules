@@ -3480,17 +3480,83 @@
         },
         "toolchain": {
           "kind": "files",
-          "tag": "toolchain-v2",
+          "tag": "toolchain-v3",
           "rids": {
             "osx-x64": {
               "kind": "files",
-              "tag": "toolchain-v2"
+              "tag": "toolchain-v3"
             }
           },
-          "version": "v2"
+          "version": "v3"
         }
       },
       "files": {
+        "libpdf_oxide.dylib": {
+          "group": "support",
+          "sha256": "f7d621161c49ab094f950974f5790553d319ccd393b127fe79890195145e9e9c",
+          "size": 25446844,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v1/libpdf_oxide-osx-x64.dylib"
+        },
+        "libhdf5.310.dylib": {
+          "group": "support",
+          "sha256": "34a701563a222cbb27869b8b2a3be791d147dfc8bbadb19c6197496f34c48aa2",
+          "size": 3968552,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v1/libhdf5.310-osx-x64.dylib"
+        },
+        "libhdf5.310.5.1.dylib": {
+          "group": "support",
+          "sha256": "34a701563a222cbb27869b8b2a3be791d147dfc8bbadb19c6197496f34c48aa2",
+          "size": 3968552,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v1/libhdf5.310.5.1-osx-x64.dylib"
+        },
+        "libcrypto.3.dylib": {
+          "group": "support",
+          "sha256": "6e2f72c9f8efd8e2d988bbea941cc4618ee558277d67c02fbfe795ad96ebac66",
+          "size": 4846032,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v1/libcrypto.3-osx-x64.dylib"
+        },
+        "libhdf5.dylib": {
+          "group": "support",
+          "sha256": "34a701563a222cbb27869b8b2a3be791d147dfc8bbadb19c6197496f34c48aa2",
+          "size": 3968552,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v1/libhdf5-osx-x64.dylib"
+        },
+        "libSDL2_image.dylib": {
+          "group": "support",
+          "sha256": "5f6de8038747d4f124deeeb1e933880920036c87abe218a8f33980a0c0a58f7f",
+          "size": 399552,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v1/libSDL2_image-osx-x64.dylib"
+        },
+        "libSDL2_mixer.dylib": {
+          "group": "support",
+          "sha256": "de730f6b4eaef413216ea9d2daa72c91406c0df1aaf4b11a24e6bef90d073d39",
+          "size": 613424,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v1/libSDL2_mixer-osx-x64.dylib"
+        },
+        "libSDL2_ttf.dylib": {
+          "group": "support",
+          "sha256": "1d06a1a69ff569b1a6a72174fba760e54e7652b7c745f85f7d17473824fcf409",
+          "size": 3594080,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v1/libSDL2_ttf-osx-x64.dylib"
+        },
+        "libSDL2.dylib": {
+          "group": "support",
+          "sha256": "9fa35016afe9f7897ce386712cbf55afcfdfe27d88b3232dc6e000b9fb917f54",
+          "size": 3126480,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v1/libSDL2-osx-x64.dylib"
+        },
+        "libSDL3.dylib": {
+          "group": "support",
+          "sha256": "283d7c5026a1dc95bb759f80dfcb53ea75c0e706d42753ec6529da15fcbd12e7",
+          "size": 5230240,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v1/libSDL3-osx-x64.dylib"
+        },
+        "libssl.3.dylib": {
+          "group": "support",
+          "sha256": "e6b4afec7064da5d5e4412c3f0ac1268d133080bd8802329a64d0cf77c19c038",
+          "size": 884992,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v1/libssl.3-osx-x64.dylib"
+        },
         "libgmb_grep.dylib": {
           "group": "runtime",
           "sha256": "8a98831f9865ab99472e0be9e9e704f7ebc1c34be0e944e17a6c896d7fb9f28a",
@@ -3647,72 +3713,6 @@
           "size": 789848,
           "url": "https://github.com/c-vision/GMBasicModules/releases/download/runtime-v2/libllmtoken-osx-x64.dylib"
         },
-        "libpdf_oxide.dylib": {
-          "group": "support",
-          "sha256": "f7d621161c49ab094f950974f5790553d319ccd393b127fe79890195145e9e9c",
-          "size": 25446844,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v1/libpdf_oxide-osx-x64.dylib"
-        },
-        "libhdf5.310.dylib": {
-          "group": "support",
-          "sha256": "34a701563a222cbb27869b8b2a3be791d147dfc8bbadb19c6197496f34c48aa2",
-          "size": 3968552,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v1/libhdf5.310-osx-x64.dylib"
-        },
-        "libhdf5.310.5.1.dylib": {
-          "group": "support",
-          "sha256": "34a701563a222cbb27869b8b2a3be791d147dfc8bbadb19c6197496f34c48aa2",
-          "size": 3968552,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v1/libhdf5.310.5.1-osx-x64.dylib"
-        },
-        "libcrypto.3.dylib": {
-          "group": "support",
-          "sha256": "6e2f72c9f8efd8e2d988bbea941cc4618ee558277d67c02fbfe795ad96ebac66",
-          "size": 4846032,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v1/libcrypto.3-osx-x64.dylib"
-        },
-        "libhdf5.dylib": {
-          "group": "support",
-          "sha256": "34a701563a222cbb27869b8b2a3be791d147dfc8bbadb19c6197496f34c48aa2",
-          "size": 3968552,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v1/libhdf5-osx-x64.dylib"
-        },
-        "libSDL2_image.dylib": {
-          "group": "support",
-          "sha256": "5f6de8038747d4f124deeeb1e933880920036c87abe218a8f33980a0c0a58f7f",
-          "size": 399552,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v1/libSDL2_image-osx-x64.dylib"
-        },
-        "libSDL2_mixer.dylib": {
-          "group": "support",
-          "sha256": "de730f6b4eaef413216ea9d2daa72c91406c0df1aaf4b11a24e6bef90d073d39",
-          "size": 613424,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v1/libSDL2_mixer-osx-x64.dylib"
-        },
-        "libSDL2_ttf.dylib": {
-          "group": "support",
-          "sha256": "1d06a1a69ff569b1a6a72174fba760e54e7652b7c745f85f7d17473824fcf409",
-          "size": 3594080,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v1/libSDL2_ttf-osx-x64.dylib"
-        },
-        "libSDL2.dylib": {
-          "group": "support",
-          "sha256": "9fa35016afe9f7897ce386712cbf55afcfdfe27d88b3232dc6e000b9fb917f54",
-          "size": 3126480,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v1/libSDL2-osx-x64.dylib"
-        },
-        "libSDL3.dylib": {
-          "group": "support",
-          "sha256": "283d7c5026a1dc95bb759f80dfcb53ea75c0e706d42753ec6529da15fcbd12e7",
-          "size": 5230240,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v1/libSDL3-osx-x64.dylib"
-        },
-        "libssl.3.dylib": {
-          "group": "support",
-          "sha256": "e6b4afec7064da5d5e4412c3f0ac1268d133080bd8802329a64d0cf77c19c038",
-          "size": 884992,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v1/libssl.3-osx-x64.dylib"
-        },
         "libgmbamqp.dylib": {
           "group": "ffi",
           "sha256": "0f4e2032f8fceb06c99acd730e22713e64de638b833571f45da4b179eebae47e",
@@ -3751,9 +3751,9 @@
         },
         "zig-0.17.0.tar.xz": {
           "group": "toolchain",
-          "sha256": "82ee5de7ef2ce10b8271e41afd29afbd7bf0506609040a4544cc412199514861",
-          "size": 62455092,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/toolchain-v2/zig-0.17.0-osx-x64.tar.xz"
+          "sha256": "90a21523e4096199b23ad09c477ce0253b814c74c7660d2f577eca4f3c071b2c",
+          "size": 61735936,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/toolchain-v3/zig-0.17.0-osx-x64.tar.xz"
         }
       }
     },
