@@ -74,14 +74,14 @@
         },
         "toolchain": {
           "kind": "files",
-          "tag": "toolchain-v1",
+          "tag": "toolchain-v2",
           "rids": {
             "osx-arm64": {
               "kind": "files",
-              "tag": "toolchain-v1"
+              "tag": "toolchain-v2"
             }
           },
-          "version": "v1"
+          "version": "v2"
         }
       },
       "files": {
@@ -3437,9 +3437,9 @@
         },
         "zig-0.17.0.tar.xz": {
           "group": "toolchain",
-          "sha256": "c8be537355eb72644a3c9d825ca84cc589ec6baf994f1171b683e8354176c280",
-          "size": 57411628,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/toolchain-v1/zig-0.17.0-osx-arm64.tar.xz"
+          "sha256": "0f79c1acff5b87c0ead60b7ad32146efec6569167627677edc4cdcab5c9fb2bf",
+          "size": 56717704,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/toolchain-v2/zig-0.17.0-osx-arm64.tar.xz"
         }
       }
     },
@@ -3480,14 +3480,14 @@
         },
         "toolchain": {
           "kind": "files",
-          "tag": "toolchain-v1",
+          "tag": "toolchain-v2",
           "rids": {
             "osx-x64": {
               "kind": "files",
-              "tag": "toolchain-v1"
+              "tag": "toolchain-v2"
             }
           },
-          "version": "v1"
+          "version": "v2"
         }
       },
       "files": {
@@ -3751,9 +3751,9 @@
         },
         "zig-0.17.0.tar.xz": {
           "group": "toolchain",
-          "sha256": "85ed79aaf7fe6914b29b312e26da3d2f48c561ed75b562147936b4961efd17ac",
-          "size": 63137212,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/toolchain-v1/zig-0.17.0-osx-x64.tar.xz"
+          "sha256": "82ee5de7ef2ce10b8271e41afd29afbd7bf0506609040a4544cc412199514861",
+          "size": 62455092,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/toolchain-v2/zig-0.17.0-osx-x64.tar.xz"
         }
       }
     },
@@ -3807,14 +3807,14 @@
         },
         "toolchain": {
           "kind": "files",
-          "tag": "toolchain-v1",
+          "tag": "toolchain-v2",
           "rids": {
             "linux-x64": {
               "kind": "files",
-              "tag": "toolchain-v1"
+              "tag": "toolchain-v2"
             }
           },
-          "version": "v1"
+          "version": "v2"
         }
       },
       "files": {
@@ -5357,9 +5357,9 @@
         },
         "zig-0.17.0.tar.xz": {
           "group": "toolchain",
-          "sha256": "b67efcfcafcfa6b0da89f99713fa04e67b7036496f04b91cb11e0545779ee0cc",
-          "size": 60818848,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/toolchain-v1/zig-0.17.0-linux-x64.tar.xz"
+          "sha256": "168e82d32a8ca9a6e94cb35a4129f23c2c36dafe634633573a9c63aadbbdefdc",
+          "size": 60098824,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/toolchain-v2/zig-0.17.0-linux-x64.tar.xz"
         }
       }
     },
@@ -6993,14 +6993,14 @@
         },
         "toolchain": {
           "kind": "files",
-          "tag": "toolchain-v1",
+          "tag": "toolchain-v2",
           "rids": {
             "win-x64": {
               "kind": "files",
-              "tag": "toolchain-v1"
+              "tag": "toolchain-v2"
             }
           },
-          "version": "v1"
+          "version": "v2"
         }
       },
       "files": {
@@ -7270,9 +7270,9 @@
         },
         "zig-0.17.0.tar.xz": {
           "group": "toolchain",
-          "sha256": "a143341a173cd75903aaf00ff690f176b40ad450776c322d1f478d25ec24a25c",
-          "size": 61670492,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/toolchain-v1/zig-0.17.0-win-x64.tar.xz"
+          "sha256": "b2f9ea4792d1288030adca330bc317b392db80ce7b058ea3bd820bc0c3a5a173",
+          "size": 60951520,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/toolchain-v2/zig-0.17.0-win-x64.tar.xz"
         }
       }
     },
