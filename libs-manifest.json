@@ -74,14 +74,14 @@
         },
         "toolchain": {
           "kind": "files",
-          "tag": "toolchain-v2",
+          "tag": "toolchain-v3",
           "rids": {
             "osx-arm64": {
               "kind": "files",
-              "tag": "toolchain-v2"
+              "tag": "toolchain-v3"
             }
           },
-          "version": "v2"
+          "version": "v3"
         }
       },
       "files": {
@@ -3437,9 +3437,9 @@
         },
         "zig-0.17.0.tar.xz": {
           "group": "toolchain",
-          "sha256": "0f79c1acff5b87c0ead60b7ad32146efec6569167627677edc4cdcab5c9fb2bf",
-          "size": 56717704,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/toolchain-v2/zig-0.17.0-osx-arm64.tar.xz"
+          "sha256": "28c1f22b13aa32d0edc8a8ddb60536e8ef7edfb72f13aaea678468c5285bec4b",
+          "size": 56025416,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/toolchain-v3/zig-0.17.0-osx-arm64.tar.xz"
         }
       }
     },
