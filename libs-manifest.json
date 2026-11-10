@@ -7219,17 +7219,94 @@
         },
         "toolchain": {
           "kind": "files",
-          "tag": "toolchain-v2",
+          "tag": "toolchain-v3",
           "rids": {
             "win-x64": {
               "kind": "files",
-              "tag": "toolchain-v2"
+              "tag": "toolchain-v3"
             }
           },
-          "version": "v2"
+          "version": "v3"
+        },
+        "domain": {
+          "kind": "files",
+          "tag": "domain-v3",
+          "rids": {
+            "win-x64": {
+              "kind": "files",
+              "tag": "domain-v3"
+            }
+          },
+          "version": "v3"
         }
       },
       "files": {
+        "libssl-3-x64.dll": {
+          "group": "support",
+          "sha256": "b94df46997b95262b9013bf9eb8a37fe53ff8cd877a39894ecca5bc74ce34092",
+          "size": 1321984,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v1/libssl-3-x64-win-x64.dll"
+        },
+        "gmb_tray.dll": {
+          "group": "support",
+          "sha256": "3b62ab8d39da46900dc5f945e4c94b63bb0adce0b9c0f4836ec0cdb30af5d17a",
+          "size": 116424,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v1/gmb_tray-win-x64.dll"
+        },
+        "hdf5_hl.dll": {
+          "group": "support",
+          "sha256": "894a97920b90e2d490f2242aec97030bb58d7c68f8b1a1ef7a38c407bee71349",
+          "size": 165376,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v1/hdf5_hl-win-x64.dll"
+        },
+        "hdf5.dll": {
+          "group": "support",
+          "sha256": "4d215edfa26ee69766075d60ebdb8e09ad6c3e8e082f1bcb5a292df9c989d153",
+          "size": 4320768,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v1/hdf5-win-x64.dll"
+        },
+        "libcrypto-3-x64.dll": {
+          "group": "support",
+          "sha256": "c511a9db1adb7886f77026d8808a2217ac3f7975fca46b8bdb4dcc9072fd9f87",
+          "size": 7308288,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v1/libcrypto-3-x64-win-x64.dll"
+        },
+        "pdf_oxide.dll": {
+          "group": "support",
+          "sha256": "3abab7f77d97e4609d8c541b5e9fd33ebb39d75f3eadbebb51dd10c5b6882808",
+          "size": 28574208,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v1/pdf_oxide-win-x64.dll"
+        },
+        "SDL2_image.dll": {
+          "group": "support",
+          "sha256": "79fc19743e5deb003f84635862b63d3c5d799a27eeaa0f40d7afb55c5834524a",
+          "size": 287232,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v1/SDL2_image-win-x64.dll"
+        },
+        "SDL2_mixer.dll": {
+          "group": "support",
+          "sha256": "79d84ea27b2b0402b5506bc6883e71fbca2874f983c727106fa26abb11b7f5b5",
+          "size": 421376,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v1/SDL2_mixer-win-x64.dll"
+        },
+        "SDL2_ttf.dll": {
+          "group": "support",
+          "sha256": "86febaf2ca137e417808a646b5920cdd10d7093b30a2071abde40b012c923c3d",
+          "size": 1751552,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v1/SDL2_ttf-win-x64.dll"
+        },
+        "SDL2.dll": {
+          "group": "support",
+          "sha256": "564306d1d75b9c55fb662a09a5c9ec0f38da06b8815fae841858118bdd9cb599",
+          "size": 1576448,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v1/SDL2-win-x64.dll"
+        },
+        "SDL3.dll": {
+          "group": "support",
+          "sha256": "9fa7bcb4c3667bfe4cf5e5b740a1da708151af0d499c2d0afee50c9874ba181c",
+          "size": 2842624,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v1/SDL3-win-x64.dll"
+        },
         "libgmb_ai_llm.dll": {
           "group": "runtime",
           "sha256": "f9223fb54f612755982132b0a8f527621e95c07564b342a62472296993a9a44d",
@@ -7428,77 +7505,113 @@
           "size": 221696,
           "url": "https://github.com/c-vision/GMBasicModules/releases/download/ffi-v2/libgmbprotobuf-win-x64.dll"
         },
-        "libssl-3-x64.dll": {
-          "group": "support",
-          "sha256": "b94df46997b95262b9013bf9eb8a37fe53ff8cd877a39894ecca5bc74ce34092",
-          "size": 1321984,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v1/libssl-3-x64-win-x64.dll"
+        "libgmbaviation.dll": {
+          "group": "domain",
+          "sha256": "67ad908da31cac867659d6194e07a7f7725e8b13724cadeb66b0b2cdf3fdb53f",
+          "size": 297984,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/domain-v3/libgmbaviation-win-x64.dll"
         },
-        "gmb_tray.dll": {
-          "group": "support",
-          "sha256": "3b62ab8d39da46900dc5f945e4c94b63bb0adce0b9c0f4836ec0cdb30af5d17a",
-          "size": 116424,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v1/gmb_tray-win-x64.dll"
+        "libgmbgametheory.dll": {
+          "group": "domain",
+          "sha256": "061dfa8307a7caa0cb93b5a73a6c4f5606cba06eeebce4617710e7506fce79e6",
+          "size": 268288,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/domain-v3/libgmbgametheory-win-x64.dll"
         },
-        "hdf5_hl.dll": {
-          "group": "support",
-          "sha256": "894a97920b90e2d490f2242aec97030bb58d7c68f8b1a1ef7a38c407bee71349",
-          "size": 165376,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v1/hdf5_hl-win-x64.dll"
+        "libgmbgeo.dll": {
+          "group": "domain",
+          "sha256": "a1be548469a11adbe9e78e661657a3187a37c9e1a76eae6c9a096751d6e799a6",
+          "size": 245248,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/domain-v3/libgmbgeo-win-x64.dll"
         },
-        "hdf5.dll": {
-          "group": "support",
-          "sha256": "4d215edfa26ee69766075d60ebdb8e09ad6c3e8e082f1bcb5a292df9c989d153",
-          "size": 4320768,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v1/hdf5-win-x64.dll"
+        "libgmbflow.dll": {
+          "group": "domain",
+          "sha256": "73130abc0dea0a0da4d6cfdc9f5899edd62c4a8e545b242910488c3729c38fbb",
+          "size": 245760,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/domain-v3/libgmbflow-win-x64.dll"
         },
-        "libcrypto-3-x64.dll": {
-          "group": "support",
-          "sha256": "c511a9db1adb7886f77026d8808a2217ac3f7975fca46b8bdb4dcc9072fd9f87",
-          "size": 7308288,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v1/libcrypto-3-x64-win-x64.dll"
+        "libgmbconic.dll": {
+          "group": "domain",
+          "sha256": "a7b2fc82bf8c7bb3dc91c32863afd2d391c3d8d766562fb1d5b67cae68531b8a",
+          "size": 459264,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/domain-v3/libgmbconic-win-x64.dll"
         },
-        "pdf_oxide.dll": {
-          "group": "support",
-          "sha256": "3abab7f77d97e4609d8c541b5e9fd33ebb39d75f3eadbebb51dd10c5b6882808",
-          "size": 28574208,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v1/pdf_oxide-win-x64.dll"
+        "libgmbgraph.dll": {
+          "group": "domain",
+          "sha256": "688f2fffb5afde0a06c655635dc6287b1176f1e94da605456b1cb94e0230307a",
+          "size": 280064,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/domain-v3/libgmbgraph-win-x64.dll"
         },
-        "SDL2_image.dll": {
-          "group": "support",
-          "sha256": "79fc19743e5deb003f84635862b63d3c5d799a27eeaa0f40d7afb55c5834524a",
-          "size": 287232,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v1/SDL2_image-win-x64.dll"
+        "libgmbgraphics.dll": {
+          "group": "domain",
+          "sha256": "eb51ac82b1e93c80b2dbdb72e6aaa383a458b15c556ead3ccd52ff43b175b3bd",
+          "size": 367616,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/domain-v3/libgmbgraphics-win-x64.dll"
         },
-        "SDL2_mixer.dll": {
-          "group": "support",
-          "sha256": "79d84ea27b2b0402b5506bc6883e71fbca2874f983c727106fa26abb11b7f5b5",
-          "size": 421376,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v1/SDL2_mixer-win-x64.dll"
+        "libgmblocalsearch.dll": {
+          "group": "domain",
+          "sha256": "30ae6302759ec3908cc219d9da8f93363eb89b327214b51b7d731ca28c1ee8c2",
+          "size": 235520,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/domain-v3/libgmblocalsearch-win-x64.dll"
         },
-        "SDL2_ttf.dll": {
-          "group": "support",
-          "sha256": "86febaf2ca137e417808a646b5920cdd10d7093b30a2071abde40b012c923c3d",
-          "size": 1751552,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v1/SDL2_ttf-win-x64.dll"
+        "libgmblagrangian.dll": {
+          "group": "domain",
+          "sha256": "1704ca9a5fdb9aa5bf69a4e5b4ba965af5f3534dbc41a3097a74265a9ece21d6",
+          "size": 220160,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/domain-v3/libgmblagrangian-win-x64.dll"
         },
-        "SDL2.dll": {
-          "group": "support",
-          "sha256": "564306d1d75b9c55fb662a09a5c9ec0f38da06b8815fae841858118bdd9cb599",
-          "size": 1576448,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v1/SDL2-win-x64.dll"
+        "libgmbmath.dll": {
+          "group": "domain",
+          "sha256": "ba329da6bde5a0b89ddf4e00299c47a4d89f11b34f292d9988effd7f88c58cad",
+          "size": 1020928,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/domain-v3/libgmbmath-win-x64.dll"
         },
-        "SDL3.dll": {
-          "group": "support",
-          "sha256": "9fa7bcb4c3667bfe4cf5e5b740a1da708151af0d499c2d0afee50c9874ba181c",
-          "size": 2842624,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/support-v1/SDL3-win-x64.dll"
+        "libgmbmathprog.dll": {
+          "group": "domain",
+          "sha256": "4c2da47b4c7e54f03e4493945f0cfe068b5535a8003b487b4035026f0910dbf7",
+          "size": 266752,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/domain-v3/libgmbmathprog-win-x64.dll"
+        },
+        "libgmbneural.dll": {
+          "group": "domain",
+          "sha256": "598ff5c8ef009e37534afe518a07996131eee4400b7bc219e48d8cba167dc953",
+          "size": 433152,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/domain-v3/libgmbneural-win-x64.dll"
+        },
+        "libgmbor.dll": {
+          "group": "domain",
+          "sha256": "5ae45b69280f20c83b80ebbb9d938a08fe99f3eb6427e138eaa54504c06938d9",
+          "size": 422912,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/domain-v3/libgmbor-win-x64.dll"
+        },
+        "libgmbpgm.dll": {
+          "group": "domain",
+          "sha256": "9a52b954f78a06682e13520f3f3b4cd40b34458db51e08f9a386ce284ee3ea91",
+          "size": 220672,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/domain-v3/libgmbpgm-win-x64.dll"
+        },
+        "libgmbscheduling.dll": {
+          "group": "domain",
+          "sha256": "08c765c0c8bc0b3e8cbd2170a3255c85203a8c4d0b2ef4c1613be8f32fb846c9",
+          "size": 220160,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/domain-v3/libgmbscheduling-win-x64.dll"
+        },
+        "libgmbstats.dll": {
+          "group": "domain",
+          "sha256": "1f58e997c1946ba14c7821afcb2f8b743d6282bcffd2d0a6d0ac3349c73b32ab",
+          "size": 1610240,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/domain-v3/libgmbstats-win-x64.dll"
+        },
+        "libgmbwsp.dll": {
+          "group": "domain",
+          "sha256": "43372e0252d4cf4f6fb4202a3298f1621e1b726ea7b9f63a4714e6719a3ec878",
+          "size": 453632,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/domain-v3/libgmbwsp-win-x64.dll"
         },
         "zig-0.17.0.tar.xz": {
           "group": "toolchain",
-          "sha256": "b2f9ea4792d1288030adca330bc317b392db80ce7b058ea3bd820bc0c3a5a173",
-          "size": 60951520,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/toolchain-v2/zig-0.17.0-win-x64.tar.xz"
+          "sha256": "f277066b0c2f1740edc99a32feb9d496632c6e232de6d9a6f936359d5eed0e70",
+          "size": 60836344,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/toolchain-v3/zig-0.17.0-win-x64.tar.xz"
         }
       }
     },
