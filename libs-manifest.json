@@ -4791,23 +4791,11 @@
           "size": 634968,
           "url": "https://github.com/c-vision/GMBasicModules/releases/download/dev-v2/lib__libzstd-osx-arm64.a"
         },
-        "include/openssl//DECC_INCLUDE_PROLOGUE.H": {
-          "group": "dev",
-          "sha256": "e66be3418a7b707f09fa011c85b0b3fdfcfa1740c46da11385abf23fe9983529",
-          "size": 801,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/dev-v2/include__openssl____DECC_INCLUDE_PROLOGUE-osx-arm64.H"
-        },
         "include/gmb_tui_cp437.inc": {
           "group": "dev",
           "sha256": "095db44509129842b928a3b47b41dfd2e77694b66c11ec46d6745aab8d28e0c0",
           "size": 1952,
           "url": "https://github.com/c-vision/GMBasicModules/releases/download/dev-v2/include__gmb_tui_cp437-osx-arm64.inc"
-        },
-        "include/openssl//DECC_INCLUDE_EPILOGUE.H": {
-          "group": "dev",
-          "sha256": "3d837d015f23ad248d7e0c74b5b8ca102d81525f166a0a4b7c19900eea982644",
-          "size": 729,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/dev-v2/include__openssl____DECC_INCLUDE_EPILOGUE-osx-arm64.H"
         },
         "include/gmb_tui_ansi256.inc": {
           "group": "dev",
@@ -4838,6 +4826,18 @@
           "sha256": "31cc113fc712036c613076dba67d659892f1b1d23c3fb90b16fe6eab92656a6a",
           "size": 1157288,
           "url": "https://github.com/c-vision/GMBasicModules/releases/download/dev-v2/lib__curl-osx-arm64.lib"
+        },
+        "include/openssl/__DECC_INCLUDE_EPILOGUE.H": {
+          "group": "dev",
+          "sha256": "3d837d015f23ad248d7e0c74b5b8ca102d81525f166a0a4b7c19900eea982644",
+          "size": 729,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/dev-v2/include__openssl__-q--q-DECC-q-INCLUDE-q-EPILOGUE-osx-arm64.H"
+        },
+        "include/openssl/__DECC_INCLUDE_PROLOGUE.H": {
+          "group": "dev",
+          "sha256": "e66be3418a7b707f09fa011c85b0b3fdfcfa1740c46da11385abf23fe9983529",
+          "size": 801,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/dev-v2/include__openssl__-q--q-DECC-q-INCLUDE-q-PROLOGUE-osx-arm64.H"
         }
       }
     },
@@ -8746,18 +8746,6 @@
           "size": 792696,
           "url": "https://github.com/c-vision/GMBasicModules/releases/download/dev-v3/lib__libzstd-osx-x64.a"
         },
-        "include/openssl//DECC_INCLUDE_EPILOGUE.H": {
-          "group": "dev",
-          "sha256": "3d837d015f23ad248d7e0c74b5b8ca102d81525f166a0a4b7c19900eea982644",
-          "size": 729,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/dev-v3/include__openssl____DECC_INCLUDE_EPILOGUE-osx-x64.H"
-        },
-        "include/openssl//DECC_INCLUDE_PROLOGUE.H": {
-          "group": "dev",
-          "sha256": "e66be3418a7b707f09fa011c85b0b3fdfcfa1740c46da11385abf23fe9983529",
-          "size": 801,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/dev-v3/include__openssl____DECC_INCLUDE_PROLOGUE-osx-x64.H"
-        },
         "include/gmb_tui_ansi256.inc": {
           "group": "dev",
           "sha256": "8d0f76f650b9c478cd3b970ab5486e3c0b94b4dc8b564413bbf331d5840685ef",
@@ -8787,6 +8775,18 @@
           "sha256": "07cb7e93e53c648ffc90e6c5027682e9c240da65f89b52c61135706515eb9e2e",
           "size": 97008,
           "url": "https://github.com/c-vision/GMBasicModules/releases/download/dev-v3/lib__SDL2_ttf-osx-x64.lib"
+        },
+        "include/openssl/__DECC_INCLUDE_PROLOGUE.H": {
+          "group": "dev",
+          "sha256": "e66be3418a7b707f09fa011c85b0b3fdfcfa1740c46da11385abf23fe9983529",
+          "size": 801,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/dev-v3/include__openssl__-q--q-DECC-q-INCLUDE-q-PROLOGUE-osx-x64.H"
+        },
+        "include/openssl/__DECC_INCLUDE_EPILOGUE.H": {
+          "group": "dev",
+          "sha256": "3d837d015f23ad248d7e0c74b5b8ca102d81525f166a0a4b7c19900eea982644",
+          "size": 729,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/dev-v3/include__openssl__-q--q-DECC-q-INCLUDE-q-EPILOGUE-osx-x64.H"
         }
       }
     },
@@ -11635,12 +11635,6 @@
           "size": 8540,
           "url": "https://github.com/c-vision/GMBasicModules/releases/download/dev-v4/include__SDL2__SDL_vulkan-linux-x64.h"
         },
-        "include/SDL2/_real_SDL_config.h": {
-          "group": "dev",
-          "sha256": "f3122ae06b5f38d7e6ee97be9d9ea573cd69a973a96ff8819ea1309e22caf09a",
-          "size": 14283,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/dev-v4/include__SDL2___real_SDL_config-linux-x64.h"
-        },
         "include/SDL2/begin_code.h": {
           "group": "dev",
           "sha256": "f2e4e2043b1ffdc439fb9bad0f5c826a443c917efcf1a65440580a21ddf75630",
@@ -13021,48 +13015,6 @@
           "size": 180,
           "url": "https://github.com/c-vision/GMBasicModules/releases/download/dev-v4/include__bits__types__FILE-linux-x64.h"
         },
-        "include/bits/types//FILE.h": {
-          "group": "dev",
-          "sha256": "26c909942e8a6bc82725e9c402f393aed9e32d94190257ddf71e1b5f819b4e5e",
-          "size": 110,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/dev-v4/include__bits__types____FILE-linux-x64.h"
-        },
-        "include/bits/types//fpos64_t.h": {
-          "group": "dev",
-          "sha256": "8afae3abf006beb39fd9d4d4bae38745cdf08a91e6217ddf25833c8d4b04751b",
-          "size": 410,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/dev-v4/include__bits__types____fpos64_t-linux-x64.h"
-        },
-        "include/bits/types//fpos_t.h": {
-          "group": "dev",
-          "sha256": "603e58ab31ed75b7e0ab09a2ca94e99955f7fbc63310466321ce27c906227eb4",
-          "size": 381,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/dev-v4/include__bits__types____fpos_t-linux-x64.h"
-        },
-        "include/bits/types//locale_t.h": {
-          "group": "dev",
-          "sha256": "0edc68d4ae8fd45f8127c6a8fe6936b6312f2835951a3157e51ad8b5dbcb46ad",
-          "size": 1661,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/dev-v4/include__bits__types____locale_t-linux-x64.h"
-        },
-        "include/bits/types//mbstate_t.h": {
-          "group": "dev",
-          "sha256": "c561df72d5b987ccbd022059fdb1bcb6899c3e94b403997a0576ef3e1afb0f94",
-          "size": 564,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/dev-v4/include__bits__types____mbstate_t-linux-x64.h"
-        },
-        "include/bits/types//sigset_t.h": {
-          "group": "dev",
-          "sha256": "05291a7d38bb1d0da1ed01c09fe85fa2b1f4d5bc708e06bb930efec672db08d5",
-          "size": 206,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/dev-v4/include__bits__types____sigset_t-linux-x64.h"
-        },
-        "include/bits/types//sigval_t.h": {
-          "group": "dev",
-          "sha256": "f0556deb7a832bc9bcc600ada0da3d15c99aad85b2ea2729c4d7c5830e40cc0c",
-          "size": 1148,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/dev-v4/include__bits__types____sigval_t-linux-x64.h"
-        },
         "include/bits/types/clock_t.h": {
           "group": "dev",
           "sha256": "81e60e8a8d99b28bc723c14b156d7f7fc8ff663d98a857a3f5aea90431f577e3",
@@ -13152,12 +13104,6 @@
           "sha256": "79ad5bbe87e2be78d83990f8e28e0b20163e7ee03b733dc7cbea4eed94b8314f",
           "size": 4104,
           "url": "https://github.com/c-vision/GMBasicModules/releases/download/dev-v4/include__bits__types__struct_FILE-linux-x64.h"
-        },
-        "include/bits/types/struct/_jmp_buf_tag.h": {
-          "group": "dev",
-          "sha256": "e54be99f52cb6e0b8ffacb2a91db83b8129863381f45c952582faf30a7fce6c5",
-          "size": 1467,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/dev-v4/include__bits__types__struct___jmp_buf_tag-linux-x64.h"
         },
         "include/bits/types/struct_iovec.h": {
           "group": "dev",
@@ -16356,6 +16302,60 @@
           "sha256": "f1836b114cacd7e789753155c7f2219302d3d2174efba1402f1254b58a880aa3",
           "size": 16640,
           "url": "https://github.com/c-vision/GMBasicModules/releases/download/dev-v4/lib__libgmb_tray-linux-x64.so"
+        },
+        "include/bits/types/__FILE.h": {
+          "group": "dev",
+          "sha256": "26c909942e8a6bc82725e9c402f393aed9e32d94190257ddf71e1b5f819b4e5e",
+          "size": 110,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/dev-v4/include__bits__types__-q--q-FILE-linux-x64.h"
+        },
+        "include/bits/types/__fpos64_t.h": {
+          "group": "dev",
+          "sha256": "8afae3abf006beb39fd9d4d4bae38745cdf08a91e6217ddf25833c8d4b04751b",
+          "size": 410,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/dev-v4/include__bits__types__-q--q-fpos64-q-t-linux-x64.h"
+        },
+        "include/SDL2/_real_SDL_config.h": {
+          "group": "dev",
+          "sha256": "f3122ae06b5f38d7e6ee97be9d9ea573cd69a973a96ff8819ea1309e22caf09a",
+          "size": 14283,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/dev-v4/include__SDL2__-q-real-q-SDL-q-config-linux-x64.h"
+        },
+        "include/bits/types/__fpos_t.h": {
+          "group": "dev",
+          "sha256": "603e58ab31ed75b7e0ab09a2ca94e99955f7fbc63310466321ce27c906227eb4",
+          "size": 381,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/dev-v4/include__bits__types__-q--q-fpos-q-t-linux-x64.h"
+        },
+        "include/bits/types/__locale_t.h": {
+          "group": "dev",
+          "sha256": "0edc68d4ae8fd45f8127c6a8fe6936b6312f2835951a3157e51ad8b5dbcb46ad",
+          "size": 1661,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/dev-v4/include__bits__types__-q--q-locale-q-t-linux-x64.h"
+        },
+        "include/bits/types/__mbstate_t.h": {
+          "group": "dev",
+          "sha256": "c561df72d5b987ccbd022059fdb1bcb6899c3e94b403997a0576ef3e1afb0f94",
+          "size": 564,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/dev-v4/include__bits__types__-q--q-mbstate-q-t-linux-x64.h"
+        },
+        "include/bits/types/__sigset_t.h": {
+          "group": "dev",
+          "sha256": "05291a7d38bb1d0da1ed01c09fe85fa2b1f4d5bc708e06bb930efec672db08d5",
+          "size": 206,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/dev-v4/include__bits__types__-q--q-sigset-q-t-linux-x64.h"
+        },
+        "include/bits/types/__sigval_t.h": {
+          "group": "dev",
+          "sha256": "f0556deb7a832bc9bcc600ada0da3d15c99aad85b2ea2729c4d7c5830e40cc0c",
+          "size": 1148,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/dev-v4/include__bits__types__-q--q-sigval-q-t-linux-x64.h"
+        },
+        "include/bits/types/struct___jmp_buf_tag.h": {
+          "group": "dev",
+          "sha256": "e54be99f52cb6e0b8ffacb2a91db83b8129863381f45c952582faf30a7fce6c5",
+          "size": 1467,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/dev-v4/include__bits__types__struct-q--q--q-jmp-q-buf-q-tag-linux-x64.h"
         }
       }
     },
@@ -18410,12 +18410,6 @@
           "size": 8540,
           "url": "https://github.com/c-vision/GMBasicModules/releases/download/dev-v5/include__SDL2__SDL_vulkan-linux-arm64.h"
         },
-        "include/SDL2/_real_SDL_config.h": {
-          "group": "dev",
-          "sha256": "2c960bb24b863e0c6d2c22c34f104078e9d6da4bd2595006c630e8536fdf65a2",
-          "size": 14286,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/dev-v5/include__SDL2___real_SDL_config-linux-arm64.h"
-        },
         "include/SDL2/begin_code.h": {
           "group": "dev",
           "sha256": "f2e4e2043b1ffdc439fb9bad0f5c826a443c917efcf1a65440580a21ddf75630",
@@ -19622,48 +19616,6 @@
           "size": 180,
           "url": "https://github.com/c-vision/GMBasicModules/releases/download/dev-v5/include__bits__types__FILE-linux-arm64.h"
         },
-        "include/bits/types//FILE.h": {
-          "group": "dev",
-          "sha256": "26c909942e8a6bc82725e9c402f393aed9e32d94190257ddf71e1b5f819b4e5e",
-          "size": 110,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/dev-v5/include__bits__types____FILE-linux-arm64.h"
-        },
-        "include/bits/types//locale_t.h": {
-          "group": "dev",
-          "sha256": "0edc68d4ae8fd45f8127c6a8fe6936b6312f2835951a3157e51ad8b5dbcb46ad",
-          "size": 1661,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/dev-v5/include__bits__types____locale_t-linux-arm64.h"
-        },
-        "include/bits/types//mbstate_t.h": {
-          "group": "dev",
-          "sha256": "c561df72d5b987ccbd022059fdb1bcb6899c3e94b403997a0576ef3e1afb0f94",
-          "size": 564,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/dev-v5/include__bits__types____mbstate_t-linux-arm64.h"
-        },
-        "include/bits/types//fpos64_t.h": {
-          "group": "dev",
-          "sha256": "8afae3abf006beb39fd9d4d4bae38745cdf08a91e6217ddf25833c8d4b04751b",
-          "size": 410,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/dev-v5/include__bits__types____fpos64_t-linux-arm64.h"
-        },
-        "include/bits/types//fpos_t.h": {
-          "group": "dev",
-          "sha256": "603e58ab31ed75b7e0ab09a2ca94e99955f7fbc63310466321ce27c906227eb4",
-          "size": 381,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/dev-v5/include__bits__types____fpos_t-linux-arm64.h"
-        },
-        "include/bits/types//sigset_t.h": {
-          "group": "dev",
-          "sha256": "05291a7d38bb1d0da1ed01c09fe85fa2b1f4d5bc708e06bb930efec672db08d5",
-          "size": 206,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/dev-v5/include__bits__types____sigset_t-linux-arm64.h"
-        },
-        "include/bits/types//sigval_t.h": {
-          "group": "dev",
-          "sha256": "f0556deb7a832bc9bcc600ada0da3d15c99aad85b2ea2729c4d7c5830e40cc0c",
-          "size": 1148,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/dev-v5/include__bits__types____sigval_t-linux-arm64.h"
-        },
         "include/bits/types/clock_t.h": {
           "group": "dev",
           "sha256": "81e60e8a8d99b28bc723c14b156d7f7fc8ff663d98a857a3f5aea90431f577e3",
@@ -19771,12 +19723,6 @@
           "sha256": "79ad5bbe87e2be78d83990f8e28e0b20163e7ee03b733dc7cbea4eed94b8314f",
           "size": 4104,
           "url": "https://github.com/c-vision/GMBasicModules/releases/download/dev-v5/include__bits__types__struct_FILE-linux-arm64.h"
-        },
-        "include/bits/types/struct/_jmp_buf_tag.h": {
-          "group": "dev",
-          "sha256": "e54be99f52cb6e0b8ffacb2a91db83b8129863381f45c952582faf30a7fce6c5",
-          "size": 1467,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/dev-v5/include__bits__types__struct___jmp_buf_tag-linux-arm64.h"
         },
         "include/bits/types/struct_msqid_ds.h": {
           "group": "dev",
@@ -23695,6 +23641,60 @@
           "sha256": "ce3d7c94c08038a0ee383fdc0467cc3fcfa274a42b2a8d52f3136fe45c818f02",
           "size": 1932624,
           "url": "https://github.com/c-vision/GMBasicModules/releases/download/dev-v5/lib__libgmb_gfx-linux-arm64.so"
+        },
+        "include/bits/types/__fpos64_t.h": {
+          "group": "dev",
+          "sha256": "8afae3abf006beb39fd9d4d4bae38745cdf08a91e6217ddf25833c8d4b04751b",
+          "size": 410,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/dev-v5/include__bits__types__-q--q-fpos64-q-t-linux-arm64.h"
+        },
+        "include/bits/types/__locale_t.h": {
+          "group": "dev",
+          "sha256": "0edc68d4ae8fd45f8127c6a8fe6936b6312f2835951a3157e51ad8b5dbcb46ad",
+          "size": 1661,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/dev-v5/include__bits__types__-q--q-locale-q-t-linux-arm64.h"
+        },
+        "include/bits/types/__fpos_t.h": {
+          "group": "dev",
+          "sha256": "603e58ab31ed75b7e0ab09a2ca94e99955f7fbc63310466321ce27c906227eb4",
+          "size": 381,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/dev-v5/include__bits__types__-q--q-fpos-q-t-linux-arm64.h"
+        },
+        "include/SDL2/_real_SDL_config.h": {
+          "group": "dev",
+          "sha256": "2c960bb24b863e0c6d2c22c34f104078e9d6da4bd2595006c630e8536fdf65a2",
+          "size": 14286,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/dev-v5/include__SDL2__-q-real-q-SDL-q-config-linux-arm64.h"
+        },
+        "include/bits/types/__FILE.h": {
+          "group": "dev",
+          "sha256": "26c909942e8a6bc82725e9c402f393aed9e32d94190257ddf71e1b5f819b4e5e",
+          "size": 110,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/dev-v5/include__bits__types__-q--q-FILE-linux-arm64.h"
+        },
+        "include/bits/types/__mbstate_t.h": {
+          "group": "dev",
+          "sha256": "c561df72d5b987ccbd022059fdb1bcb6899c3e94b403997a0576ef3e1afb0f94",
+          "size": 564,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/dev-v5/include__bits__types__-q--q-mbstate-q-t-linux-arm64.h"
+        },
+        "include/bits/types/struct___jmp_buf_tag.h": {
+          "group": "dev",
+          "sha256": "e54be99f52cb6e0b8ffacb2a91db83b8129863381f45c952582faf30a7fce6c5",
+          "size": 1467,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/dev-v5/include__bits__types__struct-q--q--q-jmp-q-buf-q-tag-linux-arm64.h"
+        },
+        "include/bits/types/__sigval_t.h": {
+          "group": "dev",
+          "sha256": "f0556deb7a832bc9bcc600ada0da3d15c99aad85b2ea2729c4d7c5830e40cc0c",
+          "size": 1148,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/dev-v5/include__bits__types__-q--q-sigval-q-t-linux-arm64.h"
+        },
+        "include/bits/types/__sigset_t.h": {
+          "group": "dev",
+          "sha256": "05291a7d38bb1d0da1ed01c09fe85fa2b1f4d5bc708e06bb930efec672db08d5",
+          "size": 206,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/dev-v5/include__bits__types__-q--q-sigset-q-t-linux-arm64.h"
         }
       }
     },
@@ -27718,23 +27718,11 @@
           "size": 1952,
           "url": "https://github.com/c-vision/GMBasicModules/releases/download/dev-v6/include__gmb_tui_cp437-win-x64.inc"
         },
-        "include/openssl//DECC_INCLUDE_EPILOGUE.H": {
-          "group": "dev",
-          "sha256": "3d837d015f23ad248d7e0c74b5b8ca102d81525f166a0a4b7c19900eea982644",
-          "size": 729,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/dev-v6/include__openssl____DECC_INCLUDE_EPILOGUE-win-x64.H"
-        },
         "lib/SDL2.lib": {
           "group": "dev",
           "sha256": "be0ed504b337296d7f3e58838d82cafb4691aa488ad964e425d870e455f6c854",
           "size": 11793054,
           "url": "https://github.com/c-vision/GMBasicModules/releases/download/dev-v6/lib__SDL2-win-x64.lib"
-        },
-        "include/openssl//DECC_INCLUDE_PROLOGUE.H": {
-          "group": "dev",
-          "sha256": "e66be3418a7b707f09fa011c85b0b3fdfcfa1740c46da11385abf23fe9983529",
-          "size": 801,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/dev-v6/include__openssl____DECC_INCLUDE_PROLOGUE-win-x64.H"
         },
         "include/gmb_tui_ansi256.inc": {
           "group": "dev",
@@ -27933,6 +27921,18 @@
           "sha256": "f557b7aa30b39c88017d46091e87792e00a655fabb3011fb3f18682bf30513ad",
           "size": 4429700,
           "url": "https://github.com/c-vision/GMBasicModules/releases/download/dev-v6/lib__zstd-win-x64.lib"
+        },
+        "include/openssl/__DECC_INCLUDE_EPILOGUE.H": {
+          "group": "dev",
+          "sha256": "3d837d015f23ad248d7e0c74b5b8ca102d81525f166a0a4b7c19900eea982644",
+          "size": 729,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/dev-v6/include__openssl__-q--q-DECC-q-INCLUDE-q-EPILOGUE-win-x64.H"
+        },
+        "include/openssl/__DECC_INCLUDE_PROLOGUE.H": {
+          "group": "dev",
+          "sha256": "e66be3418a7b707f09fa011c85b0b3fdfcfa1740c46da11385abf23fe9983529",
+          "size": 801,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/dev-v6/include__openssl__-q--q-DECC-q-INCLUDE-q-PROLOGUE-win-x64.H"
         }
       }
     },
@@ -31916,18 +31916,6 @@
           "size": 5632,
           "url": "https://github.com/c-vision/GMBasicModules/releases/download/dev-v7/include__gmb_tui_ansi256-win-arm64.inc"
         },
-        "include/openssl//DECC_INCLUDE_PROLOGUE.H": {
-          "group": "dev",
-          "sha256": "e66be3418a7b707f09fa011c85b0b3fdfcfa1740c46da11385abf23fe9983529",
-          "size": 801,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/dev-v7/include__openssl____DECC_INCLUDE_PROLOGUE-win-arm64.H"
-        },
-        "include/openssl//DECC_INCLUDE_EPILOGUE.H": {
-          "group": "dev",
-          "sha256": "3d837d015f23ad248d7e0c74b5b8ca102d81525f166a0a4b7c19900eea982644",
-          "size": 729,
-          "url": "https://github.com/c-vision/GMBasicModules/releases/download/dev-v7/include__openssl____DECC_INCLUDE_EPILOGUE-win-arm64.H"
-        },
         "lib/brotlidec.lib": {
           "group": "dev",
           "sha256": "67a0ab7550fd2f1a024a881a355c49537bd9222bcc252174b27de8ab15c71ae1",
@@ -32119,6 +32107,18 @@
           "sha256": "9f49814157715718c79a0d20efb229a8c7d359ae76025e6edbff067edbdb1bbe",
           "size": 3989958,
           "url": "https://github.com/c-vision/GMBasicModules/releases/download/dev-v7/lib__zstd-win-arm64.lib"
+        },
+        "include/openssl/__DECC_INCLUDE_PROLOGUE.H": {
+          "group": "dev",
+          "sha256": "e66be3418a7b707f09fa011c85b0b3fdfcfa1740c46da11385abf23fe9983529",
+          "size": 801,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/dev-v7/include__openssl__-q--q-DECC-q-INCLUDE-q-PROLOGUE-win-arm64.H"
+        },
+        "include/openssl/__DECC_INCLUDE_EPILOGUE.H": {
+          "group": "dev",
+          "sha256": "3d837d015f23ad248d7e0c74b5b8ca102d81525f166a0a4b7c19900eea982644",
+          "size": 729,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/dev-v7/include__openssl__-q--q-DECC-q-INCLUDE-q-EPILOGUE-win-arm64.H"
         }
       }
     }
