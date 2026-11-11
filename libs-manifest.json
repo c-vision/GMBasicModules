@@ -4790,6 +4790,54 @@
           "sha256": "23d34a22997b82fb6606c88b2236bc5c6d20bc87fee4814833e41e36c56bc044",
           "size": 634968,
           "url": "https://github.com/c-vision/GMBasicModules/releases/download/dev-v2/lib__libzstd-osx-arm64.a"
+        },
+        "include/openssl//DECC_INCLUDE_PROLOGUE.H": {
+          "group": "dev",
+          "sha256": "e66be3418a7b707f09fa011c85b0b3fdfcfa1740c46da11385abf23fe9983529",
+          "size": 801,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/dev-v2/include__openssl____DECC_INCLUDE_PROLOGUE-osx-arm64.H"
+        },
+        "include/gmb_tui_cp437.inc": {
+          "group": "dev",
+          "sha256": "095db44509129842b928a3b47b41dfd2e77694b66c11ec46d6745aab8d28e0c0",
+          "size": 1952,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/dev-v2/include__gmb_tui_cp437-osx-arm64.inc"
+        },
+        "include/openssl//DECC_INCLUDE_EPILOGUE.H": {
+          "group": "dev",
+          "sha256": "3d837d015f23ad248d7e0c74b5b8ca102d81525f166a0a4b7c19900eea982644",
+          "size": 729,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/dev-v2/include__openssl____DECC_INCLUDE_EPILOGUE-osx-arm64.H"
+        },
+        "include/gmb_tui_ansi256.inc": {
+          "group": "dev",
+          "sha256": "8d0f76f650b9c478cd3b970ab5486e3c0b94b4dc8b564413bbf331d5840685ef",
+          "size": 5632,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/dev-v2/include__gmb_tui_ansi256-osx-arm64.inc"
+        },
+        "include/vulkan/vulkan.cppm": {
+          "group": "dev",
+          "sha256": "12d362905139e798a7f2615a7256351e1c1fd1cdbee7989c8453520c6024c078",
+          "size": 223340,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/dev-v2/include__vulkan__vulkan-osx-arm64.cppm"
+        },
+        "lib/SDL2.lib": {
+          "group": "dev",
+          "sha256": "bc43071dbe090619cd4140eb459e38cf2102fa8cfb5fc38c8b277b7646bb4721",
+          "size": 2698384,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/dev-v2/lib__SDL2-osx-arm64.lib"
+        },
+        "lib/SDL2_ttf.lib": {
+          "group": "dev",
+          "sha256": "b25425c0e4dae00ce44b279a2b157f47b32399153754c350e2aa4b062f86e3f2",
+          "size": 73616,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/dev-v2/lib__SDL2_ttf-osx-arm64.lib"
+        },
+        "lib/curl.lib": {
+          "group": "dev",
+          "sha256": "31cc113fc712036c613076dba67d659892f1b1d23c3fb90b16fe6eab92656a6a",
+          "size": 1157288,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/dev-v2/lib__curl-osx-arm64.lib"
         }
       }
     },
@@ -8697,6 +8745,48 @@
           "sha256": "b50b9e6e521db2d5fa003dfc6b4e6337897f73f7085fe8cdb9d2d8a3bbf9ade9",
           "size": 792696,
           "url": "https://github.com/c-vision/GMBasicModules/releases/download/dev-v3/lib__libzstd-osx-x64.a"
+        },
+        "include/openssl//DECC_INCLUDE_EPILOGUE.H": {
+          "group": "dev",
+          "sha256": "3d837d015f23ad248d7e0c74b5b8ca102d81525f166a0a4b7c19900eea982644",
+          "size": 729,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/dev-v3/include__openssl____DECC_INCLUDE_EPILOGUE-osx-x64.H"
+        },
+        "include/openssl//DECC_INCLUDE_PROLOGUE.H": {
+          "group": "dev",
+          "sha256": "e66be3418a7b707f09fa011c85b0b3fdfcfa1740c46da11385abf23fe9983529",
+          "size": 801,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/dev-v3/include__openssl____DECC_INCLUDE_PROLOGUE-osx-x64.H"
+        },
+        "include/gmb_tui_ansi256.inc": {
+          "group": "dev",
+          "sha256": "8d0f76f650b9c478cd3b970ab5486e3c0b94b4dc8b564413bbf331d5840685ef",
+          "size": 5632,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/dev-v3/include__gmb_tui_ansi256-osx-x64.inc"
+        },
+        "lib/SDL2.lib": {
+          "group": "dev",
+          "sha256": "22c999ff2dd69710c17732362aef952fee9de0e3cfe4628cbbc1c18a01395593",
+          "size": 2799936,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/dev-v3/lib__SDL2-osx-x64.lib"
+        },
+        "include/gmb_tui_cp437.inc": {
+          "group": "dev",
+          "sha256": "095db44509129842b928a3b47b41dfd2e77694b66c11ec46d6745aab8d28e0c0",
+          "size": 1952,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/dev-v3/include__gmb_tui_cp437-osx-x64.inc"
+        },
+        "lib/curl.lib": {
+          "group": "dev",
+          "sha256": "f98f77992a048187a90d9f883e017f23dde644515387fae549bba43f9c2a8895",
+          "size": 1090120,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/dev-v3/lib__curl-osx-x64.lib"
+        },
+        "lib/SDL2_ttf.lib": {
+          "group": "dev",
+          "sha256": "07cb7e93e53c648ffc90e6c5027682e9c240da65f89b52c61135706515eb9e2e",
+          "size": 97008,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/dev-v3/lib__SDL2_ttf-osx-x64.lib"
         }
       }
     },
@@ -16218,6 +16308,54 @@
           "sha256": "3b002d21b06091605db4a98c3739b479bd1126bac91b389a9e4a9e75612848ab",
           "size": 964146,
           "url": "https://github.com/c-vision/GMBasicModules/releases/download/dev-v4/lib__libzstd-linux-x64.a"
+        },
+        "lib/libgmb_ai_modelio.so": {
+          "group": "dev",
+          "sha256": "e8846d2321708b899f4a844ad1d4396ebceb1397860984cf0afc955be5411a85",
+          "size": 145088,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/dev-v4/lib__libgmb_ai_modelio-linux-x64.so"
+        },
+        "lib/libgmb_ai_llm.so": {
+          "group": "dev",
+          "sha256": "9485ea310e36b10cb98ddd60800ef1e699088bfdf8cd6bedafff7968db798361",
+          "size": 812224,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/dev-v4/lib__libgmb_ai_llm-linux-x64.so"
+        },
+        "include/gmb_tui_cp437.inc": {
+          "group": "dev",
+          "sha256": "095db44509129842b928a3b47b41dfd2e77694b66c11ec46d6745aab8d28e0c0",
+          "size": 1952,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/dev-v4/include__gmb_tui_cp437-linux-x64.inc"
+        },
+        "include/gmb_tui_ansi256.inc": {
+          "group": "dev",
+          "sha256": "8d0f76f650b9c478cd3b970ab5486e3c0b94b4dc8b564413bbf331d5840685ef",
+          "size": 5632,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/dev-v4/include__gmb_tui_ansi256-linux-x64.inc"
+        },
+        "include/bits/stab.def": {
+          "group": "dev",
+          "sha256": "57b30b1f9ae439e51fdc733fd71b7cadf8e3e221ea065978e6f3799df0fe2211",
+          "size": 9040,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/dev-v4/include__bits__stab-linux-x64.def"
+        },
+        "lib/libgmb_gfx.so": {
+          "group": "dev",
+          "sha256": "345e2ce4da51dfef9d3b97f67ce2af663cb8ef3875b5f912f6f5be4fab7ca85a",
+          "size": 1891336,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/dev-v4/lib__libgmb_gfx-linux-x64.so"
+        },
+        "lib/libgmb_screen.so": {
+          "group": "dev",
+          "sha256": "7f9bc7fccce064f57df986249e59586c00cc2b4e7ae69211860bf6a590124e84",
+          "size": 16872,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/dev-v4/lib__libgmb_screen-linux-x64.so"
+        },
+        "lib/libgmb_tray.so": {
+          "group": "dev",
+          "sha256": "f1836b114cacd7e789753155c7f2219302d3d2174efba1402f1254b58a880aa3",
+          "size": 16640,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/dev-v4/lib__libgmb_tray-linux-x64.so"
         }
       }
     },
@@ -23509,6 +23647,54 @@
           "sha256": "3d9089f7662048b0661cbb02ac74e15beb6b28ad8d970af3b65144ade9e64c5a",
           "size": 860492,
           "url": "https://github.com/c-vision/GMBasicModules/releases/download/dev-v5/lib__libzstd-linux-arm64.a"
+        },
+        "lib/libgmb_ai_modelio.so": {
+          "group": "dev",
+          "sha256": "d55b44e7da87f26acdc499c40de8c0f623164238c630984656ae97b5dc5e2274",
+          "size": 146816,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/dev-v5/lib__libgmb_ai_modelio-linux-arm64.so"
+        },
+        "include/bits/stab.def": {
+          "group": "dev",
+          "sha256": "57b30b1f9ae439e51fdc733fd71b7cadf8e3e221ea065978e6f3799df0fe2211",
+          "size": 9040,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/dev-v5/include__bits__stab-linux-arm64.def"
+        },
+        "include/gmb_tui_ansi256.inc": {
+          "group": "dev",
+          "sha256": "8d0f76f650b9c478cd3b970ab5486e3c0b94b4dc8b564413bbf331d5840685ef",
+          "size": 5632,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/dev-v5/include__gmb_tui_ansi256-linux-arm64.inc"
+        },
+        "include/gmb_tui_cp437.inc": {
+          "group": "dev",
+          "sha256": "095db44509129842b928a3b47b41dfd2e77694b66c11ec46d6745aab8d28e0c0",
+          "size": 1952,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/dev-v5/include__gmb_tui_cp437-linux-arm64.inc"
+        },
+        "lib/libgmb_ai_llm.so": {
+          "group": "dev",
+          "sha256": "18e456545130e2da659bc1b76fe27a05749594b4cd6f8670a8f5bc7343e89ef4",
+          "size": 861056,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/dev-v5/lib__libgmb_ai_llm-linux-arm64.so"
+        },
+        "lib/libgmb_screen.so": {
+          "group": "dev",
+          "sha256": "499a86abb69007657cf7750e49dd7767a0013d7843a637c0d9fa416ba24dba9a",
+          "size": 71664,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/dev-v5/lib__libgmb_screen-linux-arm64.so"
+        },
+        "lib/libgmb_tray.so": {
+          "group": "dev",
+          "sha256": "f5e075b263870e38aa7e9d09239810a7c3c3e724a55e4b9332596cc085893cdf",
+          "size": 71248,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/dev-v5/lib__libgmb_tray-linux-arm64.so"
+        },
+        "lib/libgmb_gfx.so": {
+          "group": "dev",
+          "sha256": "ce3d7c94c08038a0ee383fdc0467cc3fcfa274a42b2a8d52f3136fe45c818f02",
+          "size": 1932624,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/dev-v5/lib__libgmb_gfx-linux-arm64.so"
         }
       }
     },
@@ -27525,6 +27711,228 @@
           "sha256": "f557b7aa30b39c88017d46091e87792e00a655fabb3011fb3f18682bf30513ad",
           "size": 4429700,
           "url": "https://github.com/c-vision/GMBasicModules/releases/download/dev-v6/lib__libzstd-win-x64.a"
+        },
+        "include/gmb_tui_cp437.inc": {
+          "group": "dev",
+          "sha256": "095db44509129842b928a3b47b41dfd2e77694b66c11ec46d6745aab8d28e0c0",
+          "size": 1952,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/dev-v6/include__gmb_tui_cp437-win-x64.inc"
+        },
+        "include/openssl//DECC_INCLUDE_EPILOGUE.H": {
+          "group": "dev",
+          "sha256": "3d837d015f23ad248d7e0c74b5b8ca102d81525f166a0a4b7c19900eea982644",
+          "size": 729,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/dev-v6/include__openssl____DECC_INCLUDE_EPILOGUE-win-x64.H"
+        },
+        "lib/SDL2.lib": {
+          "group": "dev",
+          "sha256": "be0ed504b337296d7f3e58838d82cafb4691aa488ad964e425d870e455f6c854",
+          "size": 11793054,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/dev-v6/lib__SDL2-win-x64.lib"
+        },
+        "include/openssl//DECC_INCLUDE_PROLOGUE.H": {
+          "group": "dev",
+          "sha256": "e66be3418a7b707f09fa011c85b0b3fdfcfa1740c46da11385abf23fe9983529",
+          "size": 801,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/dev-v6/include__openssl____DECC_INCLUDE_PROLOGUE-win-x64.H"
+        },
+        "include/gmb_tui_ansi256.inc": {
+          "group": "dev",
+          "sha256": "8d0f76f650b9c478cd3b970ab5486e3c0b94b4dc8b564413bbf331d5840685ef",
+          "size": 5632,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/dev-v6/include__gmb_tui_ansi256-win-x64.inc"
+        },
+        "lib/brotlidec.lib": {
+          "group": "dev",
+          "sha256": "14732b00e10821fef5790fda5365532d339ade19e6b6c75ee8e3c5d9fbc7cb10",
+          "size": 247116,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/dev-v6/lib__brotlidec-win-x64.lib"
+        },
+        "lib/SDL2_ttf.lib": {
+          "group": "dev",
+          "sha256": "37ad853236e711db35dad5e25c317bce2a68020eb01c31bcdbb59046fc1ac9a4",
+          "size": 341562,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/dev-v6/lib__SDL2_ttf-win-x64.lib"
+        },
+        "lib/brotlicommon.lib": {
+          "group": "dev",
+          "sha256": "9b67410ec4c2360d5c536c3dd61257e65c5464da6eaaa922753ca601780b08e2",
+          "size": 197634,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/dev-v6/lib__brotlicommon-win-x64.lib"
+        },
+        "lib/brotlienc.lib": {
+          "group": "dev",
+          "sha256": "a64e1e408b08a0926362a5f81b84fad87d99974791be49c28c617fc63f86511f",
+          "size": 2301210,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/dev-v6/lib__brotlienc-win-x64.lib"
+        },
+        "lib/crypto.lib": {
+          "group": "dev",
+          "sha256": "94a462c6d36180bd2729e9209b257d2d52fe7ad40989fab36dcac56e4ab4bdc1",
+          "size": 30528618,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/dev-v6/lib__crypto-win-x64.lib"
+        },
+        "lib/curl.lib": {
+          "group": "dev",
+          "sha256": "cc1a89af921376e0f03af2c9b7abd2268239d2c8e6a25ff30183f223839795e1",
+          "size": 8219026,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/dev-v6/lib__curl-win-x64.lib"
+        },
+        "lib/freetype.lib": {
+          "group": "dev",
+          "sha256": "658739607a649915c57e9e11fb8a264b3ec181bff33508496c9bb8f74423c482",
+          "size": 4407262,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/dev-v6/lib__freetype-win-x64.lib"
+        },
+        "lib/libSDL2.lib": {
+          "group": "dev",
+          "sha256": "be0ed504b337296d7f3e58838d82cafb4691aa488ad964e425d870e455f6c854",
+          "size": 11793054,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/dev-v6/lib__libSDL2-win-x64.lib"
+        },
+        "lib/libSDL2_ttf.lib": {
+          "group": "dev",
+          "sha256": "37ad853236e711db35dad5e25c317bce2a68020eb01c31bcdbb59046fc1ac9a4",
+          "size": 341562,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/dev-v6/lib__libSDL2_ttf-win-x64.lib"
+        },
+        "lib/libbrotlicommon.lib": {
+          "group": "dev",
+          "sha256": "9b67410ec4c2360d5c536c3dd61257e65c5464da6eaaa922753ca601780b08e2",
+          "size": 197634,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/dev-v6/lib__libbrotlicommon-win-x64.lib"
+        },
+        "lib/libbrotlidec.lib": {
+          "group": "dev",
+          "sha256": "14732b00e10821fef5790fda5365532d339ade19e6b6c75ee8e3c5d9fbc7cb10",
+          "size": 247116,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/dev-v6/lib__libbrotlidec-win-x64.lib"
+        },
+        "lib/libbrotlienc.lib": {
+          "group": "dev",
+          "sha256": "a64e1e408b08a0926362a5f81b84fad87d99974791be49c28c617fc63f86511f",
+          "size": 2301210,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/dev-v6/lib__libbrotlienc-win-x64.lib"
+        },
+        "lib/libcrypto.lib": {
+          "group": "dev",
+          "sha256": "94a462c6d36180bd2729e9209b257d2d52fe7ad40989fab36dcac56e4ab4bdc1",
+          "size": 30528618,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/dev-v6/lib__libcrypto-win-x64.lib"
+        },
+        "lib/libcurl.lib": {
+          "group": "dev",
+          "sha256": "cc1a89af921376e0f03af2c9b7abd2268239d2c8e6a25ff30183f223839795e1",
+          "size": 8219026,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/dev-v6/lib__libcurl-win-x64.lib"
+        },
+        "lib/libfreetype.lib": {
+          "group": "dev",
+          "sha256": "658739607a649915c57e9e11fb8a264b3ec181bff33508496c9bb8f74423c482",
+          "size": 4407262,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/dev-v6/lib__libfreetype-win-x64.lib"
+        },
+        "lib/libllmcodec_fp8.so": {
+          "group": "dev",
+          "sha256": "6e8b640f3bc31a228c15f351e86f61870db19167d578dc6ec80b51993802a0b6",
+          "size": 232448,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/dev-v6/lib__libllmcodec_fp8-win-x64.so"
+        },
+        "lib/libllmcodec_ggml.so": {
+          "group": "dev",
+          "sha256": "0e498864397a046f298260603b1030047bf89945a5a0c1f74e7b9fc475f836a8",
+          "size": 346112,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/dev-v6/lib__libllmcodec_ggml-win-x64.so"
+        },
+        "lib/libllmcodec_mlx_affine.so": {
+          "group": "dev",
+          "sha256": "ec1df6d9a791ee349bd47e968bff2be5f7b48e6e3c63c530c0882498b5507fca",
+          "size": 227840,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/dev-v6/lib__libllmcodec_mlx_affine-win-x64.so"
+        },
+        "lib/liblz4.lib": {
+          "group": "dev",
+          "sha256": "af1357b7cee74ccc1437f77d0fe69a23fd89535b72cf6351970910f095d20529",
+          "size": 875204,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/dev-v6/lib__liblz4-win-x64.lib"
+        },
+        "lib/liblzma.lib": {
+          "group": "dev",
+          "sha256": "4b4a296133253f8b859a1cdb4f8e1c215537db78f8dd6231d3a30a2606bc735d",
+          "size": 1925326,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/dev-v6/lib__liblzma-win-x64.lib"
+        },
+        "lib/libpcre2-8.lib": {
+          "group": "dev",
+          "sha256": "ed462f0d11c597937cefbe22a96c895bffc11336018622fe90a4d07b2f28bf62",
+          "size": 1192596,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/dev-v6/lib__libpcre2-8-win-x64.lib"
+        },
+        "lib/libsqlite3.lib": {
+          "group": "dev",
+          "sha256": "af97d401488830db800f2c62381b3ff14773a154e1b9d2fef61caaddc466461b",
+          "size": 5022142,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/dev-v6/lib__libsqlite3-win-x64.lib"
+        },
+        "lib/libssl.lib": {
+          "group": "dev",
+          "sha256": "9ff777e20f2c83c069ae52de65849b815cdc4f83d2b850adee40875cc2a8a5b7",
+          "size": 7121030,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/dev-v6/lib__libssl-win-x64.lib"
+        },
+        "lib/libz.lib": {
+          "group": "dev",
+          "sha256": "6b89c6c2196d4120999b0db06bfcb11a37763cca46fe377c6c10ed6df3520971",
+          "size": 314318,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/dev-v6/lib__libz-win-x64.lib"
+        },
+        "lib/libzstd.lib": {
+          "group": "dev",
+          "sha256": "f557b7aa30b39c88017d46091e87792e00a655fabb3011fb3f18682bf30513ad",
+          "size": 4429700,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/dev-v6/lib__libzstd-win-x64.lib"
+        },
+        "lib/lz4.lib": {
+          "group": "dev",
+          "sha256": "af1357b7cee74ccc1437f77d0fe69a23fd89535b72cf6351970910f095d20529",
+          "size": 875204,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/dev-v6/lib__lz4-win-x64.lib"
+        },
+        "lib/lzma.lib": {
+          "group": "dev",
+          "sha256": "4b4a296133253f8b859a1cdb4f8e1c215537db78f8dd6231d3a30a2606bc735d",
+          "size": 1925326,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/dev-v6/lib__lzma-win-x64.lib"
+        },
+        "lib/pcre2-8.lib": {
+          "group": "dev",
+          "sha256": "ed462f0d11c597937cefbe22a96c895bffc11336018622fe90a4d07b2f28bf62",
+          "size": 1192596,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/dev-v6/lib__pcre2-8-win-x64.lib"
+        },
+        "lib/sqlite3.lib": {
+          "group": "dev",
+          "sha256": "af97d401488830db800f2c62381b3ff14773a154e1b9d2fef61caaddc466461b",
+          "size": 5022142,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/dev-v6/lib__sqlite3-win-x64.lib"
+        },
+        "lib/ssl.lib": {
+          "group": "dev",
+          "sha256": "9ff777e20f2c83c069ae52de65849b815cdc4f83d2b850adee40875cc2a8a5b7",
+          "size": 7121030,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/dev-v6/lib__ssl-win-x64.lib"
+        },
+        "lib/z.lib": {
+          "group": "dev",
+          "sha256": "6b89c6c2196d4120999b0db06bfcb11a37763cca46fe377c6c10ed6df3520971",
+          "size": 314318,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/dev-v6/lib__z-win-x64.lib"
+        },
+        "lib/zstd.lib": {
+          "group": "dev",
+          "sha256": "f557b7aa30b39c88017d46091e87792e00a655fabb3011fb3f18682bf30513ad",
+          "size": 4429700,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/dev-v6/lib__zstd-win-x64.lib"
         }
       }
     },
@@ -31489,6 +31897,228 @@
           "sha256": "9f49814157715718c79a0d20efb229a8c7d359ae76025e6edbff067edbdb1bbe",
           "size": 3989958,
           "url": "https://github.com/c-vision/GMBasicModules/releases/download/dev-v7/lib__libzstd-win-arm64.a"
+        },
+        "lib/SDL2.lib": {
+          "group": "dev",
+          "sha256": "8ac9d469291c3668f0cd755a30e52afc10b73f22887e88708da3aafeea95fb57",
+          "size": 11774110,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/dev-v7/lib__SDL2-win-arm64.lib"
+        },
+        "include/gmb_tui_cp437.inc": {
+          "group": "dev",
+          "sha256": "095db44509129842b928a3b47b41dfd2e77694b66c11ec46d6745aab8d28e0c0",
+          "size": 1952,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/dev-v7/include__gmb_tui_cp437-win-arm64.inc"
+        },
+        "include/gmb_tui_ansi256.inc": {
+          "group": "dev",
+          "sha256": "8d0f76f650b9c478cd3b970ab5486e3c0b94b4dc8b564413bbf331d5840685ef",
+          "size": 5632,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/dev-v7/include__gmb_tui_ansi256-win-arm64.inc"
+        },
+        "include/openssl//DECC_INCLUDE_PROLOGUE.H": {
+          "group": "dev",
+          "sha256": "e66be3418a7b707f09fa011c85b0b3fdfcfa1740c46da11385abf23fe9983529",
+          "size": 801,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/dev-v7/include__openssl____DECC_INCLUDE_PROLOGUE-win-arm64.H"
+        },
+        "include/openssl//DECC_INCLUDE_EPILOGUE.H": {
+          "group": "dev",
+          "sha256": "3d837d015f23ad248d7e0c74b5b8ca102d81525f166a0a4b7c19900eea982644",
+          "size": 729,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/dev-v7/include__openssl____DECC_INCLUDE_EPILOGUE-win-arm64.H"
+        },
+        "lib/brotlidec.lib": {
+          "group": "dev",
+          "sha256": "67a0ab7550fd2f1a024a881a355c49537bd9222bcc252174b27de8ab15c71ae1",
+          "size": 248362,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/dev-v7/lib__brotlidec-win-arm64.lib"
+        },
+        "lib/brotlicommon.lib": {
+          "group": "dev",
+          "sha256": "6585bfe1d65027d0c7606496ca97567c3a642a22575d89831869e239d0532e78",
+          "size": 211988,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/dev-v7/lib__brotlicommon-win-arm64.lib"
+        },
+        "lib/SDL2_ttf.lib": {
+          "group": "dev",
+          "sha256": "a774f3f285c66cf6d7356015ac5fb00f023b3a60058b228fd936ffdf705f7082",
+          "size": 253810,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/dev-v7/lib__SDL2_ttf-win-arm64.lib"
+        },
+        "lib/brotlienc.lib": {
+          "group": "dev",
+          "sha256": "b4ba56d4c4809ad3b1adea089cdaa9464b6914a0bafc10f0a95b8c9f30eae873",
+          "size": 2329788,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/dev-v7/lib__brotlienc-win-arm64.lib"
+        },
+        "lib/crypto.lib": {
+          "group": "dev",
+          "sha256": "6c851793488e51125909eb3f687222ae235be6c9fbd9432d9d91e1a54266dd4e",
+          "size": 32641838,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/dev-v7/lib__crypto-win-arm64.lib"
+        },
+        "lib/curl.lib": {
+          "group": "dev",
+          "sha256": "148f19e704499fea601fcb1965afd9c46819067d5fa14d102c63d4b2aea2e340",
+          "size": 8587218,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/dev-v7/lib__curl-win-arm64.lib"
+        },
+        "lib/freetype.lib": {
+          "group": "dev",
+          "sha256": "6effd2fba2857d89cdf1a5b49ed508acb7671629368e63829889d7530cbdc4f3",
+          "size": 4344520,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/dev-v7/lib__freetype-win-arm64.lib"
+        },
+        "lib/libSDL2.lib": {
+          "group": "dev",
+          "sha256": "8ac9d469291c3668f0cd755a30e52afc10b73f22887e88708da3aafeea95fb57",
+          "size": 11774110,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/dev-v7/lib__libSDL2-win-arm64.lib"
+        },
+        "lib/libSDL2_ttf.lib": {
+          "group": "dev",
+          "sha256": "a774f3f285c66cf6d7356015ac5fb00f023b3a60058b228fd936ffdf705f7082",
+          "size": 253810,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/dev-v7/lib__libSDL2_ttf-win-arm64.lib"
+        },
+        "lib/libbrotlicommon.lib": {
+          "group": "dev",
+          "sha256": "6585bfe1d65027d0c7606496ca97567c3a642a22575d89831869e239d0532e78",
+          "size": 211988,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/dev-v7/lib__libbrotlicommon-win-arm64.lib"
+        },
+        "lib/libbrotlidec.lib": {
+          "group": "dev",
+          "sha256": "67a0ab7550fd2f1a024a881a355c49537bd9222bcc252174b27de8ab15c71ae1",
+          "size": 248362,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/dev-v7/lib__libbrotlidec-win-arm64.lib"
+        },
+        "lib/libbrotlienc.lib": {
+          "group": "dev",
+          "sha256": "b4ba56d4c4809ad3b1adea089cdaa9464b6914a0bafc10f0a95b8c9f30eae873",
+          "size": 2329788,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/dev-v7/lib__libbrotlienc-win-arm64.lib"
+        },
+        "lib/libcrypto.lib": {
+          "group": "dev",
+          "sha256": "6c851793488e51125909eb3f687222ae235be6c9fbd9432d9d91e1a54266dd4e",
+          "size": 32641838,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/dev-v7/lib__libcrypto-win-arm64.lib"
+        },
+        "lib/libcurl.lib": {
+          "group": "dev",
+          "sha256": "148f19e704499fea601fcb1965afd9c46819067d5fa14d102c63d4b2aea2e340",
+          "size": 8587218,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/dev-v7/lib__libcurl-win-arm64.lib"
+        },
+        "lib/libfreetype.lib": {
+          "group": "dev",
+          "sha256": "6effd2fba2857d89cdf1a5b49ed508acb7671629368e63829889d7530cbdc4f3",
+          "size": 4344520,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/dev-v7/lib__libfreetype-win-arm64.lib"
+        },
+        "lib/libllmcodec_ggml.so": {
+          "group": "dev",
+          "sha256": "e059e7d0f45d13379cbccc4dc9988b3cc485f2f1dd9b64ec6f44392e9327c1f6",
+          "size": 303616,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/dev-v7/lib__libllmcodec_ggml-win-arm64.so"
+        },
+        "lib/liblzma.lib": {
+          "group": "dev",
+          "sha256": "3c86bbb7296f4b4f3125b142d2fa2ac2f937ebb74ca1382bfab7ffc93133ba2e",
+          "size": 2087852,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/dev-v7/lib__liblzma-win-arm64.lib"
+        },
+        "lib/libllmcodec_fp8.so": {
+          "group": "dev",
+          "sha256": "1dff2645e1e8b54b552cb2a18cd9285d3eb692b62bb565acc1f10943e50f552a",
+          "size": 195072,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/dev-v7/lib__libllmcodec_fp8-win-arm64.so"
+        },
+        "lib/libllmcodec_mlx_affine.so": {
+          "group": "dev",
+          "sha256": "475c96908d87f93d69b954b9024c67e51c22a55228a8a786d86a265e14a2e7b3",
+          "size": 195584,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/dev-v7/lib__libllmcodec_mlx_affine-win-arm64.so"
+        },
+        "lib/liblz4.lib": {
+          "group": "dev",
+          "sha256": "f31b1819cab2998502267d2d2c8f3325f2a75abdc5afe8bf7412bf20fe8b5ed1",
+          "size": 827450,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/dev-v7/lib__liblz4-win-arm64.lib"
+        },
+        "lib/libsqlite3.lib": {
+          "group": "dev",
+          "sha256": "4fab85bf9ab253b1638c5bab269fca75f6175388083fbc12a02d7d12861bfb67",
+          "size": 5002924,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/dev-v7/lib__libsqlite3-win-arm64.lib"
+        },
+        "lib/libpcre2-8.lib": {
+          "group": "dev",
+          "sha256": "1fd69913965330a278966908bb8755740cc6a45cc51641a77bc9307d8066d9e9",
+          "size": 1127406,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/dev-v7/lib__libpcre2-8-win-arm64.lib"
+        },
+        "lib/libssl.lib": {
+          "group": "dev",
+          "sha256": "15154242c7d8bb63476a5f0a0babc0bb1c1eaa90c995310594a643cf2cb01595",
+          "size": 7236660,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/dev-v7/lib__libssl-win-arm64.lib"
+        },
+        "lib/libz.lib": {
+          "group": "dev",
+          "sha256": "73fc04a5540b6ea171f0d4ff8bc70f6b64ff6ef58d815bd4cb85a2216b7a253b",
+          "size": 338152,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/dev-v7/lib__libz-win-arm64.lib"
+        },
+        "lib/libzstd.lib": {
+          "group": "dev",
+          "sha256": "9f49814157715718c79a0d20efb229a8c7d359ae76025e6edbff067edbdb1bbe",
+          "size": 3989958,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/dev-v7/lib__libzstd-win-arm64.lib"
+        },
+        "lib/lz4.lib": {
+          "group": "dev",
+          "sha256": "f31b1819cab2998502267d2d2c8f3325f2a75abdc5afe8bf7412bf20fe8b5ed1",
+          "size": 827450,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/dev-v7/lib__lz4-win-arm64.lib"
+        },
+        "lib/lzma.lib": {
+          "group": "dev",
+          "sha256": "3c86bbb7296f4b4f3125b142d2fa2ac2f937ebb74ca1382bfab7ffc93133ba2e",
+          "size": 2087852,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/dev-v7/lib__lzma-win-arm64.lib"
+        },
+        "lib/pcre2-8.lib": {
+          "group": "dev",
+          "sha256": "1fd69913965330a278966908bb8755740cc6a45cc51641a77bc9307d8066d9e9",
+          "size": 1127406,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/dev-v7/lib__pcre2-8-win-arm64.lib"
+        },
+        "lib/sqlite3.lib": {
+          "group": "dev",
+          "sha256": "4fab85bf9ab253b1638c5bab269fca75f6175388083fbc12a02d7d12861bfb67",
+          "size": 5002924,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/dev-v7/lib__sqlite3-win-arm64.lib"
+        },
+        "lib/ssl.lib": {
+          "group": "dev",
+          "sha256": "15154242c7d8bb63476a5f0a0babc0bb1c1eaa90c995310594a643cf2cb01595",
+          "size": 7236660,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/dev-v7/lib__ssl-win-arm64.lib"
+        },
+        "lib/z.lib": {
+          "group": "dev",
+          "sha256": "73fc04a5540b6ea171f0d4ff8bc70f6b64ff6ef58d815bd4cb85a2216b7a253b",
+          "size": 338152,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/dev-v7/lib__z-win-arm64.lib"
+        },
+        "lib/zstd.lib": {
+          "group": "dev",
+          "sha256": "9f49814157715718c79a0d20efb229a8c7d359ae76025e6edbff067edbdb1bbe",
+          "size": 3989958,
+          "url": "https://github.com/c-vision/GMBasicModules/releases/download/dev-v7/lib__zstd-win-arm64.lib"
         }
       }
     }
